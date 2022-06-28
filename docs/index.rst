@@ -21,17 +21,19 @@ Outline
 - Our first Python program
 
 
-
 Python introduction
 -------------------
 
 
 - Developed by Guido van Rossum in the early 1990s
-    Named after the British comedy group "Monty Python", not after the reptile
-    Why Python and not Perl, Java, C++, ...?
-        Python and Perl are commonly used in the field of bioinformatics
-        Python is available for all operating systems for free
-        Python is really easy to learn
+    
+  - Named after the British comedy group "Monty Python", not after the reptile
+
+- Why Python and not Perl, Java, C++, ...?
+  
+  - Python and Perl are commonly used in the field of bioinformatics
+  - Python is available for all operating systems for free
+  - Python is really easy to learn
 
 
 .. list-table:: Preliminary schedule
