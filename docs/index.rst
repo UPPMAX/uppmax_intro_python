@@ -7,6 +7,17 @@ Welcome to Introduction to UPPMAX and Python
 =======================================
 Here you will find *some* of the documentation for the UPPMAX resources in a easy to find place.
 
+## Python introduction
+
+
+- Developed by Guido van Rossum in the early 1990s
+    Named after the British comedy group "Monty Python", not after the reptile
+    Why Python and not Perl, Java, C++, ...?
+        Python and Perl are commonly used in the field of bioinformatics
+        Python is available for all operating systems for free
+        Python is really easy to learn
+
+
 .. list-table:: Preliminary schedule
    :widths: 25 25 50
    :header-rows: 1
@@ -35,8 +46,8 @@ https://www.uppmax.uu.se/
    :maxdepth: 2
    :caption: Lessons
     
-   overview.md
-   hpc.md
+   basics.md
+
 
 
  
