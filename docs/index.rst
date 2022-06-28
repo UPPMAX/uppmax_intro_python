@@ -14,8 +14,10 @@ Outline
 - Python basics – get started with Python
 - Data types
 - Control structures
+
   - Loops: for and while
   - Conditions: if-else
+  
 - Our first Python program
 
 
