@@ -7,7 +7,21 @@ Welcome to Introduction to UPPMAX and Python
 =======================================
 Here you will find *some* of the documentation for the UPPMAX resources in a easy to find place.
 
-## Python introduction
+Outline
+-------
+
+    Python introduction
+    Python basics – get started with Python
+    Data types
+    Control structures
+        Loops: for and while
+        Conditions: if-else
+    Our first Python program
+
+
+
+Python introduction
+-------------------
 
 
 - Developed by Guido van Rossum in the early 1990s
