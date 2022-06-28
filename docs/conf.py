@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'UPPMAX intro course — part 1'
+project = 'UPPMAX intro to Python course'
 copyright = 'UPPMAX'
 author = 'UPPMAX'
 
