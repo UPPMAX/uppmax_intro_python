@@ -1,0 +1,52 @@
+site_name: Python Introduction
+
+nav:
+  - Start: index.md
+  - Morning Session:
+    - Lecture: morning_session/lecture.md
+    - Exercise: morning_session/exercise.md
+  - Afternoon Session:
+    - Lecture: afternoon_session/lecture.md
+    - Exercise: afternoon_session/exercise.md
+
+theme:
+  name: material
+  greetings: Welcome to UPPMAX userguide
+  font:
+    text: Lato
+
+  #logo: assets/logo.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.annotate
+
+    #custom_dir: mkdocs_uppmax/
+    
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+  - admonition
+  - tables
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
