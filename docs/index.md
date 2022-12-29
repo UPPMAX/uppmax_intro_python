@@ -1,57 +1,41 @@
-??? t2s "Text to speech"
-    <audio src="index.mp3" controls preload></audio>
+---
+template: home.html
+---
 
-# Welcome to UPPMAX userguide 
+<center>
+
+<br/><br/>
+
+<img src="assets/UU_logo_color.svg" alt="drawing" width="200"/>
+
+<br/><br/>
 
 
-## Systems
+# Welcome to the UPPMAX Introductory Python course
 
-| Specs    | Rackham    | Snowy    | Bianca    |
-|---------------- | --------------- | --------------- | --------------- |
-| CPUs    | Item2.1    | Item3.1    | Item4.1    |
-| GPUs   | Item2.2   | Item3.2   | Item4.2   |
+This is the last module of the [UPPMAX intro
+course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-winter-2023/)
+and introduces the foundations of the [`Python`](https://www.python.org/) programming language.
+
+<br/><br/>
+
+[Get started!](morning_session/lecture/){ .md-button .md-button--primary }
+
+<br/><br/>
+
+## Schedule
+
+| Time  | Topic   | 
+|-------------- | -------------- |
+| 09:00-09:45    | Basic and Sequence data types |
+| 10:00-10:15    | Break |
+| 10:15-11:00    | Control flow statements  |
+| 11:00-12:00    | Exercises | 
+| 13:00-13:45    | Functions and Modules |
+| 13:45-14:00    | Break |
+| 14:15-15:00    | Command line arguments and IO |
+| 15:00-16:00    | Exercises | 
 
 
-## Slurm Commands
+</center>
 
-The Slurm system is accessed using the following commands:
-
-* `interactive` - Start an interactive session
-* `sbatch` - Submit and run a batch job script
-* `srun` - Typically used inside batch job scripts for running parallel jobs
-  (See examples further down)
-* `scancel` - Cancel one or more of your jobs.
-
-### Specifying job parameters
-
-Whether you use the UPPMAX clusters interactively or in batch mode, you always
-have to specify a few things, like number of cores needed, running time et.c.
-These things can be specified in two ways:
-
-Either as flags sent to the different Slurm commands (sbatch, srun, the
-interactive command, et.c.), like so
-
-``` bash
-sbatch -A p2012999 -p core -n 1 -t 12:00:00 -J some_job_name my_job_script_file.sh
-```
-
-or, when using the `sbatch` command, it can be specified inside the job script
-file itself, by using special `SBATCH` comments, for example:
-
-``` bash title="job_script.sh"
-#!/bin/bash -l
- 
-#SBATCH -A p2012999
-#SBATCH -p core
-#SBATCH -n 1
-#SBATCH -t 12:00:00
-#SBATCH -J some_job_name
-
-```
-
-If doing this, then one will only need to start the script like so, without any
-flags:
-
-``` bash
-sbatch job_script.sh
-```
