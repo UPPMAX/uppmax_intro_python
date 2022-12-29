@@ -15,7 +15,7 @@ theme:
   font:
     text: Lato
 
-  #logo: assets/logo.png
+  logo: assets/logo.svg
 
   features:
     - navigation.tabs
@@ -23,7 +23,7 @@ theme:
     - search.suggest
     - content.code.annotate
 
-    #custom_dir: mkdocs_uppmax/
+  custom_dir: mkdocs_uppmax/
     
 extra_css:
   - stylesheets/extra.css
