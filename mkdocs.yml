@@ -13,7 +13,9 @@ theme:
   name: material
   greetings: Welcome to UPPMAX userguide
   font:
-    text: Lato
+    # text: Lato
+    code: JetBrains Mono
+
 
   logo: assets/logo.svg
 
