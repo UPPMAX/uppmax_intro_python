@@ -10,7 +10,7 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 !!! info "Content"
     * The course emphasises hands-on experience with Python in the UPPMAX
-      environment. It focuses on the basics and can be taken by someone without
+      environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
     * **You will learn:**
         * How to load and use different version of Python on our clusters
@@ -40,7 +40,7 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 
 
-# Getting started
+# Loading and running Python
 
 To work with Python on UPPMAX all you need to do is login and load the desired
 Python version. In this course we will be working with version 3.10.8. To load
@@ -104,6 +104,20 @@ We can work with Python either interactively or by writing our code into files
     >>>
     ```
 
+    We can use Python as a calculator. Try the following
+
+    ```
+    >>> 2 + 2
+    4
+    >>> 50 - 5*6
+    20
+    >>> (50 - 5*6) / 4
+    5.0
+    >>> 12.45 / 100 + 7.5e-3
+    0.132
+    >>>
+    ```
+
     A modern alternative is with more bells and whistles is
     [`IPython`](https://ipython.org/). This is also the backbone of the very
     popular [Jupyter Notebook](https://jupyter.org/) that you might be familiar
@@ -135,7 +149,38 @@ We can work with Python either interactively or by writing our code into files
     * I will likely use "Python interpreter" also to refer to IPython
     * You can exit the interpreter with `exit()`, `quit()` or pressing
       `Ctrl-D`. 
-    * Tips and tricks of how to navigate IPython:
-      https://ipython.readthedocs.io/en/6.5.0/config/shortcuts/index.html
+    * [Tips and tricks of how to navigate IPython](
+      https://ipython.readthedocs.io/en/6.5.0/config/shortcuts/index.html)
+
+
+!!! example "Scripting "Hello, world!""
+    The interpreter is very handy if we want to test things out or need to work
+    interactively, but, often what we want is to write an executable script or
+    library that can be shared, documented and reused. Let's write a hello
+    world script!
+
+    First create a file (module) called `hello_world.py` with your prefered editor
+
+    ```
+    vim hello_world.py
+    ```
+
+    Next, write the same code as before
+
+    ``` python title="hello_world.py"
+    print("Hello, world!")
+    ```
+
+    Save and close the file and then run the script from the command line
+
+    ``` python
+    $ python hello_world.py
+    Hello, world!
+    ```
+
+# Data Types
+
+
+    
 
 
