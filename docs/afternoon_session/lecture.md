@@ -225,18 +225,185 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
     A big no no is using wildcard imports `from module import *`. This will
     clutter the namespace!
 
+!!! Tip "Takeaways"
+    
+    * Modules and functions help you organize and write good quality code
+    * Modules can be distributed as packages - extending the functionality of
+      Python. The ecosystem of packages is one of the reasons that make Python
+      great.
+    
+
 ## Command line arguments and IO
 
+You already know what a command-line interface (CLI) program is!
 
+```
+mkdir dir_name
+```
 
+Where `mkdir` is the command and `dir_name` is the input argument. What if we
+want to design such a program in Python? Let's continue working on our
+"Similarity of Sequence" example. The goal when we are done will be to
 
+> Read text files containing DNA sequences, passed as arguments to a program
+> called `read_seq.py`
 
+Let's ignore the reading of text files for now. First create a new directory
+called `dna_lib` and `cd` into it
 
+```
+mkdir dna_lib && cd $_
+```
 
+For the purpose of practicing working with modules let's separate our program
+into separate modules. First create a module called `dna_metrics.py`
 
+``` python title="dna_metrics.py"
+def sequence_distance(A, B):
+    # Assert equal length
+    assert len(A) == len(B), "Must be of equal length"
+    # Store current distance 
+    distance = 0
 
+    # Loop over index of A and B
+    for a, b in zip(A, B)
+        if a != b:
+            distance += 1
+
+    return distance
+```
+
+Then create `read_seq.py` 
+
+``` python title="read_seq.py"
+import dna_metrics as dm
+import sys
+
+# Read command line args
+A = sys.argv[1]
+B = sys.argv[2]
+
+print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
+```
+
+!!! note "`if __name__ == "__main__"`" convention
+    By convention we usually wrap the code that "runs" our program in an `if`
+    statement for executable programs. This is to ensure that program is not
+    executed if imported by another module but only when called directly. The
+    code would then look like this
+    ``` python title="read_seq.py"
+    import dna_metrics as dm
+    import sys
     
+    if __name__ == "__main__":
+        # Read command line args
+        A = sys.argv[1]
+        B = sys.argv[2]
 
-    
-    
+        print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
+    ```
+    The condition `__name__ == "__main__"` is only satisfied for the *entry
+    point* module.
+
+
+### Adding some Input-Output (IO) functionality
+
+We are now going to add some IO functionality. Rather than passing the
+sequences directly as arguments we are going to use the builtin `open` function
+to read files and instead of printing the results to the standard output we
+will dump the results into a text file. First let's create a new directory
+`data` that will contain `seq1.txt` and `seq2.txt`
+
+```
+mkdir data
+touch seq1.txt seq2.txt
+```
+
+
+=== "Sequence 1"
+    ``` title="seq1.txt"
+    GATCGTTCG
+    ```
+=== "Sequence 2"
+    ``` title="seq2.txt"
+    CATGGTTGA
+    ```
+
+Let's explore the `open` command from `ipython` using `seq1.txt` 
+
+``` ipython
+[ins] In [1]: inputfile = open("seq1.txt", "r")
+
+[ins] In [2]: inputfile
+Out[2]: <_io.TextIOWrapper name='seq1.txt' mode='r' encoding='UTF-8'>
+
+[ins] In [3]: A = inputfile.readline()
+
+[ins] In [4]: A
+Out[4]: 'GATCGTTCG\n'
+
+[ins] In [5]: A.strip()
+Out[5]: 'GATCGTTCG'
+```
+
+Adapting our program accordingly using the keyword `with` to define a *context*
+in which the file is open.
+
+``` python title="read_seq.py"
+import dna_metrics as dm
+import sys
+
+if __name__ == "__main__":
+    # Read command line args
+    with open(sys.argv[1], "r") as f:
+        A = f.readline().strip()
+
+    with open(sys.argv[2], "r") as f:
+        B = f.readline().strip()
+
+    print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
+```
+
+Now run the script
+
+``` 
+$ python read_seq.py data/seq1.txt data/seq2.txt
+Distance between A and B is 4
+```
+
+As a final step we will save the results into an output file
+
+``` python title="read_seq.py"
+import dna_metrics as dm
+import sys
+
+if __name__ == "__main__":
+    # Read command line args
+    with open(sys.argv[1], "r") as f:
+        A = f.readline().strip()
+
+    with open(sys.argv[2], "r") as f:
+        B = f.readline().strip()
+
+    with open(sys.argv[3], "w") as f:
+        f.write(f"Distance between A and B is {dm.sequence_distance(A,B)}")
+```
+
+Let's run the script a final time
+
+```
+$ python read_seq.py data/seq1.txt data/seq2.txt out
+$ cat out
+Distance between A and B is 4
+```
+
+## Objects Oriented Python (Bonus if there is time)
+
+> Classes provide a means of bundling data and functionality together. Creating
+> a new class creates a new type of object, allowing new instances of that type
+> to be made. Each class instance can have attributes attached to it for
+> maintaining its state. Class instances can also have methods (defined by its
+> class) for modifying its state. [ref](https://docs.python.org/3/tutorial/classes.html)
+
+
 
