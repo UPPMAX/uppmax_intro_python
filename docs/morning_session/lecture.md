@@ -532,7 +532,264 @@ In [17]: l
 Out[17]: [3, 50, 170, 244]
 ```
 
+## Control Flow Statements
+
+* Control structures determine the logical flow of a program
+* There are two types of key control structures in Python:
+    * Loops: `for`, `while`
+    * Conditions: `if-else`
+* These two types of control structures permit the modeling of all possible
+  program flows
+
+### `if-else` conditions
+
+An `if` statement is used to define a *code block* that is executed if a
+condition evaluates to the boolean value `True`. The `else` statement is only
+evaluated if the `if` statements is evaluated to `False`.
+
+``` ipython
+In [1]: my_boolean = True
+
+In [2]: if my_boolean is True:
+   ...:     print("Michael, is it True?")
+   ...: else:
+   ...:     print("No")
+Michael, is it True?
+
+In [3]: my_boolean = False
+
+In [4]: if my_boolean is True:
+   ...:     print("Michael, is it True?")
+   ...: else:
+   ...:     print("No")
+No
+```
+
+Notice, we don't actually have to write `... is True`. As we saw before
+*boolean operators* are used to evaluate the identity of some condition. This
+is very commonly used together with `if` statements.
 
 
+``` ipython
+In [1]: A = "ABCD"
+
+In [2]: if len(A) <= 3:
+   ...:     print("Sequence A is smaller or equal than 3.")
+   ...: elif len(A) > 3 and len(A) < 5:
+   ...:     print("Sequence A is greater than 3 and smaller than 5.")
+   ...: elif len(A) == 5:
+   ...:     print("Sequence A is equal to 5.")
+   ...: else:
+   ...:     print("Sequence A is greater than 5.")
+Sequence A is greater than 3 and smaller than 5.
+```
 
 
+!!! info "Indentation in Python"
+    
+    Control flow statements are always ended by a colon `:` and following lines
+    to be executed within the context statement must be *indented* by 4 spaces
+    (tab). Consider this program
+
+    ``` python
+    if x > 2:
+        # This print statement will only be executed if x > 2
+        print("x larger than two")
+
+    # This will always be executed
+    print("I don't care about x. I'm independent and will always be executed")
+    ```
+
+
+## Loops and iteration
+
+Just like `if-else` statements, the idea of loops and iteration is
+fundamental to Python (and any programming language). 
+
+
+### The `while` loop
+
+The `while` loop is conceptually similar to an `if` statement, but, instead of
+executing the indented code block once - it's *repeated* as long as the
+statement evaluates to `True`. Can you guess when the following examples are
+going to stop?
+
+``` python
+while True:
+    print("I will not waste chalk.")
+```
+
+??? tip "Answer"
+    It will continue continue for eternity.
+
+``` python
+i = 0
+while i < 10:
+    print("Hello, world!")
+    i += 1 # Note same as i = i + 1
+```
+
+??? tip "Answer"
+    It will print "Hello, world!" 10 times before stopping
+
+``` python
+while True:
+    if True:
+        break
+```
+
+??? tip "Answer"
+    It will stop in the first iteration. The keyword `break` will break out
+    from any loop.
+
+And last one...
+
+=== "v1"
+    ``` python
+    i = 0
+    while i < 10:
+        i += 1
+        if i > 9:
+            i -= 1
+        print(f"Number {i}")
+    ```
+=== "v2"
+    ``` python
+    i = 0
+    while i < 10:
+        if i > 9:
+            i -= 1
+        i += 1
+        print(f"Number {i}")
+    ```
+
+??? tip "Answer"
+    v1 goes to infinity and v2 stops after 10 iterations.
+
+
+### The `for` loop
+
+The `for` loop is typically used when looping "over" something. Formally, a
+`for` loop can be used over any object that is *iterable* and implements a
+`iter` and `next` method - like a list, string, set or range. Let's look at an
+example by looping over the string `"ABCD"`
+
+=== "`for` loop"
+
+    ``` python
+    A = "ABCD"
+    for c in A:
+        print(c)
+    ```
+
+=== "`while` loop"
+
+    ``` python
+    A = "ABCD"
+    i = 0
+
+    while i < len(A):
+        print(A[i])
+        i += 1
+    ```
+
+=== "Less Pythonic `for` loop"
+
+    ``` python
+    A = "ABCD"
+    for i in range(len(A)):
+        print(A[i])
+    ```
+
+We can also use `for` loops over lists
+
+``` python
+my_list = [3, 5, 6]
+for n in my_list:
+    print(n)
+```
+
+and ranges defined by the builtin `range` function
+
+``` python
+for i in range(10):
+    print(i)
+```
+
+!!! info "Iterables and why `for` loops sort of are `while` loops?!" 
+    If an object is iterable - we can always create an *iterator* object with
+    the `iter` function. This is what the `for` keywords does under the hood.
+
+    ``` python
+        In [1]: my_string = "ABCD"
+
+        In [2]: type(my_string)
+        Out[2]: str
+
+        In [3]: my_string_iterator = iter("ABCD")
+
+        In [4]: type(my_string_iterator)
+        Out[4]: str_iterator
+
+        In [5]: next(my_string_iterator)
+        Out[5]: 'A'
+
+        In [6]: next(my_string_iterator)
+        Out[6]: 'B'
+
+        In [7]: next(my_string_iterator)
+        Out[7]: 'C'
+
+        In [8]: next(my_string_iterator)
+        Out[8]: 'D'
+
+        In [9]: next(my_string_iterator)
+        ---------------------------------------------------------------------------
+        StopIteration                             Traceback (most recent call last)
+        Cell In [9], line 1
+        ----> 1 next(my_string_iterator)
+
+        StopIteration:
+    ```
+
+    As seen from above - we can coninue calling the `next` function to get the
+    next element of the string iterator object until the iterator is
+    *consumed*. The way a `for` loop is implemented is loosely something like
+    this
+
+    ``` python
+    my_string_iterator = iter("ABCD")
+    while True:
+        try:
+            tmp = next(my_string_iterator)
+            print(tmp)
+        except StopIteration:
+            break
+    ```
+
+If you still need the index of the current iteration refrain from using the
+`range(len(seq))` idiom and use the `enumerate` function instead.
+
+``` python
+A = "ABCD"
+for i, c in enumerate(A):
+    print(i, c)
+```
+
+Just like we nested an `if` statement into a loop before we can also nest a
+loop within a loop.
+
+``` python
+A = "ACGT"
+for i in A:
+    for j in A:
+        for k in A:
+            print(i + j + k)
+```
+
+!!! info "When should I use `for` and when should i use `while`?" 
+    As a rule of thumb - use `for` loops when dealing with *iterable* objects
+    (ranges, sequences, generators). Another way of thinking about it is, use a
+    `for` loop when the number of iterations e.g. length of sequence is known.
+    In other case - use a while loop (you have to).
+    
