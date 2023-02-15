@@ -38,7 +38,14 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 ## What is Python?
 
-
+* Developed by Guido van Rossum in the early 1990s
+* Named after the British comedy group "Monty Python",  not after the reptile
+* Why Python and not Perl, Java, C++, ...?
+    * Python is available for all operating systems for free
+    * Python is easy to learn (not master)
+    * Has a fantastic ecosystem of packages for scientific computing
+    * Has a huge and great community
+    * Commonly used in many scientific fields
 
 ## Getting Started
 
