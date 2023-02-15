@@ -1,3 +1,5 @@
+# Exercises 
+
 For the first assignment of this exercise session you should get familiar with
 the Python-interpreter. In the second assignment you will write your first
 Python program using an editor. More instructions are given in the following
@@ -191,4 +193,108 @@ how to use both, the Python-interpreter and an editor. Good luck!
         1. i = 3 and j = 4 and
         2. i = 10 and j = 10
 
-???+ question "Assignmen 3 (Bonus): asd"
+Congratulations, you have now completed the basic python exercises for this
+session. If you were too quick or just want to try a bit harder exercises,
+please continue with the bonus exercises below.
+
+
+# Bonus Exercises
+
+???+ question "Assignment 3 (Bonus): Sequences"
+    In this exercise we write a short Python program (named `<program_name>.py`,
+    think of a reasonable program name and name your file accordingly. Replace
+    <program_name> with your new program name).
+
+    1. Chose two variables, e.g. A and B and assign the sequences `GATTACA` and
+       `TACCATAC` to these variables. Make sure that the two sequences are
+       assigned as strings to their variables A and B. Then print these
+       sequences. Save everything you wrote and close the editor. Then you can
+       run your program: `python3 <program_name>.py`
+
+        ??? tip "Solution"
+
+            ```python title="sequence_operations.py"
+            A = "GATTACA"
+            B = "TACCATAC"
+            print("sequence A: ", A)
+            print("sequence B: ", B)
+            ```
+
+    2. Now extend the program: Concatenate both sequences in both ways (AB and
+       BA) and print both options.
+        
+        ??? tip "Solution"
+
+            ``` python title="sequence_operations.py"
+            A = "GATTACA"
+            B = "TACCATAC"
+            print("sequence A + B: ", A + B)
+            print("sequence B + A: ", B + A)
+            ```
+            ``` bash
+            sequence A + B:  GATTACATACCATAC
+            sequence B + A:  TACCATACGATTACA
+            ```
+
+    3. Print prefixes and suffixes of length 3 of both sequences A and B. Use
+       the built-in function `len()` for determining the suffixes.
+        
+        ??? tip "Solution"
+
+            ``` python title="sequence_operations.py"
+            print("prefix A: ", A[:3])
+            print("prefix B: ", B[:3])
+            suffix_A = len(A) - 3
+            suffix_B = len(B) - 3
+            print("suffix A: ", A[suffix_A:])
+            print("suffix B: ", B[suffix_B:])
+
+            # It is also possible to use a negative index
+            # to count from the end:
+            print("suffix A: ", A[-3:])
+            print("suffix B: ", B[-3:])
+            ```
+            ``` bash
+            prefix A: GAT
+            prefix B: TAC
+            suffix A: ACA
+            suffix B: TAC
+            ```
+
+    4. Print out the second sequence from the last to the first position (last
+       position first, first position last).
+
+
+        ??? tip "Solution"
+            ``` python title="sequence_operations.py"
+            # Alternative 1 
+            for i in range(len(B)):
+                print(B[len(B) - i - 1])
+
+            # Alternative 2 (reversed range)
+            for i in range(len(B), 0, -1)
+                print(B[i-1])
+
+            # Alternative 3 (reversed string)
+            for c in reversed(B):
+                print(c)
+
+            # Alternative 4 (reverse slicing)
+            for c in B[::-1]
+                print(c)
+            ```
+            ``` bash
+            C
+            A
+            T
+            A
+            C
+            C
+            A
+            T
+            ```
+
+    5. Assign this inverted sequence to a third variable, you could use the
+       variable name C, and print the value of this variable.
+
+
