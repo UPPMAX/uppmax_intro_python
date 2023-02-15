@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Python
 
 This module introduces the fundamentals of Python programming language. The
 content is adapted (and extended) from previous iterations of the course and
@@ -36,11 +36,11 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 | 15:00-16:00    | Exercises | 
 
 
-# Python - A brief primer
+## What is Python?
 
 
 
-# Getting Started
+## Getting Started
 
 To work with Python on UPPMAX all you need to do is login and load the desired
 Python version. In this course we will be working with version 3.10.8. To load
@@ -233,7 +233,7 @@ Out[4]: int
     function_parameter_name, local_var_name
     ```
 
-# Python Data Types
+## Python Data Types
 
 We will now try to understand some of the builtin data types - you will be
 using these all the time. We will cover `Int`, `Float`, `List`, `Bool` and
@@ -259,7 +259,7 @@ flowchart TD
     Sequence --- Tuple
 ```
 
-## Numeric Datatypes
+### Numeric Datatypes
 
 The table below shows some of the most common operations that work on numeric
 data types (except complex). For more math functions see the
@@ -310,13 +310,160 @@ computation in Python.
 
         In [7]: int(2.9)
         Out[7]: 2
+
+        In [8]: x = 1
+
+        In [9]: x = x + 2
+
+        In [10]: x
+        Out[10]: 3
+
+        In [11]: x = 1
+
+        In [12]: x += 2
+
+        In [13]: x
+        Out[13]: 3
     ```
 
-## 
+### Strings
 
-## Strings
-   
+Strings are a sequence data type representing unicode characters and is defined
+with single or double quotes.
 
+``` ipython
+    In [1]: greeting1 = "Good Morning!"
+
+    In [2]: greeting2 = 'Hello, How are you!'
+```
+
+We can actually several of the same operations we used for the numeric data
+type on strings.
+
+
+!!! example "String operations"
+
+    ``` ipython
+    In [1]: greeting1 = "Good Morning!"
+
+    In [2]: greeting2 = "Hello, How are you!"
+
+    In [3]: greeting1 + greeting2
+    Out[3]: 'Good Morning!Hello, How are you!'
+
+    In [4]: greeting = "Welcome to our Introductory Python Course!"
+
+    In [5]: number = 2
+
+    In [6]: greeting + number
+    ---------------------------------------------------------------------------
+    TypeError                                 Traceback (most recent call last)
+    Cell In [6], line 1
+    ----> 1 greeting + number
+
+    TypeError: can only concatenate str (not "int") to str
+
+    In [7]: greeting + str(number)
+    Out[7]: 'Welcome to our Introductory Python Course!2'
+
+    In [8]: greeting = "Welcome to our Introductory Python Course!"
+
+    In [9]: number = 2
+
+    In [10]: greeting * number
+    Out[10]: 'Welcome to our Introductory Python Course!Welcome to our Introductory Python Course!'
+
+    In [11]: greeting = "Hello!\n"
+
+    In [12]: greeting * 8
+    Out[12]: 'Hello!\nHello!\nHello!\nHello!\nHello!\nHello!\nHello!\nHello!\n'
+
+    In [14]: print(greeting * 8)
+    Hello!
+    Hello!
+    Hello!
+    Hello!
+    Hello!
+    Hello!
+    Hello!
+    Hello!
+    ```
+
+Notice also that a string object has many associated methods. Try using the
+`.`-notation to access methods (and attributes) by pressing `tab`.
+
+``` 
+In [3]: greeting1.
+            capitalize()   endswith()     index()        isdigit()      isspace()      lower()        removesuffix() rpartition()   startswith()   upper()
+            casefold()     expandtabs()   isalnum()      isidentifier() istitle()      lstrip()       replace()      rsplit()       strip()        zfill()
+            center()       find()         isalpha()      islower()      isupper()      maketrans()    rfind()        rstrip()       swapcase()
+            count()        format()       isascii()      isnumeric()    join()         partition()    rindex()       split()        title()
+            encode()       format_map()   isdecimal()    isprintable()  ljust()        removeprefix() rjust()        splitlines()   translate()
+```
+
+!!! example "String methods"
+
+    ``` ipython
+    In [1]: my_string = "This is a string"
+
+    In [2]: my_string.upper()
+    Out[2]: 'THIS IS A STRING'
+
+    In [3]: my_string.isnumeric()
+    Out[3]: False
+
+    In [4]: my_string.split(" ")
+    Out[4]: ['This', 'is', 'a', 'string']
+    ```
+
+Remember that strings are sequences? This means that each character in a string
+has an *index*. We can use this to do all sorts of string slicing.
+
+<center>
+![alt text](../assets/string_index.png "Title")
+</center>
+!!! example "String indexing and slicing"
+
+    ``` ipython
+    In [1]: my_string = "This is a string"
+
+    In [2]: my_string[0]
+    Out[2]: 'T'
+
+    In [3]: len(my_string)
+    Out[3]: 16
+
+    In [4]: my_string[len(my_string) - 1]
+    Out[4]: 'g'
+
+    In [5]: my_string[len(my_string)]
+    ---------------------------------------------------------------------------
+    IndexError                                Traceback (most recent call last)
+    Cell In [5], line 1
+    ----> 1 my_string[len(my_string)]
+
+    IndexError: string index out of range
+
+    In [6]: my_string.index("i")
+    Out[6]: 2
+
+    In [7]: my_string[2:]
+    Out[7]: 'is is a string'
+
+    In [8]: my_string[-1]
+    Out[8]: 'g'
+
+    In [9]: my_string[-5:]
+    Out[9]: 'tring'
+    ```
+
+
+### Lists
+
+Just like `String` a `List` is a sequence data type. However, it is very
+different. A list if is a sequence of elements (objects) of arbitrary type i.e.
+we can have a list of *strings* a list of *integers* and a list of *lists* of
+*strings* and *integers*.
 
 
 
