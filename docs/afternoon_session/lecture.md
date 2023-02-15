@@ -157,7 +157,75 @@ aforementioned. Let's see an example using a list which is a mutable object
         print(tmp)
     ```
 
+## Modules
 
+* A program can be divided into smaller, better manageable units, so called
+  modules (files ending with `.py`)
+* Improves reusability of code: when someone wrote something useful, someone
+  else can use the same code in his program
+* A program can consist of several modules where each module can contain
+  several coherent functions (and classes)
+
+Let's look at an example by creating a simple math module. Let's structure the
+code in a new directory called `mathlib`. First create a new directory and `cd`
+into it
+
+``` 
+mkdir mathlib && cd $_
+```
+
+Next start by creating a module called `math_funcs.py`
+
+``` python title="math_funcs.py"
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+```
+
+Next we will create a new module that call the functions we defined in
+`math_funcs.py` and performs some calculations - let's call it `calculate.py`
+
+``` python title="calculate.py"
+import math_funcs as mf
+
+a = 3
+b = 1
+
+print(f"{a} + {b} = {mf.add(a, b)}")
+print(f"{a} - {b} = {mf.sub(a, b)}")
+print(f"{a} * {b} = {mf.mul(a, b)}")
+```
+
+!!! info "Imports and namespaces"
+    Notice that the `import` statement makes the functions of `math_funcs.py`
+    accessible from `calculate.py`. In this case we attached `math_funcs` the
+    namespace `mf` for short. To access the functions we need to use the dot
+    notation. An alternative could have been to 
+
+    ``` python
+    from math_funcs import add, sub, mul
+
+    add(a, b) # No need for dot notation
+    ```
+
+    We could also have skipped the aliasing
+
+
+    ``` python
+    import math_funcs
+
+    math_funcs.add(a, b) # Now we need to write it all out
+    ```
+
+    A big no no is using wildcard imports `from module import *`. This will
+    clutter the namespace!
+
+## Command line arguments and IO
 
 
 
