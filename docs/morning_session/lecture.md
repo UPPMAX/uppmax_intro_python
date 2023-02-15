@@ -463,7 +463,75 @@ has an *index*. We can use this to do all sorts of string slicing.
 Just like `String` a `List` is a sequence data type. However, it is very
 different. A list if is a sequence of elements (objects) of arbitrary type i.e.
 we can have a list of *strings* a list of *integers* and a list of *lists* of
-*strings* and *integers*.
+*strings* and *integers*. Let's start by looking at how can define a list
+
+``` python
+    In [1]: list_of_ints = [1, 5, 2]
+
+    In [2]: list_of_str = ["hej", "du"]
+
+    In [3]: list_of_str == "hej du".split(" ")
+    Out[3]: True
+
+    In [4]: mixed_list = ["string", 3, True, []]
+```
+
+Notice how all the elements of the list are inside the square brackets `[]` and
+how each element is separated by a comma `,`. Lists are extremely useful, here
+are some of the things you can do with them:
+
+* *Append* new elements to the list
+* *Concatenate* two (or more) lists
+* Access individual elements by their *index*
+* Perform some *operation*, *reduction* or *transformation* on all or some of
+  elements in the list
+
+Let's look at some examples
+
+``` ipython
+In [1]: l = []
+
+In [2]: l.append(1)
+
+In [3]: l
+Out[3]: [1]
+
+In [4]: l.append(2)
+
+In [5]: l
+Out[5]: [1, 2]
+
+In [6]: m = [3, 4, 5]
+
+In [7]: n = l + m
+
+In [8]: n
+Out[8]: [1, 2, 3, 4, 5]
+
+In [9]: n[3]
+Out[9]: 4
+
+In [10]: len(n)
+Out[10]: 5
+
+In [11]: sum(n)
+Out[11]: 15
+
+In [13]: min(l)
+Out[13]: 3
+
+In [14]: max(l)
+Out[14]: 244
+
+In [15]: sorted(l)
+Out[15]: [3, 50, 170, 244]
+
+In [16]: l.sort()
+
+In [17]: l
+Out[17]: [3, 50, 170, 244]
+```
+
 
 
 
