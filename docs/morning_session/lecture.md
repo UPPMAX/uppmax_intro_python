@@ -40,7 +40,7 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 
 
-# Loading and running Python
+# Getting Started
 
 To work with Python on UPPMAX all you need to do is login and load the desired
 Python version. In this course we will be working with version 3.10.8. To load
@@ -178,9 +178,146 @@ We can work with Python either interactively or by writing our code into files
     Hello, world!
     ```
 
-# Data Types
+### Variable assignment
+
+Any and all values (objects) in Python can be assigned to a variable. As such 
+Let's look at an example
+
+``` ipython
+In [1]: greeting = "Welcome to our Introductory Python Course!"
+
+In [2]: print(greeting)
+Welcome to our Introductory Python Course!
+In [3]: number = 2
+
+In [4]: print(number)
+2
+
+In [5]: number = 5
+
+In [6]: print(number)
+5
+```
+
+> The name on the left-hand side now refers to the result of evaluating the
+> right-hand side, regardless of what it referred to before (if anything). From
+> [discussion](https://stackoverflow.com/questions/11007627/python-variable-declaration)
 
 
+``` ipython
+In [1]: x = "hej"
+
+In [2]: type(x)
+Out[2]: str
+
+In [3]: x = 1
+
+In [4]: type(x)
+Out[4]: int
+
+```
+
+
+!!! info "Variable names"
+
+    * Names of variables may be chosen freely, but 
+        * must consist of a single word (no blanks)
+        * must not contain special characters except "_", and
+        * must not begin with a number
+    * Valid names are: my_variable, Value15
+    * Invalid names are: my-variable, 15th_value
+
+    ``` python title="Conventions"
+    module_name, package_name, ClassName, method_name, ExceptionName,
+    function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name,
+    function_parameter_name, local_var_name
+    ```
+
+# Python Data Types
+
+We will now try to understand some of the builtin data types - you will be
+using these all the time. We will cover `Int`, `Float`, `List`, `Bool` and
+`String`. If we have some spare time we might also have a look at `Dict` and
+`Set`.
     
+
+``` mermaid
+flowchart TD
+    A --- Numeric
+    A --- Boolean
+    A --- Dictionary
+    A --- Set
+    A[Fundamental builtin data types] --- Sequence
+
+
+    Numeric --- Integer
+    Numeric --- Float
+    Numeric --- Complex
+
+    Sequence --- String
+    Sequence --- List
+    Sequence --- Tuple
+```
+
+## Numeric Datatypes
+
+The table below shows some of the most common operations that work on numeric
+data types (except complex). For more math functions see the
+[`math`](https://docs.python.org/3/library/math.html) module included in the
+standard library as well as [`numpy`](https://numpy.org/) and
+[`scipy`](https://scipy.org/) which are the cornerstones of scientific
+computation in Python.
+
+<center>
+
+| Operation   | Result    |
+|--------------- | --------------- |
+| `x + y`  |sum of x and y |
+| `x - y`  |difference of x and y |
+| `x * y`  |product of x and y |
+| `x / y`  |quotient of x and y |
+| `x // y`  |floored quotient of x and y |
+| `x % y`  |remainder of `x / y` |
+| `x ** y`  |x to the power of y|
+| `abs(x)`  |absolute value of x|
+| `int(x)`  |x converted to integer|
+| `float(x)`  |x converted to floating point|
+| | **Source: [Official Python docs](https://docs.python.org/3/library/stdtypes.html)**|
+
+</center>
+
+!!! example "Some examples"
+    Let's try some example in `ipython`
+
+    ``` ipython
+        In [1]: 4 + 2
+        Out[1]: 6
+
+        In [2]: 4 + 2.0
+        Out[2]: 6.0
+
+        In [3]: type(4 + 2.0)
+        Out[3]: float
+
+        In [4]: 8 / 5
+        Out[4]: 1.6
+
+        In [5]: 8 // 5
+        Out[5]: 1
+
+        In [6]: int(2.1)
+        Out[6]: 2
+
+        In [7]: int(2.9)
+        Out[7]: 2
+    ```
+
+## 
+
+## Strings
+   
+
+
+
 
 
