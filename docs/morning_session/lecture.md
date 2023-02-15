@@ -601,13 +601,13 @@ Sequence A is greater than 3 and smaller than 5.
     ```
 
 
-## Loops and iteration
+### Loops and iteration
 
 Just like `if-else` statements, the idea of loops and iteration is
 fundamental to Python (and any programming language). 
 
 
-### The `while` loop
+#### The `while` loop
 
 The `while` loop is conceptually similar to an `if` statement, but, instead of
 executing the indented code block once - it's *repeated* as long as the
@@ -667,7 +667,7 @@ And last one...
     v1 goes to infinity and v2 stops after 10 iterations.
 
 
-### The `for` loop
+#### The `for` loop
 
 The `for` loop is typically used when looping "over" something. Formally, a
 `for` loop can be used over any object that is *iterable* and implements a
