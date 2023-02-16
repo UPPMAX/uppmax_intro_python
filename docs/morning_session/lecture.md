@@ -2,7 +2,7 @@
 
 This module introduces the fundamentals of Python programming language. The
 content is adapted (and extended) from previous iterations of the course and
-the by Nina Fischer (see [slide deck
+slides developed by Nina Fischer (see [slide deck
 one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
 and [slide deck
 two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
@@ -49,9 +49,23 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 ## Getting Started
 
+Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
+
 To work with Python on UPPMAX all you need to do is login and load the desired
-Python version. In this course we will be working with version 3.10.8. To load
-it, just type
+Python version. First login to Rackham from your terminal (or ThinLinc):
+
+```
+ssh <username>@rackham.uppmax.uu.se
+```
+or, to enable graphics
+
+```
+ssh <username>@rackham.uppmax.uu.se
+```
+
+
+In this course we will be working with version 3.10.8 of Python. To load it,
+just type
 
 ``` bash
 module load python/3.10.8
