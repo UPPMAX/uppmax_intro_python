@@ -297,4 +297,8 @@ please continue with the bonus exercises below.
     5. Assign this inverted sequence to a third variable, you could use the
        variable name C, and print the value of this variable.
 
+## More bonus exercises
 
+Some extra bonus exercises have not been integrated into the webpage yet. You can find them here:
+
+* More bonus exercises: <https://hackmd.io/@pmitev/UPPMAX-intro-Python-assignments1>
