@@ -220,6 +220,142 @@
 
 
 ???+ question "assignment 2: Functions"
+    
+    1. Open an editor and save your new program. In this program we will create
+       a few functions.
+
+    2. Define two functions `similarity` and `distance`:
+
+    $$
+    \text{similarity}(a, b)=\left\{\begin{array}{rll}
+    1, & \text { if } & a=b \\
+    0.5, & \text { if } & a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are both purines or pyrimidines } \\
+    0, & \text { if } & a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are not the same kind }
+    \end{array}\right.
+    $$
+
+    $$
+    \operatorname{distance}(a, b)=\left\{\begin{array}{rll}
+    0, & \text { if } \quad a=b \\
+    0.5, & \text { if } \quad a \neq b, \text { a and } \mathrm{b} \text { are both purines or pyrimidines } \\
+    1, & \text { if } \quad a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are not the same kind }
+    \end{array}\right.
+    $$
+
+    **Note:** Purines are A and G, pyrimidines are C and T.
+
+
+
+    ??? tip "Solution"
+
+        ``` python title="functions.py"
+        # define which bases are purines and pyrimidines
+        pur = ["A", "G"]
+        pyr = ["C", "T"]
+
+        # define the similarity function for two single bases
+        def similarity(base1, base2):
+
+            # if they match, return 1
+            if (base1 == base2):
+                return 1
+                
+            # else,if they dont match but are of the same kind
+            elif (((base1 in pur) and (base2 in pur)) or ((base1 in pyr) and (base2 in pyr))):
+                return 0.5
+                
+            # if they neither matches or are of the same kind, return 0
+            else:
+                return 0
+
+        # define the distance function for two single bases
+        def distance(base1, base2):
+
+            # if they match, return 0
+            if (base1 == base2):
+                return 0
+                
+            # else,if they dont match but are of the same kind
+            elif (((base1 in pur) and (base2 in pur)) or ((base1 in pyr) and (base2 in pyr))):
+                return 0.5
+                
+            # if they neither matches or are of the same kind, return 1
+            else:
+                return 1
+        ```
+
+    3. Write two functions `sequence_similarity` and `sequence_distance`, which
+       calculates the similarity and distance of two whole sequences.
+
+    ??? tip "Solution"
+        ``` python title="functions.py"
+        # define the similarity function for whole sequences
+        def sequence_similarity (seq1, seq2):
+
+            # initiate counter
+            similarity_score = 0.0
+            
+            # go through all bases in seq1
+            for i in range(len(seq1)):
+            
+                # calculate their similarity and add to the score
+                similarity_score = similarity_score + similarity(seq1[i], seq2[i])
+                
+            # return the final score 
+            return similarity_score
+
+
+        # define the distance function for whole sequences
+        def sequence_distance(seq1, seq2):
+
+            # initiate counter
+            distance_score = 0.0
+            
+            # go through all bases in seq1
+            for i in range(len(seq1)):
+            
+                # calculate the distance and add to the score
+                distance_score = distance_score + distance(seq1[i], seq2[i])
+            
+            # return the final score 
+            return distance_score
+        ```
+
+    4. **Calculate the similarity and distance for the following sequences.**
+       Read these sequences from the command line and print out their
+        similarity and distance.
+        ```
+        a) ACGT and TGCA
+        b) ATAG and ACAC
+        c) ACGC and ATTT
+        d) AGTT and ACTT
+        e) TCGC and AGAG
+        ```
+
+    ??? tip "Solution"
+        ``` python title="main.py"
+        import sys
+
+        ### Paste here the code for the functions you wrote in 1.2 and 1.3 ###
+
+        # read the sequences from command line arguments
+        seq1 = sys.argv[1]
+        seq2 = sys.argv[2]
+
+        # print the similarity and distance
+        print("Similarity: ", sequence_similarity(seq1, seq2))
+        print("Distance: ", sequence_distance(seq1, seq2))
+        ```
+        
+        ```
+        Similarity: 0.0
+        Distance: 4.0
+
+        Similarity: 2.5
+        Distance: 1.5
+
+        # and so on
+        ```
 
 
 ???+ question "assignment 3: Modules"
