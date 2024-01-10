@@ -24,16 +24,17 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 ## Schedule
 
-| Time  | Topic   | 
-|-------------- | -------------- |
-| 09:00-09:45    | Basic and Sequence data types |
-| 10:00-10:15    | Break |
-| 10:15-11:00    | Control flow statements  |
-| 11:00-12:00    | Exercises | 
-| 13:00-13:45    | Functions and Modules |
-| 13:45-14:00    | Break |
-| 14:15-15:00    | Command line arguments and IO |
-| 15:00-16:00    | Exercises | 
+| Time          | Topic                         | 
+|---------------|-------------------------------|
+| 09:00-10:00   | Basic and Sequence data types |
+| 10:00-10:15   | Break                         |
+| 10:15-11:00   | Control flow statements       |
+| 11:00-12:00   | Exercises                     |
+| 13:00-14:00   | Functions and Modules         |
+| 14:00-14:15   | Break                         |
+| 14:15-15:00   | Command line arguments and IO |
+| 15:00-15:15   | Break                         |
+| 15:15-16:00   | Exercises                     | 
 
 
 ## What is Python?
