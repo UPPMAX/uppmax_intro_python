@@ -54,7 +54,14 @@ Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
 To work with Python on UPPMAX:
 
-#### 1. Login to Rackham from your terminal. This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
+- [Login to Rackham](#login-to-rackham)
+- [Load the Python module](#load-the-python-module)
+- [Pick how to work](#pick-how-to-work)
+
+### Login to Rackham
+
+First, login to Rackham from your terminal. 
+This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ???- question "How to login to Rackham from your terminal?"
 
@@ -72,7 +79,10 @@ To work with Python on UPPMAX:
     ssh sven@rackham.uppmax.uu.se
     ```
 
-#### 2. Load Python version 3.10.8. This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
+### Load the Python module
+
+Load Python version 3.10.8. 
+This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
 ???- question "How to load Python version 3.10.8?"
 
@@ -83,6 +93,15 @@ To work with Python on UPPMAX:
     ```
     module load python/3.10.8
     ```
+
+### Pick how to work
+
+There are multiple ways to develop Python code:
+
+- Using Python scripts with a text editor
+- Using the Python interpreter
+- Using IPython
+- Using Jupyter
 
 We can work with Python either interactively or by writing our code into files
 (so-called Python scripts) with the `.py` suffix.
@@ -169,7 +188,7 @@ We can work with Python either interactively or by writing our code into files
     library that can be shared, documented and reused. Let's write a hello
     world script!
 
-    First create a file (module) called `hello_world.py` with your prefered editor
+    First create a file (module) called `hello_world.py` with your preferred editor
 
     ```
     vim hello_world.py
@@ -803,3 +822,8 @@ for i in A:
     `for` loop when the number of iterations e.g. length of sequence is known.
     In other case - use a while loop (you have to).
     
+
+## Links
+
+ * [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
+ * [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
