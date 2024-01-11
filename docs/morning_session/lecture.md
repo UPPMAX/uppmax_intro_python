@@ -54,7 +54,7 @@ Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
 To work with Python on UPPMAX:
 
-1. Login to Rackham from your terminal. This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
+#### 1. Login to Rackham from your terminal. This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ???- question "How to login to Rackham from your terminal?"
 
@@ -72,7 +72,7 @@ To work with Python on UPPMAX:
     ssh sven@rackham.uppmax.uu.se
     ```
 
-2. Load Python version 3.10.8. This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
+#### 2. Load Python version 3.10.8. This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
 ???- question "How to load Python version 3.10.8?"
 
@@ -85,7 +85,7 @@ To work with Python on UPPMAX:
     ```
 
 We can work with Python either interactively or by writing our code into files
-(python modules) with the `.py` suffix.
+(so-called Python scripts) with the `.py` suffix.
 
 !!! example "Interactive "Hello, world!""
     
