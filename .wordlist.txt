@@ -1,0 +1,17 @@
+boolean
+config
+funcs
+html
+iterable
+Iterables
+json
+mlc
+mul
+py
+Pythonic
+reusability
+txt
+unicode
+UPPMAX
+wordlist
+yml
