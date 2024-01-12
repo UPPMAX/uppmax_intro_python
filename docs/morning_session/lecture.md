@@ -1,12 +1,6 @@
 # Introduction to Python
 
-This module introduces the fundamentals of Python programming language. The
-content is adapted (and extended) from previous iterations of the course and
-slides developed by Nina Fischer (see [slide deck
-one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
-and [slide deck
-two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
-
+This module introduces the fundamentals of Python programming language. 
 
 !!! info "Content"
     * The course emphasises hands-on experience with Python in the UPPMAX
@@ -21,7 +15,6 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
         * Creating small command line programs that can take input arguments
         * Reading and writing to files in Python
     
-
 ## Schedule
 
 | Time          | Topic                         | 
@@ -41,12 +34,11 @@ two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrF
 
 * Developed by Guido van Rossum in the early 1990s
 * Named after the British comedy group "Monty Python",  not after the reptile
-* Why Python and not Perl, Java, C++, ...?
-    * Python is available for all operating systems for free
-    * Python is easy to learn (not master)
-    * Has a fantastic ecosystem of packages for scientific computing
-    * Has a huge and great community
-    * Commonly used in many scientific fields
+* Python is available for all operating systems for free
+* Python is easy to learn (not master)
+* Has a big ecosystem of packages for scientific computing
+* Has a big community
+* Commonly used in many scientific fields
 
 ## Getting Started
 
@@ -827,3 +819,8 @@ for i in A:
 
  * [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
  * [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
+ * Previous content is adapted (and extended) from previous iterations of the course and
+slides developed by Nina Fischer (see [slide deck
+one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
+and [slide deck
+two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
