@@ -46,7 +46,6 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 
  * Learning objective: to be able to load a Python version autonomously
 
-
 Load Python version 3.10.8. 
 This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 

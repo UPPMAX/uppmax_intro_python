@@ -7,6 +7,9 @@
     * Get a first idea of what a program is
     * Hear about the three types of errors
     * Build up experience with the Python interpreter
+    * Use a text editor on an UPPMAX HPC cluster
+    * Create a Python script
+    * Run a Python script
 
 ???- question "For teachers"
 
@@ -37,6 +40,14 @@ These fundamental question are discussed and practiced in this session.
 
 ### Exercise 1: Python and the Python interpreter
 
+!!!- info "Learning objectives"
+
+    * Get a first impression of what the Python programming language is
+    * Know the basics of what the Python interpreter is
+    * Get a first idea of what a program is
+    * Hear about the three types of errors
+    * Build up experience with the Python interpreter
+
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
  * 1.1 The Python programming language
@@ -49,6 +60,12 @@ Read the following sections of [How to Think Like a Computer Scientist: Learning
 Then in section 1.12, do exercises 1 to and including 5
 
 ### Exercise 2: Running a Python script
+
+!!!- info "Learning objectives"
+
+    * Create a Python script
+    * Run a Python script
+    * Use a text editor on an UPPMAX HPC cluster
 
 Read the UPPMAX documentation about text editors [here](http://docs.uppmax.uu.se/software/text_editors/).
 
