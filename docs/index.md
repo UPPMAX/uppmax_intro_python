@@ -19,7 +19,7 @@ and introduces the foundations of the [`Python`](https://www.python.org/) progra
 
 <br/><br/>
 
-[Get started!](morning_session/lecture/){ .md-button .md-button--primary }
+[Get started!](morning_session/overview/){ .md-button .md-button--primary }
 
 <br/><br/>
 

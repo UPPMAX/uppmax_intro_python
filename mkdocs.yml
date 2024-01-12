@@ -3,8 +3,9 @@ site_name: Python Introduction
 nav:
   - Start: index.md
   - Morning Session:
-    - Lecture: morning_session/lecture.md
-    - Exercise: morning_session/exercise.md
+    - Overview: morning_session/overview.md
+#    - Lecture: morning_session/lecture.md
+#    - Exercise: morning_session/exercise.md
   - Afternoon Session:
     - Lecture: afternoon_session/lecture.md
     - Exercise: afternoon_session/exercise.md

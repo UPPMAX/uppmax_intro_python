@@ -1,12 +1,13 @@
 # Lesson plan
 
- * Intro to Python
+ * Intro to Python, day 4 of the 'Intro to UPPMAX' course
  * Teacher: Richel
+ * Day: Thursday 2024-01-18
 
 Teaching goals:
 
  * Learners have used the UPPMAX documentation
- * Learners have used a free and online book
+ * Learners have used a free and online book they can use for future reference
  * Learners have loaded Python using the module system
  * Learners have used the Python interpreter
  * Learners have seen IPython
@@ -35,8 +36,13 @@ Non-goals:
    and let the more advanced learners help
  * Teach best practices,
    instead show those best practices
+ * Use teaching materials developed by colleagues just to be nice.
+   Instead, use free-online teaching materials developed by others,
+   so that me and my colleagues do not need to maintain it
 
 ## Schedule
+
+
 
 | Time          | Topic
 |---------------|-------------------------------
