@@ -6,20 +6,26 @@ This module introduces the fundamentals of Python programming language.
     * The course emphasises hands-on experience with Python in the UPPMAX
       environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
-    * In this morning session, you will learn:
-        * How to load and use different version of Python on our clusters
-        * How to work with basic builtin data types
-        * How to create and run a Python script
+    * **You will learn:**
+        * :check: How to load and use different version of Python on our clusters
+        * :check: How to work with basic builtin data types
+        * :check: How to create and run a Python script
+        * How to use UPPMAX modules to load a Python package
+        * How to creating a command line program that can take input arguments
+        * How to reading files
+        * How to writing to files
+        * How to use control flow statements
+        * How to bundle code into reusable functions
     
 ## Schedule
 
 | Time          | Topic                         | 
 |---------------|-------------------------------|
-| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md), [the way of the program](the_way_of_the_program.md) |
-| 10:00-10:15   | Break                         |
-| 10:15-11:00   | [Working with Python scripts](working_with_python_scripts.md), [variables](variables_expressions_and_statements.md) |
-| 11:00-11:15   | Break                         |
-| 11:15-12:00   | [operators](variables_expressions_and_statements.md), [user input](variables_expressions_and_statements.md)
+| 13:00-14:00   | Functions and Modules         |
+| 14:00-14:15   | Break                         |
+| 14:15-15:00   | Command line arguments and IO |
+| 15:00-15:15   | Break                         |
+| 15:15-16:00   | Exercises                     | 
 
 Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
