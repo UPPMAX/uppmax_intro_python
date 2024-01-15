@@ -10,6 +10,11 @@ This module introduces the fundamentals of Python programming language.
         * How to load and use different version of Python on our clusters
         * How to work with basic builtin data types
         * How to create and run a Python script
+
+??? info "For teachers"
+
+    Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
+    and [exercise.md](exercise.md)
     
 ## Schedule
 

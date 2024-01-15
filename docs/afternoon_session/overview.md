@@ -17,6 +17,11 @@ This module introduces the fundamentals of Python programming language.
         * How to use control flow statements
         * How to draw a plot (i.e. an x-y line plot)
         * How to bundle code into reusable functions
+
+??? info "For teachers"
+
+    Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
+    and [exercise.md](exercise.md)
     
 ## Schedule
 
