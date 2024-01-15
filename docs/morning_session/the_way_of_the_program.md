@@ -63,9 +63,9 @@ Then in section 1.12, do exercises 1 to and including 5
 
 !!!- info "Learning objectives"
 
-    * Create a Python script
-    * Run a Python script
-    * Use a text editor on an UPPMAX HPC cluster
+    - create a Python script
+    - run a Python script
+    - use a text editor on an UPPMAX HPC cluster
 
 Read the UPPMAX documentation about text editors [here](http://docs.uppmax.uu.se/software/text_editors/).
 

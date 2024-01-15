@@ -31,10 +31,11 @@ In this session, we create and run some simple Python scripts.
 
 ### Exercise 1: create a Python script
 
-- Learning objectives: 
-  - to use a text editor in the terminal
-  - to create, edit and save a file in the terminal
-  - to create a trivial Python script to work on
+!!!- info "Learning objectives"
+
+    - to use a text editor in the terminal
+    - to create, edit and save a file in the terminal
+    - to create a trivial Python script to work on
 
 On Rackham, create a file called `hello_world.py`,
 using a text editor or Linux commands.
@@ -55,7 +56,9 @@ Verify that the script has its contents saved.
 
 ### Exercise 2: run a Python script
 
-- Learning objective: to be able to run a Python script.
+!!!- info "Learning objectives"
+
+    - to be able to run a Python script.
 
 Read the UPPMAX page on running a Python script, [here](http://docs.uppmax.uu.se/software/python/#running-python)
 
@@ -63,9 +66,10 @@ Run the Python script you just created.
 
 ### Exercise 3:
 
-- Learning objectives: 
-  - repeat creating a Python script
-  - to observe that an expression result is not shown on-screen by default
+!!!- info "Learning objectives"
+
+    - rehearse creating a Python script
+    - to observe that an expression result is not shown on-screen by default
 
 Of the Python book [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html),
 go back to section 1.12 and do exercise 6.

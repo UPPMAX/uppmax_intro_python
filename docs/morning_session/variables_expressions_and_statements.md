@@ -5,6 +5,12 @@
     * Get the type of an object
     * Create a variable
     * Use a variable
+    * Practice converting an equation to Python code
+    * Find and use the operator for exponentiation
+    * Practice the modulo operator
+    * Practice converting a simple text question to Python code
+    * Learn how to ask a user for input
+    * Use input in a calculation
 
 ???- question "For teachers"
 
@@ -14,6 +20,10 @@
     * Learners understand the purpose of variables
     * Learners have obtained the data type of a variable
     * Learners have heard about what a data type is
+    * Learners have practiced convert an equation and a text question to Python
+    * Learners have read on operators
+    * Learners have worked with the modulo operator
+    * Learners have written code that asked for user input
 
     Lesson plan:
 
@@ -54,9 +64,9 @@ to Python code. We will discover the helpful modulo operator.
 
 !!!- info "Learning objectives"
 
-    * Get the type of an object
-    * Create a variable
-    * Use a variable
+    - get the type of an object
+    - create a variable
+    - use a variable
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
@@ -70,8 +80,8 @@ Then in section 2.14, do exercises 1 to and including 4.
 
 !!!- info "Learning objectives"
 
-    * Practice converting an equation to Python code
-    * Find and use the operator for exponentiation
+    - practice converting an equation to Python code
+    - find and use the operator for exponentiation
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
@@ -83,8 +93,8 @@ Then in section 2.14, do exercise 5.
 
 !!!- info "Learning objectives"
 
-    * Practice the modulo operator
-    * Practice converting a simple text question to Python code
+    - practice the modulo operator
+    - practice converting a simple text question to Python code
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
@@ -97,8 +107,8 @@ Then in section 2.14, do exercises 5 and 6.
 
 !!!- info "Learning objectives"
 
-    * Learn how to ask a user for input
-    * Use input in a calculation
+    - learn how to ask a user for input
+    - use input in a calculation
 
 Read the following section of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 

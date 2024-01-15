@@ -37,21 +37,27 @@ These exercises will ensure you are able to run a minimal Python program.
 
 ### Exercise 1: login to Rackham
 
- * Learning objective: to be able to login to Rackham autonomously
+!!!- info "Learning objectives"
+
+    - to be able to login to Rackham autonomously
 
 Login to Rackham from your terminal. 
 This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ### Exercise 2: load the Python module
 
- * Learning objective: to be able to load a Python version autonomously
+!!!- info "Learning objectives"
+
+    - to be able to load a Python version autonomously
 
 Load Python version 3.10.8. 
 This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
 ### Exercise 3: write a 'Hello world' program
 
- * Learning objective: to be able to run a minimal Python program autonomously
+!!!- info "Learning objectives"
+
+    - to be able to run a minimal Python program autonomously
 
 Start Python and write a 'Hello world' program.
 This is described at the UPPMAX pages on Python programming [here](http://docs.uppmax.uu.se/software/python_programming/#use-the-python-interpreter)
