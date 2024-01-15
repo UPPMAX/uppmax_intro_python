@@ -9,21 +9,21 @@ This module introduces the fundamentals of Python programming language.
     * **You will learn:**
         * How to load and use different version of Python on our clusters
         * Basic and more advanced builtin data types
+        * Creating small command line programs that can take input arguments
+        * Reading and writing to files in Python
         * Using control flow statements to define the logic of your Python program
         * Grouping code into reusable functions and structuring your program into
           modules
-        * Creating small command line programs that can take input arguments
-        * Reading and writing to files in Python
     
 ## Schedule
 
 | Time          | Topic                         | 
 |---------------|-------------------------------|
-| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) [The way of the program](the_way_of_the_program.md) |
+| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md), [the way of the program](the_way_of_the_program.md) |
 | 10:00-10:15   | Break                         |
 | 10:15-11:00   | [Working with Python scripts](working_with_python_scripts.md), [variables](variables_expressions_and_statements.md) |
 | 11:00-11:15   | Break                         |
-| 11:15-12:00   | [Expressions and statements](variables_expressions_and_statements.md), [input](variables_expressions_and_statements.md)
+| 11:15-12:00   | [operators](variables_expressions_and_statements.md), [user input](variables_expressions_and_statements.md)
 | 12:00-13:00   | Break                         |
 | 13:00-14:00   | Functions and Modules         |
 | 14:00-14:15   | Break                         |
