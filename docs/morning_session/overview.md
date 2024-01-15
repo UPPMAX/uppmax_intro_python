@@ -21,7 +21,7 @@ This module introduces the fundamentals of Python programming language.
 |---------------|-------------------------------|
 | 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) [The way of the program](the_way_of_the_program.md) |
 | 10:00-10:15   | Break                         |
-| 10:15-11:00   | Using a Python script, variables|
+| 10:15-11:00   | [Working with Python scripts](working_with_python_scripts.md), variables|
 | 11:00-11:15   | Break                         |
 | 11:15-12:00   | Exercises                     |
 | 13:00-14:00   | Functions and Modules         |
