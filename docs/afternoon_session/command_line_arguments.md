@@ -36,51 +36,94 @@ when you want to 'just want to run the stupid code'.
 
 ## Exercises
 
-### Exercise 1: Fail at running a first program
+### Exercise 1: Read the command-line arguments
 
 !!!- info "Learning objectives"
 
     - Rehearse creating a script
-    - Try to import a Python package
-    - Observe errors when a package is absent
+    - Read the command-line arguments
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the official Python documentation about `sys.argv` [here](https://docs.python.org/3/library/sys.html#sys.argv).
 
- * 3.1. Our first turtle program
+Create a script with the following text:
 
-Copy-paste the first script in that section to a script.
+``` python title="read_argv.py"
+import sys
 
-Run the script and verify it will not run. Does the error message make sense?
+print(sys.argv)
+```
 
-### Exercise 2: Running a first program
+Run the Python script as shown below. What does it print?
+
+- `python3 read_argv.py`
+
+Run the Python script as shown below. What does it print?
+
+- `python3 read_argv.py hello world`
+
+Run the Python script as shown below. What does it print?
+
+- `python3 read_argv.py "hello world"`
+
+Run the Python script as shown below. What does it print?
+
+- `python3 read_argv.py 'hello world'`
+
+### Exercise 2: Read a command-line argument
 
 !!!- info "Learning objectives"
 
-    - Import a Python package
-    - Practice to search for an UPPMAX module that needs to be loaded
-    - Get a script that requires an UPPMAX module to be loaded to work
+    - Experience `sys.argv` is a list
+    - First experience in working with a list
 
-Now we try to make this script work!
+`sys.argv` is a list. Here we use this list
 
-Read: 
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
-- [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
-- [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
+- 11. Lists
+- 11.1. List values
+- 11.2. Accessing elements
 
-Now, try to get the script to work. 
+Modify the script in such a way that the script will only show the first command-line
+argument.
 
-When running the code, there should be a visible pop-up window. If not, 
-re-read [the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
-and enable X-forwarding.
+For example, running the script like this:
 
-???- question "Need more hints?"
+```
+python3 read_argv.py hello world
+```
 
-    The exercise is about *practicing* to search for an UPPMAX module,
-    hence giving away the answer makes this session useless.
+it should show `hello`.
 
-    However, if you feel stuck too much, 
-    you can watch a video in which this exercise is done
-    [here](https://youtu.be/bnN-1uzsgvk)
+### Exercise 3: Work with a command-line argument
+
+!!!- info "Learning objectives"
+
+    - Do a first string comparison
+
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+
+- 8.7. String comparison
+
+Now, we make the script produce different output.
+
+If the script is run like this:
+
+```
+python3 read_argv.py hello
+```
+
+it should show `Hello human!`.
+
+If the script is run like this:
+
+```
+python3 read_argv.py bye
+```
+
+it should show `Sad to see you go human!`.
+
+Write the script to do that.
 
 ## Links
 

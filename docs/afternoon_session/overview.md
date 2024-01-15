@@ -7,9 +7,9 @@ This module introduces the fundamentals of Python programming language.
       environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
     * **You will learn:**
-        * :check: How to load and use different version of Python on our clusters
-        * :check: How to work with basic builtin data types
-        * :check: How to create and run a Python script
+        * :heavy_check_mark: How to load and use different version of Python on our clusters
+        * :heavy_check_mark: How to work with basic builtin data types
+        * :heavy_check_mark: How to create and run a Python script
         * How to use UPPMAX modules to load a Python package
         * How to reading files
         * How to writing to files
