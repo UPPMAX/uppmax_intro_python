@@ -25,7 +25,7 @@ This module introduces the fundamentals of Python programming language.
 | 14:00-14:15   | Break                         |
 | 14:15-15:00   | [File IO](files.md), [command line arguments](command_line_arguments.md) |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | Graphics, functions           | 
+| 15:15-16:00   | [Graphics](graphics.md), [functions](functions.md)            | 
 
 Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
