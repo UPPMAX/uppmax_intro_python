@@ -40,6 +40,26 @@ Non-goals:
    Instead, use free-online teaching materials developed by others,
    so that me and my colleagues do not need to maintain it
 
+Negative feedback that I will enjoy and not respond to:
+
+- 'The course goes too slow': this is an introduction, aimed at beginners.
+  The more advanced learners inevitably will find it go too slow.
+- 'Lectures are too short': strategic learners will prefer passive listening
+  over active teaching methods. Although listening is an activity that
+  strategic learners appreciate, it has a too small effect for transferring knowledge.
+  I will not feel sorry for putting my learners to work :-)
+- 'Go more in-depth': this is an introduction, aimed at beginners,
+  so I cover the basics and we get stuff to run. I will go as deep as time
+  permits me.
+- 'Breaks interrupt the flow': I agree it does. Still, breaks are
+  important. And if you feel interrupted in a flow, it is nice to feel
+  you like to continue
+
+Negative feedback that I will respond to:
+
+- 'The course goes too fast': this is an introduction, aimed at beginners.
+  If even the beginners need more time, I must slow down
+
 ## Schedule
 
 | Time          | Topic
