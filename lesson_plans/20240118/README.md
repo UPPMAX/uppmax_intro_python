@@ -42,15 +42,13 @@ Non-goals:
 
 ## Schedule
 
-
-
 | Time          | Topic
 |---------------|-------------------------------
 | 09:00-10:00   | Loading Python on UPPMAX, 1.1, 1.9, ex 1.1-5
 | 10:00-10:15   | Break
-| 10:15-11:00   | Using a Python script, ex 1.6, Basic expressions, 2.1-2.9 ex 2.1-7 
+| 10:15-11:00   | Using a Python script, ex 1.6, Basic expressions, 2.1-2.3 ex 2.14.1-4 
 | 11:00-11:15   | Break
-| 11:15-12:00   | Input, 2.10, ex 2.8
+| 11:15-12:00   | Basic expressions, 2.4-2.9 ex 2.5-7  ; Input, 2.10, ex 2.8
 | 12:00-13:00   | Lunch
 | 13:00-14:00   | Modules, 3 all, 
 | 14:00-14:15   | Break                         |

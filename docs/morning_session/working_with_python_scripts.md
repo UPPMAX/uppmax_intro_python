@@ -31,7 +31,7 @@ In this session, we create and run some simple Python scripts.
 
 ### Exercise 1: create a Python script
 
-- Learning goal: 
+- Learning objectives: 
   - to use a text editor in the terminal
   - to create, edit and save a file in the terminal
   - to create a trivial Python script to work on
@@ -55,7 +55,7 @@ Verify that the script has its contents saved.
 
 ### Exercise 2: run a Python script
 
-- Learning goal: to be able to run a Python script.
+- Learning objective: to be able to run a Python script.
 
 Read the UPPMAX page on running a Python script, [here](http://docs.uppmax.uu.se/software/python/#running-python)
 
@@ -63,7 +63,7 @@ Run the Python script you just created.
 
 ### Exercise 3:
 
-- Learning goal: 
+- Learning objectives: 
   - repeat creating a Python script
   - to observe that an expression result is not shown on-screen by default
 
