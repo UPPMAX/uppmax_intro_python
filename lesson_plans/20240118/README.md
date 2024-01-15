@@ -64,17 +64,17 @@ Negative feedback that I will respond to:
 
 | Time          | Topic
 |---------------|-------------------------------
-| 09:00-10:00   | Loading Python on UPPMAX, 1.1, 1.9, ex 1.1-5
-| 10:00-10:15   | Break
-| 10:15-11:00   | Using a Python script, ex 1.6, Basic expressions, 2.1-2.3 ex 2.14.1-4 
-| 11:00-11:15   | Break
-| 11:15-12:00   | Basic expressions, 2.4-2.9 ex 2.5-7  ; Input, 2.10, ex 2.8
+| 09:00-10:00   | Using the Python interpreter, the way of the program |
+| 10:00-10:15   | Break                         |
+| 10:15-11:00   | Working with Python scripts, variables |
+| 11:00-11:15   | Break                         |
+| 11:15-12:00   | operators, user input
 | 12:00-13:00   | Lunch
-| 13:00-14:00   | Modules, 3 all, 
+| 13:00-14:00   | UPPMAX modules and Python packages
 | 14:00-14:15   | Break                         |
-| 14:15-15:00   | plotting , CLI,     |
+| 14:15-15:00   | File IO, command line arguments |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | write file, Read file,            | 
+| 15:15-16:00   | Graphics, functions           | 
 
 
 

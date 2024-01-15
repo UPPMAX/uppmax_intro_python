@@ -23,9 +23,9 @@ This module introduces the fundamentals of Python programming language.
 |---------------|-------------------------------|
 | 13:00-14:00   | [UPPMAX modules and Python packages](hello_little_turtles.md)
 | 14:00-14:15   | Break                         |
-| 14:15-15:00   | [File IO](files.md) |
+| 14:15-15:00   | [File IO](files.md), command line arguments |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | Command line arguments, functions  | 
+| 15:15-16:00   | Graphics, functions           | 
 
 Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
