@@ -10,9 +10,6 @@ Teaching goals:
  * Learners have used a free and online book they can use for future reference
  * Learners have loaded Python using the module system
  * Learners have used the Python interpreter
- * Learners have seen IPython
- * Learners have seen Jupyter
- * Learners have seen VSCode
  * Learners have used command-line arguments as input
  * Learners have read a file
  * Learners have written to a file
