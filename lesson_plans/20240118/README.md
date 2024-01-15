@@ -1,22 +1,23 @@
 # Lesson plan
 
- * Intro to Python, day 4 of the 'Intro to UPPMAX' course
- * Teacher: Richel
- * Day: Thursday 2024-01-18
+- Intro to Python, day 4 of the 'Intro to UPPMAX' course
+- Teacher: Richel
+- Day: Thursday 2024-01-18
 
 Teaching goals:
 
- * Learners have used the UPPMAX documentation
- * Learners have used a free and online book they can use for future reference
- * Learners have loaded Python using the module system
- * Learners have used the Python interpreter
- * Learners have used command-line arguments as input
- * Learners have read a file
- * Learners have written to a file
- * Learners feel that Python is something they can do
- * Learners work in small groups
- * Learners have enough breaks
- * Use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
+- Learners have used the UPPMAX documentation
+- Learners have used a free and online book they can use for future reference
+- Learners have loaded Python using the module system
+- Learners have used the Python interpreter
+- Learners have used command-line arguments as input
+- Learners have read a file
+- Learners have written to a file
+- Learners have created a plot, e.g. a scatter plot
+- Learners feel that Python is something they can do
+- Learners work in small groups
+- Learners have enough breaks
+- Use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
    Fundamentals of Teaching': (1) prior knowledge,
    (2) presention, (3) challenge, (4) feedback, (5) repetition
 
