@@ -11,9 +11,9 @@ This module introduces the fundamentals of Python programming language.
         * :check: How to work with basic builtin data types
         * :check: How to create and run a Python script
         * How to use UPPMAX modules to load a Python package
-        * How to creating a command line program that can take input arguments
         * How to reading files
         * How to writing to files
+        * How to creating a command line program that can take input arguments
         * How to use control flow statements
         * How to bundle code into reusable functions
     
@@ -21,11 +21,11 @@ This module introduces the fundamentals of Python programming language.
 
 | Time          | Topic                         | 
 |---------------|-------------------------------|
-| 13:00-14:00   | Functions and Modules         |
+| 13:00-14:00   | [UPPMAX modules and Python packages](hello_little_turtles.md)
 | 14:00-14:15   | Break                         |
-| 14:15-15:00   | Command line arguments and IO |
+| 14:15-15:00   | [File IO](files.md) |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | Exercises                     | 
+| 15:15-16:00   | Command line arguments, functions  | 
 
 Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 

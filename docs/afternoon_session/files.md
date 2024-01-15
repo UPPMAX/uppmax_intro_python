@@ -1,56 +1,72 @@
-# Hello, little turtles! 
+# Files
 
 !!!- info "Learning objectives"
 
-    - Have a first 'Get stuff to work' experience
-    - Rehearse creating a script
-    - Experience when importing a Python package gives an error
-    - Search for an UPPMAX module that needs to be loaded
-    - Import a Python package successfully
+    - Have read a file
+    - Have created a file
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    * Learners have observed the error when importing a Python package without the needed UPPMAX module loaded
-    * Learners have search through the UPPMAX modules
-    * Learners may find out that X-forwarding is important
-    * Learners have gotten 'stuff to work'
+    * Learners have read a file
+    * Learners have created a file
 
     Lesson plan:
 
     * 5 mins: prior knowledge
     * 5 mins: presentation
-    * 25 mins: challenge
+    * 15 mins: challenge
     * 5 mins: feedback
 
 ## Overview
 
-Sometime you need to get 'stuff to work', for example,
-code written by someone else. 
-In this session, we practice this, 
-going through the problems and errors that occur 
-when you want to 'just want to run the stupid code'.
+Most programmers need to work on data and produce some result.
+In Python, we -of course- can read from files and write to files.
+Here we do just that.
 
 ## Exercises
 
-### Exercise 1: Fail at running a first program
+### Exercise 1: create a simple text file
 
 !!!- info "Learning objectives"
 
-    - Rehearse creating a script
-    - Try to import a Python package
-    - Observe errors when a package is absent
+    - Create a simple text file
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
- * 3.1. Our first turtle program
+- 13.1. About files
+- 13.2. Writing our first file
 
-Copy-paste the first script in that section to a script.
+Then do:
 
-Run the script and verify it will not run. Does the error message make sense?
+- Put the code at the top of 13.2 in a Python script
+- Run that code
+- Verify that it works as expected
 
-### Exercise 2: Running a first program
+
+### Exercise 2: create a simple text file
+
+
+!!!- info "Learning objectives"
+
+    - Read a simple text file
+    - Repeat creating a file
+    - Practice to search the internet how to reverse the order of text lines
+
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+
+- 13.4. Turning a file into a list of lines
+
+Consider searching for ['Python reverse order'](https://lmddgtfy.net/?q=python%20reverse%20order),
+as you will need to do this in the exercise.
+
+Then do:
+
+- Exercise 13.11.1
+
+
+### Exercise 3: working with an input file
 
 !!!- info "Learning objectives"
 
