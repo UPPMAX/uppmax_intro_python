@@ -15,6 +15,7 @@ This module introduces the fundamentals of Python programming language.
         * How to writing to files
         * How to creating a command line program that can take input arguments
         * How to use control flow statements
+        * How to draw a plot (i.e. an x-y line plot)
         * How to bundle code into reusable functions
     
 ## Schedule
