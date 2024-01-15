@@ -7,8 +7,9 @@ nav:
 #    - Lecture: morning_session/lecture.md
 #    - Exercise: morning_session/exercise.md
   - Afternoon Session:
-    - Lecture: afternoon_session/lecture.md
-    - Exercise: afternoon_session/exercise.md
+    - Overview: afternoon_session/overview.md
+#    - Lecture: afternoon_session/lecture.md
+#    - Exercise: afternoon_session/exercise.md
 
 theme:
   name: material
