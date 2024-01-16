@@ -27,6 +27,61 @@ that run (interpreted) code are called 'scripts'.
 
 In this session, we create and run some simple Python scripts.
 
+```mermaid
+flowchart TD
+    python[[Python]]
+
+    %% Give a white background to all nodes, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    subgraph sub_programming_language[Python as a language]
+      interpreted_language[Interpreted language]
+      programming_language[Programming language]
+      scripting_language[Scripting language]
+      interpreter[Interpreter]
+      scripts[Scripts]
+      text_files[Text files]
+    end
+    style sub_programming_language fill:#ccf,color:#000,stroke:#fcc
+
+
+    subgraph sub_uppmax[UPPMAX]
+      uppmax[UPPMAX]
+      uppmax_modules[UPPMAX modules]
+      uppmax_clusters[UPPMAX clusters]
+      text_editors[Text editors]
+      %%x_forwarding[X-forwarding]
+      %%remote_desktop[Remote desktop]
+    end
+    style sub_uppmax fill:#fcc,color:#000,stroke:#fcc
+
+    python --> |is a| programming_language
+    python --> |is a| interpreted_language
+    python --> |is a| scripting_language
+
+    programming_language --> |uses| text_files
+    interpreted_language --> |has a| interpreter
+    scripting_language --> |is a|interpreted_language
+    scripting_language --> |runs| scripts
+    scripts --> |are| text_files
+    %% scripts --> |can use| command_line_arguments
+
+    uppmax --> |has| uppmax_clusters
+    uppmax_clusters --> |have| uppmax_modules
+    uppmax_clusters --> |have| text_editors
+    %%uppmax_clusters --> |allow| x_forwarding
+    %%uppmax_clusters --> |has| remote_desktop
+    %% uppmax_modules --> |allow the use of| python_packages
+    uppmax_modules --> |allow the use of| interpreter
+
+    text_editors --> |work on|text_files
+    %%x_forwarding --> |allows|graphics
+    %%remote_desktop --> |allows|graphics
+    
+
+    %% variables ~~~ uppmax
+```
+
 ## Exercises
 
 ### Exercise 1: create a Python script
