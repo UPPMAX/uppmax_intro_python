@@ -17,32 +17,33 @@ Teaching goals:
 - Learners feel that Python is something they can do
 - Learners work in small groups
 - Learners have enough breaks
-- Use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
+- Practice to use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
    Fundamentals of Teaching': (1) prior knowledge,
    (2) presention, (3) challenge, (4) feedback, (5) repetition
 
 Non-goals:
 
- * Discuss as many Python concepts as possible,
-   instead follow the group's pace
- * Stick to the schedule about Python theory,
-   instead follow the group's pace
- * Practice Python theory enough to master it,
-   instead follow the group's pace
- * Tailor to advanced Python developers,
-   instead follow the beginners' pace 
-   and let the more advanced learners help
- * Teach best practices,
-   instead show those best practices
- * Use teaching materials developed by colleagues just to be nice.
-   Instead, use free-online teaching materials developed by others,
-   so that me and my colleagues do not need to maintain it
+- Discuss as many Python concepts as possible,
+  instead follow the group's pace
+- Stick to the schedule about Python theory,
+  instead follow the group's pace
+- Practice Python theory enough to master it,
+  instead follow the group's pace
+- Tailor to advanced Python developers,
+  instead follow the beginners' pace 
+  and let the more advanced learners help
+- Teach best practices,
+  instead show those best practices
+- Use teaching materials developed by colleagues just to be nice.
+  Instead, use free-online teaching materials developed by others,
+  so that me and my colleagues do not need to maintain it
 
 Negative feedback that I will enjoy and not respond to:
 
 - 'The course goes too slow': this is an introduction, aimed at beginners.
   The more advanced learners inevitably will find it go too slow.
-- 'Lectures are too short': strategic learners will prefer passive listening
+- 'Lectures are too short' or 'The contents should be taught': 
+  strategic learners will prefer passive listening
   over active teaching methods. Although listening is an activity that
   strategic learners appreciate, it has a too small effect for transferring knowledge.
   I will not feel sorry for putting my learners to work :-)

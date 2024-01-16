@@ -90,6 +90,47 @@ flowchart TD
 
 ## Exercises
 
+### Exercise procedure
+
+???- info "For teachers"
+
+    > You will be put into Zoom Breakout rooms, in random pairs.
+    > One should share his/her screen and do the exercises together on that computer.
+
+    This assures everyone learns effectively: pairs are optimal.
+
+    Check if every room has a screen that is shared!
+
+    > There is no silent room.
+
+    There is no silent room, as:
+ 
+    - (1) working in pairs allows 'Think, Pair, Share' to work; answering is not personal anymore, 
+    - (2) getting the experienced learners to teach makes them learn too,
+    - (3) this does not work well with Zoom assigning random pairs, 
+    - (4) this is not designed to be a self-study course
+
+    > When done with the exercises, go back to the main room
+
+    This helps set the pace of the course. 
+
+    If two-thirds of the learners are back, call back all learners.
+
+    > In the main room, random learners will be asked questions
+    > regarding those exercises.
+    > Say the answer you agreed upon as a group (i.e. not your personal answer!)
+
+    This is form is described as 'Think, Pair, Share' in 'The Fundamentals
+    of Teaching' by Mike Bell
+
+- You will be put into Zoom Breakout rooms, in random pairs.
+- There is no silent room.
+- One should share his/her screen and do the exercises together on that computer
+- When done with the exercises, go back to the main room
+- In the main room, random learners will be asked questions
+  regarding those exercises.
+  Say the answer you agreed upon as a group (i.e. not your personal answer!)
+
 ### Exercise 1: login to Rackham
 
 !!!- info "Learning objectives"
