@@ -64,8 +64,8 @@ flowchart TD
       uppmax_modules[UPPMAX modules]
       uppmax_clusters[UPPMAX clusters]
       text_editors[Text editors]
-      x_forwarding[X-forwarding]
-      remote_desktop[Remote desktop]
+      %% x_forwarding[X-forwarding]
+      %% remote_desktop[Remote desktop]
     end
     style sub_uppmax fill:#fcc,color:#000,stroke:#fcc
 
@@ -94,8 +94,8 @@ flowchart TD
     uppmax --> |has| uppmax_clusters
     uppmax_clusters --> |have| uppmax_modules
     uppmax_clusters --> |have| text_editors
-    uppmax_clusters --> |allow| x_forwarding
-    uppmax_clusters --> |has| remote_desktop
+    %% uppmax_clusters --> |allow| x_forwarding
+    %% uppmax_clusters --> |has| remote_desktop
     uppmax_modules --> |allow the use of| python_packages
     uppmax_modules --> |allow the use of| interpreter
 
