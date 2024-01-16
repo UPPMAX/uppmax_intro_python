@@ -107,8 +107,8 @@ flowchart TD
     variables ~~~ uppmax
 ```
 
+> Overview of all topics discussed in the morning
+
 ## Links
 
- * [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
- * [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
- * [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+ * [The UPPMAX page on 'Python'](http://docs.uppmax.uu.se/software/python/)

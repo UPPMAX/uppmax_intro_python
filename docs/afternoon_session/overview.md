@@ -119,6 +119,4 @@ flowchart TD
     variables ~~~ uppmax
 ```
 
-## Links
-
- * [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+> Overview of all topics discussed in the afternoon
