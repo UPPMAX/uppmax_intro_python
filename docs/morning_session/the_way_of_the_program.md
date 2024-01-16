@@ -1,4 +1,4 @@
-# The way of the program
+# The Way Of The Program
 
 !!!- info "Learning objectives"
 
@@ -53,8 +53,8 @@ flowchart TD
       programming_language[Programming language]
       scripting_language[Scripting language]
       interpreter[Interpreter]
-      %% scripts[Scripts]
-      %% text_files[Text files]
+      scripts[Scripts]
+      text_files[Text files]
     end
     style sub_programming_language fill:#ccf,color:#000,stroke:#fcc
 
@@ -63,7 +63,7 @@ flowchart TD
       uppmax[UPPMAX]
       uppmax_modules[UPPMAX modules]
       uppmax_clusters[UPPMAX clusters]
-      %% text_editors[Text editors]
+      text_editors[Text editors]
       %%x_forwarding[X-forwarding]
       %%remote_desktop[Remote desktop]
     end
@@ -73,28 +73,29 @@ flowchart TD
     python --> |is a| interpreted_language
     python --> |is a| scripting_language
 
-    %% programming_language --> |uses| text_files
+    programming_language --> |uses| text_files
     interpreted_language --> |has a| interpreter
     scripting_language --> |is a|interpreted_language
-    %% scripting_language --> |runs| scripts
-    %% scripts --> |are| text_files
+    scripting_language --> |runs| scripts
+    scripts --> |are| text_files
     %% scripts --> |can use| command_line_arguments
 
     uppmax --> |has| uppmax_clusters
     uppmax_clusters --> |have| uppmax_modules
-    %%uppmax_clusters --> |have| text_editors
+    uppmax_clusters --> |have| text_editors
     %%uppmax_clusters --> |allow| x_forwarding
     %%uppmax_clusters --> |has| remote_desktop
     %% uppmax_modules --> |allow the use of| python_packages
     uppmax_modules --> |allow the use of| interpreter
 
-    %% text_editors --> |work on|text_files
+    text_editors --> |work on|text_files
     %%x_forwarding --> |allows|graphics
     %%remote_desktop --> |allows|graphics
     
 
     %% variables ~~~ uppmax
 ```
+
 
 ## Exercises
 
