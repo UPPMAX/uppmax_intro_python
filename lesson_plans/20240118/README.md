@@ -19,7 +19,7 @@ Teaching goals:
 - Learners have enough breaks
 - Practice to use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
    Fundamentals of Teaching': (1) prior knowledge,
-   (2) presention, (3) challenge, (4) feedback, (5) repetition
+   (2) presentation, (3) challenge, (4) feedback, (5) repetition
 
 Non-goals:
 

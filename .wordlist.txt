@@ -37,3 +37,17 @@ Rossum
 sys
 uppmax
 webpage
+Jupyter
+IPython
+nano
+Runtime
+Pyplot
+matplotlib's
+matplotlib
+Matplotlib
+barchart
+scatterplot
+Richel
+
+
+
