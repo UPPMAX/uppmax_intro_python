@@ -116,6 +116,14 @@ flowchart TD
 
     If two-thirds of the learners are back, call back all learners.
 
+    > Breaks are always on the scheduled time. You will be reminded in that chat
+
+    Breaks are important. 
+
+    > Take that break, either in the main room or in your breakout room. The breakout rooms will not be closed
+
+    Do not disrupt the flow (even more) by closing the breakout rooms.
+
     > In the main room, random learners will be asked questions
     > regarding those exercises.
     > Say the answer you agreed upon as a group (i.e. not your personal answer!)
@@ -127,6 +135,8 @@ flowchart TD
 - There is no silent room.
 - One should share his/her screen and do the exercises together on that computer
 - When done with the exercises, go back to the main room
+- Breaks are always on the scheduled time. You will be reminded in that chat
+- Take that break, either in the main room or in your breakout room. The breakout rooms will not be closed
 - In the main room, random learners will be asked questions
   regarding those exercises.
   Say the answer you agreed upon as a group (i.e. not your personal answer!)
