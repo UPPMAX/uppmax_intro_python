@@ -34,10 +34,10 @@ This module introduces the fundamentals of Python programming language.
 | 15:15-16:00   | [Graphics](graphics.md), [functions](functions.md)            | 
 
 - Extra materials: 
-  - Conditionals (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
-  - Fruitful functions (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
-  - Other Python programming environments: see the UPPMAX 'Programming in Python' documentation
-   [here](http://docs.uppmax.uu.se/software/python_programming/)
+    - Conditionals (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
+    - Fruitful functions (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
+    - Other Python programming environments: see the UPPMAX 'Programming in Python' documentation
+      [here](http://docs.uppmax.uu.se/software/python_programming/)
 
 Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
