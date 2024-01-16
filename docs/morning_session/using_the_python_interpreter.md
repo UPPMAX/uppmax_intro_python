@@ -10,9 +10,14 @@
 
     Teaching goals are:
 
-    * Learners have used the UPPMAX documentation
-    * Learners have used the Python interpreter
-    * Learners have loaded Python using the module system
+    - Learners have used the UPPMAX documentation
+    - Learners have used the Python interpreter
+    - Learners have loaded Python using the module system
+
+    Other goals are:
+
+    - Verify that learners indeed have learned how to login
+    - Verify that learners indeed have learned how to use the module system
 
     Lesson plan:
 

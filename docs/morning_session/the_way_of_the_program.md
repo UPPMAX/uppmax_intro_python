@@ -21,6 +21,11 @@
     * Learners have used the terms syntax error, runtime error and semantic error
     * Learners have run code in the Python interpreter
 
+    Other goals are:
+
+    - Verify that learners indeed have learned how to create a file
+    - Verify that learners indeed have learned how to use a text editor
+
     Lesson plan:
 
     * 5 mins: prior knowledge

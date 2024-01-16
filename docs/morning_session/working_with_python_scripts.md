@@ -12,6 +12,11 @@
     * Learners have created a Python script
     * Learners have run a Python script
 
+    Other goals are:
+
+    - Verify that learners indeed have learned how to create a file
+    - Verify that learners indeed have learned how to use a text editor
+
     Lesson plan:
 
     * 5 mins: prior knowledge

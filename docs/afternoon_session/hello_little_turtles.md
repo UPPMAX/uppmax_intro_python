@@ -12,17 +12,22 @@
 
     Teaching goals are:
 
-    * Learners have observed the error when importing a Python package without the needed UPPMAX module loaded
-    * Learners have search through the UPPMAX modules
-    * Learners may find out that X-forwarding is important
-    * Learners have gotten 'stuff to work'
+    - Learners have observed the error when importing a Python package without the needed UPPMAX module loaded
+    - Learners have search through the UPPMAX modules
+    - Learners may find out that X-forwarding is important
+    - Learners have gotten 'stuff to work'
+
+    Other goals are:
+
+    - Verify that learners indeed have learned how to login with X-forwarding.
+      Redirect to remote desktop environment as a solution
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 25 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 25 mins: challenge
+    - 5 mins: feedback
 
 ## Overview
 
@@ -146,7 +151,8 @@ Now, try to get the script to work.
 
 When running the code, there should be a visible pop-up window. If not, 
 re-read [the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
-and enable X-forwarding.
+and enable X-forwarding. If X-forwarding does not work, 
+use the Rackham remote desktop environment.
 
 ???- question "Need more hints?"
 
