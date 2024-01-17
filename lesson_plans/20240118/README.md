@@ -63,6 +63,9 @@ Negative feedback that I will not enjoy and not respond to:
 
 - 'Chaotic': this is nonsense. Judging by the preparation, its is a
   well-prepared student-paced day.
+- 'We want regular lectures'. I practice what the literature tells me 
+  what is most effective. I won't feel bad for doing what I 
+  is most/more effective
 
 ## Schedule
 
