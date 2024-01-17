@@ -59,6 +59,11 @@ Negative feedback that I will respond to:
 - 'The course goes too fast': this is an introduction, aimed at beginners.
   If even the beginners need more time, I must slow down
 
+Negative feedback that I will not enjoy and not respond to:
+
+- 'Chaotic': this is nonsense. Judging by the preparation, its is a
+  well-prepared student-paced day.
+
 ## Schedule
 
 | Time          | Topic

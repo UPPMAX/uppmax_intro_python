@@ -11,15 +11,14 @@ template: home.html
 <br/><br/>
 
 
-# Welcome to the UPPMAX Introductory Python course
+# Welcome to the UPPMAX Awk course
 
-This [course](https://github.com/UPPMAX/uppmax_intro_python) 
-is the last module of the [UPPMAX intro course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-winter-2023/)
-and introduces the foundations of the [`Python`](https://www.python.org/) programming language.
+This [course](https://github.com/richelbilderbeek/awk_course) 
+and introduces the foundations of the Awk programming language.
 
 <br/><br/>
 
-[Get started!](morning_session/overview/){ .md-button .md-button--primary }
+[Get started!](overview/){ .md-button .md-button--primary }
 
 <br/><br/>
 
