@@ -1,12 +1,37 @@
-# Reflection
+# 2024 January
 
-Pavlin discovered: Zoom random shuffle algorithm puts people with cameras in the first rooms! 
+## Informal evalations
 
-## Appendix
+From talking to learners
 
-### Feedback
+### Day 1
 
-```
+- Quite fine
+- Went a little bit fast in the afternoon
+- In the morning, show how to paste text to the remote desktop environment using the clipboard
+- Too much content in short time
+- If you got stuck, hard time to catch up
+- Not put in groups, but working in a group IRL worked
+- Force learners to login to Rackham before would help a bit
+
+### Day 2
+
+ * From 1 learner:
+
+- It was perfect
+- It was useful
+- It was fun
+- Enough exercises
+- Enough breaks
+
+### Day 3
+
+[no informal feedback collected]
+
+### Day 4
+
+ * From 1 learner
+
 I had some questions, for example 'What is the interactive node 
 going to do with my output?'. It is great that we practiced this!
 
@@ -37,4 +62,3 @@ If no video, the teacher cannot see when learners are lost: great idea to turn c
      there is a schedule, there are exercises and we are going to do it!
    - breaks are great: two hours, 1.5 hours is tough!
    - interrupting an exercise for a break is fine
-```
