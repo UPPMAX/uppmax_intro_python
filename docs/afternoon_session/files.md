@@ -142,37 +142,6 @@ Then do:
 
 - Exercise 13.11.1
 
-
-### Exercise 3: working with an input file
-
-!!!- info "Learning objectives"
-
-    - Import a Python package
-    - Practice to search for an UPPMAX module that needs to be loaded
-    - Get a script that requires an UPPMAX module to be loaded to work
-
-Now we try to make this script work!
-
-Read: 
-
-- [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
-- [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
-
-Now, try to get the script to work. 
-
-When running the code, there should be a visible pop-up window. If not, 
-re-read [the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
-and enable X-forwarding.
-
-???- question "Need more hints?"
-
-    The exercise is about *practicing* to search for an UPPMAX module,
-    hence giving away the answer makes this session useless.
-
-    However, if you feel stuck too much, 
-    you can watch a video in which this exercise is done
-    [here](https://youtu.be/bnN-1uzsgvk)
-
 ## Links
 
  * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
