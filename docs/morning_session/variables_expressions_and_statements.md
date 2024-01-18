@@ -165,7 +165,13 @@ Read the following sections of [How to Think Like a Computer Scientist: Learning
 
 - 2.6. Operators and operands
 
-Then in section 2.14, do exercise 5.
+Then in section 2.14, do exercise 5 
+**except for asking for input: 
+use a hardcoded value as input**, for example:
+
+```python
+t = 3.14
+```
 
 ### Exercise 3: the modulo operator
 
