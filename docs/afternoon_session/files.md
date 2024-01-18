@@ -122,7 +122,7 @@ Then do:
 - Verify that it works as expected
 
 
-### Exercise 2: create a simple text file
+### Exercise 2: read and create a simple text file
 
 
 !!!- info "Learning objectives"
