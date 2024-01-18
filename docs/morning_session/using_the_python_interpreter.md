@@ -2,9 +2,10 @@
 
 !!!- info "Learning objectives"
 
-    * To be able to login to Rackham autonomously
-    * To be able to load a Python version autonomously
-    * To be able to run a minimal Python program autonomously
+    - To be able to login to Rackham autonomously
+    - To be able to load a Python version autonomously
+    - to be able to start an interactive session autonomously
+    - To be able to run a minimal Python program autonomously
 
 ???- question "For teachers"
 
@@ -17,6 +18,7 @@
     Other goals are:
 
     - Verify that learners indeed have learned how to login
+    - Verify that learners indeed have learned how to start an interactive session
     - Verify that learners indeed have learned how to use the module system
 
     Lesson plan:
@@ -100,11 +102,16 @@ flowchart TD
 ???- info "For teachers"
 
     > You will be put into Zoom Breakout rooms, in random pairs.
-    > One should share his/her screen and do the exercises together on that computer.
 
     This assures everyone learns effectively: pairs are optimal.
 
-    Check if every room has a screen that is shared!
+    > Ideally, all do the exercises on their computer, yet derive at a shared answer
+
+    This assures everyone can give a answer that is not personal.
+
+    > One should commonly share screens
+
+    Encourage teaching and learning.
 
     > There is no silent room.
 
@@ -138,7 +145,8 @@ flowchart TD
 
 - You will be put into Zoom Breakout rooms, in random pairs.
 - There is no silent room.
-- One should share his/her screen and do the exercises together on that computer
+- Ideally, all do the exercises on their computer, yet derive at a shared answer
+- One should commonly share screens
 - When done with the exercises, go back to the main room
 - Breaks are always on the scheduled time. You will be reminded in that chat
 - Take that break, either in the main room or in your breakout room. The breakout rooms will not be closed
@@ -155,7 +163,20 @@ flowchart TD
 Login to Rackham from your terminal. 
 This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
-### Exercise 2: load the Python module
+### Exercise 2: start an interactive session
+
+!!!- info "Learning objectives"
+
+    - to be able to start an interactive session autonomously
+
+Start an interactive session of max four hours.
+This is described at the UPPMAX page 'Starting an interactive node on Rackham' [here](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/).
+
+If this does not work out, go to the next step: 
+we will be only doing light work on the login node.
+However, using an interactive session is a good idea.
+
+### Exercise 3: load the Python module
 
 !!!- info "Learning objectives"
 
@@ -164,7 +185,7 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 Load Python version 3.10.8. 
 This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
-### Exercise 3: write a 'Hello world' program
+### Exercise 4: write a 'Hello world' program
 
 !!!- info "Learning objectives"
 
