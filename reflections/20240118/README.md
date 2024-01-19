@@ -127,8 +127,16 @@ I think the day was efficient and I feel most of the credits must go to the coop
 learners. On the other hand, I did plan to make it likely to get 
 them to cooperate :-)
 
+On thing that could be improved is the block 'Variables, expressions and
+statement': I intended to cut that up in three teaching cycles, as can
+be seen in the schedule. However, this ended up in one, because
+the exercises for these three cycles were on the one same page. 
+I will split that up in three pages for next time.
+
 I hope next iteration, I am allowed to teach this course again with the same setup,
 to build up confidence in the positive effect of the setup.
+
+
 
 ## Appendix
 
