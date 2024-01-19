@@ -7,7 +7,9 @@ nav:
     - Using The Python interpreter: morning_session/using_the_python_interpreter.md
     - The Way Of The Program: morning_session/the_way_of_the_program.md
     - Working with Python scripts: morning_session/working_with_python_scripts.md
-    - Variables, expressions and statements: morning_session/variables_expressions_and_statements.md
+    - Variables, expressions and statements, variables: morning_session/variables_expressions_and_statements_1.md
+    - Variables, expressions and statements, operators: morning_session/variables_expressions_and_statements_2.md
+    - Variables, expressions and statements, user input: morning_session/variables_expressions_and_statements_3.md
 #    - Lecture: morning_session/lecture.md
 #    - Exercise: morning_session/exercise.md
   - Afternoon Session:

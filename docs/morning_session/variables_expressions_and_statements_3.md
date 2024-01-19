@@ -1,4 +1,4 @@
-# Variables, expressions and statements
+# Variables, expressions and statements: user input
 
 !!!- info "Learning objectives"
 
@@ -137,55 +137,6 @@ flowchart TD
 
 
 ## Exercises
-
-### Exercise 1: working with variables
-
-!!!- info "Learning objectives"
-
-    - get the type of an object
-    - create a variable
-    - use a variable
-
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
-
-- 2.1. Values and data types
-- 2.2. Variables
-- 2.3. Variable names and keywords
-
-Then in section 2.14, do exercises 1 to and including 4.
-
-### Exercise 2: an equation with exponentiation
-
-!!!- info "Learning objectives"
-
-    - practice converting an equation to Python code
-    - find and use the operator for exponentiation
-
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
-
-- 2.6. Operators and operands
-
-Then in section 2.14, do exercise 5 
-**except for asking for input: 
-use a hardcoded value as input**, for example:
-
-```python
-t = 3.14
-```
-
-### Exercise 3: the modulo operator
-
-!!!- info "Learning objectives"
-
-    - practice the modulo operator
-    - practice converting a simple text question to Python code
-
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
-
-- 2.8. Order of operations
-- 2.12. The modulus operator
-
-Then in section 2.14, do exercises 5 and 6.
 
 ### Exercise 4: input
 

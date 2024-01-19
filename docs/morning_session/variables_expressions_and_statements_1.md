@@ -1,34 +1,54 @@
-# Overview
+# Variables, expressions and statements: variables
 
-This module introduces the fundamentals of Python programming language. 
+!!!- info "Learning objectives"
 
-!!! info "Content"
-    * The course emphasises hands-on experience with Python in the UPPMAX
-      environment. It focuses on the basics and can be taken by someone *without*
-      any prior Python experience.
-    * In this morning session, you will learn:
-        * How to load and use different version of Python on our clusters
-        * How to work with basic builtin data types
-        * How to create and run a Python script
+    * Get the type of an object
+    * Create a variable
+    * Use a variable
+    * Practice converting an equation to Python code
 
-??? info "For teachers"
+???- question "For teachers"
 
-    Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
-    and [exercise.md](exercise.md)
-    
-## Schedule
+    Teaching goals are:
 
-| Time          | Topic                         | 
-|---------------|-------------------------------|
-| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md), [the way of the program](the_way_of_the_program.md) |
-| 10:00-10:15   | Break                         |
-| 10:15-11:00   | [Working with Python scripts](working_with_python_scripts.md), [Variables, expressions and statements: variables](variables_expressions_and_statements_1.md) |
-| 11:00-11:15   | Break                         |
-| 11:15-12:00   | [Variables, expressions and statements: operators](variables_expressions_and_statements_2.md), [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md)
+    * Learners have worked with variables
+    * Learners understand the purpose of variables
+    * Learners have obtained the data type of a variable
+    * Learners have heard about what a data type is
+    * Learners have practiced convert an equation and a text question to Python
 
-Link to shared document: <https://hackmd.io/@dianai/uppmax-intro/>
+    Lesson plan:
+
+    Exercise 1:
+
+    * 5 mins: prior knowledge
+    * 5 mins: presentation
+    * 15 mins: challenge
+    * 5 mins: feedback
+
+    Exercise 2 and 3:
+
+    * 5 mins: prior knowledge
+    * 5 mins: presentation
+    * 15 mins: challenge
+    * 5 mins: feedback
+
+    Exercise 4:
+
+    * 5 mins: prior knowledge
+    * 5 mins: presentation
+    * 15 mins: challenge
+    * 5 mins: feedback
 
 ## Overview
+
+In any non-trivial calculation, we want to let our computer remember
+things, such as the content of a data file, or the parameters/settings
+we use in our program. Variables allows one to make a computer
+store ('remember') information. Here we use our first simple variables.
+
+Also we practice converting an equation and a mathematical problem
+to Python code. We will discover the helpful modulo operator.
 
 ```mermaid
 flowchart TD
@@ -64,8 +84,8 @@ flowchart TD
       uppmax_modules[UPPMAX modules]
       uppmax_clusters[UPPMAX clusters]
       text_editors[Text editors]
-      %% x_forwarding[X-forwarding]
-      %% remote_desktop[Remote desktop]
+      x_forwarding[X-forwarding]
+      remote_desktop[Remote desktop]
     end
     style sub_uppmax fill:#fcc,color:#000,stroke:#fcc
 
@@ -94,8 +114,8 @@ flowchart TD
     uppmax --> |has| uppmax_clusters
     uppmax_clusters --> |have| uppmax_modules
     uppmax_clusters --> |have| text_editors
-    %% uppmax_clusters --> |allow| x_forwarding
-    %% uppmax_clusters --> |has| remote_desktop
+    uppmax_clusters --> |allow| x_forwarding
+    uppmax_clusters --> |has| remote_desktop
     uppmax_modules --> |allow the use of| python_packages
     uppmax_modules --> |allow the use of| interpreter
 
@@ -107,8 +127,25 @@ flowchart TD
     variables ~~~ uppmax
 ```
 
-> Overview of all topics discussed in the morning
+
+## Exercises
+
+### Exercise 1: working with variables
+
+!!!- info "Learning objectives"
+
+    - get the type of an object
+    - create a variable
+    - use a variable
+
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+
+- 2.1. Values and data types
+- 2.2. Variables
+- 2.3. Variable names and keywords
+
+Then in section 2.14, do exercises 1 to and including 4.
 
 ## Links
 
- * [The UPPMAX page on 'Python'](http://docs.uppmax.uu.se/software/python/)
+ * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
