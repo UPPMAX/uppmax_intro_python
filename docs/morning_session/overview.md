@@ -26,8 +26,6 @@ This module introduces the fundamentals of Python programming language.
 | 11:00-11:15   | Break                         |
 | 11:15-12:00   | [Variables, expressions and statements: operators](variables_expressions_and_statements_2.md), [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md)
 
-Link to shared document: <https://hackmd.io/@dianai/uppmax-intro/>
-
 ## Overview
 
 ```mermaid

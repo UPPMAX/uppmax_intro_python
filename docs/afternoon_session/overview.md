@@ -33,8 +33,6 @@ This module introduces the fundamentals of Python programming language.
 | 15:00-15:15   | Break                         |
 | 15:15-16:00   | [Graphics](graphics.md), [functions](functions.md)            | 
 
-Link to shared document: <https://hackmd.io/@dianai/uppmax-intro/>
-
 - Extra materials: 
     - Conditionals (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
     - Fruitful functions (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
