@@ -123,7 +123,7 @@ Read the UPPMAX page on running a Python script, [here](http://docs.uppmax.uu.se
 
 Run the Python script you just created.
 
-### Exercise 3:
+### Exercise 3: run another Python script
 
 !!!- info "Learning objectives"
 
