@@ -100,7 +100,6 @@ flowchart TD
 On Rackham, create a file called `hello_world.py`,
 using a text editor or Linux commands.
 The UPPMAX page on text editors is [here](http://docs.uppmax.uu.se/software/text_editors/).
-A free online book about the Linux can be found [here](https://linuxcommand.org/tlcl.php).
 
 !!! tip "Use the text editor 'GNU nano'"
 
