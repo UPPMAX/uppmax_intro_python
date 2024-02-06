@@ -114,6 +114,8 @@ flowchart TD
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: Read the command-line arguments
 
 !!!- info "Learning objectives"

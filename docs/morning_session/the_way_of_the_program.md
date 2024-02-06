@@ -99,6 +99,8 @@ flowchart TD
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: Python and the Python interpreter
 
 !!!- info "Learning objectives"

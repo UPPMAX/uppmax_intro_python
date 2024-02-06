@@ -7,13 +7,13 @@ nav:
     - Using The Python interpreter: morning_session/using_the_python_interpreter.md
     - The Way Of The Program: morning_session/the_way_of_the_program.md
     - Working with Python scripts: morning_session/working_with_python_scripts.md
-    - Variables, expressions and statements, variables: morning_session/variables_expressions_and_statements_1.md
-    - Variables, expressions and statements, operators: morning_session/variables_expressions_and_statements_2.md
-    - Variables, expressions and statements, user input: morning_session/variables_expressions_and_statements_3.md
 #    - Lecture: morning_session/lecture.md
 #    - Exercise: morning_session/exercise.md
   - Afternoon Session:
     - Overview: afternoon_session/overview.md
+    - Variables, expressions and statements, variables: afternoon_session/variables_expressions_and_statements_1.md
+    - Variables, expressions and statements, operators: afternoon_session/variables_expressions_and_statements_2.md
+    - Variables, expressions and statements, user input: afternoon_session/variables_expressions_and_statements_3.md
     - UPPMAX modules and Python packages: afternoon_session/hello_little_turtles.md
     - File IO: afternoon_session/files.md
     - Command-line arguments: afternoon_session/command_line_arguments.md
@@ -21,6 +21,8 @@ nav:
     - Functions: afternoon_session/functions.md
 #    - Lecture: afternoon_session/lecture.md
 #    - Exercise: afternoon_session/exercise.md
+  - Miscellaneous:
+    - Exercise procedure: misc/exercise_procedure.md
 
 theme:
   name: material

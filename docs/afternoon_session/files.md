@@ -104,6 +104,8 @@ flowchart TD
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: create a simple text file
 
 !!!- info "Learning objectives"

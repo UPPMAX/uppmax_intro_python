@@ -8,7 +8,6 @@ This module introduces the fundamentals of Python programming language.
       any prior Python experience.
     * In this morning session, you will learn:
         * How to load and use different version of Python on our clusters
-        * How to work with basic builtin data types
         * How to create and run a Python script
 
 ??? info "For teachers"
@@ -18,13 +17,17 @@ This module introduces the fundamentals of Python programming language.
     
 ## Schedule
 
-| Time          | Topic                         | 
-|---------------|-------------------------------|
-| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md), [the way of the program](the_way_of_the_program.md) |
-| 10:00-10:15   | Break                         |
-| 10:15-11:00   | [Working with Python scripts](working_with_python_scripts.md), [Variables, expressions and statements: variables](variables_expressions_and_statements_1.md) |
-| 11:00-11:15   | Break                         |
-| 11:15-12:00   | [Variables, expressions and statements: operators](variables_expressions_and_statements_2.md), [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md)
+| Time          | Topic                                                           | 
+|---------------|-----------------------------------------------------------------|
+| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) |
+| 10:00-10:15   | Break                                                           |
+| 10:15-11:00   | [the way of the program](the_way_of_the_program.md)             |
+| 11:00-11:15   | Break                                                           |
+| 11:15-12:00   | [Working with Python scripts](working_with_python_scripts.md)   |
+
+> The course is learner-centered. This means that the pace is determined
+> be the learners (i.e. not by the clock). 
+> The breaks are always on the time specified.
 
 ## Overview
 

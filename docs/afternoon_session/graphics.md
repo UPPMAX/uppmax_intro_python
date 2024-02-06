@@ -106,6 +106,8 @@ flowchart TD
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: Use matplotlib to show a plot
 
 !!!- info "Learning objectives"

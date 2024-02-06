@@ -97,62 +97,7 @@ flowchart TD
 
 ## Exercises
 
-### Exercise procedure
-
-???- info "For teachers"
-
-    > You will be put into Zoom Breakout rooms, in random pairs.
-
-    This assures everyone learns effectively: pairs are optimal.
-
-    > Ideally, all do the exercises on their computer, yet derive at a shared answer
-
-    This assures everyone can give a answer that is not personal.
-
-    > One should commonly share screens
-
-    Encourage teaching and learning.
-
-    > There is no silent room.
-
-    There is no silent room, as:
- 
-    - (1) working in pairs allows 'Think, Pair, Share' to work; answering is not personal anymore, 
-    - (2) getting the experienced learners to teach makes them learn too,
-    - (3) this does not work well with Zoom assigning random pairs, 
-    - (4) this is not designed to be a self-study course
-
-    > When done with the exercises, go back to the main room
-
-    This helps set the pace of the course. 
-
-    If two-thirds of the learners are back, call back all learners.
-
-    > Breaks are always on the scheduled time. You will be reminded in that chat
-
-    Breaks are important. 
-
-    > Take that break, either in the main room or in your breakout room. The breakout rooms will not be closed
-
-    Do not disrupt the flow (even more) by closing the breakout rooms.
-
-    > In the main room, random learners will be asked questions
-    > regarding those exercises.
-    > Say the answer you agreed upon as a group (i.e. not your personal answer!)
-
-    This is form is described as 'Think, Pair, Share' in 'The Fundamentals
-    of Teaching' by Mike Bell
-
-- You will be put into Zoom Breakout rooms, in random pairs.
-- There is no silent room.
-- Ideally, all do the exercises on their computer, yet derive at a shared answer
-- One should commonly share screens
-- When done with the exercises, go back to the main room
-- Breaks are always on the scheduled time. You will be reminded in that chat
-- Take that break, either in the main room or in your breakout room. The breakout rooms will not be closed
-- In the main room, random learners will be asked questions
-  regarding those exercises.
-  Say the answer you agreed upon as a group (i.e. not your personal answer!)
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: login to Rackham
 

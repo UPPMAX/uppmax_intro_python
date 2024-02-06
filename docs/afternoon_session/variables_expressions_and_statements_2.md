@@ -1,4 +1,4 @@
-# Variables, expressions and statements: user input
+# Variables, expressions and statements: operators
 
 !!!- info "Learning objectives"
 
@@ -9,8 +9,6 @@
     * Find and use the operator for exponentiation
     * Practice the modulo operator
     * Practice converting a simple text question to Python code
-    * Learn how to ask a user for input
-    * Use input in a calculation
 
 ???- question "For teachers"
 
@@ -23,7 +21,6 @@
     * Learners have practiced convert an equation and a text question to Python
     * Learners have read on operators
     * Learners have worked with the modulo operator
-    * Learners have written code that asked for user input
 
     Lesson plan:
 
@@ -138,18 +135,40 @@ flowchart TD
 
 ## Exercises
 
-### Exercise 4: input
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
+### Exercise 1: an equation with exponentiation
 
 !!!- info "Learning objectives"
 
-    - learn how to ask a user for input
-    - use input in a calculation
+    - practice converting an equation to Python code
+    - find and use the operator for exponentiation
 
-Read the following section of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
-- 2.10. Input
+- 2.6. Operators and operands
 
-Then in section 2.14, do exercise 7.
+Then in section 2.14, do exercise 5 
+**except for asking for input: 
+use a hardcoded value as input**, for example:
+
+```python
+t = 3.14
+```
+
+### Exercise 2: the modulo operator
+
+!!!- info "Learning objectives"
+
+    - practice the modulo operator
+    - practice converting a simple text question to Python code
+
+Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+
+- 2.8. Order of operations
+- 2.12. The modulus operator
+
+Then in section 2.14, do exercises 5 and 6.
 
 ## Links
 

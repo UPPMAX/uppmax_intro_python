@@ -130,6 +130,8 @@ flowchart TD
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: working with variables
 
 !!!- info "Learning objectives"
