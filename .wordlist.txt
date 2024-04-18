@@ -48,6 +48,6 @@ Matplotlib
 barchart
 scatterplot
 Richel
-
+hardcoded
 
 
