@@ -17,17 +17,17 @@ This module introduces the fundamentals of Python programming language.
 
 ## Schedule
 
-Time          | Topic                         
+Time          | Topic
 --------------|-------------------------------
-09:00-10:00   | Basic and Sequence data types 
-10:00-10:15   | Break                         
-10:15-11:00   | Control flow statements       
-11:00-12:00   | Exercises                     
-13:00-14:00   | Functions and Modules         
-14:00-14:15   | Break                         
-14:15-15:00   | Command line arguments and IO 
-15:00-15:15   | Break                         
-15:15-16:00   | Exercises                     
+09:00-10:00   | Basic and Sequence data types
+10:00-10:15   | Break
+10:15-11:00   | Control flow statements
+11:00-12:00   | Exercises
+13:00-14:00   | Functions and Modules
+14:00-14:15   | Break
+14:15-15:00   | Command line arguments and IO
+15:00-15:15   | Break
+15:15-16:00   | Exercises
 
 
 ## What is Python?
@@ -76,7 +76,7 @@ This is described at the UPPMAX page 'Login to Rackham'
 ### Load the Python module
 
 Load Python version 3.10.8.
-This is described at the UPPMAX pages on Python 
+This is described at the UPPMAX pages on Python
 [here](http://docs.uppmax.uu.se/software/python/).
 
 ???- question "How to load Python version 3.10.8?"
@@ -294,14 +294,14 @@ standard library as well as [`numpy`](https://numpy.org/) and
 [`scipy`](https://scipy.org/) which are the cornerstones of scientific
 computation in Python.
 
-Operation   | Result 
--------------- | --------------- 
-`x + y`  |sum of x and y 
-`x - y`  |difference of x and y 
-`x * y`  |product of x and y 
-`x / y`  |quotient of x and y 
-`x // y`  |floored quotient of x and y 
-`x % y`  |remainder of `x / y` 
+Operation   | Result
+-------------- | ---------------
+`x + y`  |sum of x and y
+`x - y`  |difference of x and y
+`x * y`  |product of x and y
+`x / y`  |quotient of x and y
+`x // y`  |floored quotient of x and y
+`x % y`  |remainder of `x / y`
 `x ** y`  |x to the power of y
 `abs(x)`  |absolute value of x
 `int(x)`  |x converted to integer

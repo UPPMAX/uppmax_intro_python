@@ -117,9 +117,9 @@ Maybe next time ask:
 * Q: If, in a breakout room, both learners have no camera, what do you do?
 * A: Do not disturb and move to the next breakout room:
   you have no evidence they cannot work
-* Q: If, in a breakout room, one or both learners ask a question to you. 
+* Q: If, in a breakout room, one or both learners ask a question to you.
   What do you do?
-* A: Determine if you should answer: have they discussed together already? 
+* A: Determine if you should answer: have they discussed together already?
   If yes, help them arrive at finding the right answer.
   Only give a direct answer as a last option
 

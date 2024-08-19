@@ -17,7 +17,7 @@ Teaching goals:
 - Learners feel that Python is something they can do
 - Learners work in small groups
 - Learners have enough breaks
-- Practice to use the fundamental teaching cycle (as discussed in 
+- Practice to use the fundamental teaching cycle (as discussed in
   Mike Bell's 'The Fundamentals of Teaching': (1) prior knowledge,
    (2) presentation, (3) challenge, (4) feedback, (5) repetition
 

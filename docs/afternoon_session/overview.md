@@ -4,7 +4,7 @@ This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
     - The course emphasises hands-on experience with Python in the UPPMAX
-      environment. It focuses on the basics and can be taken by someone 
+      environment. It focuses on the basics and can be taken by someone
       without any prior Python experience.
     - You will learn:
         - :heavy_check_mark: How to load and use different version of Python on our clusters
@@ -25,13 +25,13 @@ This module introduces the fundamentals of Python programming language.
 
 ## Schedule
 
-Time          | Topic                                                                                          
+Time          | Topic
 --------------|------------------------------------------------------------------------------------------------
 13:00-14:00   | [Variables, expressions and statements: variables](variables_expressions_and_statements_1.md)  
-14:00-14:15   | Break                                                                                          
+14:00-14:15   | Break
 14:15-15:00   | [Variables, expressions and statements: operators](variables_expressions_and_statements_2.md)  
-15:00-15:15   | Break                                                                                          
-15:15-16:00   | [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md) 
+15:00-15:15   | Break
+15:15-16:00   | [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md)
 
 > The course is learner-centered. This means that the pace is determined
 > be the learners (i.e. not by the clock).
@@ -43,9 +43,9 @@ Time          | Topic
     - [command line arguments](command_line_arguments.md)
     - [Graphics](graphics.md)
     - [functions](functions.md)
-    - Conditionals 
+    - Conditionals
       (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
-    - Fruitful functions 
+    - Fruitful functions
       (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
     - Other Python programming environments:
       see the UPPMAX 'Programming in Python' documentation
