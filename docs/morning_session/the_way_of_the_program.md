@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     * Get a first impression of what the Python programming language is
     * Know the basics of what the Python interpreter is
     * Get a first idea of what a program is

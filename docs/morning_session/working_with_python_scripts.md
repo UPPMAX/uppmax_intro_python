@@ -2,15 +2,17 @@
 
 !!!- info "Learning objectives"
 
-    * To be able to create a Python script
-    * To be able to run a Python script
+    - Practice using the UPPMAX documentation
+    - To be able to create a Python script
+    - To be able to run a Python script
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    * Learners have created a Python script
-    * Learners have run a Python script
+    - Learners have practiced using the UPPMAX documentation
+    - Learners have created a Python script
+    - Learners have run a Python script
 
     Other goals are:
 
@@ -19,10 +21,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
 ## Overview
 

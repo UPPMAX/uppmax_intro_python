@@ -1,14 +1,16 @@
 # Overview
 
+![Python logo from https://www.python.org/community/logos/](python_logo.png)
+
 This module introduces the fundamentals of Python programming language.
 
-!!! info "Content"
-    *The course emphasises hands-on experience with Python in the UPPMAX
-      environment. It focuses on the basics and can be taken by someone *without*
-      any prior Python experience.
-    * In this morning session, you will learn:
-        *How to load and use different version of Python on our clusters
-        * How to create and run a Python script
+!!!- info "Learning objectives"
+
+    - Practice using the UPPMAX documentation
+    - Practice using the Python book
+      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+    - Develop Python code on the UPPMAX clusters
+    - Understand the basics of Python
 
 ??? info "For teachers"
 
@@ -109,7 +111,3 @@ flowchart TD
 ```
 
 > Overview of all topics discussed in the morning
-
-## Links
-
-* [The UPPMAX page on 'Python'](http://docs.uppmax.uu.se/software/python/)

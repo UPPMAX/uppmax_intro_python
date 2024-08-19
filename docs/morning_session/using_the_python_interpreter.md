@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     - To be able to login to Rackham autonomously
     - To be able to load a Python version autonomously
     - to be able to start an interactive session autonomously
