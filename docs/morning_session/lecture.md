@@ -363,6 +363,7 @@ with single or double quotes.
 We can actually several of the same operations we used for the numeric data
 type on strings.
 
+<!-- markdownlint-disable MD013 -->
 
 !!! example "String operations"
 
@@ -415,8 +416,6 @@ type on strings.
 Notice also that a string object has many associated methods. Try using the
 `.`-notation to access methods (and attributes) by pressing `tab`.
 
-<!-- markdownlint-disable MD013 -->
-
 ```python
 In [3]: greeting1.
             capitalize()   endswith()     index()        isdigit()      isspace()      lower()        removesuffix() rpartition()   startswith()   upper()
@@ -425,9 +424,6 @@ In [3]: greeting1.
             count()        format()       isascii()      isnumeric()    join()         partition()    rindex()       split()        title()
             encode()       format_map()   isdecimal()    isprintable()  ljust()        removeprefix() rjust()        splitlines()   translate()
 ```
-
-
-<!-- markdownlint-enable MD013 -->
 
 !!! example "String methods"
 
@@ -830,3 +826,5 @@ slides developed by Nina Fischer (see [slide deck
 one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
 and [slide deck
 two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
+
+<!-- markdownlint-enable MD013 -->
