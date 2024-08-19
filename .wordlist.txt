@@ -50,4 +50,10 @@ scatterplot
 Richel
 hardcoded
 www
+Richèl
+Richèl's
+FileZilla
+NAISS
+
+
 
