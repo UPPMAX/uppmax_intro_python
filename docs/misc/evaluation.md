@@ -6,22 +6,24 @@ the course is in achieving its teaching goals.
 
 Give you confidence levels of the following statements:
 
-- I can log in to the Rackham remote desktop using the website
-- I can do basic things in the Rackham remote desktop
-- I can transfer files to/from Rackham using FileZilla
-- I can log in to Rackham using a terminal
-- I can do basic things in the terminal
-- I can transfer files to/from Rackham using `scp`
+- I can use the UPPMAX documentation
+- I can login to Rackham autonomously
+- I can load a Python version on Rackham
 - I can start an interactive session
-- I can find and load a module
-- I can start an IDE
-- I can start a terminal text editor
-- I can create a bash script
-- I can schedule a job
-- I can conclude which UPPMAX cluster best suits my needs
-- I can find the hardware specifications of an UPPMAX cluster
-- I can find where to apply for NAISS resources
-- I can find other UPPMAX courses
+- I can describe what the Python programming language is
+- I can describe what the Python interpreter is
+- I can describe what a program is
+- I can use a text editor on an UPPMAX HPC cluster
+- I can create a Python script
+- I can run a Python script
+- I can create a variable
+- I can use a variable
+- I can convert a simple equation to Python code
+- I can find and use the operator for exponentiation
+- I know what the modulo operator is and when to use it
+- I can convert a simple text question to Python code
+- I can ask a user for input
+- I can use user input in a calculation
 
 Confidence level|Description
 ----------------|-----------------------------------------
