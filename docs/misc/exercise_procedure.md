@@ -1,4 +1,4 @@
-# Exercise procedure
+# Duo's in breakout rooms exercise procedure
 
 ???- info "For teachers: why this setup?"
 
@@ -11,7 +11,8 @@
 
     This assures everyone learns effectively: pairs are optimal.
 
-    > Ideally, all do the exercises on their computer, yet derive at a shared answer
+    > Ideally, all do the exercises on their computer,
+    > yet derive at a shared answer
 
     This assures everyone can give a answer that is not personal.
 
@@ -23,8 +24,8 @@
 
     There is no silent room, as:
  
-    - (1) working in pairs allows 'Think, Pair, Share' to work;
-          answering is not personal anymore, 
+    - (1) working in pairs allows 'Think, Pair, Share' to work; 
+      answering is not personal anymore, 
     - (2) getting the experienced learners to teach makes them learn too,
     - (3) this does not work well with Zoom assigning random pairs, 
     - (4) this is not designed to be a self-study course
@@ -131,7 +132,7 @@
   by joining their breakout rooms
 - When two-thirds of the learners are in the main room, all break-out rooms
   will be closed ruthlessly.
-  It still takes 1 minute before the room closes though :-)
+  It may take 1 minute before the room closes though :-)
 - Breaks are always on the scheduled time. You will be reminded in that chat
 - Take that break, either in the main room or in your breakout room.
   The breakout rooms will not be closed
@@ -191,7 +192,6 @@ flowchart TD
     Try to help the teacher give clear enough instructions
     next time.
 
-
 - You are in a breakout room with someone else.
   You need to install a piece of software,
   which takes a couple of minutes of time.
@@ -219,7 +219,7 @@ flowchart TD
 
     - Wait
     - Ask questions
-    - Read the next session.
+    - Read the next session. 
       Turn of your camera to indicate you need to concentrate
 
 - I am alone in my Zoom breakout room. What do I do?

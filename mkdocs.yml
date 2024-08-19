@@ -25,7 +25,9 @@ nav:
     - Functions: sessions/functions.md
 #    - Lecture: sessions/afternoon_lecture.md
 #    - Exercise: sessions/afternoon_exercise.md
-  - Miscellaneous:
+  - Misc:
+    - About Richel: misc/richel.md
+    - Evaluation: misc/evaluation.md
     - Exercise procedure: misc/exercise_procedure.md
 
 theme:
