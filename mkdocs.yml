@@ -3,8 +3,9 @@ repo_url: https://github.com/UPPMAX/uppmax_intro_python
 
 nav:
   - Start: index.md
-  - Schedule:
-    - Schedule: schedule/schedule.md
+  - Overviews:
+    - Schedule: overviews/schedule.md
+    - All topics: overviews/topics.md
   - Getting it to run:
     - Overview: sessions/morning_overview.md
     - Using The Python interpreter: sessions/using_the_python_interpreter.md

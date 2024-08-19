@@ -1,24 +1,4 @@
-# Getting it to run
-
-![Python logo from https://www.python.org/community/logos/](python_logo.png)
-
-This module introduces the fundamentals of Python programming language.
-
-!!!- info "Learning objectives"
-
-    - Practice using the UPPMAX documentation
-    - Practice using the Python book
-      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
-    - Get Python code to run on the UPPMAX clusters
-    - Develop Python code on the UPPMAX clusters
-    - Understand the minimum of Python
-
-??? info "For teachers"
-
-    Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
-    and [exercise.md](exercise.md)
-
-## Topics
+# Overview of topics
 
 ```mermaid
 flowchart TD

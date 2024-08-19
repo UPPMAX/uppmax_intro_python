@@ -24,36 +24,22 @@ This module introduces the fundamentals of Python programming language.
     Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
     and [exercise.md](exercise.md)
 
-## Schedule
+## Extra materials:
 
-Time          | Topic
---------------|------------------------------------------------------------------------------------------------
-13:00-14:00   | [Variables, expressions and statements: variables](variables_expressions_and_statements_1.md)  
-14:00-14:15   | Break
-14:15-15:00   | [Variables, expressions and statements: operators](variables_expressions_and_statements_2.md)  
-15:00-15:15   | Break
-15:15-16:00   | [Variables, expressions and statements: user input](variables_expressions_and_statements_3.md)
-
-> The course is learner-centered. This means that the pace is determined
-> be the learners (i.e. not by the clock).
-> The breaks are always on the time specified.
-
-- Extra materials:
-    - [UPPMAX modules and Python packages](hello_little_turtles.md)
-    - [File IO](files.md)
-    - [command line arguments](command_line_arguments.md)
-    - [Graphics](graphics.md)
-    - [functions](functions.md)
-    - Conditionals
-      (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-      chapter 5)
-    - Fruitful functions
-      (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-      chapter 6)
-    - Other Python programming environments:
-      see the UPPMAX 'Programming in Python' documentation
-      [here](http://docs.uppmax.uu.se/software/python_programming/)
-
+- [UPPMAX modules and Python packages](hello_little_turtles.md)
+- [File IO](files.md)
+- [command line arguments](command_line_arguments.md)
+- [Graphics](graphics.md)
+- [functions](functions.md)
+- Conditionals
+  (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+  chapter 5)
+- Fruitful functions
+  (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+  chapter 6)
+- Other Python programming environments:
+  see the UPPMAX 'Programming in Python' documentation
+  [here](http://docs.uppmax.uu.se/software/python_programming/)
 
 ## Overview of afternoon
 
