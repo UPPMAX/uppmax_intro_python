@@ -118,5 +118,5 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 Read matplotlib's 'Pyplot tutorial' [here](https://matplotlib.org/stable/tutorials/pyplot.html#sphx-glr-tutorials-pyplot-py).
 
-Copy-paste the first script on that page to a script and get it to work. 
+Copy-paste the first script on that page to a script and get it to work.
 Do you expect this to be easy?

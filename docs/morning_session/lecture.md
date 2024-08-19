@@ -1,23 +1,23 @@
 # Introduction to Python
 
-This module introduces the fundamentals of Python programming language. 
+This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
-    * The course emphasises hands-on experience with Python in the UPPMAX
+    *The course emphasises hands-on experience with Python in the UPPMAX
       environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
     * **You will learn:**
-        * How to load and use different version of Python on our clusters
+        *How to load and use different version of Python on our clusters
         * Basic and more advanced builtin data types
-        * Using control flow statements to define the logic of your Python program
+        *Using control flow statements to define the logic of your Python program
         * Grouping code into reusable functions and structuring your program into
           modules
-        * Creating small command line programs that can take input arguments
+        *Creating small command line programs that can take input arguments
         * Reading and writing to files in Python
-    
+
 ## Schedule
 
-| Time          | Topic                         | 
+| Time          | Topic                         |
 |---------------|-------------------------------|
 | 09:00-10:00   | Basic and Sequence data types |
 | 10:00-10:15   | Break                         |
@@ -27,7 +27,7 @@ This module introduces the fundamentals of Python programming language.
 | 14:00-14:15   | Break                         |
 | 14:15-15:00   | Command line arguments and IO |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | Exercises                     | 
+| 15:15-16:00   | Exercises                     |
 
 
 ## What is Python?
@@ -46,13 +46,13 @@ Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
 To work with Python on UPPMAX:
 
-- [Login to Rackham](#login-to-rackham)
-- [Load the Python module](#load-the-python-module)
-- [Pick how to work](#pick-how-to-work)
+* [Login to Rackham](#login-to-rackham)
+* [Load the Python module](#load-the-python-module)
+* [Pick how to work](#pick-how-to-work)
 
 ### Login to Rackham
 
-First, login to Rackham from your terminal. 
+First, login to Rackham from your terminal.
 This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ???- question "How to login to Rackham from your terminal?"
@@ -73,7 +73,7 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 
 ### Load the Python module
 
-Load Python version 3.10.8. 
+Load Python version 3.10.8.
 This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
 ???- question "How to load Python version 3.10.8?"
@@ -90,16 +90,16 @@ This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/
 
 There are multiple ways to develop Python code:
 
-- Using Python scripts with a text editor
-- Using the Python interpreter
-- Using IPython
-- Using Jupyter
+* Using Python scripts with a text editor
+* Using the Python interpreter
+* Using IPython
+* Using Jupyter
 
 We can work with Python either interactively or by writing our code into files
 (so-called Python scripts) with the `.py` suffix.
 
 !!! example "Interactive "Hello, world!""
-    
+
     The canonical way of working interactively is using the Python interpreter
     which comes with the language. This is a so called REPL (read-eval-print
     loop) programming environment.
@@ -201,7 +201,7 @@ We can work with Python either interactively or by writing our code into files
 
 ### Variable assignment
 
-Any and all values (objects) in Python can be assigned to a variable. As such 
+Any and all values (objects) in Python can be assigned to a variable. As such
 Let's look at an example
 
 ``` ipython
@@ -260,7 +260,7 @@ We will now try to understand some of the builtin data types - you will be
 using these all the time. We will cover `Int`, `Float`, `List`, `Bool` and
 `String`. If we have some spare time we might also have a look at `Dict` and
 `Set`.
-    
+
 
 ``` mermaid
 flowchart TD
@@ -413,7 +413,7 @@ type on strings.
 Notice also that a string object has many associated methods. Try using the
 `.`-notation to access methods (and attributes) by pressing `tab`.
 
-``` 
+```
 In [3]: greeting1.
             capitalize()   endswith()     index()        isdigit()      isspace()      lower()        removesuffix() rpartition()   startswith()   upper()
             casefold()     expandtabs()   isalnum()      isidentifier() istitle()      lstrip()       replace()      rsplit()       strip()        zfill()
@@ -607,7 +607,7 @@ Sequence A is greater than 3 and smaller than 5.
 
 
 !!! info "Indentation in Python"
-    
+
     Control flow statements are always ended by a colon `:` and following lines
     to be executed within the context statement must be *indented* by 4 spaces
     (tab). Consider this program
@@ -625,7 +625,7 @@ Sequence A is greater than 3 and smaller than 5.
 ### Loops and iteration
 
 Just like `if-else` statements, the idea of loops and iteration is
-fundamental to Python (and any programming language). 
+fundamental to Python (and any programming language).
 
 
 #### The `while` loop
@@ -737,7 +737,7 @@ for i in range(10):
     print(i)
 ```
 
-!!! info "Iterables and why `for` loops sort of are `while` loops?!" 
+!!! info "Iterables and why `for` loops sort of are `while` loops?!"
     If an object is iterable - we can always create an *iterator* object with
     the `iter` function. This is what the `for` keywords does under the hood.
 
@@ -808,18 +808,18 @@ for i in A:
             print(i + j + k)
 ```
 
-!!! info "When should I use `for` and when should i use `while`?" 
+!!! info "When should I use `for` and when should i use `while`?"
     As a rule of thumb - use `for` loops when dealing with *iterable* objects
     (ranges, sequences, generators). Another way of thinking about it is, use a
     `for` loop when the number of iterations e.g. length of sequence is known.
     In other case - use a while loop (you have to).
-    
+
 
 ## Links
 
- * [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
- * [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
- * Previous content is adapted (and extended) from previous iterations of the course and
+* [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
+* [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
+* Previous content is adapted (and extended) from previous iterations of the course and
 slides developed by Nina Fischer (see [slide deck
 one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
 and [slide deck

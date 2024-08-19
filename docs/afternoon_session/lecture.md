@@ -5,7 +5,7 @@
 We are now going to introduce functions
 
 * Functions in programming languages are similar to mathematical functions
-* In principle, functions are used to avoid repetitions of the same code 
+* In principle, functions are used to avoid repetitions of the same code
 * Functions are code fragments, which can be take one or more arguments and
   can have a return value
 * They have a name, a list of arguments and a code block, which does the actual
@@ -20,7 +20,7 @@ Out[2]: 6
 ```
 
 !!! example "Similarity of Sequence"
-    
+
     Let us write a function that calculates some measure of similarity between
     two strings e.g. a DNA sequences such as
     ```
@@ -124,7 +124,7 @@ Out[2]: 6
 ### Mutability and function returns
 
 By convention a Python either mutates the input arguments or returns something
-- not both. It is also possible that function does nothing of the
+* not both. It is also possible that function does nothing of the
 aforementioned. Let's see an example using a list which is a mutable object
 
 
@@ -170,7 +170,7 @@ Let's look at an example by creating a simple math module. Let's structure the
 code in a new directory called `mathlib`. First create a new directory and `cd`
 into it
 
-``` 
+```
 mkdir mathlib && cd $_
 ```
 
@@ -205,7 +205,7 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
     Notice that the `import` statement makes the functions of `math_funcs.py`
     accessible from `calculate.py`. In this case we attached `math_funcs` the
     namespace `mf` for short. To access the functions we need to use the dot
-    notation. An alternative could have been to 
+    notation. An alternative could have been to
 
     ``` python
     from math_funcs import add, sub, mul
@@ -226,12 +226,12 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
     clutter the namespace!
 
 !!! Tip "Takeaways"
-    
+
     * Modules and functions help you organize and write good quality code
     * Modules can be distributed as packages - extending the functionality of
       Python. The ecosystem of packages is one of the reasons that make Python
       great.
-    
+
 
 ## Command line arguments and IO
 
@@ -273,7 +273,7 @@ def sequence_distance(A, B):
     return distance
 ```
 
-Then create `read_seq.py` 
+Then create `read_seq.py`
 
 ``` python title="read_seq.py"
 import dna_metrics as dm
@@ -294,7 +294,7 @@ print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
     ``` python title="read_seq.py"
     import dna_metrics as dm
     import sys
-    
+
     if __name__ == "__main__":
         # Read command line args
         A = sys.argv[1]
@@ -329,7 +329,7 @@ touch seq1.txt seq2.txt
     CATGGTTGA
     ```
 
-Let's explore the `open` command from `ipython` using `seq1.txt` 
+Let's explore the `open` command from `ipython` using `seq1.txt`
 
 ``` ipython
 [ins] In [1]: inputfile = open("seq1.txt", "r")
@@ -366,7 +366,7 @@ if __name__ == "__main__":
 
 Now run the script
 
-``` 
+```
 $ python read_seq.py data/seq1.txt data/seq2.txt
 Distance between A and B is 4
 ```
@@ -404,6 +404,4 @@ Distance between A and B is 4
 > to be made. Each class instance can have attributes attached to it for
 > maintaining its state. Class instances can also have methods (defined by its
 > class) for modifying its state. [ref](https://docs.python.org/3/tutorial/classes.html)
-
-
 

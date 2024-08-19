@@ -26,9 +26,9 @@
 
 ## Overview
 
-To run code, we use text files that are run as if each line 
+To run code, we use text files that are run as if each line
 was typed in into the Python interpreter. Such text files
-that run (interpreted) code are called 'scripts'. 
+that run (interpreted) code are called 'scripts'.
 
 In this session, we create and run some simple Python scripts.
 
@@ -137,4 +137,4 @@ go back to section 1.12 and do exercise 6.
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

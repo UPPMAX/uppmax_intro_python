@@ -105,7 +105,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - to be able to login to Rackham autonomously
 
-Login to Rackham from your terminal. 
+Login to Rackham from your terminal.
 This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ### Exercise 2: start an interactive session
@@ -117,7 +117,7 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 Start an interactive session of max four hours.
 This is described at the UPPMAX page 'Starting an interactive node on Rackham' [here](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/).
 
-If this does not work out, go to the next step: 
+If this does not work out, go to the next step:
 we will be only doing light work on the login node.
 However, using an interactive session is a good idea.
 
@@ -127,7 +127,7 @@ However, using an interactive session is a good idea.
 
     - to be able to load a Python version autonomously
 
-Load Python version 3.10.8. 
+Load Python version 3.10.8.
 This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
 
 ### Exercise 4: write a 'Hello world' program

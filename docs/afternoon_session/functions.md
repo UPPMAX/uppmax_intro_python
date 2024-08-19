@@ -25,7 +25,7 @@
 ## Overview
 
 Sometime you need to do a same multi-line calculation multiple times in your code.
-Instead of copy-pasting, one can use a so-called 'function' 
+Instead of copy-pasting, one can use a so-called 'function'
 to bundle a calculation is something that can be reused.
 
 ```
@@ -122,7 +122,8 @@ Read the following sections of [How to Think Like a Computer Scientist: Learning
 - 3.4. Flow of Execution of the for loop
 - 3.5. The loop simplifies our turtle program
 
-Then do exercise 
+Then do exercise
+
 - 3.8.1
 - 3.8.5
 
@@ -185,4 +186,4 @@ Then do exercise:
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

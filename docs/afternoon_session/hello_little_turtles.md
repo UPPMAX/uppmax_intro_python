@@ -1,4 +1,4 @@
-# Hello, little turtles! 
+# Hello, little turtles
 
 !!!- info "Learning objectives"
 
@@ -32,9 +32,9 @@
 ## Overview
 
 Sometime you need to get 'stuff to work', for example,
-code written by someone else. 
-In this session, we practice this, 
-going through the problems and errors that occur 
+code written by someone else.
+In this session, we practice this,
+going through the problems and errors that occur
 when you want to 'just want to run the stupid code'.
 
 ```mermaid
@@ -128,7 +128,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
- * 3.1. Our first turtle program
+* 3.1. Our first turtle program
 
 Copy-paste the first script in that section to a script.
 
@@ -144,16 +144,16 @@ Run the script and verify it will not run. Does the error message make sense?
 
 Now we try to make this script work!
 
-Read: 
+Read:
 
-- [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
-- [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
+* [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
+* [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
 
-Now, try to get the script to work. 
+Now, try to get the script to work.
 
-When running the code, there should be a visible pop-up window. If not, 
+When running the code, there should be a visible pop-up window. If not,
 re-read [the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
-and enable X-forwarding. If X-forwarding does not work, 
+and enable X-forwarding. If X-forwarding does not work,
 use the Rackham remote desktop environment.
 
 ???- question "Need more hints?"
@@ -167,4 +167,4 @@ use the Rackham remote desktop environment.
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

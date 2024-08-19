@@ -17,7 +17,7 @@ Teaching goals:
 - Learners feel that Python is something they can do
 - Learners work in small groups
 - Learners have enough breaks
-- Practice to use the fundamental teaching cycle (as discussed in Mike Bell's 'The 
+- Practice to use the fundamental teaching cycle (as discussed in Mike Bell's 'The
    Fundamentals of Teaching': (1) prior knowledge,
    (2) presentation, (3) challenge, (4) feedback, (5) repetition
 
@@ -30,7 +30,7 @@ Non-goals:
 - Practice Python theory enough to master it,
   instead follow the group's pace
 - Tailor to advanced Python developers,
-  instead follow the beginners' pace 
+  instead follow the beginners' pace
   and let the more advanced learners help
 - Teach best practices,
   instead show those best practices
@@ -42,7 +42,7 @@ Negative feedback that I will enjoy and not respond to:
 
 - 'The course goes too slow': this is an introduction, aimed at beginners.
   The more advanced learners inevitably will find it go too slow.
-- 'Lectures are too short' or 'The contents should be taught': 
+- 'Lectures are too short' or 'The contents should be taught':
   strategic learners will prefer passive listening
   over active teaching methods. Although listening is an activity that
   strategic learners appreciate, it has a too small effect for transferring knowledge.
@@ -63,8 +63,8 @@ Negative feedback that I will not enjoy and not respond to:
 
 - 'Chaotic': this is nonsense. Judging by the preparation, its is a
   well-prepared student-paced day.
-- 'We want regular lectures'. I practice what the literature tells me 
-  what is most effective. I won't feel bad for doing what I 
+- 'We want regular lectures'. I practice what the literature tells me
+  what is most effective. I won't feel bad for doing what I
   is most/more effective
 
 ## Schedule
@@ -81,8 +81,5 @@ Negative feedback that I will not enjoy and not respond to:
 | 14:00-14:15   | Break                         |
 | 14:15-15:00   | File IO, command line arguments |
 | 15:00-15:15   | Break                         |
-| 15:15-16:00   | Graphics, functions           | 
-
-
-
+| 15:15-16:00   | Graphics, functions           |
 

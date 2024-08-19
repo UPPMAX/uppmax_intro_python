@@ -148,8 +148,8 @@ Read the following sections of [How to Think Like a Computer Scientist: Learning
 
 - 2.6. Operators and operands
 
-Then in section 2.14, do exercise 5 
-**except for asking for input: 
+Then in section 2.14, do exercise 5
+**except for asking for input:
 use a hardcoded value as input**, for example:
 
 ```python
@@ -172,4 +172,4 @@ Then in section 2.14, do exercises 5 and 6.
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

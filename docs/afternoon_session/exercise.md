@@ -220,7 +220,7 @@
 
 
 ???+ question "assignment 2: Functions"
-    
+
     1. Open an editor and save your new program. In this program we will create
        a few functions.
 
@@ -533,4 +533,4 @@
             | | ||
             TTGCAGT
             ```
-        
+

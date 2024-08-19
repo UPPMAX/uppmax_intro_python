@@ -1,23 +1,23 @@
 # Overview
 
-This module introduces the fundamentals of Python programming language. 
+This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
-    * The course emphasises hands-on experience with Python in the UPPMAX
+    *The course emphasises hands-on experience with Python in the UPPMAX
       environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
     * In this morning session, you will learn:
-        * How to load and use different version of Python on our clusters
+        *How to load and use different version of Python on our clusters
         * How to create and run a Python script
 
 ??? info "For teachers"
 
     Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
     and [exercise.md](exercise.md)
-    
+
 ## Schedule
 
-| Time          | Topic                                                           | 
+| Time          | Topic                                                           |
 |---------------|-----------------------------------------------------------------|
 | 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) |
 | 10:00-10:15   | Break                                                           |
@@ -26,7 +26,7 @@ This module introduces the fundamentals of Python programming language.
 | 11:15-12:00   | [Working with Python scripts](working_with_python_scripts.md)   |
 
 > The course is learner-centered. This means that the pace is determined
-> be the learners (i.e. not by the clock). 
+> be the learners (i.e. not by the clock).
 > The breaks are always on the time specified.
 
 ## Overview
@@ -112,4 +112,4 @@ flowchart TD
 
 ## Links
 
- * [The UPPMAX page on 'Python'](http://docs.uppmax.uu.se/software/python/)
+* [The UPPMAX page on 'Python'](http://docs.uppmax.uu.se/software/python/)

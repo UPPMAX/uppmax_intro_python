@@ -113,12 +113,12 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
- * 1.1 The Python programming language
- * 1.2. What is a program?
- * 1.4. Syntax errors
- * 1.5. Runtime errors
- * 1.6. Semantic errors
- * 1.9. The first program
+* 1.1 The Python programming language
+* 1.2. What is a program?
+* 1.4. Syntax errors
+* 1.5. Runtime errors
+* 1.6. Semantic errors
+* 1.9. The first program
 
 Then in section 1.12, do exercises 1 to and including 5
 
@@ -136,4 +136,4 @@ Then, in the book, section 1.12, do exercise 6.
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

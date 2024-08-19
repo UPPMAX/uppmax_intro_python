@@ -29,9 +29,9 @@ python3 my_input.csv my_results.csv
 ```
 
 Sometime you need to get 'stuff to work', for example,
-code written by someone else. 
-In this session, we practice this, 
-going through the problems and errors that occur 
+code written by someone else.
+In this session, we practice this,
+going through the problems and errors that occur
 when you want to 'just want to run the stupid code'.
 
 ```mermaid
@@ -207,4 +207,4 @@ Write the script to do that.
 
 ## Links
 
- * [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

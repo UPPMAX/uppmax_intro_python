@@ -1,4 +1,4 @@
-# Exercises 
+# Exercises
 
 For the first assignment of this exercise session you should get familiar with
 the Python-interpreter. In the second assignment you will write your first
@@ -7,7 +7,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
 ???+ question "Assignment 1: Working with the Python interpreter"
 
-    
+
     1. Start by typing the following command into the Python interpreter:
     ``` python
     print("Assignment 7")
