@@ -1,5 +1,10 @@
 # UPPMAX Python intro
 
+[![Check links](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_links.yaml)
+[![Check markdown](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_markdown.yaml)
+[![Check spelling](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/check_spelling.yaml)
+[![Create website](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_python/actions/workflows/create_website.yaml)
+
 ## Getting started
 
 To work on the website locally first create a virtual environment and install
