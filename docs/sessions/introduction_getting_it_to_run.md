@@ -18,8 +18,6 @@ This module introduces the fundamentals of Python programming language.
     Classic-style lecture and exercises can be found at [lecture.md](lecture.md)
     and [exercise.md](exercise.md)
 
-## Topics
-
 ```mermaid
 flowchart TD
     python[[Python]]
@@ -96,3 +94,7 @@ flowchart TD
 
     variables ~~~ uppmax
 ```
+
+- [Using the Python interpreter](using_the_python_interpreter.md)
+- [the way of the program](the_way_of_the_program.md)
+- [Working with Python scripts](working_with_python_scripts.md)
