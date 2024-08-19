@@ -227,7 +227,7 @@
 ## Bonus Exercises
 
 <!-- Indeed, the lines are too long -->
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-disable MD013 -->
 
 ???+ question "assignment 2: Functions"
 
@@ -548,4 +548,4 @@
             ```
 
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-enable MD013 -->

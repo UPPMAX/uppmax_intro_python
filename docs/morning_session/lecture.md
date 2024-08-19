@@ -415,7 +415,7 @@ type on strings.
 Notice also that a string object has many associated methods. Try using the
 `.`-notation to access methods (and attributes) by pressing `tab`.
 
-<!-- markdownlint-enable MD013 -->
+<!-- markdownlint-disable MD013 -->
 
 ```python
 In [3]: greeting1.
@@ -427,7 +427,7 @@ In [3]: greeting1.
 ```
 
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-enable MD013 -->
 
 !!! example "String methods"
 
@@ -447,9 +447,8 @@ In [3]: greeting1.
 Remember that strings are sequences? This means that each character in a string
 has an *index*. We can use this to do all sorts of string slicing.
 
-<center>
 ![alt text](../assets/string_index.png "Title")
-</center>
+
 !!! example "String indexing and slicing"
 
     ```ipython
