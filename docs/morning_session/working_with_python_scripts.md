@@ -107,7 +107,7 @@ The UPPMAX page on text editors is [here](http://docs.uppmax.uu.se/software/text
 
 Copy-paste the following content into the script:
 
-```
+```python
 print('Hello, world!')
 ```
 
@@ -132,7 +132,8 @@ Run the Python script you just created.
     - rehearse creating a Python script
     - to observe that an expression result is not shown on-screen by default
 
-Of the Python book [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html),
+Of the Python book
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html),
 go back to section 1.12 and do exercise 6.
 
 ## Links

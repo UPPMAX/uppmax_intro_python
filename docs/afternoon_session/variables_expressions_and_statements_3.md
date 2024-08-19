@@ -147,7 +147,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     - learn how to ask a user for input
     - use input in a calculation
 
-Read the following section of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following section of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 2.10. Input
 

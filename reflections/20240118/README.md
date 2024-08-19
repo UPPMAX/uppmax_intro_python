@@ -14,7 +14,8 @@ I was, however, quite nervous:
 **fear for resistance against non-lecturing**:
 from another course, I've seen that some
 learners expect a stock-standard course of lectures and exercises
-and will turn against me when I follow the best practices of the literature instead.
+and will turn against me when I
+follow the best practices of the literature instead.
 
 **fear for resistance against student-centered teaching**:
 I felt that following the pace of the learners is The Right Thing To Do:
@@ -46,13 +47,17 @@ at each successive day.
 I started at 9:00 sharp. I took the time for the learners to turn on a camera.
 I told the learners how I will behave differently with a camera on or off.
 
-I lectured the presentation about myself, which is the least important thing of the
+I lectured the presentation about myself,
+which is the least important thing of the
 course, so some learners could connect their camera. About 80%-95%
 of around 33 learners had a camera on after finishing the presentation.
 
-I started the first teaching cycle: 'What do you think about when you think about Python?',
-were I randomly asked learners. They knew I would, as that was in the presentation
-about me already. I took care to bend most answers that show a learner is not perfect
+I started the first teaching cycle: 'What do you think about
+when you think about Python?',
+were I randomly asked learners. They knew I would,
+as that was in the presentation
+about me already. I took care to bend most answers
+that show a learner is not perfect
 into something more mild.
 
 I took time to discuss the workflow of how to do an exercise in pairs.
@@ -69,7 +74,8 @@ asked him/her to share the screen and try to do reproduce the answer again.
 Still, I knew 'Feedback' is the 10th most impactful intervention, which
 made me follow the plan.
 
-After the Feedback, I usually connected what we just learned to earlier knowledge
+After the Feedback,
+I usually connected what we just learned to earlier knowledge
 again, using concept maps and repeat concepts.
 Also here: I know this is important to do.
 
@@ -90,20 +96,32 @@ Maybe next time ask:
 
 * Q: What is the purpose of visiting the breakout rooms?
 * A: To check if the learners can work and do so in a welcoming way
-* Q: If, in a breakout room, the learners appear to be concentrated, what do you do?
-* A: Do not disturb and move to the next breakout room: you've seen they can work
-* Q: If, in a breakout room, two learners are discussing something. They, however, have reached a wrong conclusion. What do you do?
-* A: Do not disturb and move to the next breakout room: you've seen they can work
-* Q: If, in a breakout room, two learners have an unfriendly argument, what do you do?
-* A: Do something about this. This is up to you. Either handle this yourself or ask me to take care of it. Always let me know
-* Q: If, in a breakout room, two learners are discussing Pokemon, what do you do?
+* Q: If, in a breakout room, the learners appear to be concentrated,
+  what do you do?
+* A: Do not disturb and move to the next breakout room:
+  you've seen they can work
+* Q: If, in a breakout room, two learners are discussing something.
+  They, however, have reached a wrong conclusion. What do you do?
+* A: Do not disturb and move to the next breakout room:
+  you've seen they can work
+* Q: If, in a breakout room, two learners have an unfriendly argument,
+  what do you do?
+* A: Do something about this. This is up to you.
+  Either handle this yourself or ask me to take care of it. Always let me know
+* Q: If, in a breakout room, two learners are discussing Pokemon,
+  what do you do?
 * A: Do something about this to set them back to work in a friendly way
 * Q: If, in a breakout room, only one learner has no camera, what do you do?
-* A: Do not disturb and move to the next breakout room: you have no evidence they cannot work
+* A: Do not disturb and move to the next breakout room:
+  you have no evidence they cannot work
 * Q: If, in a breakout room, both learners have no camera, what do you do?
-* A: Do not disturb and move to the next breakout room: you have no evidence they cannot work
-* Q: If, in a breakout room, one or both learners ask a question to you. What do you do?
-* A: Determine if you should answer: have they discussed together already? If yes, help them arrive at finding the right answer. Only give a direct answer as a last option
+* A: Do not disturb and move to the next breakout room:
+  you have no evidence they cannot work
+* Q: If, in a breakout room, one or both learners ask a question to you. 
+  What do you do?
+* A: Determine if you should answer: have they discussed together already? 
+  If yes, help them arrive at finding the right answer.
+  Only give a direct answer as a last option
 
 While the learners did their exercises, twice I went through all
 the breakout rooms anyways. I felt blind and the need to sample at
@@ -146,14 +164,16 @@ were having fun and being productive at the same time.
 
 At around 16:15 the day was over.
 
-I think the day was efficient and I feel most of the credits must go to the cooperative
+I think the day was efficient and
+I feel most of the credits must go to the cooperative
 learners. On the other hand, I did plan to make it likely to get
 them to cooperate :-)
 
 ### Possible improvements
 
 [DONE] Split up the exercises for the block 'Variables, expressions and
-statement' in different pages: I intended to cut that up in three teaching cycles, as can
+statement' in different pages:
+I intended to cut that up in three teaching cycles, as can
 be seen in the schedule. However, this ended up in one, because
 the exercises for these three cycles were on the one same page.
 I will split that up in three pages for next time.
@@ -168,7 +188,8 @@ Make a flow-chart on what to do in a group room.
 
 ### Future
 
-I hope next iteration, I am allowed to teach this course again with the same setup,
+I hope next iteration, I am allowed to teach this course again
+with the same setup,
 to build up confidence in the positive effect of the setup.
 
 ## Appendix
@@ -178,7 +199,8 @@ to build up confidence in the positive effect of the setup.
 ```
 # Who is Richèl?
 
-<https://github.com/UPPMAX/uppmax_intro_python/tree/main/lesson_plans/20240118> ![](CC-BY-NC-SA.png)
+<https://github.com/UPPMAX/uppmax_intro_python/tree/main/lesson_plans/20240118>
+![](CC-BY-NC-SA.png)
 
 ## How to pronounce my name
 
@@ -232,7 +254,8 @@ This was the only lecture in the course :-)
 I had some questions, for example 'What is the interactive node 
 going to do with my output?'. It is great that we practiced this!
 
-If no video, the teacher cannot see when learners are lost: great idea to turn cameras on for that too!
+If no video, the teacher cannot see when learners are lost:
+great idea to turn cameras on for that too!
 
  - Day 1: 
     - Should be more hands-on
@@ -246,7 +269,8 @@ If no video, the teacher cannot see when learners are lost: great idea to turn c
  - Day 3: 
    - Douglas: see Day 2
    - Diana: 
-     - Good day, yet the focus was more on Linux, then making the learners think and be active learners.
+     - Good day, yet the focus was more on Linux,
+       then making the learners think and be active learners.
      - Less content, e.g only Slurms things that are most important, less Linux flags
  - Day 4:
    - lovely

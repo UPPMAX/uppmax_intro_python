@@ -140,7 +140,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     - create a variable
     - use a variable
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 2.1. Values and data types
 - 2.2. Variables

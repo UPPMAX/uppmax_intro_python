@@ -461,7 +461,10 @@
                     # print the result for this comparison
                     print(seq_list[i], seq_list[j], " Similarity: ", similarity_score, " Distance: ", distance_score)
             ```
-            ```
+
+            With output:
+
+            ```text
             ATCCGGT GCGTTAC Similarity: 2.5 Distance: 4.5
             ATCCGGT CTACTGC Similarity: 3.5 Distance: 3.5
             ATCCGGT TTGCAGT Similarity: 4.5 Distance: 2.5
@@ -479,7 +482,7 @@
         sequences and the alignment into a new file, called `similar_sequences.txt`.**
         
         For example for two given sequences: “ATC” and “ACC” The alignment would be:
-        ```
+        ```text
         ATC
         | |
         ACC

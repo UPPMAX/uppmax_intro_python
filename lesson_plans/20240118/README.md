@@ -17,8 +17,8 @@ Teaching goals:
 - Learners feel that Python is something they can do
 - Learners work in small groups
 - Learners have enough breaks
-- Practice to use the fundamental teaching cycle (as discussed in Mike Bell's 'The
-   Fundamentals of Teaching': (1) prior knowledge,
+- Practice to use the fundamental teaching cycle (as discussed in 
+  Mike Bell's 'The Fundamentals of Teaching': (1) prior knowledge,
    (2) presentation, (3) challenge, (4) feedback, (5) repetition
 
 Non-goals:
@@ -45,7 +45,8 @@ Negative feedback that I will enjoy and not respond to:
 - 'Lectures are too short' or 'The contents should be taught':
   strategic learners will prefer passive listening
   over active teaching methods. Although listening is an activity that
-  strategic learners appreciate, it has a too small effect for transferring knowledge.
+  strategic learners appreciate,
+  it has a too small effect for transferring knowledge.
   I will not feel sorry for putting my learners to work :-)
 - 'Go more in-depth': this is an introduction, aimed at beginners,
   so I cover the basics and we get stuff to run. I will go as deep as time
@@ -69,17 +70,17 @@ Negative feedback that I will not enjoy and not respond to:
 
 ## Schedule
 
-| Time          | Topic
-|---------------|-------------------------------
-| 09:00-10:00   | Using the Python interpreter, the way of the program |
-| 10:00-10:15   | Break                         |
-| 10:15-11:00   | Working with Python scripts, variables |
-| 11:00-11:15   | Break                         |
-| 11:15-12:00   | operators, user input
-| 12:00-13:00   | Lunch
-| 13:00-14:00   | UPPMAX modules and Python packages
-| 14:00-14:15   | Break                         |
-| 14:15-15:00   | File IO, command line arguments |
-| 15:00-15:15   | Break                         |
-| 15:15-16:00   | Graphics, functions           |
+ Time          | Topic
+---------------|-------------------------------
+ 09:00-10:00   | Using the Python interpreter, the way of the program
+ 10:00-10:15   | Break
+ 10:15-11:00   | Working with Python scripts, variables
+ 11:00-11:15   | Break
+ 11:15-12:00   | operators, user input
+ 12:00-13:00   | Lunch
+ 13:00-14:00   | UPPMAX modules and Python packages
+ 14:00-14:15   | Break
+ 14:15-15:00   | File IO, command line arguments
+ 15:00-15:15   | Break
+ 15:15-16:00   | Graphics, functions
 

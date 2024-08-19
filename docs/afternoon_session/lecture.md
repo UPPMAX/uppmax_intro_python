@@ -123,8 +123,9 @@ Out[2]: 6
 
 ### Mutability and function returns
 
-By convention a Python either mutates the input arguments or returns something
-* not both. It is also possible that function does nothing of the
+By convention, a Python function either mutates the input arguments
+or returns something, but not both.
+It is also possible that function does nothing of the
 aforementioned. Let's see an example using a list which is a mutable object
 
 
@@ -170,7 +171,7 @@ Let's look at an example by creating a simple math module. Let's structure the
 code in a new directory called `mathlib`. First create a new directory and `cd`
 into it
 
-```
+```bash
 mkdir mathlib && cd $_
 ```
 
@@ -237,7 +238,7 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
 
 You already know what a command-line interface (CLI) program is!
 
-```
+```bash
 mkdir dir_name
 ```
 
@@ -251,7 +252,7 @@ want to design such a program in Python? Let's continue working on our
 Let's ignore the reading of text files for now. First create a new directory
 called `dna_lib` and `cd` into it
 
-```
+```bash
 mkdir dna_lib && cd $_
 ```
 
@@ -314,7 +315,7 @@ to read files and instead of printing the results to the standard output we
 will dump the results into a text file. First let's create a new directory
 `data` that will contain `seq1.txt` and `seq2.txt`
 
-```
+```bash
 mkdir data
 touch seq1.txt seq2.txt
 ```
@@ -403,5 +404,6 @@ Distance between A and B is 4
 > a new class creates a new type of object, allowing new instances of that type
 > to be made. Each class instance can have attributes attached to it for
 > maintaining its state. Class instances can also have methods (defined by its
-> class) for modifying its state. [ref](https://docs.python.org/3/tutorial/classes.html)
+> class) for modifying its state.
+> [ref](https://docs.python.org/3/tutorial/classes.html)
 

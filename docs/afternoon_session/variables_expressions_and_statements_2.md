@@ -144,7 +144,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     - practice converting an equation to Python code
     - find and use the operator for exponentiation
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 2.6. Operators and operands
 
@@ -163,7 +164,8 @@ t = 3.14
     - practice the modulo operator
     - practice converting a simple text question to Python code
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 2.8. Order of operations
 - 2.12. The modulus operator

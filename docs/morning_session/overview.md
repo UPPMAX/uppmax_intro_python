@@ -17,13 +17,13 @@ This module introduces the fundamentals of Python programming language.
 
 ## Schedule
 
-| Time          | Topic                                                           |
-|---------------|-----------------------------------------------------------------|
-| 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) |
-| 10:00-10:15   | Break                                                           |
-| 10:15-11:00   | [the way of the program](the_way_of_the_program.md)             |
-| 11:00-11:15   | Break                                                           |
-| 11:15-12:00   | [Working with Python scripts](working_with_python_scripts.md)   |
+ Time          | Topic                                                           
+---------------|-----------------------------------------------------------------
+ 09:00-10:00   | [Using the Python interpreter](using_the_python_interpreter.md) 
+ 10:00-10:15   | Break                                                           
+ 10:15-11:00   | [the way of the program](the_way_of_the_program.md)             
+ 11:00-11:15   | Break                                                           
+ 11:15-12:00   | [Working with Python scripts](working_with_python_scripts.md)   
 
 > The course is learner-centered. This means that the pace is determined
 > be the learners (i.e. not by the clock).

@@ -158,7 +158,8 @@ Run the Python script as shown below. What does it print?
 
 `sys.argv` is a list. Here we use this list
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 11. Lists
 - 11.1. List values
@@ -181,7 +182,8 @@ it should show `hello`.
 
     - Do a first string comparison
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 8.7. String comparison
 

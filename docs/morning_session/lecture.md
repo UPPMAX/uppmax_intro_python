@@ -17,17 +17,17 @@ This module introduces the fundamentals of Python programming language.
 
 ## Schedule
 
-| Time          | Topic                         |
-|---------------|-------------------------------|
-| 09:00-10:00   | Basic and Sequence data types |
-| 10:00-10:15   | Break                         |
-| 10:15-11:00   | Control flow statements       |
-| 11:00-12:00   | Exercises                     |
-| 13:00-14:00   | Functions and Modules         |
-| 14:00-14:15   | Break                         |
-| 14:15-15:00   | Command line arguments and IO |
-| 15:00-15:15   | Break                         |
-| 15:15-16:00   | Exercises                     |
+Time          | Topic                         
+--------------|-------------------------------
+09:00-10:00   | Basic and Sequence data types 
+10:00-10:15   | Break                         
+10:15-11:00   | Control flow statements       
+11:00-12:00   | Exercises                     
+13:00-14:00   | Functions and Modules         
+14:00-14:15   | Break                         
+14:15-15:00   | Command line arguments and IO 
+15:00-15:15   | Break                         
+15:15-16:00   | Exercises                     
 
 
 ## What is Python?
@@ -53,11 +53,13 @@ To work with Python on UPPMAX:
 ### Login to Rackham
 
 First, login to Rackham from your terminal.
-This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
+This is described at the UPPMAX page 'Login to Rackham'
+[here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
 ???- question "How to login to Rackham from your terminal?"
 
-    This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
+    This is described at the UPPMAX page 'Login to Rackham'
+    [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
 
     Spoiler:
 
@@ -74,11 +76,13 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 ### Load the Python module
 
 Load Python version 3.10.8.
-This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
+This is described at the UPPMAX pages on Python 
+[here](http://docs.uppmax.uu.se/software/python/).
 
 ???- question "How to load Python version 3.10.8?"
 
-    This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
+    This is described at the UPPMAX pages on Python
+    [here](http://docs.uppmax.uu.se/software/python/).
 
     Spoiler:
 
@@ -151,7 +155,7 @@ We can work with Python either interactively or by writing our code into files
 
     And, 
 
-    ``` ipython
+    ```ipython
     Python 3.10.8 (main, Nov 15 2022, 21:16:40) [GCC 12.2.0]
     Type 'copyright', 'credits' or 'license' for more information
     IPython 8.6.0 -- An enhanced Interactive Python. Type '?' for help.
@@ -180,7 +184,8 @@ We can work with Python either interactively or by writing our code into files
     library that can be shared, documented and reused. Let's write a hello
     world script!
 
-    First create a file (module) called `hello_world.py` with your preferred editor
+    First create a file (module) called `hello_world.py`
+    with your preferred editor
 
     ```
     vim hello_world.py
@@ -188,13 +193,13 @@ We can work with Python either interactively or by writing our code into files
 
     Next, write the same code as before
 
-    ``` python title="hello_world.py"
+    ```python title="hello_world.py"
     print("Hello, world!")
     ```
 
     Save and close the file and then run the script from the command line
 
-    ``` python
+    ```python
     $ python hello_world.py
     Hello, world!
     ```
@@ -204,7 +209,7 @@ We can work with Python either interactively or by writing our code into files
 Any and all values (objects) in Python can be assigned to a variable. As such
 Let's look at an example
 
-``` ipython
+```ipython
 In [1]: greeting = "Welcome to our Introductory Python Course!"
 
 In [2]: print(greeting)
@@ -225,7 +230,7 @@ In [6]: print(number)
 > [discussion](https://stackoverflow.com/questions/11007627/python-variable-declaration)
 
 
-``` ipython
+```ipython
 In [1]: x = "hej"
 
 In [2]: type(x)
@@ -248,7 +253,7 @@ Out[4]: int
     * Valid names are: my_variable, Value15
     * Invalid names are: my-variable, 15th_value
 
-    ``` python title="Conventions"
+    ```python title="Conventions"
     module_name, package_name, ClassName, method_name, ExceptionName,
     function_name, GLOBAL_CONSTANT_NAME, global_var_name, instance_var_name,
     function_parameter_name, local_var_name
@@ -289,28 +294,25 @@ standard library as well as [`numpy`](https://numpy.org/) and
 [`scipy`](https://scipy.org/) which are the cornerstones of scientific
 computation in Python.
 
-<center>
+Operation   | Result 
+-------------- | --------------- 
+`x + y`  |sum of x and y 
+`x - y`  |difference of x and y 
+`x * y`  |product of x and y 
+`x / y`  |quotient of x and y 
+`x // y`  |floored quotient of x and y 
+`x % y`  |remainder of `x / y` 
+`x ** y`  |x to the power of y
+`abs(x)`  |absolute value of x
+`int(x)`  |x converted to integer
+`float(x)`  |x converted to floating point
 
-| Operation   | Result    |
-|--------------- | --------------- |
-| `x + y`  |sum of x and y |
-| `x - y`  |difference of x and y |
-| `x * y`  |product of x and y |
-| `x / y`  |quotient of x and y |
-| `x // y`  |floored quotient of x and y |
-| `x % y`  |remainder of `x / y` |
-| `x ** y`  |x to the power of y|
-| `abs(x)`  |absolute value of x|
-| `int(x)`  |x converted to integer|
-| `float(x)`  |x converted to floating point|
-| | **Source: [Official Python docs](https://docs.python.org/3/library/stdtypes.html)**|
-
-</center>
+> Table from [the official Python docs](https://docs.python.org/3/library/stdtypes.html)
 
 !!! example "Some examples"
     Let's try some example in `ipython`
 
-    ``` ipython
+    ```ipython
         In [1]: 4 + 2
         Out[1]: 6
 
@@ -352,7 +354,7 @@ computation in Python.
 Strings are a sequence data type representing unicode characters and is defined
 with single or double quotes.
 
-``` ipython
+```ipython
     In [1]: greeting1 = "Good Morning!"
 
     In [2]: greeting2 = 'Hello, How are you!'
@@ -364,7 +366,7 @@ type on strings.
 
 !!! example "String operations"
 
-    ``` ipython
+    ```ipython
     In [1]: greeting1 = "Good Morning!"
 
     In [2]: greeting2 = "Hello, How are you!"
@@ -413,7 +415,7 @@ type on strings.
 Notice also that a string object has many associated methods. Try using the
 `.`-notation to access methods (and attributes) by pressing `tab`.
 
-```
+```python
 In [3]: greeting1.
             capitalize()   endswith()     index()        isdigit()      isspace()      lower()        removesuffix() rpartition()   startswith()   upper()
             casefold()     expandtabs()   isalnum()      isidentifier() istitle()      lstrip()       replace()      rsplit()       strip()        zfill()
@@ -424,7 +426,7 @@ In [3]: greeting1.
 
 !!! example "String methods"
 
-    ``` ipython
+    ```ipython
     In [1]: my_string = "This is a string"
 
     In [2]: my_string.upper()
@@ -445,7 +447,7 @@ has an *index*. We can use this to do all sorts of string slicing.
 </center>
 !!! example "String indexing and slicing"
 
-    ``` ipython
+    ```ipython
     In [1]: my_string = "This is a string"
 
     In [2]: my_string[0]
@@ -486,7 +488,7 @@ different. A list if is a sequence of elements (objects) of arbitrary type i.e.
 we can have a list of *strings* a list of *integers* and a list of *lists* of
 *strings* and *integers*. Let's start by looking at how can define a list
 
-``` python
+```python
     In [1]: list_of_ints = [1, 5, 2]
 
     In [2]: list_of_str = ["hej", "du"]
@@ -509,7 +511,7 @@ are some of the things you can do with them:
 
 Let's look at some examples
 
-``` ipython
+```ipython
 In [1]: l = []
 
 In [2]: l.append(1)
@@ -568,7 +570,7 @@ An `if` statement is used to define a *code block* that is executed if a
 condition evaluates to the boolean value `True`. The `else` statement is only
 evaluated if the `if` statements is evaluated to `False`.
 
-``` ipython
+```ipython
 In [1]: my_boolean = True
 
 In [2]: if my_boolean is True:
@@ -591,7 +593,7 @@ Notice, we don't actually have to write `... is True`. As we saw before
 is very commonly used together with `if` statements.
 
 
-``` ipython
+```ipython
 In [1]: A = "ABCD"
 
 In [2]: if len(A) <= 3:
@@ -612,7 +614,7 @@ Sequence A is greater than 3 and smaller than 5.
     to be executed within the context statement must be *indented* by 4 spaces
     (tab). Consider this program
 
-    ``` python
+    ```python
     if x > 2:
         # This print statement will only be executed if x > 2
         print("x larger than two")
@@ -635,7 +637,7 @@ executing the indented code block once - it's *repeated* as long as the
 statement evaluates to `True`. Can you guess when the following examples are
 going to stop?
 
-``` python
+```python
 while True:
     print("I will not waste chalk.")
 ```
@@ -643,7 +645,7 @@ while True:
 ??? tip "Answer"
     It will continue continue for eternity.
 
-``` python
+```python
 i = 0
 while i < 10:
     print("Hello, world!")
@@ -653,7 +655,7 @@ while i < 10:
 ??? tip "Answer"
     It will print "Hello, world!" 10 times before stopping
 
-``` python
+```python
 while True:
     if True:
         break
@@ -666,7 +668,7 @@ while True:
 And last one...
 
 === "v1"
-    ``` python
+    ```python
     i = 0
     while i < 10:
         i += 1
@@ -675,7 +677,7 @@ And last one...
         print(f"Number {i}")
     ```
 === "v2"
-    ``` python
+    ```python
     i = 0
     while i < 10:
         if i > 9:
@@ -697,7 +699,7 @@ example by looping over the string `"ABCD"`
 
 === "`for` loop"
 
-    ``` python
+    ```python
     A = "ABCD"
     for c in A:
         print(c)
@@ -705,7 +707,7 @@ example by looping over the string `"ABCD"`
 
 === "`while` loop"
 
-    ``` python
+    ```python
     A = "ABCD"
     i = 0
 
@@ -716,7 +718,7 @@ example by looping over the string `"ABCD"`
 
 === "Less Pythonic `for` loop"
 
-    ``` python
+    ```python
     A = "ABCD"
     for i in range(len(A)):
         print(A[i])
@@ -724,7 +726,7 @@ example by looping over the string `"ABCD"`
 
 We can also use `for` loops over lists
 
-``` python
+```python
 my_list = [3, 5, 6]
 for n in my_list:
     print(n)
@@ -732,7 +734,7 @@ for n in my_list:
 
 and ranges defined by the builtin `range` function
 
-``` python
+```python
 for i in range(10):
     print(i)
 ```
@@ -741,7 +743,7 @@ for i in range(10):
     If an object is iterable - we can always create an *iterator* object with
     the `iter` function. This is what the `for` keywords does under the hood.
 
-    ``` python
+    ```python
         In [1]: my_string = "ABCD"
 
         In [2]: type(my_string)
@@ -778,7 +780,7 @@ for i in range(10):
     *consumed*. The way a `for` loop is implemented is loosely something like
     this
 
-    ``` python
+    ```python
     my_string_iterator = iter("ABCD")
     while True:
         try:
@@ -791,7 +793,7 @@ for i in range(10):
 If you still need the index of the current iteration refrain from using the
 `range(len(seq))` idiom and use the `enumerate` function instead.
 
-``` python
+```python
 A = "ABCD"
 for i, c in enumerate(A):
     print(i, c)
@@ -800,7 +802,7 @@ for i, c in enumerate(A):
 Just like we nested an `if` statement into a loop before we can also nest a
 loop within a loop.
 
-``` python
+```python
 A = "ACGT"
 for i in A:
     for j in A:

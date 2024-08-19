@@ -111,7 +111,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     * Hear about the three types of errors
     * Build up experience with the Python interpreter
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 * 1.1 The Python programming language
 * 1.2. What is a program?
