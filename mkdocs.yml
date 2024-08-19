@@ -28,20 +28,24 @@ theme:
   name: material
   greetings: Welcome to UPPMAX userguide
   font:
-    # text: Lato
+    text: Lato
     code: JetBrains Mono
 
 
   logo: assets/logo.svg
 
   features:
+    - toc.integrate
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
+    - navigation.footer
+    - navigation.expand
     - search.suggest
     - content.code.annotate
+    - content.code.copy
     - content.tabs.link
-
-  custom_dir: mkdocs_uppmax/
     
 extra_css:
   - stylesheets/extra.css
