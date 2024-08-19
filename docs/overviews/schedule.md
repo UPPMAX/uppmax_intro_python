@@ -20,9 +20,9 @@
 > The breaks are always on the time specified.
 
 
-- [UPPMAX modules and Python packages](hello_little_turtles.md)
-- [File IO](files.md)
-- [command line arguments](command_line_arguments.md)
-- [Graphics](graphics.md)
-- [functions](functions.md)
+- [UPPMAX modules and Python packages](../sessions/hello_little_turtles.md)
+- [File IO](../sessions/files.md)
+- [command line arguments](../sessions/command_line_arguments.md)
+- [Graphics](../sessions/graphics.md)
+- [functions](../sessions/functions.md)
 
