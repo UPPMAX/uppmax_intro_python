@@ -7,14 +7,14 @@ nav:
     - Schedule: overviews/schedule.md
     - All topics: overviews/topics.md
   - Getting it to run:
-    - Overview: sessions/morning_overview.md
+    - Overview: sessions/introduction_getting_it_to_run.md
     - Using The Python interpreter: sessions/using_the_python_interpreter.md
     - The Way Of The Program: sessions/the_way_of_the_program.md
     - Working with Python scripts: sessions/working_with_python_scripts.md
 #    - Lecture: sessions/morning_lecture.md
 #    - Exercise: sessions/morning_exercise.md
   - Basic Python:
-    - Overview: sessions/afternoon_overview.md
+    - Overview: sessions/introduction_basic_python.md
     - Variables, expressions and statements, variables: sessions/variables_expressions_and_statements_1.md
     - Variables, expressions and statements, operators: sessions/variables_expressions_and_statements_2.md
     - Variables, expressions and statements, user input: sessions/variables_expressions_and_statements_3.md
