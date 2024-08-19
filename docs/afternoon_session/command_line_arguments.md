@@ -24,7 +24,7 @@
 Sometime, also programs need input, for example
 the name of the input file and the name of a results file:
 
-```
+```bash
 python3 my_input.csv my_results.csv
 ```
 
@@ -169,7 +169,7 @@ argument.
 
 For example, running the script like this:
 
-```
+```bash
 python3 read_argv.py hello world
 ```
 
@@ -189,7 +189,7 @@ Now, we make the script produce different output.
 
 If the script is run like this:
 
-```
+```bash
 python3 read_argv.py hello
 ```
 
@@ -197,7 +197,7 @@ it should show `Hello human!`.
 
 If the script is run like this:
 
-```
+```bash
 python3 read_argv.py bye
 ```
 

@@ -11,7 +11,7 @@ We are now going to introduce functions
 * They have a name, a list of arguments and a code block, which does the actual
   work and are defined by the `def` keyword
 
-``` ipython
+```ipython
 In [1]: def product(x, y):
    ...:     return x * y
 
@@ -53,7 +53,7 @@ Out[2]: 6
     Yielding a total distance of 4. Let's write Python function that solves
     this problem
 
-    ``` python
+    ```python
     def sequence_distance(A, B):
         # Store current distance 
         distance = 0
@@ -76,7 +76,7 @@ Out[2]: 6
         We require that the sequences are of equal length. We could easily
         verify this by using an `assert` statement
 
-        ``` python
+        ```python
         def sequence_distance(A, B):
             # Assert equal length
             assert len(A) == len(B), "Must be of equal length"
@@ -97,7 +97,7 @@ Out[2]: 6
         is using the `zip` function. Refactoring we get
 
 
-        ``` python
+        ```python
         def sequence_distance(A, B):
             # Assert equal length
             assert len(A) == len(B), "Must be of equal length"
@@ -116,7 +116,7 @@ Out[2]: 6
         If you are like me and hate typing - Python is the perfect language. We
         can write very short and expressive code using *comprehensions*
 
-        ``` python
+        ```python
         def sequence_distance(A, B):
             return sum(a != b for a, b in zip(A, B))
         ```
@@ -129,7 +129,7 @@ aforementioned. Let's see an example using a list which is a mutable object
 
 
 === "Mutate"
-    ``` python
+    ```python
     def my_append(l, new_element):
         """
         Appends new element to list inplace
@@ -137,7 +137,7 @@ aforementioned. Let's see an example using a list which is a mutable object
         l.append(new_element)
     ```
 === "Return"
-    ``` python
+    ```python
     def my_append(l, new_element):
         """
         Appends new element to list and returns the new list
@@ -147,7 +147,7 @@ aforementioned. Let's see an example using a list which is a mutable object
     ```
 
 === "Just print"
-    ``` python
+    ```python
     def my_append(l, new_element):
         """
         Appends element to a copy of original list and prints it
@@ -176,7 +176,7 @@ mkdir mathlib && cd $_
 
 Next start by creating a module called `math_funcs.py`
 
-``` python title="math_funcs.py"
+```python title="math_funcs.py"
 def add(a, b):
     return a + b
 
@@ -190,7 +190,7 @@ def mul(a, b):
 Next we will create a new module that call the functions we defined in
 `math_funcs.py` and performs some calculations - let's call it `calculate.py`
 
-``` python title="calculate.py"
+```python title="calculate.py"
 import math_funcs as mf
 
 a = 3
@@ -207,7 +207,7 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
     namespace `mf` for short. To access the functions we need to use the dot
     notation. An alternative could have been to
 
-    ``` python
+    ```python
     from math_funcs import add, sub, mul
 
     add(a, b) # No need for dot notation
@@ -216,7 +216,7 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
     We could also have skipped the aliasing
 
 
-    ``` python
+    ```python
     import math_funcs
 
     math_funcs.add(a, b) # Now we need to write it all out
@@ -258,7 +258,7 @@ mkdir dna_lib && cd $_
 For the purpose of practicing working with modules let's separate our program
 into separate modules. First create a module called `dna_metrics.py`
 
-``` python title="dna_metrics.py"
+```python title="dna_metrics.py"
 def sequence_distance(A, B):
     # Assert equal length
     assert len(A) == len(B), "Must be of equal length"
@@ -275,7 +275,7 @@ def sequence_distance(A, B):
 
 Then create `read_seq.py`
 
-``` python title="read_seq.py"
+```python title="read_seq.py"
 import dna_metrics as dm
 import sys
 
@@ -291,7 +291,7 @@ print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
     statement for executable programs. This is to ensure that program is not
     executed if imported by another module but only when called directly. The
     code would then look like this
-    ``` python title="read_seq.py"
+    ```python title="read_seq.py"
     import dna_metrics as dm
     import sys
 
@@ -331,7 +331,7 @@ touch seq1.txt seq2.txt
 
 Let's explore the `open` command from `ipython` using `seq1.txt`
 
-``` ipython
+```ipython
 [ins] In [1]: inputfile = open("seq1.txt", "r")
 
 [ins] In [2]: inputfile
@@ -349,7 +349,7 @@ Out[5]: 'GATCGTTCG'
 Adapting our program accordingly using the keyword `with` to define a *context*
 in which the file is open.
 
-``` python title="read_seq.py"
+```python title="read_seq.py"
 import dna_metrics as dm
 import sys
 
@@ -366,14 +366,14 @@ if __name__ == "__main__":
 
 Now run the script
 
-```
+```bash
 $ python read_seq.py data/seq1.txt data/seq2.txt
 Distance between A and B is 4
 ```
 
 As a final step we will save the results into an output file
 
-``` python title="read_seq.py"
+```python title="read_seq.py"
 import dna_metrics as dm
 import sys
 
@@ -391,7 +391,7 @@ if __name__ == "__main__":
 
 Let's run the script a final time
 
-```
+```bash
 $ python read_seq.py data/seq1.txt data/seq2.txt out
 $ cat out
 Distance between A and B is 4

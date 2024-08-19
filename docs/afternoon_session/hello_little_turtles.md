@@ -12,7 +12,8 @@
 
     Teaching goals are:
 
-    - Learners have observed the error when importing a Python package without the needed UPPMAX module loaded
+    - Learners have observed the error when importing a Python package
+      without the needed UPPMAX module loaded
     - Learners have search through the UPPMAX modules
     - Learners may find out that X-forwarding is important
     - Learners have gotten 'stuff to work'
@@ -126,7 +127,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     - Try to import a Python package
     - Observe errors when a package is absent
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 * 3.1. Our first turtle program
 

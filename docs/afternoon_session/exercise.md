@@ -5,14 +5,14 @@
     In this exercise you will write a program that calculates the distance
     between two sequences, e.g:
 
-    ``` python
+    ```python
     seq1 = "ACGT"
     seq2 = "AGGT"
     ```
     A simple program (without fonctions or modules) is sufficient.
 
     ??? tip "Solution"
-        ``` python
+        ```python
         # define sequences
         seq1 = "ACGT"
         seq2 = "AGGT"
@@ -33,8 +33,10 @@
 
     1. **Calculate the distance between the following sequences and print out
        the result.** Since the following sequences are already aligned, we
-       can calculate the distance between them. Change your program so that it can
-       read two aligned sequences from the command line. Test your program with the
+       can calculate the distance between them. 
+       Change your program so that it can
+       read two aligned sequences from the command line.
+       Test your program with the
        following sequences.
       
         ```
@@ -47,7 +49,7 @@
         ```
 
     ??? tip "Solution"
-        ``` python
+        ```python
         import sys
 
         # read sequences from command line arguments
@@ -80,7 +82,7 @@
        additionally to their distance.**
 
     ??? tip "Solution"
-        ``` python
+        ```python
         print("Sequence seq1: ", seq1)
         print("Sequence seq2: ", seq2)
         print("Distance between seq1 and seq2: ", distance_score)
@@ -108,7 +110,7 @@
         clause. You could also raise a custom exception using `try-except`.*
 
     ??? tip "Solution"
-        ``` python
+        ```python
         import sys
 
         # read sequences from command line arguments
@@ -130,14 +132,20 @@
         # print result to the terminal
         print(f"Distance between A and B: {distance_score}")
         ```
-    4. **Extend the program that the second sequence is inverted and assigned to a
-    third sequence.** Please, read the first and second sequence from the command
-    line. Calculate the distances between the first and the second and between the
+    4. **Extend the program that the second sequence is inverted
+    and assigned to a
+    third sequence.** Please, read the first and second sequence from
+    the command
+    line. Calculate the distances between the first and the second and
+    between the
     first and the third sequence.
 
-        Compare the distance between the first and the second and the first and the
-        third sequence and print the alignment with the smaller distance. If the
-        distances are equal, then print the alignment of the first and second sequence.
+        Compare the distance between the first and the second and the first
+        and the
+        third sequence and print the alignment with the smaller distance.
+        If the
+        distances are equal, then print the alignment of the first
+        and second sequence.
 
         Test your program with the following sequences:
 
@@ -150,7 +158,7 @@
 
     ??? tip "Solution"
 
-        ``` python
+        ```python
         import sys
 
         # get sequences from the command line arguments
@@ -248,7 +256,7 @@
 
     ??? tip "Solution"
 
-        ``` python title="functions.py"
+        ```python title="functions.py"
         # define which bases are purines and pyrimidines
         pur = ["A", "G"]
         pyr = ["C", "T"]
@@ -288,7 +296,7 @@
        calculates the similarity and distance of two whole sequences.
 
     ??? tip "Solution"
-        ``` python title="functions.py"
+        ```python title="functions.py"
         # define the similarity function for whole sequences
         def sequence_similarity (seq1, seq2):
 
@@ -333,7 +341,7 @@
         ```
 
     ??? tip "Solution"
-        ``` python title="main.py"
+        ```python title="main.py"
         import sys
 
         ### Paste here the code for the functions you wrote in 1.2 and 1.3 ###
@@ -368,7 +376,7 @@
 
         ??? tip "Solution"
 
-            ``` python title="sequence_tools.py"
+            ```python title="sequence_tools.py"
             #########################
             ### sequence_tools.py ###
             #########################
@@ -434,7 +442,7 @@
 
         ??? tip "Solution"
             
-            ``` python title="main.py"
+            ```python title="main.py"
             from sequence_tools import *
 
             # define sequences
@@ -480,7 +488,7 @@
         line-break in Python can be made by adding ’\n’ to the end of the line.
         
         ??? tip "Solution"
-            ``` python title="main.py"
+            ```python title="main.py"
             from sequence_tools import *
 
             # define sequences

@@ -28,7 +28,7 @@ Sometime you need to do a same multi-line calculation multiple times in your cod
 Instead of copy-pasting, one can use a so-called 'function'
 to bundle a calculation is something that can be reused.
 
-```
+```mermaid
 flowchart TD
     python[[Python]]
 
@@ -115,7 +115,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - Use a for loop
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 3.2. Instances — a herd of turtles
 - 3.3. The for loop
@@ -133,7 +134,8 @@ Then do exercise
 
     - Write a function without an argument and without a return type
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 4.1. Functions
 
@@ -147,7 +149,8 @@ Then do exercise:
 
     - Write a function that calls a function
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 4.2. Functions can call other functions
 
@@ -161,7 +164,8 @@ Then do exercise:
 
     - Write a function that requires an argument
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 4.4. Functions that require arguments
 
@@ -175,7 +179,8 @@ Then do exercise:
 
     - Write a function with a return value
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 4.5. Functions that return values
 

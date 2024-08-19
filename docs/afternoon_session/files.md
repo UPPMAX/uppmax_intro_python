@@ -112,7 +112,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - Create a simple text file
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 13.1. About files
 - 13.2. Writing our first file
@@ -133,7 +134,8 @@ Then do:
     - Repeat creating a file
     - Practice to search the internet how to reverse the order of text lines
 
-Read the following sections of [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
+Read the following sections of
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
 - 13.4. Turning a file into a list of lines
 
