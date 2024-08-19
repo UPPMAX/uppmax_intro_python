@@ -10,5 +10,5 @@ and introduces the foundations of the Python programming language.
 
 [Schedule](overviews/schedule.md){ .md-button .md-button--primary }
 [Getting it to run](sessions/introduction_getting_it_to_run.md){ .md-button .md-button--primary }
-[Basic Python](sesions/introduction_basic_python.md){ .md-button .md-button--primary }
+[Basic Python](sessions/introduction_basic_python.md){ .md-button .md-button--primary }
 
