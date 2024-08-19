@@ -29,7 +29,7 @@ This module introduces the fundamentals of Python programming language.
 > be the learners (i.e. not by the clock).
 > The breaks are always on the time specified.
 
-## Overview
+## Overview of morning session
 
 ```mermaid
 flowchart TD

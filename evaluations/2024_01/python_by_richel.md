@@ -5,12 +5,11 @@
 
 These are the anonymous evaluation results that clearly apply to me.
 
-![](python_1.png)
+![Evaluation of Python morning](python_1.png)
 
-![](python_2.png)
+![Evaluation of Python afternoon](python_2.png)
 
 Note that I am the only instructor that got a 2 out of 5.
-
 
 ## What did you like the most about the course?
 
@@ -39,11 +38,12 @@ end up on an evaluation.
 
 Too bad that there is no reason here...
 
-## How do you think we could improve the course (on e.g. topics covered, materials, exercises, course structure, length, announcement, registration, etc.)?
+## How do you think we could improve the course?
 
 > more paired up exercises
 
-I was the only instructor that did this. I am happy at least one learner liked it :-)
+I was the only instructor that did this.
+I am happy at least one learner liked it :-)
 
 ## Do you have any additional comments or suggestions?
 

@@ -20,7 +20,8 @@ how to use both, the Python-interpreter and an editor. Good luck!
             ```
 
     2. Enter now `i = 10` in the Python-interpreter and then (in a new line)
-       `print(i)`. After that (in a new line) enter `j = i/2` and (in a new line)
+       `print(i)`. After that (in a new line) enter 
+       `j = i/2` and (in a new line)
        `print(j)`.
 
         ??? tip "What values are displayed and why?"
@@ -33,7 +34,8 @@ how to use both, the Python-interpreter and an editor. Good luck!
             5.0
             ```
     
-    3. Assign to variable `7assignment` the string `"black magic"`. Don’t forget to
+    3. Assign to variable `7assignment` the string `"black magic"`.
+       Don't forget to
        put the string in quotation marks (" ").
 
 
@@ -133,7 +135,8 @@ how to use both, the Python-interpreter and an editor. Good luck!
             ```
     
 
-    11.  Write a while-loop, which produces the same output as the for-loop and if-condition together.
+    11.  Write a while-loop, which produces the same output 
+         as the for-loop and if-condition together.
 
         ??? tip "Solution"
             ``` python
@@ -198,7 +201,7 @@ session. If you were too quick or just want to try a bit harder exercises,
 please continue with the bonus exercises below.
 
 
-# Bonus Exercises
+## Bonus Exercises
 
 ???+ question "Assignment 3 (Bonus): Sequences"
     In this exercise we write a short Python program (named `<program_name>.py`,
@@ -299,6 +302,7 @@ please continue with the bonus exercises below.
 
 ## More bonus exercises
 
-Some extra bonus exercises have not been integrated into the webpage yet. You can find them here:
+Some extra bonus exercises have not been integrated into the webpage yet.
+You can find them here:
 
 * More bonus exercises: <https://hackmd.io/@pmitev/UPPMAX-intro-Python-assignments1>

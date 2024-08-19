@@ -196,7 +196,7 @@ to build up confidence in the positive effect of the setup.
 
 ### A1. Presentation about myself
 
-```
+```text
 # Who is Richèl?
 
 <https://github.com/UPPMAX/uppmax_intro_python/tree/main/lesson_plans/20240118>
@@ -204,13 +204,13 @@ to build up confidence in the positive effect of the setup.
 
 ## How to pronounce my name
 
-| Language  | Pronounciation |
-|-----------|----------------|
-| **Dutch** | 'Rie-sjel'     |
-| English   | 'Rea-shell'    |
-| French    | 'Richèl'       |
-| German    | 'Ri-shäll'     |
-| Swedish   | 'Ri-kjell'     |
+Language  | Pronounciation 
+----------|----------------
+**Dutch** | 'Rie-sjel'     
+English   | 'Rea-shell'    
+French    | 'Richèl'       
+German    | 'Ri-shäll'     
+Swedish   | 'Ri-kjell'     
 
 ## Teaching
 
@@ -250,7 +250,7 @@ This was the only lecture in the course :-)
 
 ### A2. Feedback
 
-```
+```text
 I had some questions, for example 'What is the interactive node 
 going to do with my output?'. It is great that we practiced this!
 

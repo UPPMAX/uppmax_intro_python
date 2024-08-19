@@ -3,20 +3,20 @@
 This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
-    *The course emphasises hands-on experience with Python in the UPPMAX
-      environment. It focuses on the basics and can be taken by someone *without*
-      any prior Python experience.
-    * **You will learn:**
-        *:heavy_check_mark: How to load and use different version of Python on our clusters
-        * :heavy_check_mark: How to create and run a Python script
-        *How to work with basic builtin data types
-        * How to use UPPMAX modules to load a Python package
-        *How to reading files
-        * How to writing to files
-        *How to creating a command line program that can take input arguments
-        * How to use control flow statements
-        *How to draw a plot (i.e. an x-y line plot)
-        * How to bundle code into reusable functions
+    - The course emphasises hands-on experience with Python in the UPPMAX
+      environment. It focuses on the basics and can be taken by someone 
+      without any prior Python experience.
+    - You will learn:
+        - :heavy_check_mark: How to load and use different version of Python on our clusters
+        - :heavy_check_mark: How to create and run a Python script
+        - How to work with basic builtin data types
+        - How to use UPPMAX modules to load a Python package
+        - How to reading files
+        - How to writing to files
+        - How to creating a command line program that can take input arguments
+        - How to use control flow statements
+        - How to draw a plot (i.e. an x-y line plot)
+        - How to bundle code into reusable functions
 
 ??? info "For teachers"
 
@@ -43,13 +43,16 @@ Time          | Topic
     - [command line arguments](command_line_arguments.md)
     - [Graphics](graphics.md)
     - [functions](functions.md)
-    - Conditionals (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
-    - Fruitful functions (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
-    - Other Python programming environments: see the UPPMAX 'Programming in Python' documentation
+    - Conditionals 
+      (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 5)
+    - Fruitful functions 
+      (['How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html) chapter 6)
+    - Other Python programming environments:
+      see the UPPMAX 'Programming in Python' documentation
       [here](http://docs.uppmax.uu.se/software/python_programming/)
 
 
-## Overview
+## Overview of afternoon
 
 ```mermaid
 flowchart TD

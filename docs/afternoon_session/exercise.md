@@ -226,6 +226,8 @@
 
 ## Bonus Exercises
 
+<!-- Indeed, the lines are too long -->
+<!-- markdownlint-enable MD013 -->
 
 ???+ question "assignment 2: Functions"
 
@@ -545,3 +547,5 @@
             TTGCAGT
             ```
 
+
+<!-- markdownlint-disable MD013 -->
