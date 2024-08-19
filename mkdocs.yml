@@ -1,4 +1,5 @@
-site_name: Python Introduction
+site_name: UPPMAX Intro to Python
+repo_url: https://github.com/UPPMAX/uppmax_intro_python
 
 nav:
   - Start: index.md
@@ -26,11 +27,10 @@ nav:
 
 theme:
   name: material
-  greetings: Welcome to UPPMAX userguide
+  greetings: Welcome to the UPPMAX Intro Day 4 about Python
   font:
     text: Lato
     code: JetBrains Mono
-
 
   logo: assets/logo.svg
 
