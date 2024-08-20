@@ -3,6 +3,8 @@
 !!!- info "Learning objectives"
 
     - Practice using the UPPMAX documentation
+    - Practice using the Python book
+      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
     - To be able to login to Rackham autonomously
     - To be able to load a Python version autonomously
     - to be able to start an interactive session autonomously
