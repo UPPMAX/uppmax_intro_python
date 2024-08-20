@@ -2,6 +2,9 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
+    - Practice using the Python book
+      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
     - Have a first 'Get stuff to work' experience
     - Rehearse creating a script
     - Experience when importing a Python package gives an error
@@ -130,11 +133,88 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 Read the following sections of
 [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
-* 3.1. Our first turtle program
+- 3.1. Our first turtle program
 
-Copy-paste the first script in that section to a script.
+Then:
 
-Run the script and verify it will not run. Does the error message make sense?
+- Log in to Rackham using SSH without X forwarding
+
+???- question "Answer"
+
+    This is how:
+
+    ```bash
+    ssh sven@rackham.uppmax.uu.se
+    ```
+
+- Copy-paste the first script in that section to a script on Rackham.
+  Below is a copy of that script:
+
+```python
+import turtle             # Allows us to use turtles
+wn = turtle.Screen()      # Creates a playground for turtles
+alex = turtle.Turtle()    # Create a turtle, assign to alex
+
+alex.forward(50)          # Tell alex to move forward by 50 units
+alex.left(90)             # Tell alex to turn by 90 degrees
+alex.forward(30)          # Complete the second side of a rectangle
+
+wn.mainloop()             # Wait for user to close window
+```
+
+???- question "Answer"
+
+    We've already created scripts in earlier chapters.
+
+- Run the script on Rackham and verify it will not run.
+  Does the error message make sense?
+
+???- question "Answer"
+
+    This is what will happen:
+
+    ```bash
+    richel@richel-N141CU:~/GitHubs/uppmax_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
+    richel@rackham.uppmax.uu.se's password: 
+    Last login: Fri Aug 16 09:49:42 2024 from h-98-128-228-28.na.cust.bahnhof.se
+     _   _ ____  ____  __  __    _    __  __
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham2
+    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      richel
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+
+    ###############################################################################
+
+            User Guides: https://docs.uppmax.uu.se/
+
+            Write to support@uppmax.uu.se, if you have questions or comments.
+
+
+    [richel@rackham2 ~]$ module load python/3.10.8
+    [richel@rackham2 ~]$ python my_little_turtle.py 
+    Traceback (most recent call last):
+      File "/domus/h1/richel/my_little_turtle.py", line 2, in <module>
+        wn = turtle.Screen()      # Creates a playground for turtles
+      File "/sw/comp/python/3.10.8/rackham/lib/python3.10/turtle.py", line 3664, in Screen
+        Turtle._screen = _Screen()
+      File "/sw/comp/python/3.10.8/rackham/lib/python3.10/turtle.py", line 3680, in __init__
+        _Screen._root = self._root = _Root()
+      File "/sw/comp/python/3.10.8/rackham/lib/python3.10/turtle.py", line 435, in __init__
+        TK.Tk.__init__(self)
+      File "/sw/comp/python/3.10.8/rackham/lib/python3.10/tkinter/__init__.py", line 2299, in __init__
+        self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+    _tkinter.TclError: no display name and no $DISPLAY environment variable
+    [richel@rackham2 ~]$ 
+    ```
+
+    The error is `no display name and no $DISPLAY environment variable`.
+    In simpler terms, this can be read as 'Nothing to show graphics with'.
+
+    The solution is to login to Rackham with X forwarding enabled
+
+- Log in to Rackham using SSH with X forwarding. How does it look?
+
+    ![Running the program successfully](my_little_turtle.png)
 
 ### Exercise 2: Running a first program
 
