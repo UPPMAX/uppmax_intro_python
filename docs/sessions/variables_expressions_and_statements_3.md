@@ -155,4 +155,24 @@ Read the following section of
 
 - 2.10. Input
 
-Then in section 2.14, do exercise 7.
+Then in section 2.14, do exercise 8.
+
+!!! question "2.14.8"
+
+    Write a Python program to solve the general version of the above problem.
+    Ask the user for the time now (in hours),
+    and ask for the number of hours to wait.
+    Your program should output what the time will be
+    on the clock when the alarm goes off.
+
+???- question "Answer"
+
+    Here is a possible implementation:
+
+    ```python
+    t_now = int(input("Enter the current hour"))
+    n_hours = int(input("Enter the number of hours"))
+    t_future = (t_now + n_hours) % 24
+    print("Time after that number of hours:")
+    print(t_future)
+    ```

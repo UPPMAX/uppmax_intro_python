@@ -160,6 +160,39 @@ use a hardcoded value as input**, for example:
 t = 3.14
 ```
 
+!!! question "2.14.5"
+
+    The formula for computing the final amount if one is earning compound interest is given on Wikipedia as
+
+    ![Equation for compound interest](compound_interest_equation.png)
+
+    Write a Python program that assigns the principal amount of $`10000`
+    to variable `P`, assign to `n` the value `12`, and assign to `r`
+    the interest rate of 8%.
+    ~~Then have the program prompt the user for the number of years `t`
+    that the money will be compounded for~~
+    **[Edit: set the value of `t` to any positive value]**.
+    Calculate and print the final amount after `t` years.
+
+???- question "Answer"
+
+    Here is a possible implementation:
+
+    ```python
+    p = 10000 # principal amount, in dollar
+    r = 1.08 # yearly anual interest rate
+    n = 12 # monthly compounding
+    t = 3.14 # number of years
+    a = p * ((1 + (r/n)) ** (n * t))
+    print(a)
+    ```
+
+    Note that `p` (and not `P`) was used, as this follows
+    [the PEP 8 Python coding standard](https://peps.python.org/pep-0008/).
+
+    Additionally, to make sure the equation is calculated correctly,
+    plenty of parentheses were used.
+
 ### Exercise 2: the modulo operator
 
 !!!- info "Learning objectives"
@@ -173,4 +206,70 @@ Read the following sections of
 - 2.8. Order of operations
 - 2.12. The modulus operator
 
-Then in section 2.14, do exercises 5 and 6.
+Then in section 2.14, do exercises 6 and 7.
+
+!!! question "2.14.6"
+
+    Evaluate the following numerical expressions in your head, then use the Python interpreter to check your results:
+
+    ```
+    >>> 5 % 2
+    >>> 9 % 5
+    >>> 15 % 12
+    >>> 12 % 15
+    >>> 6 % 6
+    >>> 0 % 7
+    >>> 7 % 0
+    ```
+
+    What happened with the last example?
+    Why? If you were able to correctly anticipate the computer’s response in all but the last one, it is time to move on. If not, take time now to make up examples of your own. Explore the modulus operator until you are confident you understand how it works.
+
+
+???- question "Answer"
+
+    ```text
+    >>> 5 % 2
+    1
+    >>> 9 % 5
+    4
+    >>> 15 % 12
+    3
+    >>> 12 % 15
+    12
+    >>> 6 % 6
+    0
+    >>> 0 % 7
+    0
+    >>> 7 % 0
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ZeroDivisionError: integer modulo by zero
+    >>> 
+    ```
+
+    The last error is the result from a division by zero: `7 % 0` means:
+    'calculate the remainder after dividing seven by zero'. One cannot
+    divide a number by zero.
+
+!!! question "2.14.7"
+
+    You look at the clock and it is exactly 2pm.
+    You set an alarm to go off in 51 hours.
+    At what time does the alarm go off?
+    (Hint: you could count on your fingers,
+    but this is not what we’re after.
+    If you are tempted to count on your fingers,
+    change the 51 to 5100.)
+
+???- question "Answer"
+
+    Here is a possible implementation:
+
+    ```python
+    t_now = 14 # 2 pm
+    t_future = (t_now + 51) % 24
+    print(t_future)
+    ```
+
+    The result is `17`, i.e. 5 pm.
