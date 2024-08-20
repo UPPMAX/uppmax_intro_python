@@ -98,6 +98,11 @@ flowchart TD
 
 ## Exercises
 
+???- question "Enjoy a video?"
+
+    You can find a video with solutions to these exercises
+    [here](https://youtu.be/S6pYTqRmI7U)
+
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: login to Rackham
@@ -106,8 +111,23 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - to be able to login to Rackham autonomously
 
-Login to Rackham from your terminal.
-This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppmax.uu.se/getting_started/login_rackham/).
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Login to Rackham in any way
+
+???- question "Anwer"
+
+    This is described at
+    [the UPPMAX page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/):
+
+    - Remote desktop via website: go to <https://rackham-gui.uppmax.uu.se>
+    - Using SSH: 
+
+    ```bash
+    ssh -X sven@rackham.uppmax.uu.se
+    ```
 
 ### Exercise 2: start an interactive session
 
@@ -115,12 +135,24 @@ This is described at the UPPMAX page 'Login to Rackham' [here](http://docs.uppma
 
     - to be able to start an interactive session autonomously
 
-Start an interactive session of max four hours.
-This is described at the UPPMAX page 'Starting an interactive node on Rackham' [here](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/).
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Start an interactive session of max four hours
 
 If this does not work out, go to the next step:
 we will be only doing light work on the login node.
 However, using an interactive session is a good idea.
+
+???- question "Anwer"
+
+    This is described at
+    [the UPPMAX page 'Starting an interactive node on Rackham'](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/):
+
+    ```bash
+    interactive -A naiss2024-22-49 -t 4:00:00
+    ```
 
 ### Exercise 3: load the Python module
 
@@ -128,8 +160,20 @@ However, using an interactive session is a good idea.
 
     - to be able to load a Python version autonomously
 
-Load Python version 3.10.8.
-This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/software/python/).
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Load Python version 3.10.8
+ 
+???- question "Anwer"
+
+    This is described at
+    [the UPPMAX pages on Python](http://docs.uppmax.uu.se/software/python/):
+
+    ```bash
+    module load python/3.10.8
+    ```
 
 ### Exercise 4: write a 'Hello world' program
 
@@ -137,5 +181,41 @@ This is described at the UPPMAX pages on Python [here](http://docs.uppmax.uu.se/
 
     - to be able to run a minimal Python program autonomously
 
-Start Python and write a 'Hello world' program.
-This is described at the UPPMAX pages on Python programming [here](http://docs.uppmax.uu.se/software/python_programming/#use-the-python-interpreter)
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Start Python on Rackham
+
+???- question "Answer"
+
+    Type
+
+    ```bash
+    python
+    ```
+
+    to start the Python interpreter
+
+
+- Find the UPPMAX documentation page on Python programming
+
+???- question "Answer"
+
+    It can be found at <https://docs.uppmax.uu.se/software/python_programming/>
+
+- On the UPPMAX documentation page on Python programming, find out how to
+  run a 'Hello world' program from the interpreter. Then do this yourself
+
+???- question "Answer"
+
+    The documentation can be found at
+    <https://docs.uppmax.uu.se/software/python_programming/#use-the-python-interpreter>.
+
+    In the Python interpreter, type
+
+    ```python
+    print('Hello, world!')
+    ```
+
+    to run your 'Hello world' program
