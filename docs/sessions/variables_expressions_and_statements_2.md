@@ -2,13 +2,16 @@
 
 !!!- info "Learning objectives"
 
-    * Get the type of an object
-    * Create a variable
-    * Use a variable
-    * Practice converting an equation to Python code
-    * Find and use the operator for exponentiation
-    * Practice the modulo operator
-    * Practice converting a simple text question to Python code
+    - Practice using the UPPMAX documentation
+    - Practice using the Python book
+      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+    - Get the type of an object
+    - Create a variable
+    - Use a variable
+    - Practice converting an equation to Python code
+    - Find and use the operator for exponentiation
+    - Practice the modulo operator
+    - Practice converting a simple text question to Python code
 
 ???- question "For teachers"
 
@@ -171,7 +174,3 @@ Read the following sections of
 - 2.12. The modulus operator
 
 Then in section 2.14, do exercises 5 and 6.
-
-## Links
-
-- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)

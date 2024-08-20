@@ -2,15 +2,18 @@
 
 !!!- info "Learning objectives"
 
-    * Get the type of an object
-    * Create a variable
-    * Use a variable
-    * Practice converting an equation to Python code
-    * Find and use the operator for exponentiation
-    * Practice the modulo operator
-    * Practice converting a simple text question to Python code
-    * Learn how to ask a user for input
-    * Use input in a calculation
+    - Practice using the UPPMAX documentation
+    - Practice using the Python book
+      [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+    - Get the type of an object
+    - Create a variable
+    - Use a variable
+    - Practice converting an equation to Python code
+    - Find and use the operator for exponentiation
+    - Practice the modulo operator
+    - Practice converting a simple text question to Python code
+    - Learn how to ask a user for input
+    - Use input in a calculation
 
 ???- question "For teachers"
 
@@ -153,7 +156,3 @@ Read the following section of
 - 2.10. Input
 
 Then in section 2.14, do exercise 7.
-
-## Links
-
-- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
