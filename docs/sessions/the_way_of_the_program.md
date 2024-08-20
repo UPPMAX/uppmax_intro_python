@@ -412,7 +412,3 @@ for a text editor. Use the simplest one.
 ???- question "Answer"
 
     There is no question there :-)
-
-## Links
-
-* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
