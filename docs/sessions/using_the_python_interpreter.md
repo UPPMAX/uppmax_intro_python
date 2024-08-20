@@ -31,7 +31,10 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
-## Overview
+## Why?
+
+You want to make a computer run Python code,
+for some good reason. Here we do so!
 
 To develop code in Python on the UPPMAX clusters, one needs to:
 
@@ -39,7 +42,7 @@ To develop code in Python on the UPPMAX clusters, one needs to:
 - Load the Python module, to be able to use a modern Python interpreter
 - Use the Python interpreter, to run Python code
 
-Luckily, UPPMAX has documentation that should allow you to do so autonomously.
+Luckily, UPPMAX has documentation that should allow you to do so yourself!
 
 These exercises will ensure you are able to run a minimal Python program.
 
@@ -108,10 +111,6 @@ flowchart TD
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: login to Rackham
-
-!!!- info "Learning objectives"
-
-    - to be able to login to Rackham autonomously
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

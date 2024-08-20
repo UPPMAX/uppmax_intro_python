@@ -26,13 +26,18 @@
     - 15 mins: challenge
     - 5 mins: feedback
 
-## Overview
+## Why?
+
+You have multiple lines of code you want a computer to run.
+Instead of copy-pasting these lines individually to the
+interpreter, one can use a script.
 
 To run code, we use text files that are run as if each line
 was typed in into the Python interpreter. Such text files
 that run (interpreted) code are called 'scripts'.
 
-In this session, we create and run some simple Python scripts.
+In this session, we practice to create and run some simple Python scripts,
+now -unlike the previous chapter- without new theory.
 
 ```mermaid
 flowchart TD
@@ -95,49 +100,79 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: create a Python script
 
-!!!- info "Learning objectives"
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
-    - to use a text editor in the terminal
-    - to create, edit and save a file in the terminal
-    - to create a trivial Python script to work on
+- On Rackham, create a file called `hello_world.py`,
+  using a text editor or Linux commands
 
-On Rackham, create a file called `hello_world.py`,
-using a text editor or Linux commands.
-The UPPMAX page on text editors is [here](http://docs.uppmax.uu.se/software/text_editors/).
+???- question "Answer"
 
-!!! tip "Use the text editor 'GNU nano'"
+    Text editors are documented at
+    <https://docs.uppmax.uu.se/software/text_editors/>.
 
-Copy-paste the following content into the script:
+    The simplest text editor is called `nano` and is documented at
+    <https://docs.uppmax.uu.se/software/nano/>.
+
+    Creating a Python script `hello_world.py` using `nano`:
+
+    ```bash
+    nano hello_world.py
+    ```
+
+- Copy-paste the following content into the script:
 
 ```python
 print('Hello, world!')
 ```
 
-Save the script.
-Close the text editor.
-Verify that the script has its contents saved.
+???- question "Answer"
+
+    To paste into a terminal, use `CTRL + SHIFT + V` (i.e. add `SHIFT`).
+
+- Save the script
+
+???- question "Answer"
+
+    In [`nano`](https://docs.uppmax.uu.se/software/nano/), you can do
+    so with `CTRL + O`
+
+- Close the text editor
+
+???- question "Answer"
+
+    In [`nano`](https://docs.uppmax.uu.se/software/nano/), you can do
+    so with `CTRL + X`
+
+- Verify that the script has its contents saved
+
+???- question "Answer"
+
+    One way to do so, is to use `nano` to open the file again:
+
+    ```bash
+    nano hello_world.py
+    ```
 
 ### Exercise 2: run a Python script
 
-!!!- info "Learning objectives"
-
-    - to be able to run a Python script.
-
 Read the UPPMAX page on running a Python script, [here](http://docs.uppmax.uu.se/software/python/#running-python)
 
-Run the Python script you just created.
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
-### Exercise 3: run another Python script
+- Find the UPPMAX page on Python programming
 
-!!!- info "Learning objectives"
+???- question "Answer"
 
-    - rehearse creating a Python script
-    - to observe that an expression result is not shown on-screen by default
+    It can be found at <https://docs.uppmax.uu.se/software/python_programming/>
 
-Of the Python book
-[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html),
-go back to section 1.12 and do exercise 6.
+- Run the Python script you just created
 
-## Links
+???- question "Answer"
 
-* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+    You can run this Python script in the shell by:
+
+    python hello_world.py

@@ -36,7 +36,10 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
-## Overview
+## Why?
+
+At the start of learning Python, there are many new terms.
+Using a book to learn these is a good start.
 
 What is Python? What is a programming language?
 What type of errors will I write when programming?
