@@ -29,6 +29,7 @@ nav:
     - About Richel: misc/richel.md
     - Evaluation: misc/evaluation.md
     - Exercise procedure: misc/exercise_procedure.md
+    - Project: misc/project.md
 
 theme:
   name: material
