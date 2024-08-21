@@ -120,6 +120,22 @@ flowchart TD
 
 ## Exercises
 
+```mermaid
+flowchart TD
+  running_a_script[[Goal: Running a script]]
+  load_modules[Loaded UPPMAX modules?]
+  use_x_forwarding[Use X forwarding?]
+  success[Success: exercise 3]
+  failure_1[Failure: exercise 1]
+  failure_2[Failure: exercise 2]
+  running_a_script --> load_modules
+  load_modules --> |yes!| use_x_forwarding
+
+  load_modules --> |oops, forgot!| failure_1
+  use_x_forwarding --> |oops, forgot!| failure_2
+  use_x_forwarding --> |yes!| success
+```
+
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Fail at running a first program
