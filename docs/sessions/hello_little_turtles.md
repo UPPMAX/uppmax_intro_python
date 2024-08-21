@@ -173,6 +173,9 @@ wn.mainloop()             # Wait for user to close window
 
     This is what will happen:
 
+    <!-- An unavoidable long line -->
+    <!-- markdownlint-disable MD013 -->
+
     ```bash
     richel@richel-N141CU:~/GitHubs/uppmax_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
     richel@rackham.uppmax.uu.se's password: 
@@ -206,6 +209,8 @@ wn.mainloop()             # Wait for user to close window
     _tkinter.TclError: no display name and no $DISPLAY environment variable
     [richel@rackham2 ~]$ 
     ```
+
+    <!-- markdownlint-enable MD013 -->
 
     The error is `no display name and no $DISPLAY environment variable`.
     In simpler terms, this can be read as 'Nothing to show graphics with'.

@@ -162,7 +162,8 @@ t = 3.14
 
 !!! question "2.14.5"
 
-    The formula for computing the final amount if one is earning compound interest is given on Wikipedia as
+    The formula for computing the final amount
+    if one is earning compound interest is given on Wikipedia as
 
     ![Equation for compound interest](compound_interest_equation.png)
 

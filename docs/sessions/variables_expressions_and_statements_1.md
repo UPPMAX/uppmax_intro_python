@@ -188,7 +188,8 @@ Then in section 2.14, do exercises 1 to and including 4.
 
 !!! question "2.14.3"
 
-    Place a comment before a line of code that previously worked, and record what happens when you rerun the program.
+    Place a comment before a line of code that previously worked,
+    and record what happens when you rerun the program.
 
 ???- question "Answer"
 
@@ -220,7 +221,8 @@ Then in section 2.14, do exercises 1 to and including 4.
 
 !!! question "2.14.4"
 
-    Start the Python interpreter and enter bruce + 4 at the prompt. This will give you an error:
+    Start the Python interpreter and enter bruce + 4 at the prompt.
+    This will give you an error:
 
     ```text
     NameError: name 'bruce' is not defined

@@ -277,7 +277,8 @@ the questions are copy-pasted below:
 
 !!! question "1.12.5"
 
-    Type `cheese` without the quotation marks. The output will look something like this:
+    Type `cheese` without the quotation marks.
+    The output will look something like this:
 
     ```text
     Traceback (most recent call last):
