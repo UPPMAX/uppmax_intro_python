@@ -166,7 +166,7 @@ Go to the UPPMAX documentation at
 then answer these questions:
 
 - Load Python version 3.10.8
- 
+
 ???- question "Anwer"
 
     This is described at

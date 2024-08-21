@@ -228,8 +228,8 @@ Now we try to make this script work!
 
 Read:
 
-* [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
-* [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
+- [the UPPMAX documentation 'Loading Python packages'](http://docs.uppmax.uu.se/software/python/#loading-python-packages)
+- [the UPPMAX documentation 'Modules'](http://docs.uppmax.uu.se/cluster_guides/modules/)
 
 Now, try to get the script to work.
 
@@ -249,4 +249,4 @@ use the Rackham remote desktop environment.
 
 ## Links
 
-* [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
