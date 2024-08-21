@@ -118,7 +118,7 @@ then answer these questions:
 
 - Login to Rackham in any way
 
-???- question "Anwer"
+???- question "Answer"
 
     This is described at
     [the UPPMAX page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/):
@@ -146,7 +146,7 @@ If this does not work out, go to the next step:
 we will be only doing light work on the login node.
 However, using an interactive session is a good idea.
 
-???- question "Anwer"
+???- question "Answer"
 
     This is described at
     [the UPPMAX page 'Starting an interactive node on Rackham'](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/):
@@ -167,7 +167,7 @@ then answer these questions:
 
 - Load Python version 3.10.8
 
-???- question "Anwer"
+???- question "Answer"
 
     This is described at
     [the UPPMAX pages on Python](http://docs.uppmax.uu.se/software/python/):
