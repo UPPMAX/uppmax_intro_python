@@ -219,6 +219,11 @@ the questions are copy-pasted below:
     Here are some of my favorites:
 
     ```text
+    >>>  1
+      File "<stdin>", line 1
+        1
+    IndentationError: unexpected indent
+
     >>> print 1
       File "<stdin>", line 1
         print 1
