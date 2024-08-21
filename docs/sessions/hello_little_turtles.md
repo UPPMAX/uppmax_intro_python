@@ -128,7 +128,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - Rehearse creating a script
     - Try to import a Python package
-    - Observe errors when a package is absent
+    - Observe errors when a package is absent,
+      due to a module not being loaded
 
 Read the following sections of
 [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
@@ -137,7 +138,7 @@ Read the following sections of
 
 Then:
 
-- Log in to Rackham using SSH without X forwarding
+- Log in to Rackham using SSH **without** X forwarding
 
 ???- question "Answer"
 
@@ -146,6 +147,9 @@ Then:
     ```bash
     ssh sven@rackham.uppmax.uu.se
     ```
+
+- Do **not** load a Python mododule: it is the point of this exercise
+  to see what happens if you forget to do so!
 
 - Copy-paste the first script in that section to a script on Rackham.
   Below is a copy of that script:
@@ -162,9 +166,48 @@ alex.forward(30)          # Complete the second side of a rectangle
 wn.mainloop()             # Wait for user to close window
 ```
 
+- Run the script on Rackham using `python3` and without loading
+  any modules. Does the error message make sense?
+
+???- question "Why use `python3` instead of `python`?"
+
+    Because `python` happens to have access to the `turtle`
+    library, hence it gives the error of the next exercise
+    directly
+
 ???- question "Answer"
 
-    We've already created scripts in earlier chapters.
+    Here is the error:
+
+    ```bash
+    [richel@rackham3 ~]$ python3 my_little_turtle.py 
+    Traceback (most recent call last):
+      File "my_little_turtle.py", line 1, in <module>
+        import turtle             # Allows us to use turtles
+    ModuleNotFoundError: No module named 'turtle'
+    ```
+
+    It does mean that the `turtle` package is not available.
+    That is correct: the `python` module (with many packages)
+    has not been loaded yet!
+
+### Exercise 2: Fail at running a first program again
+
+!!!- info "Learning objectives"
+
+    - Rehearse creating a script
+    - Try to import a Python package
+    - Observe errors when X forwarding is not enabled
+
+- Log in to Rackham using SSH **without** X forwarding
+
+???- question "Answer"
+
+    This is how:
+
+    ```bash
+    ssh sven@rackham.uppmax.uu.se
+    ```
 
 - Run the script on Rackham and verify it will not run.
   Does the error message make sense?
@@ -176,9 +219,16 @@ wn.mainloop()             # Wait for user to close window
     <!-- An unavoidable long line -->
     <!-- markdownlint-disable MD013 -->
 
+    Log in without X forwarding:
+
     ```bash
     richel@richel-N141CU:~/GitHubs/uppmax_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
     richel@rackham.uppmax.uu.se's password: 
+    ```
+
+    Output:
+
+    ```bash
     Last login: Fri Aug 16 09:49:42 2024 from h-98-128-228-28.na.cust.bahnhof.se
      _   _ ____  ____  __  __    _    __  __
     | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham2
@@ -191,9 +241,23 @@ wn.mainloop()             # Wait for user to close window
             User Guides: https://docs.uppmax.uu.se/
 
             Write to support@uppmax.uu.se, if you have questions or comments.
+    ```
 
+    <!-- markdownlint-enable MD013 -->
 
+    Loading the `python/3.10.8` module, which is good practice
+    (yet irrelevant for the error message):
+
+    ```bash
     [richel@rackham2 ~]$ module load python/3.10.8
+    ```
+
+    Running the script:
+
+    <!-- An unavoidable long line -->
+    <!-- markdownlint-disable MD013 -->
+
+    ```bash
     [richel@rackham2 ~]$ python my_little_turtle.py 
     Traceback (most recent call last):
       File "/domus/h1/richel/my_little_turtle.py", line 2, in <module>
@@ -217,11 +281,7 @@ wn.mainloop()             # Wait for user to close window
 
     The solution is to login to Rackham with X forwarding enabled
 
-- Log in to Rackham using SSH with X forwarding. How does it look?
-
-    ![Running the program successfully](my_little_turtle.png)
-
-### Exercise 2: Running a first program
+### Exercise 3: Running a first program
 
 !!!- info "Learning objectives"
 
@@ -239,7 +299,8 @@ Read:
 Now, try to get the script to work.
 
 When running the code, there should be a visible pop-up window. If not,
-re-read [the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
+re-read
+[the UPPMAX documentation page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/)
 and enable X-forwarding. If X-forwarding does not work,
 use the Rackham remote desktop environment.
 
@@ -251,6 +312,21 @@ use the Rackham remote desktop environment.
     However, if you feel stuck too much, 
     you can watch a video in which this exercise is done
     [here](https://youtu.be/bnN-1uzsgvk)
+
+- Log in to Rackham using SSH with X forwarding. How does it look?
+
+???- question "Answer"
+
+    This is how to log in with X forwarding enabled:
+
+    ```bash
+    ssh -X sven@rackham.uppmax.uu.se
+    ```
+
+    It looks like this:
+
+    ![Running the program successfully](my_little_turtle.png)
+
 
 ## Links
 
