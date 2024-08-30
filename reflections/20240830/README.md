@@ -10,6 +10,6 @@
 ??:?? VET 3: user input
 
 - 
-
 - [x] Weak prior of exercise VET 2: opererators
   - [x] Add better ones to course material
+  - [x] I already did so, I just forgot to `git push`

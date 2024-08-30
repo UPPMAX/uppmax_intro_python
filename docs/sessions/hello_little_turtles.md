@@ -33,6 +33,17 @@
     - 25 mins: challenge
     - 5 mins: feedback
 
+    Prior questions:
+
+    - What are features of the Python programming language?
+    - What are problems you may face when running someone else's Python code?
+    - Trick question: what is module?
+    - What is an UPPMAX module?
+    - Which problem do UPPMAX modules solve?
+    - What is a Python module/package?
+    - Which problem do Python modules/packages solve?
+    - What is X forwarding?
+
 ## Overview
 
 Sometime you need to get 'stuff to work', for example,
