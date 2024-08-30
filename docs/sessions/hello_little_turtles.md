@@ -162,6 +162,16 @@ wn.mainloop()             # Wait for user to close window
 - Run the script on Rackham and verify it will not run.
   Does the error message make sense?
 
+???- question "For those that use MobaXterm that cannot get an error"
+
+    It seems that for some MobaXterm users,
+    the X-forwarding is always on,
+    so you cannot get this error.
+
+    To get the error: create a new terminal
+    and login via `ssh` without the `-X` :-)
+
+
 ???- question "Answer"
 
     This is what will happen:
