@@ -116,6 +116,11 @@ alex.forward(30)          # Complete the second side of a rectangle
 wn.mainloop()             # Wait for user to close window
 ```
 
+!!! warning "Do not call the script `turtle.py`"
+
+    Do not call the script `turtle.py`.
+    Feel encouraged to do so anyways and observe the error message :-)
+
 - Run the script on Rackham using `python3` and without loading
   any modules. Does the error message make sense?
 
