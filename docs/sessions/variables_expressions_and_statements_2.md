@@ -211,7 +211,8 @@ Then in section 2.14, do exercises 6 and 7.
 
 !!! question "2.14.6"
 
-    Evaluate the following numerical expressions in your head, then use the Python interpreter to check your results:
+    Evaluate the following numerical expressions in your head,
+    then use the Python interpreter to check your results:
 
     ```
     >>> 5 % 2
@@ -224,7 +225,10 @@ Then in section 2.14, do exercises 6 and 7.
     ```
 
     What happened with the last example?
-    Why? If you were able to correctly anticipate the computer’s response in all but the last one, it is time to move on. If not, take time now to make up examples of your own. Explore the modulus operator until you are confident you understand how it works.
+    Why? If you were able to correctly anticipate the computer’s response in
+    all but the last one, it is time to move on. If not, take time now to make
+    up examples of your own. Explore the modulus operator until you are
+    confident you understand how it works.
 
 
 ???- question "Answer"

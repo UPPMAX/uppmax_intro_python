@@ -58,7 +58,8 @@
     - In Python, I can use command-line arguments
     - In Python, I can import the `matplotlib` library
     - In Python, I can use a for loop
-    - In Python, I can write a function without an argument and without a return type
+    - In Python, 
+      I can write a function without an argument and without a return type
     - In Python, I can write a function that calls a function
     - In Python, I can write a function that requires an argument
     - In Python, I can write a function with a return value
