@@ -27,26 +27,18 @@
 
     Lesson plan:
 
-    Exercise 1:
+    Exercises:
 
     * 5 mins: prior knowledge
     * 5 mins: presentation
     * 15 mins: challenge
     * 5 mins: feedback
 
-    Exercise 2 and 3:
+    Prior questions:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - When is it important to know the data type of an object?
 
-    Exercise 4:
-
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    
 
 ## Overview
 

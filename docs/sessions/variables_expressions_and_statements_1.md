@@ -22,21 +22,7 @@
 
     Lesson plan:
 
-    Exercise 1:
-
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
-
-    Exercise 2 and 3:
-
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
-
-    Exercise 4:
+    Exercises:
 
     * 5 mins: prior knowledge
     * 5 mins: presentation
@@ -47,6 +33,7 @@
 
     - What is a data type?
     - Can you name a Python data type?
+    - What is an object?
     - What is a variable?
     - What are rules for naming a variables?
     - What are good practices for the name of a variable?
