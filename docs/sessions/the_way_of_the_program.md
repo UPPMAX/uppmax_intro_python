@@ -36,6 +36,13 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior questions:
+
+    - What types of programming errors exist?
+    - Can you name of types of programming bugs?
+    - What is a script?
+    - Can you name a text editor?
+
 ## Why?
 
 At the start of learning Python, there are many new terms.
