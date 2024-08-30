@@ -1,15 +1,25 @@
 # Reflection
 
-- The learners were way faster than the cohort of 20240118:
+- The learners were nearly twice as fast than the cohort of 2024-01-18:
 
-9:30: Start '1. Use the Python script'
-9:50: Start '2. Way of the program'
-10:15: Start 3. Workking with Python scripts'
-10:45 VET 1: variables
-11:30 VET 2: operators
-??:?? VET 3: user input
+Time |Start of section
+-----|--------------------------------
+09:30|1. Use the Python script'
+09:50|2. Way of the program'
+10:15|3. Workking with Python scripts'
+10:45|4. VET 1: variables
+11:30|5. VET 2: operators
+13:15|6. VET 3: user input
 
-- 
+This makes me wonder: can I stop earlier with them?
+
+- Pro: reward for working hard
+- Con: they expect a full day of work, I can give them a learning
+  environment the full day
+
 - [x] Weak prior of exercise VET 2: opererators
   - [x] Add better ones to course material
   - [x] I already did so, I just forgot to `git push`
+- I feel there are too much splits in the sessions.
+  Should I clump those together yes/no?
+  Let's see if this comes up at the evaluation!
