@@ -26,6 +26,12 @@
     - 15 mins: challenge
     - 5 mins: feedback
 
+    Prior questions:
+
+    - Why would you want to use a script?
+    - In which languages can one write a script?
+    - How does one run a script?
+
 ## Why?
 
 You have multiple lines of code you want a computer to run.

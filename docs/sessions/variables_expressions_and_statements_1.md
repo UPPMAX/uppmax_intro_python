@@ -43,6 +43,16 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior questions:
+
+    - What is a data type?
+    - Can you name a Python data type?
+    - What is a variable?
+    - What are rules for naming a variables?
+    - What are good practices for the name of a variable?
+    - What is an operator?
+    - Can you name an operator?
+
 ## Overview
 
 In any non-trivial calculation, we want to let our computer remember
