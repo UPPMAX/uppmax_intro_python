@@ -140,7 +140,7 @@ Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Start an interactive session of max four hours
+- Start an interactive session of max seven hours
 
 If this does not work out, go to the next step:
 we will be only doing light work on the login node.
@@ -152,7 +152,7 @@ However, using an interactive session is a good idea.
     [the UPPMAX page 'Starting an interactive node on Rackham'](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/):
 
     ```bash
-    interactive -A naiss2024-22-49 -t 4:00:00
+    interactive -A naiss2024-22-49 -t 7:00:00
     ```
 
 ### Exercise 3: load the Python module
