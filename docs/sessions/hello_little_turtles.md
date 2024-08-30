@@ -87,7 +87,7 @@ Then:
     ssh sven@rackham.uppmax.uu.se
     ```
 
-- Do **not** load a Python mododule: it is the point of this exercise
+- Do **not** load a Python module: it is the point of this exercise
   to see what happens if you forget to do so!
 
 - Copy-paste the first script in that section to a script on Rackham.
