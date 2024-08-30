@@ -152,6 +152,25 @@ Then do:
 
 - Exercise 13.11.1
 
-## Links
+!!! question "13.11.1"
 
-- [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+    Write a program that reads a file and writes out a new file
+    with the lines in reversed order
+    (i.e. the first line in the old file becomes the last one in the new file.)
+
+???- question "Answer"
+
+    The new thing is to use `reversed`:
+
+    ```python
+    f = open("friends.txt", "r")
+    xs = f.readlines()
+    f.close()
+
+    xs = reversed(xs)
+
+    g = open("sortedfriends.txt", "w")
+    for v in xs:
+        g.write(v)
+    g.close()
+    ```
