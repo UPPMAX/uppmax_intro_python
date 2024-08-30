@@ -19,6 +19,12 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior:
+
+    - What are command-line arguments?
+    - What is meant with 'a command-line interface'?
+    - Why use command-line arguments?
+
 ## Overview
 
 Sometime, also programs need input, for example

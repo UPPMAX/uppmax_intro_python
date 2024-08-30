@@ -22,6 +22,12 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior:
+
+    - What are functions?
+    - Why use functions?
+    - Can you name some Python functions?
+
 ## Overview
 
 Sometime you need to do a same multi-line calculation multiple times in your code.

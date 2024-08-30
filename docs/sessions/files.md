@@ -19,6 +19,12 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior:
+
+    - What is file I/O?
+    - What are some problems you can have when reading a file?
+    - What are some problems you can have when creating a file?
+
 ## Overview
 
 Most programmers need to work on data and produce some result.

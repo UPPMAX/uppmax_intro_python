@@ -21,6 +21,12 @@
     * 15 mins: challenge
     * 5 mins: feedback
 
+    Prior:
+
+    - What is meant with a plotting library?
+    - What is meant with a plotting package/module?
+    - Can you name a Python plotting package?
+
 ## Overview
 
 Sometimes one wants to make a plot, such like a scatterplot or barchart.
