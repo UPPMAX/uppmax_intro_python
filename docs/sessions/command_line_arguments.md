@@ -31,7 +31,7 @@ Sometime, also programs need input, for example
 the name of the input file and the name of a results file:
 
 ```bash
-python3 my_input.csv my_results.csv
+python my_input.csv my_results.csv
 ```
 
 Sometime you need to get 'stuff to work', for example,
@@ -141,19 +141,19 @@ print(sys.argv)
 
 Run the Python script as shown below. What does it print?
 
-- `python3 read_argv.py`
+- `python read_argv.py`
 
 Run the Python script as shown below. What does it print?
 
-- `python3 read_argv.py hello world`
+- `python read_argv.py hello world`
 
 Run the Python script as shown below. What does it print?
 
-- `python3 read_argv.py "hello world"`
+- `python read_argv.py "hello world"`
 
 Run the Python script as shown below. What does it print?
 
-- `python3 read_argv.py 'hello world'`
+- `python read_argv.py 'hello world'`
 
 ### Exercise 2: Read a command-line argument
 
@@ -177,7 +177,7 @@ argument.
 For example, running the script like this:
 
 ```bash
-python3 read_argv.py hello world
+python read_argv.py hello world
 ```
 
 it should show `hello`.
@@ -198,7 +198,7 @@ Now, we make the script produce different output.
 If the script is run like this:
 
 ```bash
-python3 read_argv.py hello
+python read_argv.py hello
 ```
 
 it should show `Hello human!`.
@@ -206,7 +206,7 @@ it should show `Hello human!`.
 If the script is run like this:
 
 ```bash
-python3 read_argv.py bye
+python read_argv.py bye
 ```
 
 it should show `Sad to see you go human!`.
