@@ -157,9 +157,19 @@ the questions are copy-pasted below:
     A semantic error is also called a logic error,
     hence a sentence with correct syntax and semantic errors is:
 
+    From [here](https://english.stackexchange.com/a/29521), where the sentence
+    is attributed to Noam Chomsky:
+
     ```text
-    One plus one is three
+    Colorless green ideas sleep furiously
     ```
+
+    From [here](https://english.stackexchange.com/a/29509):
+
+    ```text
+    My mother's white cat is black.
+    ```
+
 
 !!! question "1.12.2"
 
