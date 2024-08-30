@@ -24,6 +24,18 @@
     - Verify that learners indeed have learned how to start an interactive session
     - Verify that learners indeed have learned how to use the module system
 
+    Prior question:
+
+    - What is Python?
+    - What are features of the Python language?
+    - What is an interpreted language?
+    - What is a scripting language?
+    - What is an interpreter?
+    - What is an HPC cluster?
+    - What are features of the Rackham HPC cluster?
+    - What is the rule on what to run on a login node?
+    - When to use an interactive session?
+
     Lesson plan:
 
     * 5 mins: prior knowledge
