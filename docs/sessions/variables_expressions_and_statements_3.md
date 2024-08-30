@@ -30,26 +30,16 @@
 
     Lesson plan:
 
-    Exercise 1:
-
     * 5 mins: prior knowledge
     * 5 mins: presentation
     * 15 mins: challenge
     * 5 mins: feedback
 
-    Exercise 2 and 3:
+    Prior questions:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - What do we mean with user input?
+    - In which ways can we get user input?
 
-    Exercise 4:
-
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
 
 ## Overview
 

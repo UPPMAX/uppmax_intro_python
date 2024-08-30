@@ -36,9 +36,10 @@
 
     Prior questions:
 
-    - When is it important to know the data type of an object?
+    - What is an operator?
+    - If I ask you: 'What time is it 10 hours later, what is the calculation you do in your head?'
+    - What is the modulo operator?
 
-    
 
 ## Overview
 
