@@ -143,17 +143,35 @@ Run the Python script as shown below. What does it print?
 
 - `python read_argv.py`
 
+???- question "Answer"
+
+    ```bash
+    ['read_argv.py']
+    ```
+
 Run the Python script as shown below. What does it print?
 
 - `python read_argv.py hello world`
+
+    ```bash
+    ['read_argv.py', 'hello', 'world']
+    ```
 
 Run the Python script as shown below. What does it print?
 
 - `python read_argv.py "hello world"`
 
+    ```bash
+    ['read_argv.py', 'hello world']
+    ```
+
 Run the Python script as shown below. What does it print?
 
 - `python read_argv.py 'hello world'`
+
+    ```bash
+    ['read_argv.py', 'hello world']
+    ```
 
 ### Exercise 2: Read a command-line argument
 
