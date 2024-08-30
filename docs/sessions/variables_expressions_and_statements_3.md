@@ -39,6 +39,7 @@
 
     - What do we mean with user input?
     - In which ways can we get user input?
+    - Why would you want to use user input in your program?
 
 
 ## Overview
