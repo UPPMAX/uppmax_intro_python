@@ -16,12 +16,14 @@ Time |Start of section
 ?|10. Graphics
 ?|Functions -> no, send home!
 
-
 This makes me wonder: can I stop earlier with them?
 
 - Pro: reward for working hard
 - Con: they expect a full day of work, I can give them a learning
   environment the full day
+
+I feel that functions can be skipped, as there we leave
+the domain of an intro course.
 
 - [x] Weak prior of exercise VET 2: opererators
   - [x] Add better ones to course material
@@ -29,3 +31,7 @@ This makes me wonder: can I stop earlier with them?
 - I feel there are too much splits in the sessions.
   Should I clump those together yes/no?
   Let's see if this comes up at the evaluation!
+
+I made the learners start evaluating at 15:15, as I saw they could not learn
+effectively anymore. I think that this shows I've made the (lack of even
+more) learning visible.
