@@ -6,7 +6,7 @@
 
 ???- question "For teachers: what is in that form?"
 
-    Thanks for your feedback. 
+    Thanks for your feedback.
     This feedback will be published as-is at the end of Day 4,
     if and only if there are no personal details (email, address, etc.)
     in the feedback.
@@ -58,7 +58,7 @@
     - In Python, I can use command-line arguments
     - In Python, I can import the `matplotlib` library
     - In Python, I can use a for loop
-    - In Python, 
+    - In Python,
       I can write a function without an argument and without a return type
     - In Python, I can write a function that calls a function
     - In Python, I can write a function that requires an argument
