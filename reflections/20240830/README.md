@@ -26,8 +26,8 @@ I feel that functions can be skipped, as there we leave
 the domain of an intro course.
 
 - [x] Weak prior of exercise VET 2: opererators
-  - [x] Add better ones to course material
-  - [x] I already did so, I just forgot to `git push`
+    - [x] Add better ones to course material
+    - [x] I already did so, I just forgot to `git push`
 - I feel there are too much splits in the sessions.
   Should I clump those together yes/no?
   Let's see if this comes up at the evaluation!

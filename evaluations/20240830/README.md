@@ -12,7 +12,7 @@ From [survey_feedback.txt](survey_feedback.txt):
 
 - Great course. Now, Python is not scary anymore.
 - Thanks for the class today! It was very well organized and I really appreciated your energy. I feel like maybe some things were a little basic for me and I wish we had gotten into the more advanced stuff at the end. But this really reinforced the basics for me and I'm still glad that I did it.
-- Thank you for creating very interactive calss room 
+- Thank you for creating very interactive calss room
 - I liked Ri-kjells teaching style!
 
 ## Scores
@@ -132,7 +132,7 @@ In Python| I know what the modulo operator is and when to use it|2|2
 In Python| I know what the modulo operator is and when to use it|4|6
 In Python| I know what the modulo operator is and when to use it|5|2
 
-![](all_confidences.png)
+![All confidences](all_confidences.png)
 
-![](confidences_per_question.png)
+![All confidences per question](confidences_per_question.png)
 
