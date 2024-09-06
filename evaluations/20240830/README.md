@@ -62,75 +62,75 @@ I can start an interactive session on Rackham|4|2
 I can start an interactive session on Rackham|5|9
 I can use a text editor on Rackham|3|1
 I can use a text editor on Rackham|5|10
-In Python| I can ask a user for input|1|1
-In Python| I can ask a user for input|2|1
-In Python| I can ask a user for input|3|2
-In Python| I can ask a user for input|4|3
-In Python| I can ask a user for input|5|4
-In Python| I can create a file|3|2
-In Python| I can create a file|4|2
-In Python| I can create a file|5|7
-In Python| I can create a variable|3|1
-In Python| I can create a variable|4|3
-In Python| I can create a variable|5|7
-In Python| I can find and use the operator for exponentiation|2|1
-In Python| I can find and use the operator for exponentiation|3|1
-In Python| I can find and use the operator for exponentiation|4|1
-In Python| I can find and use the operator for exponentiation|5|7
-In Python| I can find and use the operator for exponentiation|NA|1
-In Python| I can import the `matplotlib` library|0|5
-In Python| I can import the `matplotlib` library|1|1
-In Python| I can import the `matplotlib` library|2|1
-In Python| I can import the `matplotlib` library|3|1
-In Python| I can import the `matplotlib` library|5|2
-In Python| I can import the `matplotlib` library|NA|1
-In Python| I can read a file|3|1
-In Python| I can read a file|4|3
-In Python| I can read a file|5|7
-In Python| I can use a for loop|0|5
-In Python| I can use a for loop|1|1
-In Python| I can use a for loop|2|2
-In Python| I can use a for loop|4|1
-In Python| I can use a for loop|5|1
-In Python| I can use a for loop|NA|1
-In Python| I can use a variable|3|2
-In Python| I can use a variable|4|1
-In Python| I can use a variable|5|8
-In Python| I can use command-line arguments|0|1
-In Python| I can use command-line arguments|1|1
-In Python| I can use command-line arguments|2|3
-In Python| I can use command-line arguments|3|1
-In Python| I can use command-line arguments|4|1
-In Python| I can use command-line arguments|5|3
-In Python| I can use command-line arguments|NA|1
-In Python| I can use user input in a calculation|1|1
-In Python| I can use user input in a calculation|3|3
-In Python| I can use user input in a calculation|4|3
-In Python| I can use user input in a calculation|5|4
-In Python| I can write a function that calls a function|0|4
-In Python| I can write a function that calls a function|1|2
-In Python| I can write a function that calls a function|2|2
-In Python| I can write a function that calls a function|4|1
-In Python| I can write a function that calls a function|NA|2
-In Python| I can write a function that requires an argument|0|4
-In Python| I can write a function that requires an argument|1|3
-In Python| I can write a function that requires an argument|2|1
-In Python| I can write a function that requires an argument|4|1
-In Python| I can write a function that requires an argument|NA|2
-In Python| I can write a function with a return value|0|4
-In Python| I can write a function with a return value|1|3
-In Python| I can write a function with a return value|2|1
-In Python| I can write a function with a return value|4|1
-In Python| I can write a function with a return value|NA|2
-In Python| I can write a function without an argument and without a return type|0|5
-In Python| I can write a function without an argument and without a return type|1|2
-In Python| I can write a function without an argument and without a return type|3|1
-In Python| I can write a function without an argument and without a return type|4|1
-In Python| I can write a function without an argument and without a return type|NA|2
-In Python| I know what the modulo operator is and when to use it|0|1
-In Python| I know what the modulo operator is and when to use it|2|2
-In Python| I know what the modulo operator is and when to use it|4|6
-In Python| I know what the modulo operator is and when to use it|5|2
+In Python, I can ask a user for input|1|1
+In Python, I can ask a user for input|2|1
+In Python, I can ask a user for input|3|2
+In Python, I can ask a user for input|4|3
+In Python, I can ask a user for input|5|4
+In Python, I can create a file|3|2
+In Python, I can create a file|4|2
+In Python, I can create a file|5|7
+In Python, I can create a variable|3|1
+In Python, I can create a variable|4|3
+In Python, I can create a variable|5|7
+In Python, I can find and use the operator for exponentiation|2|1
+In Python, I can find and use the operator for exponentiation|3|1
+In Python, I can find and use the operator for exponentiation|4|1
+In Python, I can find and use the operator for exponentiation|5|7
+In Python, I can find and use the operator for exponentiation|NA|1
+In Python, I can import the `matplotlib` library|0|5
+In Python, I can import the `matplotlib` library|1|1
+In Python, I can import the `matplotlib` library|2|1
+In Python, I can import the `matplotlib` library|3|1
+In Python, I can import the `matplotlib` library|5|2
+In Python, I can import the `matplotlib` library|NA|1
+In Python, I can read a file|3|1
+In Python, I can read a file|4|3
+In Python, I can read a file|5|7
+In Python, I can use a for loop|0|5
+In Python, I can use a for loop|1|1
+In Python, I can use a for loop|2|2
+In Python, I can use a for loop|4|1
+In Python, I can use a for loop|5|1
+In Python, I can use a for loop|NA|1
+In Python, I can use a variable|3|2
+In Python, I can use a variable|4|1
+In Python, I can use a variable|5|8
+In Python, I can use command-line arguments|0|1
+In Python, I can use command-line arguments|1|1
+In Python, I can use command-line arguments|2|3
+In Python, I can use command-line arguments|3|1
+In Python, I can use command-line arguments|4|1
+In Python, I can use command-line arguments|5|3
+In Python, I can use command-line arguments|NA|1
+In Python, I can use user input in a calculation|1|1
+In Python, I can use user input in a calculation|3|3
+In Python, I can use user input in a calculation|4|3
+In Python, I can use user input in a calculation|5|4
+In Python, I can write a function that calls a function|0|4
+In Python, I can write a function that calls a function|1|2
+In Python, I can write a function that calls a function|2|2
+In Python, I can write a function that calls a function|4|1
+In Python, I can write a function that calls a function|NA|2
+In Python, I can write a function that requires an argument|0|4
+In Python, I can write a function that requires an argument|1|3
+In Python, I can write a function that requires an argument|2|1
+In Python, I can write a function that requires an argument|4|1
+In Python, I can write a function that requires an argument|NA|2
+In Python, I can write a function with a return value|0|4
+In Python, I can write a function with a return value|1|3
+In Python, I can write a function with a return value|2|1
+In Python, I can write a function with a return value|4|1
+In Python, I can write a function with a return value|NA|2
+In Python, I can write a function without an argument and without a return type|0|5
+In Python, I can write a function without an argument and without a return type|1|2
+In Python, I can write a function without an argument and without a return type|3|1
+In Python, I can write a function without an argument and without a return type|4|1
+In Python, I can write a function without an argument and without a return type|NA|2
+In Python, I know what the modulo operator is and when to use it|0|1
+In Python, I know what the modulo operator is and when to use it|2|2
+In Python, I know what the modulo operator is and when to use it|4|6
+In Python, I know what the modulo operator is and when to use it|5|2
 
 ![All confidences](all_confidences.png)
 
