@@ -6,7 +6,7 @@ This course
 is the last module of the UPPMAX intro course
 and introduces the foundations of the Python programming language.
 
-Next course date: Friday February 14th 2025.
+Next course date: Tuesday February 25th 2025.
 
 ![Python logo from https://www.python.org/community/logos/](python_logo.png)
 !['How to Think Like a Computer Scientist' book logo from https://openbookproject.net/thinkcs/python/english3e/index.html](python_book_logo.png)
