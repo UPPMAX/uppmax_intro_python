@@ -1,5 +1,9 @@
 # Schedule
 
+Future course dates:
+
+- Tuesday March 4th 2025
+
  Time       | Topic
 ------------|-----------------------------------------------------------------
 09:00-10:00 | [Using the Python interpreter](../sessions/using_the_python_interpreter.md)
