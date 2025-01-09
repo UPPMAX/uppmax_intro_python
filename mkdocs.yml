@@ -27,8 +27,11 @@ nav:
   - Misc:
     - About Richel: misc/richel.md
     - Evaluation: misc/evaluation.md
+    - Evaluations: evaluations/README.md
     - Exercise procedure: misc/exercise_procedure.md
+    - Lesson plans: lesson_plans/README.md
     - Project: misc/project.md
+    - Reflections: reflections/README.md
 
 theme:
   name: material
