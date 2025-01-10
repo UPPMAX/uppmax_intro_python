@@ -1,6 +1,7 @@
 # Welcome to the NAISS Intro to Python course
 
 ![The NAISS logo](logo/naiss_logo_inverted.png)
+
 ![Python logo from https://www.python.org/community/logos/](python_logo.png)
 !['How to Think Like a Computer Scientist' book logo from https://openbookproject.net/thinkcs/python/english3e/index.html](python_book_logo.png)
 
