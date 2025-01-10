@@ -11,7 +11,18 @@ tags:
 
 Because NAISS does not have a GitHub owner page yet.
 
+This repository will be transferred to a NAISS GitHub owner
+page when it exists.
+
+## Why is the repository name `uppmax_intro_python` instead of `naiss_intro_python`?
+
+Because the first name was used in a (rushed!) newsletter.
+
+The name of this repository will be changed to `naiss_intro_python`
+after its first iteration.
+
 ## Why are there so many prerequisites?
+
 
 ...
 
