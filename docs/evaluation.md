@@ -1,4 +1,13 @@
+---
+tags:
+  - evaluation
+---
+
 # Evaluation
+
+???- question "Where can I find the resuls of earlier evaluations?"
+
+    At [the 'Evaluations' page](evaluations/README.md).
 
 ## Evaluation forms
 

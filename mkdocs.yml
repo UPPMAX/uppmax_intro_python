@@ -20,12 +20,10 @@ nav:
     - File IO: sessions/files.md
     - Command-line arguments: sessions/command_line_arguments.md
     - Graphics: sessions/graphics.md
-#    - Lecture: sessions/afternoon_lecture.md
-#    - Exercise: sessions/afternoon_exercise.md
   - Misc:
     - About Richel: misc/richel.md
     - All topics: topics.md
-    - Evaluation: misc/evaluation.md
+    - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
     - Exercise procedure: misc/exercise_procedure.md
     - Lesson plans: lesson_plans/README.md
