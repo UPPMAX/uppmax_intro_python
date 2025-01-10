@@ -1,3 +1,8 @@
+---
+tags:
+  - lesson plans
+---
+
 # Lesson plans
 
 Here are the lesson plans of this course:

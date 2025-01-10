@@ -1,6 +1,6 @@
 # Welcome to the UPPMAX Introductory Python course
 
-![The UPPMAX logo](uppmax_logo.png)
+![The NAISS logo](logo/naiss_logo_inverted.png)
 
 This course
 is the last module of the UPPMAX intro course

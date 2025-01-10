@@ -1,3 +1,9 @@
+---
+tags:
+  - schedule
+  - timetable
+---
+
 # Schedule
 
 Future course dates:
