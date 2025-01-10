@@ -7,7 +7,7 @@ tags:
 
 # Prerequisites
 
-Before the course, you must have done these *four* things:
+Before the course, you must have done these **four** things:
 
 - Prerequisite 1/4: You have registered at our registration form at [here](https://forms.gle/kzazFVBBo6HPHfub9)
 
