@@ -15,7 +15,7 @@ From [survey_feedback.txt](survey_feedback.txt):
   appreciated your energy. I feel like maybe some things were a little basic
   for me and I wish we had gotten into the more advanced stuff at the end.
   But this really reinforced the basics for me and I'm still glad that I did it.
-- Thank you for creating very interactive calss room
+- Thank you for creating very interactive [class] room
 - I liked Ri-kjells teaching style!
 
 ## Scores

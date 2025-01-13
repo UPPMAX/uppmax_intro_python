@@ -10,7 +10,7 @@ but it is the best that could be done:
 the full evaluation results are only visible to the teachers of the
 full four-day course.
 
-## Anonymous evalations
+## Anonymous evaluations
 
 These are the anonymous evaluation results that clearly apply to me.
 
@@ -87,9 +87,9 @@ four learners.
 Indeed, here too, in the end I cut corners in not showing the answers on
 purpose. It is a more sensitive matter than I thought :-)
 
-## Informal evalations
+## Informal evaluations
 
-This evalations had the form of an informal dialogue.
+This evaluations had the form of an informal dialogue.
 
 - From 1 learner
 

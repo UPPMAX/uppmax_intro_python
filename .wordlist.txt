@@ -79,4 +79,9 @@ ThinLinc
 underprepared
 UPPMAX's
 impactful
+jsonc
+linter
+markdownlint
+markdownlintignore
+
 
