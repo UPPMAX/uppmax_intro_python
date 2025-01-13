@@ -1,4 +1,4 @@
-# UPPMAX Python intro
+# Intro to Python
 
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -9,22 +9,7 @@
 
 <!-- markdownlint-enable MD013 -->
 
-## Getting started
-
-To work on the website locally first create a virtual environment and install
-the required dependencies
-
-``` bash
-python -m venv uppmax_venv
-source uppmax_venv/bin/activate
-pip install -r requirements.txt
-```
-
-Then serve the website and edit
-
-``` bash
-mkdocs serve
-```
+- [Go to the nicely rendered site](https://uppmax.github.io/uppmax_intro_python/)
 
 ## Files used by continuous integration scripts
 
