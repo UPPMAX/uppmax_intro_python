@@ -20,6 +20,7 @@ nav:
     - File IO: sessions/files.md
     - Command-line arguments: sessions/command_line_arguments.md
     - Graphics: sessions/graphics.md
+    - Functions: sessions/functions.md
   - Misc:
     - About Richel: misc/richel.md
     - All topics: topics.md
@@ -27,10 +28,7 @@ nav:
     - Contributing: CONTRIBUTING.md
     - Communication: communication/README.md
     - Evaluation: evaluation.md
-    - Evaluations: 
-        - Overview: evaluations/README.md
-        - 2024-08-30: evaluations/20240830/README.md
-        - 2024-01-18: evaluations/20240118/README.md
+    - Evaluations:  evaluations/README.md
     - Exercise procedure: misc/exercise_procedure.md
     - Frequently asked questions: faq.md
     - Lesson plans: lesson_plans/README.md
