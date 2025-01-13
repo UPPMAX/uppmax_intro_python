@@ -43,7 +43,7 @@ read two aligned sequences from the command line.
 Test your program with the
 following sequences.
 
-```
+```text
 a) ACGT and A-GT
 b) AC-GT and AGT--
 c) AC-CGT and AGT---
@@ -105,7 +105,7 @@ additionally to their distance.**
     Distance between seq1 and seq2: 4
     ```
 
-### Assignment 1.3: 
+### Assignment 1.3
 
 **Extend the program that the distance between two sequences is only
 calculated when both sequences have the same length.** Test your program
@@ -247,6 +247,8 @@ a few functions.
 ### Assignment 2.2
 
 Define two functions `similarity` and `distance`:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim text cannot be split up over lines, hence will break 80 characters per line -->
 
 $$
 \text{similarity}(a, b)=\left\{\begin{array}{rll}
@@ -503,7 +505,7 @@ l = ["ATCCGGT", "GCGTTAC", "CTACTGC", "TTGCAGT", "AGTCACC"]
 
 ### Assignment 3.3
 
-** Extend your program. Determine the combination of sequences with the
+**Extend your program. Determine the combination of sequences with the
 highest similarity of all sequences stored in list l. Write these two
 sequences and the alignment into a new file, called `similar_sequences.txt`.**
 
@@ -573,3 +575,5 @@ line-break in Python can be made by adding ’\n’ to the end of the line.
     | | ||
     TTGCAGT
     ```
+
+<!-- markdownlint-enable MD013 -->
