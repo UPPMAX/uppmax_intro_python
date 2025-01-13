@@ -25,9 +25,12 @@ nav:
     - All topics: topics.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
-    - Communication: communication.md
+    - Communication: communication/README.md
     - Evaluation: evaluation.md
-    - Evaluations: evaluations/README.md
+    - Evaluations: 
+        - evaluations/README.md
+        - evaluations/20240830.md
+        - evaluations/20240118.md
     - Exercise procedure: misc/exercise_procedure.md
     - Frequently asked questions: faq.md
     - Lesson plans: lesson_plans/README.md
