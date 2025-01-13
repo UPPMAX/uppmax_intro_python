@@ -33,7 +33,7 @@ tags:
 14:15-15:00 | [Variables, expressions and statements: operators](sessions/variables_expressions_and_statements_2.md)  
 15:00-15:15 | Break
 15:15-15:45 | [Variables, expressions and statements: user input](sessions/variables_expressions_and_statements_3.md)
-15:45-16:00 | [Evaluation](misc/evaluation.md)
+15:45-16:00 | [Evaluation](evaluation.md)
     
 - [UPPMAX modules and Python packages](sessions/hello_little_turtles.md)
 - [File IO](sessions/files.md)

@@ -34,7 +34,7 @@ you will likely thrive in the course.
 
 ## What are the prerequisites for following this course?
 
-See [prerequisites](prereqs.md).
+See [prerequisites](prereqs/README.md).
 
 ### Why are there so many prerequisites?"
 
