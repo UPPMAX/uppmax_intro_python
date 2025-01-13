@@ -32,5 +32,4 @@ of Python and feel familiar to a book on Python to help you on your next steps.
 - Earlier evaluations of the course: [https://uppmax.github.io/uppmax_intro_python/evaluations/](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
 
-
 ## Welcome email

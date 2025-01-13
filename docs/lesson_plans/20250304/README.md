@@ -7,6 +7,3 @@ two hours before a newletter needed to be sent out.
 I prepared the text for a newsletter, assuming I will get the course
 material in shape later.
 
-
-
-
