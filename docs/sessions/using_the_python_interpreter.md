@@ -2,26 +2,25 @@
 
 !!!- info "Learning objectives"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - Practice using the Python book
       [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
-    - To be able to login to Rackham autonomously
-    - To be able to load a Python version autonomously
-    - to be able to start an interactive session autonomously
-    - To be able to run a minimal Python program autonomously
+    - To be able to login to your HPC cluster
+    - To be able to load Python
+    - To be able to run a minimal Python program
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - Learners have used the UPPMAX documentation
+    - Learners have used the documentation of their HPC cluster
+    - Learners have used the Python book
     - Learners have used the Python interpreter
-    - Learners have loaded Python using the module system
+    - Learners have loaded Python
 
     Other goals are:
 
     - Verify that learners indeed have learned how to login
-    - Verify that learners indeed have learned how to start an interactive session
     - Verify that learners indeed have learned how to use the module system
 
     Prior question:
@@ -32,9 +31,8 @@
     - What is a scripting language?
     - What is an interpreter?
     - What is an HPC cluster?
-    - What are features of the Rackham HPC cluster?
+    - What are features of your HPC cluster?
     - What is the rule on what to run on a login node?
-    - When to use an interactive session?
 
     Lesson plan:
 
@@ -48,13 +46,14 @@
 You want to make a computer run Python code,
 for some good reason. Here we do so!
 
-To develop code in Python on the UPPMAX clusters, one needs to:
+To develop code in Python on your HPC clusters, one needs to:
 
-- Login to Rackham, to be on an UPPMAX cluster
+- Login to that HPC cluster, to be able to work on it
 - Load the Python module, to be able to use a modern Python interpreter
 - Use the Python interpreter, to run Python code
 
-Luckily, UPPMAX has documentation that should allow you to do so yourself!
+Luckily, the documentation of your HPC center
+should allow you to do this by yourself!
 
 These exercises will ensure you are able to run a minimal Python program.
 
@@ -76,10 +75,10 @@ flowchart TD
     style sub_programming_language fill:#ccf,color:#000,stroke:#fcc
 
 
-    subgraph sub_uppmax[UPPMAX]
-      uppmax[UPPMAX]
-      uppmax_modules[UPPMAX modules]
-      uppmax_clusters[UPPMAX clusters]
+    subgraph sub_uppmax[Your HPC center]
+      uppmax[Your HPC center]
+      uppmax_modules[software modules]
+      uppmax_clusters[HPC clusters]
       %% text_editors[Text editors]
       %%x_forwarding[X-forwarding]
       %%remote_desktop[Remote desktop]
@@ -98,7 +97,7 @@ flowchart TD
     %% scripts --> |can use| command_line_arguments
 
     uppmax --> |has| uppmax_clusters
-    uppmax_clusters --> |have| uppmax_modules
+    uppmax_clusters --> |use| uppmax_modules
     %%uppmax_clusters --> |have| text_editors
     %%uppmax_clusters --> |allow| x_forwarding
     %%uppmax_clusters --> |has| remote_desktop
@@ -122,17 +121,21 @@ flowchart TD
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
-### Exercise 1: login to Rackham
+### Exercise 1: login to your HPC cluster
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
+Go to the documentation of your HPC cluster
+and search for the login procedure(s).
 
-- Login to Rackham in any way
+Then answer these questions:
+
+- Login to your HPC cluster in any way
 
 ???- question "Answer"
 
-    This is described at
+    The documentation for the Rackham HPC cluster can be found
+    at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se)
+
+    Searching for, for example, 'Rackham login', you will find
     [the UPPMAX page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/):
 
     - Remote desktop via website: go to <https://rackham-gui.uppmax.uu.se>
@@ -144,66 +147,52 @@ then answer these questions:
 
 ### Exercise 2: load the Python module
 
-!!!- info "Learning objectives"
-
-    - to be able to load a Python version autonomously
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Load Python version 3.10.8
+Go to the documentation of your HPC cluster
+and load the software module for Python.
 
 ???- question "Answer"
 
-    This is described at
-    [the UPPMAX pages on Python](http://docs.uppmax.uu.se/software/python/):
+    [The UPPMAX page on Python](http://docs.uppmax.uu.se/software/python/)
+    gives this solution:
 
     ```bash
-    module load python/3.10.8
+    module load python
     ```
 
-### Exercise 3: write a 'Hello world' program
+### Exercise 3: start the Python interpreter
 
-!!!- info "Learning objectives"
-
-    - to be able to run a minimal Python program autonomously
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Start Python on Rackham
+Go to the documentation of your HPC cluster
+and start the Python interpreter.
 
 ???- question "Answer"
 
-    Type
+    On Rackham, do so by typing on a terminal:
 
     ```bash
     python
     ```
 
-    to start the Python interpreter
+### Exercise 4: run a 'Hello world' program
 
+Copy-paste the following code to the Python interpreter:
 
-- Find the UPPMAX documentation page on Python programming
+```python
+print('Hello, world!')
+```
+
+Press enter.
+
+How does that look like?
 
 ???- question "Answer"
-
-    It can be found at <https://docs.uppmax.uu.se/software/python_programming/>
-
-- On the UPPMAX documentation page on Python programming, find out how to
-  run a 'Hello world' program from the interpreter. Then do this yourself
-
-???- question "Answer"
-
-    The documentation can be found at
-    <https://docs.uppmax.uu.se/software/python_programming/#use-the-python-interpreter>.
-
-    In the Python interpreter, type
 
     ```python
-    print('Hello, world!')
+    $ python
+    Python 3.12.3 (main, Nov  6 2024, 18:32:19) [GCC 13.2.0] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> print('Hello, world!')
+    Hello, world!
+    >>> 
     ```
 
-    to run your 'Hello world' program
+Congratulations, you've just run a 'Hello world' program :+1:
