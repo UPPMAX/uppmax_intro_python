@@ -23,6 +23,8 @@ nav:
   - Misc:
     - About Richel: misc/richel.md
     - All topics: topics.md
+    - Code of conduct: CODE_OF_CONDUCT.md
+    - Contributing: CONTRIBUTING.md
     - Communication: communication.md
     - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
