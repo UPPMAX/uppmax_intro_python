@@ -101,7 +101,7 @@ additionally to their distance.**
 
     Screen output:
 
-    ```
+    ```text
     Sequence seq1: ACGT
     Sequence seq2: A-GT
     Distance between seq1 and seq2: 1

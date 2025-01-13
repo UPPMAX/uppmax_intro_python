@@ -85,7 +85,7 @@ Concatenate `A` and `i` and print the result.
     TypeError: must be str, not int
     ```
 
-### Assignment 1.5
+### Assignment 1.6
 
 Now enter `print(A + str(i))`.
 
@@ -180,7 +180,7 @@ as the for-loop and if-condition together.
     0 A
     1 G
     2 C
-    ``` 
+    ```
 
 ### Assignment 1.12
 
@@ -332,7 +332,7 @@ position first, first position last).
 ??? tip "Solution"
 
     ```python title="sequence_operations.py"
-    # Alternative 1 
+    # Alternative 1
     for i in range(len(B)):
         print(B[len(B) - i - 1])
 

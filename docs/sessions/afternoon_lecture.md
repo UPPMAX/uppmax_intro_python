@@ -4,11 +4,11 @@
 
 We are now going to introduce functions
 
-* Functions in programming languages are similar to mathematical functions
-* In principle, functions are used to avoid repetitions of the same code
-* Functions are code fragments, which can be take one or more arguments and
+- Functions in programming languages are similar to mathematical functions
+- In principle, functions are used to avoid repetitions of the same code
+- Functions are code fragments, which can be take one or more arguments and
   can have a return value
-* They have a name, a list of arguments and a code block, which does the actual
+- They have a name, a list of arguments and a code block, which does the actual
   work and are defined by the `def` keyword
 
 ```ipython
@@ -26,15 +26,13 @@ Out[2]: 6
 
     ```text
     GATCGTTCG
-     || |||  
+     || |||
     CATGGTTGA
     ```
 
-    where the element-wise distance function is given by 
+    where the element-wise distance function is given by:
 
-    <center>
-    ![alt text](../assets/distance_function.png "Title"){width=35%}
-    </center>
+    ![Distance function](../assets/distance_function.png "Distance function"){width=35%}
 
     and we want to calculate the sum over sequences $A$ and \(B\) of same length
     $N$.
@@ -47,9 +45,9 @@ Out[2]: 6
 
     ```text
     GATCGTTCG
-     || |||  
+     || |||
     CATGGTTGA
-    100100011    
+    100100011
     ```
 
     Yielding a total distance of 4. Let's write Python function that solves
@@ -57,9 +55,9 @@ Out[2]: 6
 
     ```python
     def sequence_distance(A, B):
-        # Store current distance 
+        # Store current distance
         distance = 0
-        
+
         # Loop over index of A and B
         for i in range(len(A)):
             if A[i] != B[i]:
@@ -82,9 +80,9 @@ Out[2]: 6
         def sequence_distance(A, B):
             # Assert equal length
             assert len(A) == len(B), "Must be of equal length"
-            # Store current distance 
+            # Store current distance
             distance = 0
-            
+
             # Loop over index of A and B
             for i in range(len(A)):
                 if A[i] != B[i]:
@@ -104,9 +102,9 @@ Out[2]: 6
         def sequence_distance(A, B):
             # Assert equal length
             assert len(A) == len(B), "Must be of equal length"
-            # Store current distance 
+            # Store current distance
             distance = 0
-            
+
             # Loop over index of A and B
             for a, b in zip(A, B)
                 if a != b:
@@ -272,7 +270,7 @@ into separate modules. First create a module called `dna_metrics.py`
 def sequence_distance(A, B):
     # Assert equal length
     assert len(A) == len(B), "Must be of equal length"
-    # Store current distance 
+    # Store current distance
     distance = 0
 
     # Loop over index of A and B
