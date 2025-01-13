@@ -11,9 +11,11 @@ tags:
 
 ### When should I follow this course?
 
-> Great course. Now, Python is not scary anymore.
->
-> A learner from this course ([source](evaluations/20240830/README.md))
+!!! info
+
+    > Great course. Now, Python is not scary anymore.
+    >
+    > A learner from this course ([source](evaluations/20240830/README.md))
 
 When you want to get started with Python.
 
