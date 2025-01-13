@@ -175,6 +175,11 @@ and start the Python interpreter.
     python
     ```
 
+???- question "Cannot get this to work?"
+
+    If there is no time to get this fixed during the course,
+    you are also use Python on your local computer.
+
 ### Exercise 4: run a 'Hello world' program
 
 Copy-paste the following code to the Python interpreter:
