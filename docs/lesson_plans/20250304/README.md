@@ -31,6 +31,6 @@ remove 'I can start an interactive session on my HPC cluster'
 as not all NAISS clusters have this. If they have it, they differ.
 This course is about learning Python and less on HPC clusters
 
-- [ ] Remove interactive session
+- [x] Remove interactive session
 
 

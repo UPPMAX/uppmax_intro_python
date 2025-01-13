@@ -142,32 +142,7 @@ then answer these questions:
     ssh -X sven@rackham.uppmax.uu.se
     ```
 
-### Exercise 2: start an interactive session
-
-!!!- info "Learning objectives"
-
-    - to be able to start an interactive session autonomously
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Start an interactive session of max seven hours
-
-If this does not work out, go to the next step:
-we will be only doing light work on the login node.
-However, using an interactive session is a good idea.
-
-???- question "Answer"
-
-    This is described at
-    [the UPPMAX page 'Starting an interactive node on Rackham'](http://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/):
-
-    ```bash
-    interactive -A naiss2024-22-49 -t 7:00:00
-    ```
-
-### Exercise 3: load the Python module
+### Exercise 2: load the Python module
 
 !!!- info "Learning objectives"
 
@@ -188,7 +163,7 @@ then answer these questions:
     module load python/3.10.8
     ```
 
-### Exercise 4: write a 'Hello world' program
+### Exercise 3: write a 'Hello world' program
 
 !!!- info "Learning objectives"
 
