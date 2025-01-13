@@ -19,21 +19,21 @@
 
     Teaching goals are:
 
-    * Learners have worked with variables
-    * Learners understand the purpose of variables
-    * Learners have obtained the data type of a variable
-    * Learners have heard about what a data type is
-    * Learners have practiced convert an equation and a text question to Python
-    * Learners have read on operators
-    * Learners have worked with the modulo operator
-    * Learners have written code that asked for user input
+    - Learners have worked with variables
+    - Learners understand the purpose of variables
+    - Learners have obtained the data type of a variable
+    - Learners have heard about what a data type is
+    - Learners have practiced convert an equation and a text question to Python
+    - Learners have read on operators
+    - Learners have worked with the modulo operator
+    - Learners have written code that asked for user input
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior questions:
 
@@ -144,7 +144,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 Read the following section of
 [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
-- 2.10. Input
+- `2.10. Input`
 
 Then in section 2.14, do exercise 8.
 
