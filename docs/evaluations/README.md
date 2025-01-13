@@ -1,6 +1,10 @@
 # Evaluations
 
-Here are the evaluations of this course:
+???- question "Where can I evaluate this course?"
+
+    Go to [evaluation](../evaluation.md) (singular) :-)
+
+Here are the evaluation results of this course:
 
 No |Date      |Evaluation
 ---|----------|--------------------------
