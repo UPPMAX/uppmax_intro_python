@@ -10,6 +10,7 @@
 <!-- markdownlint-enable MD013 -->
 
 - [Go to the nicely rendered site](https://uppmax.github.io/uppmax_intro_python/)
+- [Instructions on how to locally deploy this website](https://uppmax.github.io/uppmax_intro_python/deploy_locally/)
 
 ## Files used by continuous integration scripts
 
