@@ -23,11 +23,13 @@ Out[2]: 6
 
     Let us write a function that calculates some measure of similarity between
     two strings e.g. a DNA sequences such as
-    ```
+
+    ```text
     GATCGTTCG
      || |||  
     CATGGTTGA
     ```
+
     where the element-wise distance function is given by 
 
     <center>
@@ -43,7 +45,7 @@ Out[2]: 6
 
     such that
 
-    ```
+    ```text
     GATCGTTCG
      || |||  
     CATGGTTGA
@@ -92,6 +94,7 @@ Out[2]: 6
         ```
 
     ??? tip
+
         Remeber that the `range(len(seq))` is not considered idiomatic Python?
         The way to solve this when having to access elements from two iterables
         is using the `zip` function. Refactoring we get
@@ -113,6 +116,7 @@ Out[2]: 6
         ```
 
     ??? tip
+
         If you are like me and hate typing - Python is the perfect language. We
         can write very short and expressive code using *comprehensions*
 
@@ -130,6 +134,7 @@ aforementioned. Let's see an example using a list which is a mutable object
 
 
 === "Mutate"
+
     ```python
     def my_append(l, new_element):
         """
@@ -137,7 +142,9 @@ aforementioned. Let's see an example using a list which is a mutable object
         """
         l.append(new_element)
     ```
+
 === "Return"
+
     ```python
     def my_append(l, new_element):
         """
@@ -148,6 +155,7 @@ aforementioned. Let's see an example using a list which is a mutable object
     ```
 
 === "Just print"
+
     ```python
     def my_append(l, new_element):
         """
@@ -160,11 +168,11 @@ aforementioned. Let's see an example using a list which is a mutable object
 
 ## Modules
 
-* A program can be divided into smaller, better manageable units, so called
+- A program can be divided into smaller, better manageable units, so called
   modules (files ending with `.py`)
-* Improves reusability of code: when someone wrote something useful, someone
+- Improves reusability of code: when someone wrote something useful, someone
   else can use the same code in his program
-* A program can consist of several modules where each module can contain
+- A program can consist of several modules where each module can contain
   several coherent functions (and classes)
 
 Let's look at an example by creating a simple math module. Let's structure the
@@ -203,6 +211,7 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
 ```
 
 !!! info "Imports and namespaces"
+
     Notice that the `import` statement makes the functions of `math_funcs.py`
     accessible from `calculate.py`. In this case we attached `math_funcs` the
     namespace `mf` for short. To access the functions we need to use the dot
@@ -228,8 +237,8 @@ print(f"{a} * {b} = {mf.mul(a, b)}")
 
 !!! Tip "Takeaways"
 
-    * Modules and functions help you organize and write good quality code
-    * Modules can be distributed as packages - extending the functionality of
+    - Modules and functions help you organize and write good quality code
+    - Modules can be distributed as packages - extending the functionality of
       Python. The ecosystem of packages is one of the reasons that make Python
       great.
 
@@ -287,11 +296,13 @@ B = sys.argv[2]
 print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
 ```
 
-!!! note "`if __name__ == "__main__"`" convention
+!!! note "`if __name__ == "__main__"`" convention"
+
     By convention we usually wrap the code that "runs" our program in an `if`
     statement for executable programs. This is to ensure that program is not
     executed if imported by another module but only when called directly. The
     code would then look like this
+
     ```python title="read_seq.py"
     import dna_metrics as dm
     import sys
@@ -303,6 +314,7 @@ print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
 
         print(f"Distance between A and B is {dm.sequence_distance(A,B)}")
     ```
+
     The condition `__name__ == "__main__"` is only satisfied for the *entry
     point* module.
 
@@ -322,10 +334,13 @@ touch seq1.txt seq2.txt
 
 
 === "Sequence 1"
+
     ``` title="seq1.txt"
     GATCGTTCG
     ```
+
 === "Sequence 2"
+
     ``` title="seq2.txt"
     CATGGTTGA
     ```

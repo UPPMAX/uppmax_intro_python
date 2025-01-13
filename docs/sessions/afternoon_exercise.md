@@ -98,6 +98,9 @@ additionally to their distance.**
     print("Sequence seq2: ", seq2)
     print("Distance between seq1 and seq2: ", distance_score)
     ```
+
+    Screen output:
+
     ```
     Sequence seq1: ACGT
     Sequence seq2: A-GT

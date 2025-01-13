@@ -171,12 +171,12 @@ We can work with Python either interactively or by writing our code into files
     We recommend using `IPython` for this course but you are welcome to choose
     whatever you prefer!
 
-    * Anything that you can do in the Python interpreter you can also do in
-      IPython
-    * I will likely use "Python interpreter" also to refer to IPython
-    * You can exit the interpreter with `exit()`, `quit()` or pressing
+    - Anything that you can do in the Python interpreter you can also do in
+      `IPython`
+    - I will likely use "Python interpreter" also to refer to IPython
+    - You can exit the interpreter with `exit()`, `quit()` or pressing
       `Ctrl-D`.
-    * [Tips and tricks of how to navigate IPython](
+    - [Tips and tricks of how to navigate IPython](
       https://ipython.readthedocs.io/en/6.5.0/config/shortcuts/index.html)
 
 
