@@ -208,7 +208,7 @@ Then in section 2.14, do exercises 6 and 7.
     Evaluate the following numerical expressions in your head,
     then use the Python interpreter to check your results:
 
-    ```
+    ```python
     >>> 5 % 2
     >>> 9 % 5
     >>> 15 % 12

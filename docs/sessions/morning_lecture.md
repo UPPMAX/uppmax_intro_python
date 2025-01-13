@@ -3,17 +3,18 @@
 This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
-    *The course emphasises hands-on experience with Python in the UPPMAX
+
+    - The course emphasises hands-on experience with Python in the UPPMAX
       environment. It focuses on the basics and can be taken by someone *without*
       any prior Python experience.
-    * **You will learn:**
-        *How to load and use different version of Python on our clusters
-        * Basic and more advanced builtin data types
-        *Using control flow statements to define the logic of your Python program
-        * Grouping code into reusable functions and structuring your program into
+    - **You will learn:**
+        - How to load and use different version of Python on our clusters
+        - Basic and more advanced builtin data types
+        - Using control flow statements to define the logic of your Python program
+        - Grouping code into reusable functions and structuring your program into
           modules
-        *Creating small command line programs that can take input arguments
-        * Reading and writing to files in Python
+        - Creating small command line programs that can take input arguments
+        - Reading and writing to files in Python
 
 ## Schedule
 
@@ -32,13 +33,13 @@ Time          | Topic
 
 ## What is Python?
 
-* Developed by Guido van Rossum in the early 1990s
-* Named after the British comedy group "Monty Python",  not after the reptile
-* Python is available for all operating systems for free
-* Python is easy to learn (not master)
-* Has a big ecosystem of packages for scientific computing
-* Has a big community
-* Commonly used in many scientific fields
+- Developed by Guido van Rossum in the early 1990s
+- Named after the British comedy group "Monty Python",  not after the reptile
+- Python is available for all operating systems for free
+- Python is easy to learn (not master)
+- Has a big ecosystem of packages for scientific computing
+- Has a big community
+- Commonly used in many scientific fields
 
 ## Getting Started
 
@@ -46,9 +47,9 @@ Link to HackMd: <https://hackmd.io/@dianai/uppmax-intro/>
 
 To work with Python on UPPMAX:
 
-* [Login to Rackham](#login-to-rackham)
-* [Load the Python module](#load-the-python-module)
-* [Pick how to work](#pick-how-to-work)
+- [Login to Rackham](#login-to-rackham)
+- [Load the Python module](#load-the-python-module)
+- [Pick how to work](#pick-how-to-work)
 
 ### Login to Rackham
 
@@ -63,13 +64,13 @@ This is described at the UPPMAX page 'Login to Rackham'
 
     Spoiler:
 
-    ```
+    ```bash
     ssh [username]@rackham.uppmax.uu.se
     ```
 
     where `[username]` is your UPPMAX username, for example:
 
-    ```
+    ```bash
     ssh sven@rackham.uppmax.uu.se
     ```
 
@@ -94,10 +95,10 @@ This is described at the UPPMAX pages on Python
 
 There are multiple ways to develop Python code:
 
-* Using Python scripts with a text editor
-* Using the Python interpreter
-* Using IPython
-* Using Jupyter
+- Using Python scripts with a text editor
+- Using the Python interpreter
+- Using IPython
+- Using Jupyter
 
 We can work with Python either interactively or by writing our code into files
 (so-called Python scripts) with the `.py` suffix.
@@ -114,14 +115,14 @@ We can work with Python either interactively or by writing our code into files
     > ([wiki
     > link](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)).
 
-    ``` bash
+    ```bash
     # start the interpreter
     python
     ```
     This will take you to the interpreter where you can start writing Python
     code (Think of it as a calculator for code).
 
-    ``` 
+    ```bash
     Python 3.10.8 (main, Nov 15 2022, 21:16:40) [GCC 12.2.0] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> print("Hello, world!")
@@ -131,7 +132,7 @@ We can work with Python either interactively or by writing our code into files
 
     We can use Python as a calculator. Try the following
 
-    ```
+    ```python
     >>> 2 + 2
     4
     >>> 50 - 5*6
@@ -148,7 +149,7 @@ We can work with Python either interactively or by writing our code into files
     popular [Jupyter Notebook](https://jupyter.org/) that you might be familiar
     with. The "Hello, world!" example is completely analogous 
 
-    ``` bash
+    ```bash
     # start ipython
     ipython
     ```
@@ -246,12 +247,14 @@ Out[4]: int
 
 !!! info "Variable names"
 
-    * Names of variables may be chosen freely, but 
-        * must consist of a single word (no blanks)
-        * must not contain special characters except "_", and
-        * must not begin with a number
-    * Valid names are: my_variable, Value15
-    * Invalid names are: my-variable, 15th_value
+    - Names of variables may be chosen freely, but 
+
+        - must consist of a single word (no blanks)
+        - must not contain special characters except "_", and
+        - must not begin with a number
+
+    - Valid names are: `my_variable`, `Value15`
+    - Invalid names are: `my-variable`, `15th_value`
 
     ```python title="Conventions"
     module_name, package_name, ClassName, method_name, ExceptionName,
@@ -503,10 +506,10 @@ Notice how all the elements of the list are inside the square brackets `[]` and
 how each element is separated by a comma `,`. Lists are extremely useful, here
 are some of the things you can do with them:
 
-* *Append* new elements to the list
-* *Concatenate* two (or more) lists
-* Access individual elements by their *index*
-* Perform some *operation*, *reduction* or *transformation* on all or some of
+- *Append* new elements to the list
+- *Concatenate* two (or more) lists
+- Access individual elements by their *index*
+- Perform some *operation*, *reduction* or *transformation* on all or some of
   elements in the list
 
 Let's look at some examples
@@ -557,11 +560,11 @@ Out[17]: [3, 50, 170, 244]
 
 ## Control Flow Statements
 
-* Control structures determine the logical flow of a program
-* There are two types of key control structures in Python:
+- Control structures determine the logical flow of a program
+- There are two types of key control structures in Python:
     * Loops: `for`, `while`
     * Conditions: `if-else`
-* These two types of control structures permit the modeling of all possible
+- These two types of control structures permit the modeling of all possible
   program flows
 
 ### `if-else` conditions
@@ -819,9 +822,9 @@ for i in A:
 
 ## Links
 
-* [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
-* [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
-* Previous content is adapted (and extended) from previous iterations of the course and
+- [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
+- [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
+- Previous content is adapted (and extended) from previous iterations of the course and
 slides developed by Nina Fischer (see [slide deck
 one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
 and [slide deck

@@ -104,7 +104,7 @@ flowchart TD
     text_editors --> |work on|text_files
     %%x_forwarding --> |allows|graphics
     %%remote_desktop --> |allows|graphics
-    
+
 
     %% variables ~~~ uppmax
 ```
@@ -182,7 +182,7 @@ the questions are copy-pasted below:
 
     Using the Python interpreter, type `1 + 2` and then hit return.
     Python evaluates this expression, displays the result,
-    and then shows another prompt. 
+    and then shows another prompt.
     `*` is the multiplication operator,
     and `**` is the exponentiation operator.
     Experiment by entering different expressions
@@ -215,7 +215,7 @@ the questions are copy-pasted below:
     ```
 
     In many cases, Python indicates where the syntax error occurred,
-    but it is not always right, 
+    but it is not always right,
     and it doesn't give you much information about what is wrong.
 
     So, for the most part, the burden is on you to learn the syntax rules.
@@ -294,7 +294,7 @@ the questions are copy-pasted below:
 
     A correct conclusion is:
 
-    - When using `print`, any type of quotes is removed 
+    - When using `print`, any type of quotes is removed
     - When not using `print`, the word is printed in single quotes
 
 !!! question "1.12.5"
@@ -351,7 +351,7 @@ the questions are copy-pasted below:
     6 + 4 * 9
     ```
 
-    What happens when you run this script? 
+    What happens when you run this script?
 
 Tip: search [the UPPMAX documentation](https://docs.uppmax.uu.se)
 for a text editor. Use the simplest one.
@@ -379,7 +379,7 @@ for a text editor. Use the simplest one.
     Running the Python script `my_script.py`:
 
     ```bash
-    python my_script.py 
+    python my_script.py
     ```
 
 !!! question "1.12.6.3"
@@ -409,10 +409,10 @@ for a text editor. Use the simplest one.
     ```
 
     Running the Python script `my_script.py`:
-    
+
 
     ```text
-    python3 my_script.py 
+    python3 my_script.py
     ```
 
     Gives:

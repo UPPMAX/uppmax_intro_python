@@ -38,10 +38,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
 ## Why?
 
@@ -108,7 +108,7 @@ flowchart TD
     %% text_editors --> |work on|text_files
     %%x_forwarding --> |allows|graphics
     %%remote_desktop --> |allows|graphics
-    
+
 
     %% variables ~~~ uppmax
 ```
@@ -136,7 +136,7 @@ then answer these questions:
     [the UPPMAX page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/):
 
     - Remote desktop via website: go to <https://rackham-gui.uppmax.uu.se>
-    - Using SSH: 
+    - Using SSH:
 
     ```bash
     ssh -X sven@rackham.uppmax.uu.se
