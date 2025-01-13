@@ -25,9 +25,17 @@ tags:
 15:15-15:45 | [Variables, expressions and statements: user input](sessions/variables_expressions_and_statements_3.md)
 15:45-16:00 | [Evaluation](misc/evaluation.md)
 
-> The course is learner-centered. This means that the pace is determined
-> be the learners (i.e. not by the clock).
-> The breaks are always on the time specified.
+!!! info "The course is learner-centered"
+
+    The course is learner-centered. This means that the pace is determined
+    be the learners (i.e. not by the clock).
+    The breaks are always on the time specified.
+
+???- question "Why is the course learner-centered?"
+
+    See [the frequently asked questions](faq.md)
+
+    
 
 - [UPPMAX modules and Python packages](sessions/hello_little_turtles.md)
 - [File IO](sessions/files.md)

@@ -7,7 +7,34 @@ tags:
 
 # Frequently Asked Questions
 
+## When to follow the course
+
+### When should I follow this course?
+
+When you want to get started with Python.
+
+Especially at the start of any new programming language,
+having help is very useful: some error messages seem
+like complex, yet have simple solutions. A teacher
+helps you get past those first errors.
+
+### When should I consider to **not** follow this course?
+
+When you have written your first scripts in Python and
+expect to learn new and more advanced things.
+
+In this case, the course will go too slow for you.
+
+However, you will probably be put to work by the teachers
+to help out other learners.
+If you like to test your own knowledge by teaching others,
+you will likely thrive in the course. 
+
 ## Prerequisites
+
+## What are the prerequisites for following this course?
+
+See [prerequisites](prereqs.md).
 
 ### Why are there so many prerequisites?"
 
@@ -95,6 +122,25 @@ The course material is made for self-study too, with videos
 for all exercises.
 Do fill in the evaluation when you leave early :-)
 
+## Teaching
+
+### Why is the course learner-centered?
+
+Because that is good teaching.
+
+This course defines good teaching as 'evidence-based
+methods to let learners acquire new skills and the monitoring
+of this acquisition'. This means that it should be observed
+that learners need more/less to time to practice and following
+the schedule based on that.
+
+Or: it is useless to go faster than the learners can follow.
+Lecturing is known to negatively effect learning `[Hattie, 2023]`.
+
+The teaching methods of this course follow the
+evidence-based teaching cycle by `[Bell, 2020]`,
+which allows learner-centered teaching.
+
 ## Website
 
 ### Why is the repository owner `UPPMAX` instead of NAISS?
@@ -128,6 +174,8 @@ Else:
 
 ## References
 
+- `[Bell, 2020]` Bell, Mike. The fundamentals of teaching:
+  A five-step model to put the research evidence into practice. Routledge, 2020.
 - `[Hattie, 2023]` Hattie, John. Visible learning:
   The sequel: A synthesis of over 2,100 meta-analyses relating to achievement.
   Routledge, 2023. The effect size of lecturing can be found on page 363,
