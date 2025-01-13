@@ -11,11 +11,11 @@ tags:
 
 ### When should I follow this course?
 
-!!! info
+!!! tip
 
     > Great course. Now, Python is not scary anymore.
-    >
-    > A learner from this course ([source](evaluations/20240830/README.md))
+    
+    A learner from this course ([source](evaluations/20240830/README.md))
 
 When you want to get started with Python.
 
@@ -30,11 +30,13 @@ These are the reasons to consider to **not** follow this course:
 
 #### Reason 1: you want to learn advanced things
 
-> I feel like maybe some things were a little basic
-> for me and I wish we had gotten into the more advanced stuff at the end.
-> But this really reinforced the basics for me and I'm still glad that I did it.
->
-> A learner from this course ([source](evaluations/20240830/README.md))
+!!! tip
+
+    > I feel like maybe some things were a little basic
+    > for me and I wish we had gotten into the more advanced stuff at the end.
+    > But this really reinforced the basics for me and I'm still glad that I did it.
+
+    A learner from this course ([source](evaluations/20240830/README.md))
 
 When you have written your first scripts in Python and
 expect to learn new and more advanced things.
@@ -56,10 +58,12 @@ However, in this course, it is perfectly OK to give a wrong
 answer or to say 'I do not know'. This is what a former
 learner had to say on this:
 
-> As a learner, you do not want to be berated when giving an answer.
-> Richel tries to gently deal with a wrong answer and he does this great
->
-> A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/))
+!!! tip
+
+    > As a learner, you do not want to be berated when giving an answer.
+    > Richel tries to gently deal with a wrong answer and he does this great
+
+    A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/))
 
 You are welcome to try and leave anytime you want.
 The course material is made for self-study too, with videos
@@ -138,9 +142,11 @@ or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rack
 
 ### What if I don't have a good Zoom setup? Is that OK?"
 
-> Thank you for creating very interactive [class] room
->
-> A learner from this course ([source](evaluations/20240830/README.md))
+!!! tip
+
+    > Thank you for creating very interactive [class] room
+
+    A learner from this course ([source](evaluations/20240830/README.md))
 
 No.
 
@@ -151,9 +157,11 @@ It would be weird to the other learners.
 
 ### Why is the course learner-centered?
 
-> I liked Ri-kjells teaching style!
->
-> A learner from this course ([source](evaluations/20240830/README.md))
+!!! tip
+
+    > I liked Ri-kjells teaching style!
+
+    A learner from this course ([source](evaluations/20240830/README.md))
 
 Because that is good teaching.
 
