@@ -58,7 +58,7 @@ put the string in quotation marks (" ").
 
 ### Assignment 1.4
 
-Assign to variable `A` a sequence AGCTA (don’t forget to put the
+Assign to variable `A` a sequence `AGCTA` (don't forget to put the
 sequence in quotation marks). Use the built-in function `len()` to
 determine the length of the sequence `A` and assign the length of `A` to
 variable `i`. Print `A` and `i`.
