@@ -120,7 +120,8 @@ learner had to say on this:
 You are welcome to try and leave anytime you want.
 The course material is made for self-study too, with videos
 for all exercises.
-Do fill in the evaluation when you leave early :-)
+Do fill in [the evaluation](evaluation.md)
+when you leave early :-)
 
 ## Teaching
 
@@ -176,13 +177,15 @@ Else:
 
 ## References
 
-- `[Bell, 2020a]` Bell, Mike. The fundamentals of teaching:
+- `[Bell, 2020a]`
+  Bell, Mike. The fundamentals of teaching:
   A five-step model to put the research evidence into practice. Routledge, 2020.
 - `[Cornelius-White, 2007]`
   Cornelius-White, Jeffrey. "Learner-centered teacher-student relationships
   are effective: A meta-analysis." Review of educational
   research 77.1 (2007): 113-143.
-- `[Hattie, 2012]` Hattie, John. Visible learning for teachers:
+- `[Hattie, 2012]`
+  Hattie, John. Visible learning for teachers:
   Maximizing impact on learning. Routledge, 2012.
   The effect size of student centered learning can be found on page 157,
   which references `[Cornelius-White, 2007]` where an
@@ -202,4 +205,3 @@ Else:
   Knight, Jennifer K., and William B. Wood.
   "Teaching more by lecturing less." Cell biology education 4.4 (2005): 298-310.
   [paper](https://www.lifescied.org/doi/full/10.1187/05-06-0082)
-
