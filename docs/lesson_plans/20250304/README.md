@@ -12,6 +12,20 @@ the content to be NAISS-wide.
 Done! [Version 2.3.1](https://github.com/UPPMAX/uppmax_intro_python/releases/tag/v2.3.1)
 builds cleanly!
 
+One drawback of being NAISS-wide is that UPPMAX (as far as I can see)
+has the only user documentation suitable for teaching.
+I will be ruthless when needed, and add things to the UPPMAX doc.
 
+Another drawback of being NAISS-wide is that the evaluation question
+'I am comfortable using my HPC center's documentation' will vary
+per center. It *is* part of the course to use other center's documentation,
+I will encourage our learners to give feedback regarding other center's
+documentation.
 
+Going NAISS-wide will make me 
+remove 'I can start an interactive session on my HPC cluster'
+as not all NAISS clusters have this. If they have it, they differ.
+This course is about learning Python and less on HPC clusters
+
+- [ ] Remove interactive session
 
