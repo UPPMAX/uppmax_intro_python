@@ -17,10 +17,8 @@ This module introduces the fundamentals of Python programming language.
 
     Classic-style lecture and exercises can be found at:
 
-    - [../classic_sesions/morning_lecture.md](../classic_sesions/morning_lecture.md)
-    - [../classic_sesions/morning_exercise.md](../classic_sesions/morning_exercise.md)
-    - [../classic_sesions/afternoon_lecture.md](../classic_sesions/afternoon_lecture.md)
-    - [../classic_sesions/afternoon_exercise.md](../classic_sesions/afternoon_exercise.md)
+    - [../classic_sessions/morning_lecture.md](../classic_sessions/morning_lecture.md)
+    - [../classic_sessions/morning_exercise.md](../classic_sessions/morning_exercise.md)
 
 ```mermaid
 flowchart TD

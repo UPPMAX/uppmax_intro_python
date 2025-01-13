@@ -22,9 +22,10 @@ This module introduces the fundamentals of Python programming language.
 
 ??? info "For teachers"
 
-    Classic-style lecture and exercises can be found at
-    [afternoon_lecture.md](afternoon_lecture.md) and
-    [afternoon_exercise.md](afternoon_exercise.md).
+    Classic-style lecture and exercises can be found at:
+
+    - [../classic_sessions/afternoon_lecture.md](../classic_sessions/afternoon_lecture.md)
+    - [../classic_sessions/afternoon_exercise.md](../classic_sessions/afternoon_exercise.md)
 
 ```mermaid
 flowchart TD
