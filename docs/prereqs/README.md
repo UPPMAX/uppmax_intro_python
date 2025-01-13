@@ -89,7 +89,7 @@ Before the course, you must have done these **four** things:
     > As a learner, you do not want to be berated when giving an answer.
     > Richel tries to gently deal with a wrong answer and he does this great
     >
-    > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/2024_01/))
+    > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/))
 
     You are welcome to try and leave anytime you want.
     The course material is made for self-study too, with videos
