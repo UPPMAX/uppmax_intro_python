@@ -9,6 +9,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
 
     1. Start by typing the following command into the Python interpreter:
+
     ``` python
     print("Assignment 7")
     ```
@@ -25,6 +26,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
        `print(j)`.
 
         ??? tip "What values are displayed and why?"
+
             ``` python
             >>> i = 10
             >>> print(i)
@@ -40,6 +42,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
 
         ??? tip "What error occurs and why?"
+
             ``` python
             >>> 7Assignment = "black magic"
               File "<stdin>", line 1
@@ -54,6 +57,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
        variable `i`. Print `A` and `i`.
 
         ??? tip "Output"
+
             ``` python
             >>> A = "AGCTA"
             >>> i = len(A)
@@ -64,6 +68,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
     5. Concatenate `A` and `i` and print the result.
         
         ??? tip "What happens and why?"
+
             ``` python
             >>> print(A + i)
             Traceback (most recent call last):
@@ -74,10 +79,12 @@ how to use both, the Python-interpreter and an editor. Good luck!
     6. Now enter `print(A + str(i))`.
 
         ??? tip "What happens now?"
+
             ``` python
             >>> print(A + str(i))
             AGCTA5
             ```
+
         > **Hint**: What might the built-in function `str()` do? There are also
         > other built-in functions, e.g., to convert a string or number to an
         > integer: `int()`, or to convert a string or number to a floating
@@ -87,6 +94,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
        GCT.
 
         ??? tip "Solution"
+
             ``` python
             >>> print(A[1:4])
             GCT
@@ -97,18 +105,21 @@ how to use both, the Python-interpreter and an editor. Good luck!
        should be AG and TA.
         
         ??? tip "Solution"
+
             ``` python
             >>> print(A[:2])
             AG
             >>> print(A[-2:])
             TA
             ```
+
     9. Write a for-loop with the loop variable i, which runs from 0 to len(A)
        and prints out i.
 
         > Hint: Don’t forget to indent the body of the for-loop.
 
         ??? tip "Solution"
+
             ``` python
             >>> for i in range(len(A)):
             >>>     print(i)
@@ -118,6 +129,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
             3
             4
             ```
+
         Execute the same for-loop a second time and print out the character at
         each position of string A using A[i] as well.
 
@@ -125,6 +137,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
         len(A)/2`. Only print i and A[i] if this condition is true.
 
         ??? tip "Solution"
+
             ``` python
             >>> for i in range(len(A)):
             >>>     if (i < len(A)/2):
@@ -139,6 +152,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
          as the for-loop and if-condition together.
 
         ??? tip "Solution"
+
             ``` python
             >>> i = 0
             >>> while (i < len(A)/2):
@@ -152,6 +166,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
     12. Print the variable A again.
 
         ??? tip "What happens?"
+
             ``` python
             >>> print(A)
             AGCTA
@@ -163,6 +178,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
         A. 
 
         ??? tip "What happens now and why?"
+
             ``` python
             Traceback (most recent call last):
               File "<stdin>", line 1, in <module>
@@ -269,6 +285,7 @@ please continue with the bonus exercises below.
 
 
         ??? tip "Solution"
+
             ``` python title="sequence_operations.py"
             # Alternative 1 
             for i in range(len(B)):
@@ -286,6 +303,9 @@ please continue with the bonus exercises below.
             for c in B[::-1]
                 print(c)
             ```
+
+            Screen output:
+
             ``` bash
             C
             A
@@ -305,4 +325,6 @@ please continue with the bonus exercises below.
 Some extra bonus exercises have not been integrated into the webpage yet.
 You can find them here:
 
-* More bonus exercises: <https://hackmd.io/@pmitev/UPPMAX-intro-Python-assignments1>
+- More bonus exercises:
+  [https://hackmd.io/@pmitev/UPPMAX-intro-Python-assignments1](https://hackmd.io/@pmitev/UPPMAX-intro-Python-assignments1)
+

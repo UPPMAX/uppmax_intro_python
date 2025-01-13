@@ -241,7 +241,6 @@ In [3]: x = 1
 
 In [4]: type(x)
 Out[4]: int
-
 ```
 
 
@@ -297,59 +296,60 @@ standard library as well as [`numpy`](https://numpy.org/) and
 [`scipy`](https://scipy.org/) which are the cornerstones of scientific
 computation in Python.
 
-Operation   | Result
--------------- | ---------------
-`x + y`  |sum of x and y
-`x - y`  |difference of x and y
-`x * y`  |product of x and y
-`x / y`  |quotient of x and y
+Operation |Result
+----------|--------------------------
+`x + y`   |sum of x and y
+`x - y`   |difference of x and y
+`x * y`   |product of x and y
+`x / y`   |quotient of x and y
 `x // y`  |floored quotient of x and y
-`x % y`  |remainder of `x / y`
+`x % y`   |remainder of `x / y`
 `x ** y`  |x to the power of y
 `abs(x)`  |absolute value of x
 `int(x)`  |x converted to integer
-`float(x)`  |x converted to floating point
+`float(x)`|x converted to floating point
 
 > Table from [the official Python docs](https://docs.python.org/3/library/stdtypes.html)
 
 !!! example "Some examples"
+
     Let's try some example in `ipython`
 
     ```ipython
-        In [1]: 4 + 2
-        Out[1]: 6
+    In [1]: 4 + 2
+    Out[1]: 6
 
-        In [2]: 4 + 2.0
-        Out[2]: 6.0
+    In [2]: 4 + 2.0
+    Out[2]: 6.0
 
-        In [3]: type(4 + 2.0)
-        Out[3]: float
+    In [3]: type(4 + 2.0)
+    Out[3]: float
 
-        In [4]: 8 / 5
-        Out[4]: 1.6
+    In [4]: 8 / 5
+    Out[4]: 1.6
 
-        In [5]: 8 // 5
-        Out[5]: 1
+    In [5]: 8 // 5
+    Out[5]: 1
 
-        In [6]: int(2.1)
-        Out[6]: 2
+    In [6]: int(2.1)
+    Out[6]: 2
 
-        In [7]: int(2.9)
-        Out[7]: 2
+    In [7]: int(2.9)
+    Out[7]: 2
 
-        In [8]: x = 1
+    In [8]: x = 1
 
-        In [9]: x = x + 2
+    In [9]: x = x + 2
 
-        In [10]: x
-        Out[10]: 3
+    In [10]: x
+    Out[10]: 3
 
-        In [11]: x = 1
+    In [11]: x = 1
 
-        In [12]: x += 2
+    In [12]: x += 2
 
-        In [13]: x
-        Out[13]: 3
+    In [13]: x
+    Out[13]: 3
     ```
 
 ### Strings
@@ -562,8 +562,8 @@ Out[17]: [3, 50, 170, 244]
 
 - Control structures determine the logical flow of a program
 - There are two types of key control structures in Python:
-    * Loops: `for`, `while`
-    * Conditions: `if-else`
+    - Loops: `for`, `while`
+    - Conditions: `if-else`
 - These two types of control structures permit the modeling of all possible
   program flows
 
@@ -632,7 +632,6 @@ Sequence A is greater than 3 and smaller than 5.
 Just like `if-else` statements, the idea of loops and iteration is
 fundamental to Python (and any programming language).
 
-
 #### The `while` loop
 
 The `while` loop is conceptually similar to an `if` statement, but, instead of
@@ -646,6 +645,7 @@ while True:
 ```
 
 ??? tip "Answer"
+
     It will continue continue for eternity.
 
 ```python
@@ -656,6 +656,7 @@ while i < 10:
 ```
 
 ??? tip "Answer"
+
     It will print "Hello, world!" 10 times before stopping
 
 ```python
@@ -671,6 +672,7 @@ while True:
 And last one...
 
 === "v1"
+
     ```python
     i = 0
     while i < 10:
@@ -679,7 +681,9 @@ And last one...
             i -= 1
         print(f"Number {i}")
     ```
+
 === "v2"
+
     ```python
     i = 0
     while i < 10:

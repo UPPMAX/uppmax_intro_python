@@ -18,11 +18,11 @@
 
     Teaching goals are:
 
-    * Learners have a general idea about what the Python programming language is
-    * Learners have used the word 'Python interpreter'
-    * Learners have a general idea about what a program is
-    * Learners have used the terms syntax error, runtime error and semantic error
-    * Learners have run code in the Python interpreter
+    - Learners have a general idea about what the Python programming language is
+    - Learners have used the word 'Python interpreter'
+    - Learners have a general idea about what a program is
+    - Learners have used the terms syntax error, runtime error and semantic error
+    - Learners have run code in the Python interpreter
 
     Other goals are:
 
@@ -31,10 +31,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior questions:
 
@@ -123,11 +123,11 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 !!!- info "Learning objectives"
 
-    * Get a first impression of what the Python programming language is
-    * Know the basics of what the Python interpreter is
-    * Get a first idea of what a program is
-    * Hear about the three types of errors
-    * Build up experience with the Python interpreter
+    - Get a first impression of what the Python programming language is
+    - Know the basics of what the Python interpreter is
+    - Get a first idea of what a program is
+    - Hear about the three types of errors
+    - Build up experience with the Python interpreter
 
 Read the following sections of
 [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
