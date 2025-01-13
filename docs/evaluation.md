@@ -13,17 +13,17 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation forms
 
-- [Any feedback during the day](https://forms.gle/iovPuMs6monHny5K6)
+- Any feedback during the day: `TODO`
 
 ???- question "For teachers: what is in that form?"
 
     Thanks for your feedback.
-    This feedback will be published as-is at the end of Day 4,
+    This feedback will be published as-is at the end of the day,
     if and only if there are no personal details (email, address, etc.)
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- [Evaluation questions](https://forms.gle/2JBMtSU224Mtvtn4A)
+- Evaluation questions: `TODO`
 
 ???- question "For teachers: what is in that form?"
 
@@ -43,16 +43,15 @@ This is the page for evaluating the current iteration of the course.
 
     Give you confidence levels of the following statements below:
 
-    - I am comfortable using the UPPMAX documentation
+    - I am comfortable using the documentation of my HPC center
     - I am comfortable using the Python book
     - I am comfortable learning Python
-    - I can login to Rackham
-    - I can load a Python version on Rackham
-    - I can start an interactive session on Rackham
+    - I can login to my HPC cluster
+    - I can load a Python version on my HPC cluster
     - I can describe what the Python programming language is
     - I can describe what the Python interpreter is
     - I can describe what a program is
-    - I can use a text editor on Rackham
+    - I can use a text editor on my HPC cluster
     - I can create a Python script
     - I can run a Python script
     - In Python, I can create a variable
@@ -76,6 +75,6 @@ This is the page for evaluating the current iteration of the course.
     - In Python, I can write a function with a return value
 
     Thanks for your feedback.
-    This feedback will be published as-is at the end of Day 1,
+    This feedback will be published as-is at the end of the day,
     if and only if there are no personal details (email, address, etc.)
     in the feedback. Do mention the teachers, assistants, etc by name!
