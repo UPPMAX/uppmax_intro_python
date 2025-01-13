@@ -164,7 +164,7 @@ an effect size from 0.36 `[Hattie ranking]`
 or 0.64/0.70 `[Cornelius-White, 2007][Hattie, 2012]`.
 
 Or: it is useless to go faster than the learners can follow.
-Lecturing is known to negatively effect learning `[Hattie, 2023]`.
+Lecturing is known to negatively affect learning `[Hattie, 2023]`.
 
 The teaching methods of this course follow the
 evidence-based teaching cycle by `[Bell, 2020a]`,
