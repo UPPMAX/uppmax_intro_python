@@ -23,7 +23,7 @@
     - Verify that learners indeed have learned how to login
     - Verify that learners indeed have learned how to use the module system
 
-    Prior question:
+    Prior and feedback question:
 
     - What is Python?
     - What are features of the Python language?
@@ -32,7 +32,10 @@
     - What is an interpreter?
     - What is an HPC cluster?
     - What are features of your HPC cluster?
+    - What is a login node?
     - What is the rule on what to run on a login node?
+    - How to run heavy Python calculations on your HPC cluster?
+    - How to make your Python scripts reproducible?
 
     Lesson plan:
 
