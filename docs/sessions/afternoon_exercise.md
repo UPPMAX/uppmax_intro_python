@@ -9,9 +9,11 @@
     seq1 = "ACGT"
     seq2 = "AGGT"
     ```
+
     A simple program (without fonctions or modules) is sufficient.
 
     ??? tip "Solution"
+
         ```python
         # define sequences
         seq1 = "ACGT"
@@ -49,6 +51,7 @@
         ```
 
     ??? tip "Solution"
+
         ```python
         import sys
 
@@ -82,6 +85,7 @@
        additionally to their distance.**
 
     ??? tip "Solution"
+
         ```python
         print("Sequence seq1: ", seq1)
         print("Sequence seq2: ", seq2)
@@ -101,7 +105,7 @@
        calculated when both sequences have the same length.** Test your program
        with the input sequences:
 
-        ```
+        ```text
         a) ACGT and AGT
         b) ACCGT and TGCCA
         ```
@@ -110,6 +114,7 @@
         clause. You could also raise a custom exception using `try-except`.*
 
     ??? tip "Solution"
+
         ```python
         import sys
 
@@ -132,6 +137,7 @@
         # print result to the terminal
         print(f"Distance between A and B: {distance_score}")
         ```
+
     4. **Extend the program that the second sequence is inverted
     and assigned to a
     third sequence.** Please, read the first and second sequence from
@@ -149,7 +155,7 @@
 
         Test your program with the following sequences:
 
-        ```
+        ```text
         a) ACGT and A-GT
         b) AC-GT and AGT--
         c) ACCGT and TGCCA
@@ -222,7 +228,6 @@
 
         # and so on
         ```
-
 
 ## Bonus Exercises
 
@@ -298,6 +303,7 @@
        calculates the similarity and distance of two whole sequences.
 
     ??? tip "Solution"
+
         ```python title="functions.py"
         # define the similarity function for whole sequences
         def sequence_similarity (seq1, seq2):
@@ -334,7 +340,8 @@
     4. **Calculate the similarity and distance for the following sequences.**
        Read these sequences from the command line and print out their
         similarity and distance.
-        ```
+
+        ```text
         a) ACGT and TGCA
         b) ATAG and ACAC
         c) ACGC and ATTT
@@ -343,6 +350,7 @@
         ```
 
     ??? tip "Solution"
+
         ```python title="main.py"
         import sys
 
@@ -438,7 +446,8 @@
     2. **Write another Python file that calculates for each combination of two
        sequences stored in list `seq_list` the similarity and distance using the
         module defined previously.**
-        ```
+
+        ```python
         l = ["ATCCGGT", "GCGTTAC", "CTACTGC", "TTGCAGT", "AGTCACC"]
         ```
 
@@ -483,16 +492,19 @@
        highest similarity of all sequences stored in list l. Write these two
         sequences and the alignment into a new file, called `similar_sequences.txt`.**
         
-        For example for two given sequences: “ATC” and “ACC” The alignment would be:
+        For example for two given sequences: `ATC` and `ACC` The alignment would be:
+
         ```text
         ATC
         | |
         ACC
         ```
+
         And this alignment should be written to a new output file. **Hint:** A
         line-break in Python can be made by adding ’\n’ to the end of the line.
         
         ??? tip "Solution"
+
             ```python title="main.py"
             from sequence_tools import *
 
