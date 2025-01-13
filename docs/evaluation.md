@@ -74,6 +74,19 @@ This is the page for evaluating the current iteration of the course.
     - In Python, I can write a function that requires an argument
     - In Python, I can write a function with a return value
 
+    If you think the documentation of your HPC cluster should be improved,
+    write down its name here:
+
+    ```text
+    [Empty paragraph]
+    ```
+
+    Any other feedback?
+
+    ```text
+    [Empty paragraph]
+    ```
+
     Thanks for your feedback.
     This feedback will be published as-is at the end of the day,
     if and only if there are no personal details (email, address, etc.)

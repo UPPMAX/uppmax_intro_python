@@ -22,10 +22,15 @@ per center. It *is* part of the course to use other center's documentation,
 I will encourage our learners to give feedback regarding other center's
 documentation.
 
+- [x] Add to the evaluation:
+  'If you think the documentation of your HPC cluster should be improved,
+  write down its name here'
+
 Going NAISS-wide will make me
 remove 'I can start an interactive session on my HPC cluster'
 as not all NAISS clusters have this. If they have it, they differ.
 This course is about learning Python and less on HPC clusters
 
 - [ ] Remove interactive session
+
 
