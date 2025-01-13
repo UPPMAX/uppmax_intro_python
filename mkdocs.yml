@@ -23,6 +23,7 @@ nav:
   - Misc:
     - About Richel: misc/richel.md
     - All topics: topics.md
+    - Communication: communication.md
     - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
     - Exercise procedure: misc/exercise_procedure.md
