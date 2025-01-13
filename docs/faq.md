@@ -11,6 +11,11 @@ tags:
 
 ### When should I follow this course?
 
+> Great course. Now, Python is not scary anymore.
+>
+> A learner from this course ([source](evaluations/20240830/README.md))
+
+
 When you want to get started with Python.
 
 Especially at the start of any new programming language,
@@ -19,6 +24,12 @@ like complex, yet have simple solutions. A teacher
 helps you get past those first errors.
 
 ### When should I consider to **not** follow this course?
+
+> I feel like maybe some things were a little basic
+> for me and I wish we had gotten into the more advanced stuff at the end.
+> But this really reinforced the basics for me and I'm still glad that I did it.
+>
+> A learner from this course ([source](evaluations/20240830/README.md))
 
 When you have written your first scripts in Python and
 expect to learn new and more advanced things.
@@ -101,6 +112,10 @@ or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rack
 
 ### What if I don't have a good Zoom setup? Is that OK?"
 
+> Thank you for creating very interactive [class] room
+>
+> A learner from this course ([source](evaluations/20240830/README.md))
+
 No.
 
 You will feel left out, as the course in highly interactive.
@@ -126,6 +141,10 @@ when you leave early :-)
 ## Teaching
 
 ### Why is the course learner-centered?
+
+> I liked Ri-kjells teaching style!
+>
+> A learner from this course ([source](evaluations/20240830/README.md))
 
 Because that is good teaching.
 
