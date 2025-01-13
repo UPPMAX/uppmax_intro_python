@@ -137,7 +137,7 @@ In Python, I know what the modulo operator is and when to use it|2|2
 In Python, I know what the modulo operator is and when to use it|4|6
 In Python, I know what the modulo operator is and when to use it|5|2
 
-<!-- markdownlint-enable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+<!-- markdownlint-enable MD013 -->
 
 ![All confidences](all_confidences.png)
 
