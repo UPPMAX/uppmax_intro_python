@@ -87,7 +87,7 @@ This is described at the UPPMAX pages on Python
 
     Spoiler:
 
-    ```
+    ```bash
     module load python/3.10.8
     ```
 
@@ -119,6 +119,7 @@ We can work with Python either interactively or by writing our code into files
     # start the interpreter
     python
     ```
+
     This will take you to the interpreter where you can start writing Python
     code (Think of it as a calculator for code).
 
@@ -147,14 +148,14 @@ We can work with Python either interactively or by writing our code into files
     A modern alternative is with more bells and whistles is
     [`IPython`](https://ipython.org/). This is also the backbone of the very
     popular [Jupyter Notebook](https://jupyter.org/) that you might be familiar
-    with. The "Hello, world!" example is completely analogous 
+    with. The "Hello, world!" example is completely analogous
 
     ```bash
     # start ipython
     ipython
     ```
 
-    And, 
+    And,
 
     ```ipython
     Python 3.10.8 (main, Nov 15 2022, 21:16:40) [GCC 12.2.0]
@@ -174,7 +175,7 @@ We can work with Python either interactively or by writing our code into files
       IPython
     * I will likely use "Python interpreter" also to refer to IPython
     * You can exit the interpreter with `exit()`, `quit()` or pressing
-      `Ctrl-D`. 
+      `Ctrl-D`.
     * [Tips and tricks of how to navigate IPython](
       https://ipython.readthedocs.io/en/6.5.0/config/shortcuts/index.html)
 
@@ -188,7 +189,7 @@ We can work with Python either interactively or by writing our code into files
     First create a file (module) called `hello_world.py`
     with your preferred editor
 
-    ```
+    ```bash
     vim hello_world.py
     ```
 
@@ -246,7 +247,7 @@ Out[4]: int
 
 !!! info "Variable names"
 
-    - Names of variables may be chosen freely, but 
+    - Names of variables may be chosen freely, but
 
         - must consist of a single word (no blanks)
         - must not contain special characters except "_", and
@@ -269,7 +270,7 @@ using these all the time. We will cover `Int`, `Float`, `List`, `Bool` and
 `Set`.
 
 
-``` mermaid
+```mermaid
 flowchart TD
     A --- Numeric
     A --- Boolean
@@ -492,14 +493,14 @@ we can have a list of *strings* a list of *integers* and a list of *lists* of
 *strings* and *integers*. Let's start by looking at how can define a list
 
 ```python
-    In [1]: list_of_ints = [1, 5, 2]
+In [1]: list_of_ints = [1, 5, 2]
 
-    In [2]: list_of_str = ["hej", "du"]
+In [2]: list_of_str = ["hej", "du"]
 
-    In [3]: list_of_str == "hej du".split(" ")
-    Out[3]: True
+In [3]: list_of_str == "hej du".split(" ")
+Out[3]: True
 
-    In [4]: mixed_list = ["string", 3, True, []]
+In [4]: mixed_list = ["string", 3, True, []]
 ```
 
 Notice how all the elements of the list are inside the square brackets `[]` and
@@ -829,9 +830,8 @@ for i in A:
 - [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
 - [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
 - Previous content is adapted (and extended) from previous iterations of the course and
-slides developed by Nina Fischer (see [slide deck
-one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
-and [slide deck
-two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
+  slides developed by Nina Fischer
+  (see [slide deck one](https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1)
+  and [slide deck two](https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4)).
 
 <!-- markdownlint-enable MD013 -->

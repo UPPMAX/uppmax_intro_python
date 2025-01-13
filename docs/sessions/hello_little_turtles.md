@@ -135,7 +135,7 @@ wn.mainloop()             # Wait for user to close window
     Here is the error:
 
     ```bash
-    [richel@rackham3 ~]$ python3 my_little_turtle.py 
+    [richel@rackham3 ~]$ python3 my_little_turtle.py
     Traceback (most recent call last):
       File "my_little_turtle.py", line 1, in <module>
         import turtle             # Allows us to use turtles
@@ -188,7 +188,7 @@ wn.mainloop()             # Wait for user to close window
 
     ```bash
     richel@richel-N141CU:~/GitHubs/uppmax_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
-    richel@rackham.uppmax.uu.se's password: 
+    richel@rackham.uppmax.uu.se's password:
     ```
 
     Output:
@@ -198,8 +198,8 @@ wn.mainloop()             # Wait for user to close window
      _   _ ____  ____  __  __    _    __  __
     | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham2
     | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      richel
-    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
-     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    |
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   |
 
     ###############################################################################
 
@@ -223,7 +223,7 @@ wn.mainloop()             # Wait for user to close window
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [richel@rackham2 ~]$ python my_little_turtle.py 
+    [richel@rackham2 ~]$ python my_little_turtle.py
     Traceback (most recent call last):
       File "/domus/h1/richel/my_little_turtle.py", line 2, in <module>
         wn = turtle.Screen()      # Creates a playground for turtles
@@ -236,7 +236,7 @@ wn.mainloop()             # Wait for user to close window
       File "/sw/comp/python/3.10.8/rackham/lib/python3.10/tkinter/__init__.py", line 2299, in __init__
         self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
     _tkinter.TclError: no display name and no $DISPLAY environment variable
-    [richel@rackham2 ~]$ 
+    [richel@rackham2 ~]$
     ```
 
     <!-- markdownlint-enable MD013 -->
@@ -274,7 +274,7 @@ use the Rackham remote desktop environment.
     The exercise is about *practicing* to search for an UPPMAX module,
     hence giving away the answer makes this session useless.
 
-    However, if you feel stuck too much, 
+    However, if you feel stuck too much,
     you can watch a video in which this exercise is done
     [here](https://youtu.be/bnN-1uzsgvk)
 

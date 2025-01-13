@@ -10,15 +10,16 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
     1. Start by typing the following command into the Python interpreter:
 
-    ``` python
+    ```python
     print("Assignment 7")
     ```
 
-        ??? tip "What happens?"
-            ``` python
-            >>> print("Assignment7")
-            Assignment7
-            ```
+    ??? tip "What happens?"
+
+        ```python
+        >>> print("Assignment7")
+        Assignment7
+        ```
 
     2. Enter now `i = 10` in the Python-interpreter and then (in a new line)
        `print(i)`. After that (in a new line) enter 
@@ -27,7 +28,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "What values are displayed and why?"
 
-            ``` python
+            ```python
             >>> i = 10
             >>> print(i)
             10
@@ -43,7 +44,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "What error occurs and why?"
 
-            ``` python
+            ```python
             >>> 7Assignment = "black magic"
               File "<stdin>", line 1
                 7Assignment = "black magic"
@@ -58,7 +59,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "Output"
 
-            ``` python
+            ```python
             >>> A = "AGCTA"
             >>> i = len(A)
             >>> print(A, i)
@@ -69,7 +70,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
         
         ??? tip "What happens and why?"
 
-            ``` python
+            ```python
             >>> print(A + i)
             Traceback (most recent call last):
               File "<stdin>", line 1, in <module>
@@ -80,7 +81,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "What happens now?"
 
-            ``` python
+            ```python
             >>> print(A + str(i))
             AGCTA5
             ```
@@ -95,7 +96,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "Solution"
 
-            ``` python
+            ```python
             >>> print(A[1:4])
             GCT
             ```
@@ -106,7 +107,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
         
         ??? tip "Solution"
 
-            ``` python
+            ```python
             >>> print(A[:2])
             AG
             >>> print(A[-2:])
@@ -120,7 +121,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "Solution"
 
-            ``` python
+            ```python
             >>> for i in range(len(A)):
             >>>     print(i)
             0
@@ -138,7 +139,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "Solution"
 
-            ``` python
+            ```python
             >>> for i in range(len(A)):
             >>>     if (i < len(A)/2):
             >>>         print(i, A[i])
@@ -153,7 +154,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "Solution"
 
-            ``` python
+            ```python
             >>> i = 0
             >>> while (i < len(A)/2):
             >>>     print(i, A[i])
@@ -167,7 +168,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "What happens?"
 
-            ``` python
+            ```python
             >>> print(A)
             AGCTA
             ```
@@ -179,7 +180,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
 
         ??? tip "What happens now and why?"
 
-            ``` python
+            ```python
             Traceback (most recent call last):
               File "<stdin>", line 1, in <module>
             NameError: name 'A' is not defined
@@ -194,7 +195,7 @@ how to use both, the Python-interpreter and an editor. Good luck!
         ??? tip "Solution"
             Write the script `compare.py` using your favorite editor.
 
-            ``` python title="compare.py"
+            ```python title="compare.py"
             i = 3
             j = 4
             if i == j:
@@ -202,8 +203,10 @@ how to use both, the Python-interpreter and an editor. Good luck!
             else:
                 print(0)
             ```
-            Then run it from the command line using
-            ``` bash
+
+            Then run it from the command line using:
+
+            ```bash
             $ python compare.py
             0
             ```
@@ -244,13 +247,16 @@ please continue with the bonus exercises below.
         
         ??? tip "Solution"
 
-            ``` python title="sequence_operations.py"
+            ```python title="sequence_operations.py"
             A = "GATTACA"
             B = "TACCATAC"
             print("sequence A + B: ", A + B)
             print("sequence B + A: ", B + A)
             ```
-            ``` bash
+
+            Screen output:
+
+            ```bash
             sequence A + B:  GATTACATACCATAC
             sequence B + A:  TACCATACGATTACA
             ```
@@ -260,7 +266,7 @@ please continue with the bonus exercises below.
         
         ??? tip "Solution"
 
-            ``` python title="sequence_operations.py"
+            ```python title="sequence_operations.py"
             print("prefix A: ", A[:3])
             print("prefix B: ", B[:3])
             suffix_A = len(A) - 3
@@ -273,7 +279,10 @@ please continue with the bonus exercises below.
             print("suffix A: ", A[-3:])
             print("suffix B: ", B[-3:])
             ```
-            ``` bash
+
+            Screen output:
+
+            ```bash
             prefix A: GAT
             prefix B: TAC
             suffix A: ACA
@@ -286,7 +295,7 @@ please continue with the bonus exercises below.
 
         ??? tip "Solution"
 
-            ``` python title="sequence_operations.py"
+            ```python title="sequence_operations.py"
             # Alternative 1 
             for i in range(len(B)):
                 print(B[len(B) - i - 1])
@@ -306,7 +315,7 @@ please continue with the bonus exercises below.
 
             Screen output:
 
-            ``` bash
+            ```bash
             C
             A
             T

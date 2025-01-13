@@ -9,15 +9,15 @@
 
     Teaching goals are:
 
-    * Learners have read a file
-    * Learners have created a file
+    - Learners have read a file
+    - Learners have created a file
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior:
 

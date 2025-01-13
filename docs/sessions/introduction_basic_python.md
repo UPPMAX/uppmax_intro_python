@@ -3,6 +3,7 @@
 This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
+
     - The course emphasises hands-on experience with Python in the UPPMAX
       environment. It focuses on the basics and can be taken by someone
       without any prior Python experience.

@@ -9,15 +9,15 @@
 
     Teaching goals are:
 
-    * Learners have used sys.args
-    * Learners have run a Python script with command-line arguments
+    - Learners have used sys.args
+    - Learners have run a Python script with command-line arguments
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior:
 

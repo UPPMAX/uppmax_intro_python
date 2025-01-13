@@ -10,16 +10,16 @@
 
     Teaching goals are:
 
-    * Learners hear about matplotlib
-    * Learners may find out again that X-forwarding is important
-    * Learners again have gotten 'stuff to work'
+    - Learners hear about matplotlib
+    - Learners may find out again that X-forwarding is important
+    - Learners again have gotten 'stuff to work'
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior:
 
