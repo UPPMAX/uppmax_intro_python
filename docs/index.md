@@ -11,7 +11,6 @@
 
 This course introduces the foundations of the Python programming language.
 
-
 [Prerequisites](prereqs/README.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
