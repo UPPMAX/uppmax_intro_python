@@ -17,8 +17,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt natsort
 
-      - name: Deploy website
-        run: mkdocs gh-deploy --force
+      #- name: Deploy website
+      #  run: mkdocs gh-deploy --force
 
       - name: Check if website is cleanly built
         run: mkdocs gh-deploy
