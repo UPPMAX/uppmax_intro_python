@@ -25,7 +25,7 @@ print("Assignment 7")
 ### Assignment 1.2
 
 Enter now `i = 10` in the Python-interpreter and then (in a new line)
-`print(i)`. After that (in a new line) enter 
+`print(i)`. After that (in a new line) enter
 `j = i/2` and (in a new line)
 `print(j)`.
 
@@ -41,7 +41,7 @@ Enter now `i = 10` in the Python-interpreter and then (in a new line)
     ```
 
 ### Assignment 1.3
-    
+
 Assign to variable `7assignment` the string `"black magic"`.
 Don't forget to
 put the string in quotation marks (" ").
@@ -75,7 +75,7 @@ variable `i`. Print `A` and `i`.
 ### Assignment 1.5
 
 Concatenate `A` and `i` and print the result.
-        
+
 ??? tip "What happens and why?"
 
     ```python
@@ -117,7 +117,7 @@ Print the substring of A from position 2 to 4. The output should be `GCT`.
 Print the prefix (beginning of a string) of length 2 and the suffix (end
 of a string) of length 2 of the sequence stored in A. The output
 should be AG and TA.
-        
+
 ??? tip "Solution"
 
     ```python
@@ -166,8 +166,8 @@ len(A)/2`. Only print i and A[i] if this condition is true.
     ```
 
 ### Assignment 1.11
-    
-Write a while-loop, which produces the same output 
+
+Write a while-loop, which produces the same output
 as the for-loop and if-condition together.
 
 ??? tip "Solution"
@@ -200,7 +200,7 @@ Leave the interactive mode of Python with `quit()`.
 ### Assignment 1.14
 
 Now return to the interactive mode of Python and print the variable
-`A`. 
+`A`.
 
 ??? tip "What happens now and why?"
 
