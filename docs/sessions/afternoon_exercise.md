@@ -250,21 +250,22 @@ Define two functions `similarity` and `distance`:
 
 <!-- markdownlint-disable MD013 --><!-- Verbatim text cannot be split up over lines, hence will break 80 characters per line -->
 
-$$
+```latex
 \text{similarity}(a, b)=\left\{\begin{array}{rll}
 1, & \text { if } & a=b \\
 0.5, & \text { if } & a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are both purines or pyrimidines } \\
 0, & \text { if } & a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are not the same kind }
 \end{array}\right.
-$$
+```
 
-$$
+
+```latex
 \operatorname{distance}(a, b)=\left\{\begin{array}{rll}
 0, & \text { if } \quad a=b \\
 0.5, & \text { if } \quad a \neq b, \text { a and } \mathrm{b} \text { are both purines or pyrimidines } \\
 1, & \text { if } \quad a \neq b, \mathrm{a} \text { and } \mathrm{b} \text { are not the same kind }
 \end{array}\right.
-$$
+```
 
 **Note:** Purines are A and G, pyrimidines are C and T.
 
