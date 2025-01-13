@@ -16,3 +16,6 @@ Week|Date                  |Times
 10  |Tuesday March 4th 2025|9:00-16:00
 18  |Monday April 28th 2025|9:00-16:00
 
+???- question "Are there no more course dates?"
+
+    [Not yet](https://github.com/UPPMAX/uppmax_intro_python/issues/1)
