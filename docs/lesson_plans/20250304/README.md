@@ -33,4 +33,3 @@ This course is about learning Python and less on HPC clusters
 
 - [x] Remove interactive session
 
-
