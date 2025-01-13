@@ -74,7 +74,10 @@ f) --GA--TT--AC-A and TA--CC--AT--CA
     # print result to the terminal
     print(f"Distance between A and B: {distance_score}")
     ```
-    ```
+
+    Screen output:
+
+    ```text
     Distance between seq1 and seq2: 1
     Distance between seq1 and seq2: 4
     Distance between seq1 and seq2: 5
@@ -225,7 +228,9 @@ d) GATT-ACA and TACCATAC
         print("Sequences seq1 and seq2 are of different length.")
     ```
 
-    ```
+    Screen output:
+
+    ```text
     Sequence seq1: ACGT
     Sequence seq2: A-GT
     Distance between seq1 and seq2: 1
@@ -258,6 +263,7 @@ Define two functions `similarity` and `distance`:
 \end{array}\right.
 ```
 
+And:
 
 ```latex
 \operatorname{distance}(a, b)=\left\{\begin{array}{rll}
@@ -377,7 +383,9 @@ e) TCGC and AGAG
     print("Distance: ", sequence_distance(seq1, seq2))
     ```
 
-    ```
+    Screen output:
+
+    ```text
     Similarity: 0.0
     Distance: 4.0
 
@@ -571,7 +579,9 @@ line-break in Python can be made by adding ’\n’ to the end of the line.
     outfile.write(best_seq2 + "\n")
     ```
 
-    ```
+    Screen output:
+
+    ```text
     ATCCGGT
     | | ||
     TTGCAGT
