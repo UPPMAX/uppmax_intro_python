@@ -7,27 +7,124 @@ tags:
 
 # Frequently Asked Questions
 
-## Why is the repository owner `UPPMAX` instead of NAISS?
+## Prerequisites
+
+### Why are there so many prerequisites?"
+
+..
+
+Instead of lecturing (we should not `[Hattie, 2023]`),
+we decided to add prerequisites instead
+
+### How can I check if I have registered?"
+
+You should have gotten a welcome email within a couple
+of days.
+
+When it doubt, register another time :-)
+
+### How can I check if I have a user account on a Swedish academic HPC cluster?"
+
+When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
+
+???- question "How does that look like?"
+
+    It should look similar to this:
+
+    ![A user that logged into SUPR](supr_logged_in.png)
+
+### How can I get a user account on a Swedish academic HPC cluster?"
+
+Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
+
+### How can I check if I can login to an HPC cluster using SSH?"
+
+This depends on the HPC cluster you are using.
+
+???- question "How does that look like on UPPMAX's Rackham?"
+
+    For UPPMAX's Rackham, it look similar to this:
+
+    ![Logged into Rackham](rackham_logged_in.png)
+
+### Is it OK if I can login to an HPC cluster using other methods?"
+
+Probably: yes
+
+- Using a website: yes
+- Using a local ThinLinc client: yes
+
+### How can I login to an HPC cluster?"
+
+Follow the instructions of your favorite HPC center
+or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
+
+### How can I check if I have a good Zoom setup?"
+
+- You are in a room where you can talk
+- You talk into a (standalone or headset) microphone
+- Others can clearly hear you when you talk
+- Others can see you
+- You can hear others clearly when they talk
+
+### How can I get a good Zoom setup?"
+
+- Find/schedule/book a room where you can talk
+- Buy a simple headset
+
+### What if I don't have a good Zoom setup? Is that OK?"
+
+No.
+
+You will feel left out, as the course in highly interactive.
+It would be weird to the other learners.
+
+### What if I have social anxiety?"
+
+Sorry to hear that. In this course, it is OK to give a wrong
+answer or to say 'I do not know'. This is what a former
+learner had to say on this:
+
+> As a learner, you do not want to be berated when giving an answer.
+> Richel tries to gently deal with a wrong answer and he does this great
+>
+> A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/))
+
+You are welcome to try and leave anytime you want.
+The course material is made for self-study too, with videos
+for all exercises.
+Do fill in the evaluation when you leave early :-)
+
+## Website
+
+### Why is the repository owner `UPPMAX` instead of NAISS?
 
 Because NAISS does not have a GitHub owner page yet.
 
 This repository will be transferred to a NAISS GitHub owner
 page when it exists.
 
-## Why is the repository name `uppmax_intro_python` instead of `naiss_intro_python`?
+### Why is the repository name `uppmax_intro_python` instead of `naiss_intro_python`?
 
 Because the first name was used in a (rushed!) newsletter.
 
 The name of this repository will be changed to `naiss_intro_python`
 after its first iteration.
 
-## Why are there so many prerequisites?
+## Other
 
+### What if I have another question?
 
-...
+Preferably:
 
-Instead of lecturing (we should not `[Hattie, 2023]`),
-we decided to add prerequisites instead
+- Add an issue at [https://github.com/UPPMAX/uppmax_intro_python](https://github.com/UPPMAX/uppmax_intro_python).
+  This requires a GitHub account and ensures your question is shown publicly
+  to all of the course's teaching team
+
+Else:
+
+- Send an email to `richel.bilderbeek@uppmax.uu.se`.
+  There is no guarantee on a quick reply here.
 
 ## References
 
