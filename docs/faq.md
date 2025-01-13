@@ -28,7 +28,7 @@ In this case, the course will go too slow for you.
 However, you will probably be put to work by the teachers
 to help out other learners.
 If you like to test your own knowledge by teaching others,
-you will likely thrive in the course. 
+you will likely thrive in the course.
 
 ## Prerequisites
 
