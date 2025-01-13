@@ -185,9 +185,9 @@ Run the Python script as shown below. What does it print?
 Read the following sections of
 [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html):
 
-- 11. Lists
-- 11.1. List values
-- 11.2. Accessing elements
+- `11. Lists`
+- `11.1. List values`
+- `11.2. Accessing elements`
 
 Modify the script in such a way that the script will only show the first command-line
 argument.

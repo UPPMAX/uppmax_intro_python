@@ -17,27 +17,28 @@
 
     Teaching goals are:
 
-    * Learners have worked with variables
-    * Learners understand the purpose of variables
-    * Learners have obtained the data type of a variable
-    * Learners have heard about what a data type is
-    * Learners have practiced convert an equation and a text question to Python
-    * Learners have read on operators
-    * Learners have worked with the modulo operator
+    - Learners have worked with variables
+    - Learners understand the purpose of variables
+    - Learners have obtained the data type of a variable
+    - Learners have heard about what a data type is
+    - Learners have practiced convert an equation and a text question to Python
+    - Learners have read on operators
+    - Learners have worked with the modulo operator
 
     Lesson plan:
 
     Exercises:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
     Prior questions:
 
     - What is an operator?
-    - If I ask you: 'What time is it 10 hours later, what is the calculation you do in your head?'
+    - If I ask you: 'What time is it 10 hours later,
+      what is the calculation you do in your head?'
     - What is the modulo operator?
 
 
