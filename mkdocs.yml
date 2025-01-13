@@ -28,9 +28,9 @@ nav:
     - Communication: communication/README.md
     - Evaluation: evaluation.md
     - Evaluations: 
-        - evaluations/README.md
-        - evaluations/20240830.md
-        - evaluations/20240118.md
+        - Overview: evaluations/README.md
+        - 2024-08-30: evaluations/20240830/README.md
+        - 2024-01-18: evaluations/20240118/README.md
     - Exercise procedure: misc/exercise_procedure.md
     - Frequently asked questions: faq.md
     - Lesson plans: lesson_plans/README.md
