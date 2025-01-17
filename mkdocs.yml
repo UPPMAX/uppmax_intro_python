@@ -27,6 +27,7 @@ nav:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
     - Communication: communication/README.md
+    - Data: data/20250307/README.md
     - Deploy locally: deploy_locally.md
     - Evaluation: evaluation.md
     - Evaluations:  evaluations/README.md
