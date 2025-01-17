@@ -1,12 +1,6 @@
 {
-  "aliveStatusCodes": [200, 403, 418, 503],
+  "aliveStatusCodes": [0, 200, 403, 418, 503],
   "ignorePatterns": [
-    {
-      "pattern": "^morning_session/overview/$"
-    },
-    {
-        "pattern": "^https://bianca.uppmax.uu.se"
-    },
     {
         "pattern": "^https://rackham-gui.uppmax.uu.se"
     }
