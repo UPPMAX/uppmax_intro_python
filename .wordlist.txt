@@ -84,3 +84,5 @@ linter
 markdownlint
 markdownlintignore
 substring
+csv
+
