@@ -18,7 +18,8 @@ ggplot2::ggplot(
 ) + ggplot2::geom_line() + 
   ggplot2::scale_y_continuous(
     limits = c(0, max_n_registrations),
-    breaks = seq(0, max_n_registrations)
+    breaks = seq(0, max_n_registrations),
+    name = "Number or registration at the end of that day"
   ) +
   ggplot2::labs(
     title = "Number of course registrations in time",
