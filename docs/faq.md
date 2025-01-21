@@ -79,7 +79,7 @@ See [prerequisites](prereqs/README.md).
 
 ### Why are there so many prerequisites?
 
-Because the newletter was rushed :-)
+Because the newsletter was rushed :-)
 
 ### How can I check if I have registered?
 

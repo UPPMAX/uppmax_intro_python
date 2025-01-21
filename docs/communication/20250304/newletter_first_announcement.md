@@ -1,4 +1,4 @@
-# NAISS newletter, first announcement
+# NAISS newsletter, first announcement
 
 !!! info "This announcement is used in a newsletter"
 
