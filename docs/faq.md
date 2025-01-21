@@ -251,6 +251,10 @@ Because the first name was used in a (rushed!) newsletter.
 The name of this repository will be changed to `naiss_intro_python`
 after its first iteration.
 
+### Why don't you just publish the Zoom room on the website?
+
+As this course follow [Zoom's recommended practices](https://www.zoom.com/en/products/virtual-meetings/resources/securing-your-meetings/).
+
 ## Other
 
 ### What if I have another question?
