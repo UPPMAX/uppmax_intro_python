@@ -79,10 +79,7 @@ See [prerequisites](prereqs/README.md).
 
 ### Why are there so many prerequisites?"
 
-..
-
-Instead of lecturing (we should not `[Hattie, 2023]`),
-we decided to add prerequisites instead
+Because the newletter was rushed :-)
 
 ### How can I check if I have registered?
 
@@ -129,9 +126,33 @@ When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
     ![A user that logged into SUPR](supr_logged_in.png)
 
-### How can I get a user account on a Swedish academic HPC cluster?"
+### How can I get a user account on a Swedish academic HPC cluster?
 
 Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
+
+### How can I apply for an HPC cluster?
+
+In [https://supr.naiss.se/](https://supr.naiss.se/), request a 'Small Compute' project
+for either Dardel or Tetralith.
+
+???- question "Should I pick Dardel or Tetralith?"
+
+    Both are fine clusters and there are many ways to compare.
+
+    One way to compare is which cluster is easier to access,
+    based on the length of the videos on how to do so:
+
+    Cluster  |Video                                                                  | Length
+    ---------|-----------------------------------------------------------------------|-------
+    Dardel   |[Log in to Dardel](https://youtu.be/I8cNqiYuA-4?si=4AWNhLhw7e_Dhx0P)   | 7:20
+    Tetralith|[Log in to Tetralith](https://youtu.be/wtGIzSBiulY?si=D4OVFYDDVdhW64_V)| 2:18
+
+Here are some videos on how to apply:
+
+HPC cluster|Video
+-----------|----------------------------------------------------------------------------
+Dardel     |[Apply for a Dardel 'Small Compute' project](https://youtu.be/q_GHH1RF-Kg)
+Tetralith  |[Apply for a Tetralith 'Small Compute' project](https://youtu.be/vjAzURI2ymM)
 
 ### How can I check if I can login to an HPC cluster using SSH?"
 
@@ -143,17 +164,23 @@ This depends on the HPC cluster you are using.
 
     ![Logged into Rackham](rackham_logged_in.png)
 
+### How can I login to an HPC cluster?"
+
+See the documentation of your HPC cluster.
+
+Also, these videos may be useful:
+
+HPC cluster|Video
+-----------|----------------------------------------------------------------------------
+Dardel     |[Log in to Dardel](https://youtu.be/I8cNqiYuA-4?si=4AWNhLhw7e_Dhx0P)
+Tetralith  |[Log in to Tetralith using SSH](https://youtu.be/wtGIzSBiulY?si=D4OVFYDDVdhW64_V)
+
 ### Is it OK if I can login to an HPC cluster using other methods?"
 
 Probably: yes
 
 - Using a website: yes
 - Using a local ThinLinc client: yes
-
-### How can I login to an HPC cluster?"
-
-Follow the instructions of your favorite HPC center
-or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 ### How can I check if I have a good Zoom setup?"
 
