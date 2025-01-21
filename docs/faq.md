@@ -86,14 +86,24 @@ we decided to add prerequisites instead
 
 ### How can I check if I have registered?"
 
-You can check at [](../data/README)
+You can check all registrations at [the course data](data/README.md) of your
+course instance. As a trade-off between privacy and pragmatism,
+you can find the MD5 hashes of all registered email addresses.
 
-You should have gotten a welcome email within a couple
+???- question "How to check if I've registered?"
+
+    Get the MD5 hash of your email address.
+    For example, using
+    [this website](https://www.md5hashgenerator.com/).
+    the email `john.doe@gmail.com` gives the MD5 hash of
+    `e13743a7f1db7f4246badd6fd6ff54ff`.
+    If this MD5 hash is found in the table of registrations,
+    hence, that email address is registered.
+
+Besides that, you should have gotten a welcome email within a couple
 of days.
 
-When it doubt, register another time :-)
-
-
+When it doubt, send an email to `richel.bilderbeek@uppmax.uu.se` :-)
 
 ### How can I check if I have a user account on a Swedish academic HPC cluster?"
 
