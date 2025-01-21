@@ -77,7 +77,7 @@ when you leave early :-)
 
 See [prerequisites](prereqs/README.md).
 
-### Why are there so many prerequisites?"
+### Why are there so many prerequisites?
 
 Because the newletter was rushed :-)
 
@@ -116,7 +116,7 @@ of days.
 
 When it doubt, send an email to `richel.bilderbeek@uppmax.uu.se` :-)
 
-### How can I check if I have a user account on a Swedish academic HPC cluster?"
+### How can I check if I have a user account on a Swedish academic HPC cluster?
 
 When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
@@ -154,7 +154,7 @@ HPC cluster|Video
 Dardel     |[Apply for a Dardel 'Small Compute' project](https://youtu.be/q_GHH1RF-Kg)
 Tetralith  |[Apply for a Tetralith 'Small Compute' project](https://youtu.be/vjAzURI2ymM)
 
-### How can I check if I can login to an HPC cluster using SSH?"
+### How can I check if I can login to an HPC cluster using SSH?
 
 This depends on the HPC cluster you are using.
 
@@ -164,7 +164,7 @@ This depends on the HPC cluster you are using.
 
     ![Logged into Rackham](rackham_logged_in.png)
 
-### How can I login to an HPC cluster?"
+### How can I login to an HPC cluster?
 
 See the documentation of your HPC cluster.
 
@@ -182,7 +182,7 @@ Probably: yes
 - Using a website: yes
 - Using a local ThinLinc client: yes
 
-### How can I check if I have a good Zoom setup?"
+### How can I check if I have a good Zoom setup?
 
 - You are in a room where you can talk
 - You talk into a (standalone or headset) microphone
@@ -190,12 +190,12 @@ Probably: yes
 - Others can see you
 - You can hear others clearly when they talk
 
-### How can I get a good Zoom setup?"
+### How can I get a good Zoom setup?
 
 - Find/schedule/book a room where you can talk
 - Buy a simple headset
 
-### What if I don't have a good Zoom setup? Is that OK?"
+### What if I don't have a good Zoom setup? Is that OK?
 
 !!! tip
 
