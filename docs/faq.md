@@ -84,7 +84,12 @@ See [prerequisites](prereqs/README.md).
 Instead of lecturing (we should not `[Hattie, 2023]`),
 we decided to add prerequisites instead
 
-### How can I check if I have registered?"
+### How can I check if I have registered?
+
+???- question "Prefer a video?"
+
+    You can see this question being answered
+    in [this YouTube video](https://youtu.be/T8iIuzmjeRI).
 
 - Go to [the course data](data/README.md) page
 - Go to the data of your course instance
