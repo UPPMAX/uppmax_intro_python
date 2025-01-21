@@ -9,9 +9,10 @@
      This email has been sent to all learners to and including at timestamp
      `21/01/2025 12:15:29`
 
+<!-- markdownlint-disable MD013 --><!-- Allow clean copy-paste of 80+ characters -->
+
 ## Welcome to the Intro to Python course of 2025-03-04
 
-```text
 Dear learners,
 
 Welcome to the 'Intro to Python' course of 2025-03-04!
@@ -35,5 +36,4 @@ Please make sure you've done all your prerequisites and if yes, see you on March
 
 Thanks and cheers, Richèl Bilderbeek, NAISS 'Intro to Python' main teacher
 
-[Zoom invite text]
-```
+`[Zoom invite text]`
