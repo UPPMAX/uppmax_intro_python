@@ -86,10 +86,14 @@ we decided to add prerequisites instead
 
 ### How can I check if I have registered?"
 
+You can check at [](../data/README)
+
 You should have gotten a welcome email within a couple
 of days.
 
 When it doubt, register another time :-)
+
+
 
 ### How can I check if I have a user account on a Swedish academic HPC cluster?"
 
