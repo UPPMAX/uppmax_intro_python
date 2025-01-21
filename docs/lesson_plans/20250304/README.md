@@ -33,3 +33,10 @@ This course is about learning Python and less on HPC clusters
 
 - [x] Remove interactive session
 
+## 2025-01-21
+
+The newsletter was rushed and I only know the constraints I've asked for.
+This makes it hard to write a 'Welcome to the course' email, as
+too many things may change in the very near future.
+
+
