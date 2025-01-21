@@ -86,11 +86,20 @@ we decided to add prerequisites instead
 
 ### How can I check if I have registered?"
 
-You can check all registrations at [the course data](data/README.md) of your
-course instance. As a trade-off between privacy and pragmatism,
-you can find the MD5 hashes of all registered email addresses.
+- Go to [the course data](data/README.md) page
+- Go to the data of your course instance
+- View the registrations table. If the MD5 hash of your email address
+  is in that table, you are registered.
 
-???- question "How to check if I've registered?"
+???- question "Why use an MD5 hash?"
+
+    As a trade-off between privacy and pragmatism.
+
+    - Privacy: do not publish email addresses, however, oneone can find out
+      if an email address is registered
+    - Pragmatism: a learner should be able to confirm he/she has been registered
+
+???- question "How to use an MD5?"
 
     Get the MD5 hash of your email address.
     For example, using
