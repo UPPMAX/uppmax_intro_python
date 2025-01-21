@@ -40,6 +40,5 @@ This makes it hard to write a 'Welcome to the course' email, as
 too many things may change in the very near future.
 
 - [What is the max number of participants in a Zoom room?](https://github.com/UPPMAX/uppmax_intro_python/issues/7): 100
-- [What are the best practices for Zoom rooms?](https://github.com/UPPMAX/uppmax_intro_python/issues/8): 
-
+- [What are the best practices for Zoom rooms?](https://github.com/UPPMAX/uppmax_intro_python/issues/8):
 

@@ -9,7 +9,7 @@
      This email has been sent to all learners to and including at timestamp
      `21/01/2025 12:15:29`
 
-## Welcome to the Intro to Python course of 2025-03-04!
+## Welcome to the Intro to Python course of 2025-03-04
 
 ```text
 Dear learners,
