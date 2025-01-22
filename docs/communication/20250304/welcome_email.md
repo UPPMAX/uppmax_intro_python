@@ -30,7 +30,7 @@ Help, answers and videos can be found at the course's FAQ page at https://uppmax
 
 The course assumes you can log in to an HPC cluster and that the documentation of that cluster's documentation is clear (if not, contact your cluster's HPC center).
 
-If you have any questions, never heistate to contact me.
+If you have any questions, never hesitate to contact me.
 
 Please make sure you've done all your prerequisites and if yes, see you on March 4th 9:00 (sharp!) at the Zoom room below this email.
 
