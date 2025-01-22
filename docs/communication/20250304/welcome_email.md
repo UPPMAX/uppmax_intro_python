@@ -17,7 +17,7 @@ Dear learners,
 
 Welcome to the 'Intro to Python' course of 2025-03-04!
 
-Well done! You've already done one of the four prerequisites (as listed on https://uppmax.github.io/uppmax_intro_python/prereqs/ ):
+Well done! You've already done one of the four prerequisites (as listed on <https://uppmax.github.io/uppmax_intro_python/prereqs/> ):
 
 - [x] Prerequisite 1/4: You have registered at our registration form at here
 - [ ] Prerequisite 2/4: A user account on a Swedish academic HPC cluster
@@ -26,7 +26,7 @@ Well done! You've already done one of the four prerequisites (as listed on https
 
 Now get ready for the hardest prerequisite: number 3. This can take multiple days, to: (1) get such a project (2) log in to that HPC cluster.
 
-Help, answers and videos can be found at the course's FAQ page at https://uppmax.github.io/uppmax_intro_python/faq/#prerequisites . 
+Help, answers and videos can be found at the course's FAQ page at <https://uppmax.github.io/uppmax_intro_python/faq/#prerequisites> .
 
 The course assumes you can log in to an HPC cluster and that the documentation of that cluster's documentation is clear (if not, contact your cluster's HPC center).
 
