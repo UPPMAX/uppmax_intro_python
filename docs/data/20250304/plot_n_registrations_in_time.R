@@ -90,12 +90,12 @@ p
 ggplot2::ggsave("n_registrations_in_time.png", width = 7, height = 7)
 
 t_predictions <- get_predictions(registrations_in_time, course_date = course_date)
-n_learners_predicted <- round(max(t_predictions$cumulative) + 0.5)
+n_learners_predicted <- round(max(t_predictions$cumulative))
 p + ggplot2::geom_line(
   data = t_predictions,
   ggplot2::aes(x = date, y = cumulative),
   color = "red"
-) + ggplot2::labs(caption = paste0("Number of learners predicted: ", n_learners_predicted))
+) + ggplot2::labs(caption = paste0("Number of registrations predicted: ", n_learners_predicted))
 
 ggplot2::ggsave("n_registrations_in_time_and_predictions.png", width = 7, height = 7)
 
