@@ -20,5 +20,7 @@ with an MD5 of the email address.
     - `cumulative`: the total amount of registrations
       at the end of that day
 
-![Number of registrations in time](n_registrations_in_time.png)
+![Number of registrations in time and predictions](n_registrations_in_time_and_predictions.png)
+
+
 
