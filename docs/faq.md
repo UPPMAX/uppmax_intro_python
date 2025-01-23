@@ -126,6 +126,10 @@ When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
 
     ![A user that logged into SUPR](supr_logged_in.png)
 
+### I already have a project on a NAISS HPC cluster. Can I use that one?
+
+Yes, absolutely!
+
 ### How can I get a user account on a Swedish academic HPC cluster?
 
 Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
