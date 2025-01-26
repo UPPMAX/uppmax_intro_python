@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - .github/workflows/create_website.yaml
       - 'docs/**'
       - mkdocs.yaml
 

@@ -89,3 +89,6 @@ Dardel
 Tetralith
 Bilderbeek
 prereqs
+Acknowledgements
+Berntsson
+Elin
