@@ -22,5 +22,3 @@ with an MD5 of the email address.
 
 ![Number of registrations in time and predictions](n_registrations_in_time_and_predictions.png)
 
-
-
