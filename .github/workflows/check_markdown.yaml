@@ -1,10 +1,16 @@
 # Check that there is correct markdown in all files
 name: Check markdown
 
+# This job only concerns changes to a limited set of files.
+# Thanks to https://stackoverflow.com/a/63822945
+#
 # Check spelling on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
   push:
+    paths:
+      - .github/workflows/check_markdown.yaml
+      - 'docs/**'
   pull_request:
   schedule:
   - cron: "0 0 21 * *"

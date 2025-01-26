@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'docs/**'
+      - mkdocs.yaml
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
