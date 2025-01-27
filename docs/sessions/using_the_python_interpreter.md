@@ -1,6 +1,6 @@
 # Using the Python interpreter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the documentation of your HPC cluster
     - Practice using the Python book

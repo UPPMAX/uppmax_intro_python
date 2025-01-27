@@ -1,6 +1,6 @@
 # Hello, little turtles
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book
@@ -74,7 +74,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Fail at running a first program
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Rehearse creating a script
     - Try to import a Python package
@@ -148,7 +148,7 @@ wn.mainloop()             # Wait for user to close window
 
 ### Exercise 2: Fail at running a first program again
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Rehearse creating a script
     - Try to import a Python package
@@ -248,7 +248,7 @@ wn.mainloop()             # Wait for user to close window
 
 ### Exercise 3: Running a first program
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Import a Python package
     - Practice to search for an UPPMAX module that needs to be loaded

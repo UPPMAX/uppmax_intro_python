@@ -1,6 +1,6 @@
 # Functions
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use a for loop
     - Write a function without an argument and without a return type
@@ -117,7 +117,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: using a for loop
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use a for loop
 
@@ -136,7 +136,7 @@ Then do exercise
 
 ### Exercise 2: a simple function
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Write a function without an argument and without a return type
 
@@ -151,7 +151,7 @@ Then do exercise:
 
 ### Exercise 3: write a function that calls a function
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Write a function that calls a function
 
@@ -166,7 +166,7 @@ Then do exercise:
 
 ### Exercise 3: write a function that requires an argument
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Write a function that requires an argument
 
@@ -181,7 +181,7 @@ Then do exercise:
 
 ### Exercise 4: write a function with a return value
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Write a function with a return value
 

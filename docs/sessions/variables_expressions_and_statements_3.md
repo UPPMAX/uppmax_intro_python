@@ -1,6 +1,6 @@
 # Variables, expressions and statements: user input
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book
@@ -136,7 +136,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: input
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - learn how to ask a user for input
     - use input in a calculation

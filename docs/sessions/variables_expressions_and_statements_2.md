@@ -1,6 +1,6 @@
 # Variables, expressions and statements: operators
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book
@@ -136,7 +136,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: an equation with exponentiation
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - practice converting an equation to Python code
     - find and use the operator for exponentiation
@@ -190,7 +190,7 @@ t = 3.14
 
 ### Exercise 2: the modulo operator
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - practice the modulo operator
     - practice converting a simple text question to Python code

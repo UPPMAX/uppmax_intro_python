@@ -4,7 +4,7 @@
 
 This module introduces the fundamentals of Python programming language.
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book

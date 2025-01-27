@@ -1,6 +1,6 @@
 # Variables, expressions and statements: variables
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book
@@ -134,7 +134,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: working with variables
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - get the type of an object
     - create a variable

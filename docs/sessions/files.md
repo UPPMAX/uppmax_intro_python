@@ -1,6 +1,6 @@
 # Files
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Have read a file
     - Have created a file
@@ -114,7 +114,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: create a simple text file
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Create a simple text file
 
@@ -134,7 +134,7 @@ Then do:
 ### Exercise 2: read and create a simple text file
 
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Read a simple text file
     - Repeat creating a file

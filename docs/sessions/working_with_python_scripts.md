@@ -1,6 +1,6 @@
 # Working with Python scripts
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - To be able to create a Python script

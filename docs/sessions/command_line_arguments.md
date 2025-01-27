@@ -1,6 +1,6 @@
 # Command-line arguments
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Can read the command-line arguments
     - Can run a Python script with command-line arguments
@@ -124,7 +124,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Read the command-line arguments
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Rehearse creating a script
     - Read the command-line arguments
@@ -175,7 +175,7 @@ Run the Python script as shown below. What does it print?
 
 ### Exercise 2: Read a command-line argument
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Experience `sys.argv` is a list
     - First experience in working with a list
@@ -202,7 +202,7 @@ it should show `hello`.
 
 ### Exercise 3: Work with a command-line argument
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Do a first string comparison
 

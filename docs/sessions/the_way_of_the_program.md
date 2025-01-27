@@ -1,6 +1,6 @@
 # The Way Of The Program
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Practice using the Python book
@@ -121,7 +121,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Python and the Python interpreter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Get a first impression of what the Python programming language is
     - Know the basics of what the Python interpreter is
@@ -325,7 +325,7 @@ the questions are copy-pasted below:
 
 ### Exercise 2: Running a Python script
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - create a Python script
     - run a Python script

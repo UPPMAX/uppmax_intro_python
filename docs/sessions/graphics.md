@@ -1,6 +1,6 @@
 # Graphics
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Make a first scatter plot
     - Rehearse running a script that uses an import
@@ -116,7 +116,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Use matplotlib to show a plot
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Make a first scatter plot
     - Rehearse running a script that uses an import
