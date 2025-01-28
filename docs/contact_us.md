@@ -16,11 +16,15 @@ sometimes there are other things.
 
 You can contact us:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Contact method                                                                |Features
 ------------------------------------------------------------------------------|------------------------------------------------------------------------------
 [Create an issue](https://github.com/UPPMAX/uppmax_intro_python/issues)       |Best for asking a question publicly, requires a GitHub account
 Create a pull request                                                         |Best for improving the course content, requires a GitHub account
 Send an email                                                                 |Best for asking a question privately, invisible to others
+
+<!-- markdownlint-enable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 When sending an email, these are the roles:
 
