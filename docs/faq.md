@@ -34,7 +34,8 @@ These are the reasons to consider to **not** follow this course:
 
     > I feel like maybe some things were a little basic
     > for me and I wish we had gotten into the more advanced stuff at the end.
-    > But this really reinforced the basics for me and I'm still glad that I did it.
+    > But this really reinforced the basics for me
+    > and I'm still glad that I did it.
 
     A learner from this course ([source](evaluations/20240830/README.md))
 
