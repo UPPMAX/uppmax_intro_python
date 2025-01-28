@@ -23,6 +23,7 @@ nav:
     - Functions: sessions/functions.md
   - Misc:
     - About Richel: misc/richel.md
+    - Acknowledgements: acknowledgements.md
     - All topics: topics.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
