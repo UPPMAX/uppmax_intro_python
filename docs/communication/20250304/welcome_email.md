@@ -28,7 +28,10 @@ Now get ready for the hardest prerequisite: number 3. This can take multiple day
 
 Help, answers and videos can be found at the course's FAQ page at <https://uppmax.github.io/uppmax_intro_python/faq/#prerequisites> .
 
-The course assumes you can log in to an HPC cluster and that the documentation of that cluster's documentation is clear (if not, contact your cluster's HPC center).
+The course assumes:
+
+- you can log in to an HPC cluster
+- the documentation of that cluster's documentation is clearly written (if not, contact your cluster's HPC center).
 
 If you have any questions, never hesitate to contact me.
 
