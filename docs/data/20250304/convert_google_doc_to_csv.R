@@ -1,4 +1,4 @@
-#!/bin/env RStudio
+#!/bin/env Rscript
 #
 # Purpose: convert the Google doc with
 # registrations and email addresses to a
