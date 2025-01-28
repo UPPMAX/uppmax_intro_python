@@ -92,3 +92,8 @@ prereqs
 Acknowledgements
 Berntsson
 Elin
+Iusan
+Aleksandra
+Krusper
+WinSCP
+
