@@ -24,7 +24,7 @@ Contact method                                                                |F
 Create a pull request                                                         |Best for improving the course content, requires a GitHub account
 Send an email                                                                 |Best for asking a question privately, invisible to others
 
-<!-- markdownlint-enable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+<!-- markdownlint-enable MD013 -->
 
 When sending an email, these are the roles:
 
