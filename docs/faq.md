@@ -190,6 +190,7 @@ Probably: yes
 
 - Using a website: yes
 - Using a local ThinLinc client: yes
+- Using WinSCP: yes
 
 ### How can I check if I have a good Zoom setup?
 
