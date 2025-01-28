@@ -11,7 +11,7 @@ tags:
 # Contact us
 
 Sometimes there is a question missing at
-the [Frequently Asked Questions](faq/README.md) section,
+the [Frequently Asked Questions](faq.md) section,
 sometimes there are other things.
 
 You can contact us:

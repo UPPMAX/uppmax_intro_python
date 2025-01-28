@@ -10,6 +10,10 @@ on:
       - 'docs/**'
       - .wordlist.txt
   pull_request:
+    paths:
+      - .github/workflows/check_spelling.yaml
+      - 'docs/**'
+      - .wordlist.txt
   schedule:
   - cron: "0 0 21 * *"
 
