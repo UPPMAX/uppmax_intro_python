@@ -310,3 +310,9 @@ Else:
   Knight, Jennifer K., and William B. Wood.
   "Teaching more by lecturing less." Cell biology education 4.4 (2005): 298-310.
   [paper](https://www.lifescied.org/doi/full/10.1187/05-06-0082)
+
+
+<!--     
+- old with cases: https://github.com/UPPMAX/uppmax_intro_cases
+- oldest: https://github.com/UPPMAX/uppmax_intro
+ -->
