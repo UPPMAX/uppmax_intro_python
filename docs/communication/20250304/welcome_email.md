@@ -4,7 +4,7 @@
 
     This email is sent out to learners that recently registered.
 
-!!! warning "Progress"
+???- warning "For coordinators: progress"
 
      This email has been sent to all learners to and including at timestamp
      `30/01/2025 11:46:08`
