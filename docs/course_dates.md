@@ -15,10 +15,11 @@ tags:
 
     - [Shared document for teaching dates](https://hackmd.io/@UPPMAX/uppmax-training-events)
 
-Week|Date                     |Times
-----|-------------------------|----------
-10  |Tuesday March 4th 2025   |9:00-16:00
-42  |Tuesday October 14th 2025|9:00-16:00
+Week|Date                     |Times     |Remarks
+----|-------------------------|----------|-------
+10  |Tuesday March 4th 2025   |9:00-16:00|.
+17  |Tuesday April 24th 2025  |9:00-16:00|As part of the 4-day NAISS HPC Python course
+42  |Tuesday October 14th 2025|9:00-16:00|.
 
 ???- question "Are there no more course dates?"
 
