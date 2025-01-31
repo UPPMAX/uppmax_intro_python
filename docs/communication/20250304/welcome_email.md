@@ -7,7 +7,7 @@
 !!! warning "Progress"
 
      This email has been sent to all learners to and including at timestamp
-     `1/23/2025 10:55:53`
+     `30/01/2025 11:46:08`
 
 <!-- markdownlint-disable MD013 --><!-- Allow clean copy-paste of 80+ characters -->
 
