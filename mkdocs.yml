@@ -1,5 +1,6 @@
 site_name: Intro to Python
 repo_url: https://github.com/UPPMAX/uppmax_intro_python
+edit_uri: blob/main/docs/
 
 nav:
   - Start: index.md
