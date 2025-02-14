@@ -4,8 +4,13 @@
 # registrations and email addresses to a
 # `date,n_registrations` format
 
-t_all <- readr::read_csv("~/Downloads/responses.csv")
+t_all <- readr::read_csv("~/Downloads/old_responses.csv")
 names(t_all) <- c("timestamp", "email")
+# Worries for later
+# t_all$timestamp <- readr::parse_datetime(
+#   t_all$timestamp,
+#   format = "%d/%m/%y %H:%M:%S"
+# )
 
 t_all$email <- cli::hash_md5(t_all$email)
 
