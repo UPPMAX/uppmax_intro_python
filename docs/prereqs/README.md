@@ -14,6 +14,10 @@ Before the course, you must have done these **four** things:
 - Prerequisite 3/4: Be able to login to an HPC cluster using SSH
 - Prerequisite 4/4: have a good Zoom setup
 
+???- question "Any questions about this?"
+
+    - See the [Frequently Asked Questions section](../faq.md)
+
 ???- question "How can I check this?"
 
     - See the [Frequently Asked Questions section](../faq.md)
