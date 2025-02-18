@@ -39,10 +39,15 @@ get_predictions <- function(registrations_in_time, course_date) {
 if (1 == 2) {
   readr::read_lines("n_registrations_in_time.csv")
 }
+if (1 == 2) {
+  format <- "%d/%m/%Y"
+}
+format <- "%Y-%m-%d"
+
 registrations_in_time <- readr::read_csv(
   file = "n_registrations_in_time.csv",
   col_types = readr::cols(
-    date = readr::col_date(format = "%d/%m/%Y"),
+    date = readr::col_date(format = format),
     n = readr::col_double(),
     cumulative = readr::col_double()
   )
