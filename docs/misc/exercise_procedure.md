@@ -1,4 +1,4 @@
-# Duo's in breakout rooms exercise procedure
+# Exercise procedure
 
 ???- info "For teachers: why this setup?"
 

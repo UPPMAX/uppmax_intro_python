@@ -41,3 +41,15 @@ too many things may change in the very near future.
 
 At the end of the day, I decided to write an email with whatever I knew
 to the learners.
+
+## 2025-02-18
+
+The number of registrations passed 60, hence I asked Björn Claremar
+for help. I expect a third to show up, which is 20 learners.
+Putting these in breakout rooms of 3 learners is 7 breakout rooms.
+I think 5 breakout rooms per teacher is reasonable.
+I have the exercise procedure well documented for any helper,
+so that anyone can understand what is expected of him/her.
+
+
+
