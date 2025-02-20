@@ -63,15 +63,13 @@ flowchart TD
     style sub_programming_language fill:#ccf,color:#000,stroke:#fcc
 
 
-    subgraph sub_uppmax[UPPMAX]
-      uppmax[UPPMAX]
-      uppmax_modules[UPPMAX modules]
-      uppmax_clusters[UPPMAX clusters]
+    subgraph sub_naiss[NAISS]
+      your_hpc_center[Your HPC center]
+      your_hpc_cluster[Your HPC cluster]
+      modules[software modules]
       text_editors[Text editors]
-      %%x_forwarding[X-forwarding]
-      %%remote_desktop[Remote desktop]
     end
-    style sub_uppmax fill:#fcc,color:#000,stroke:#fcc
+    style sub_naiss fill:#fcc,color:#000,stroke:#fcc
 
     python --> |is a| programming_language
     python --> |is a| interpreted_language
@@ -84,13 +82,10 @@ flowchart TD
     scripts --> |are| text_files
     %% scripts --> |can use| command_line_arguments
 
-    uppmax --> |has| uppmax_clusters
-    uppmax_clusters --> |have| uppmax_modules
-    uppmax_clusters --> |have| text_editors
-    %%uppmax_clusters --> |allow| x_forwarding
-    %%uppmax_clusters --> |has| remote_desktop
-    %% uppmax_modules --> |allow the use of| python_packages
-    uppmax_modules --> |allow the use of| interpreter
+    your_hpc_center --> |has| your_hpc_cluster
+    your_hpc_cluster --> |has| modules
+    your_hpc_cluster --> |has| text_editors
+    modules --> |allow the use of| interpreter
 
     text_editors --> |work on|text_files
     %%x_forwarding --> |allows|graphics
