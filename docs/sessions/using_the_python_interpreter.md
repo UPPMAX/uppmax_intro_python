@@ -123,6 +123,7 @@ These exercises will ensure you are able to run a minimal Python program.
 
     HPC Cluster|Login method|Link to video
     -----------|------------|------------------------------------
+    Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
