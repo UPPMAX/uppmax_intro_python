@@ -125,6 +125,7 @@ These exercises will ensure you are able to run a minimal Python program.
     -----------|------------|------------------------------------
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
+    Tetralith  |SSH         |.
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
@@ -143,14 +144,23 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
-    Rackham    |[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se)
+    Dardel     |[here](https://support.pdc.kth.se/doc/support)
+    Rackham    |[here](https://docs.uppmax.uu.se)
+    Tetralith  |[here](https://www.nsc.liu.se/support/systems/tetralith-getting-started/)
 
     From there, searching for, for example, 'login', you will find information
     on how to do so.
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
     Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
+    Tetralith  |[here](https://www.nsc.liu.se/support/getting-started/)
+
+    - :warning: means that there is either no direct to the documentation
+      and/or the documentation present is incomplete.
+      You are encouraged
+      to contact your HPC center to help them help you better
 
 ### Exercise 2: load the Python module
 
@@ -167,8 +177,9 @@ and load a Python software module.
 
     HPC Cluster|Link to documentation                                     |Solution
     -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :warning: |`module load bioinfo-tools python/3.11.4`
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/) |`module load bioinfo-tools python/3.11.4`
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`module load python`
+    Tetralith  |[here](https://www.nsc.liu.se/software/python/)           |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
 
     <!-- markdownlint-enable MD013 -->
 
@@ -190,8 +201,9 @@ and start the Python interpreter.
 
     HPC Cluster|Link to documentation                                     |Solution
     -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :warning: |`python`
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/) |`python`
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`python`
+    Tetralith  |[here](https://www.nsc.liu.se/software/python/)           |`python`
 
     - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
