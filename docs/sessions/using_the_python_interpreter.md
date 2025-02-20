@@ -166,12 +166,12 @@ and load a Python software module.
 
     HPC Cluster|Link to documentation                                     |Solution
     -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :caution: |`module load bioinfo-tools python/3.11.4`
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :warning: |`module load bioinfo-tools python/3.11.4`
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`module load python`
 
     <!-- markdownlint-enable MD013 -->
 
-    - :caution: means that there is either no direct to the documentation
+    - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
       You are encouraged
       to contact your HPC center to help them help you better
@@ -189,10 +189,10 @@ and start the Python interpreter.
 
     HPC Cluster|Link to documentation                                     |Solution
     -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :caution: |`python`
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :warning: |`python`
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`python`
 
-    - :caution: means that there is either no direct to the documentation
+    - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
       You are encouraged
       to contact your HPC center to help them help you better
