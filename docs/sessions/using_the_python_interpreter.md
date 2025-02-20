@@ -119,8 +119,11 @@ These exercises will ensure you are able to run a minimal Python program.
 
 ???- question "Enjoy a video?"
 
-    You can find a video with solutions to these exercises
-    [here](https://youtu.be/S6pYTqRmI7U)
+    You can find a video with solutions to these exercises:
+
+    HPC Cluster|Link to video
+    -----------|------------------------------------
+    Rackham    |[here](https://youtu.be/S6pYTqRmI7U)
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
@@ -135,18 +138,18 @@ Then answer these questions:
 
 ???- question "Answer"
 
-    The documentation for the Rackham HPC cluster can be found
-    at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se)
+    The documentation for the your HPC cluster can be found at:
 
-    Searching for, for example, 'Rackham login', you will find
-    [the UPPMAX page 'Login to Rackham'](http://docs.uppmax.uu.se/getting_started/login_rackham/):
+    HPC Cluster|Link to documentation
+    -----------|------------------------------------------------------
+    Rackham    |[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se)
 
-    - Remote desktop via website: go to <https://rackham-gui.uppmax.uu.se>
-    - Using SSH:
+    From there, searching for, for example, 'login', you will find information
+    on how to do so.
 
-    ```bash
-    ssh -X sven@rackham.uppmax.uu.se
-    ```
+    HPC Cluster|Link to documentation
+    -----------|------------------------------------------------------
+    Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
 
 ### Exercise 2: load the Python module
 
@@ -155,12 +158,13 @@ and load the software module for Python.
 
 ???- question "Answer"
 
-    [The UPPMAX page on Python](http://docs.uppmax.uu.se/software/python/)
-    gives this solution:
+    From the documentation of your center, searching for, for example,
+    'Python module',
+    you will find information on how to load the Python module.
 
-    ```bash
-    module load python
-    ```
+    HPC Cluster|Link to documentation                                 |Solution
+    -----------|------------------------------------------------------|------------------------------------------------------
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)     |`module load python`
 
 ### Exercise 3: start the Python interpreter
 
@@ -169,11 +173,13 @@ and start the Python interpreter.
 
 ???- question "Answer"
 
-    On Rackham, do so by typing on a terminal:
+    From the documentation of your center, searching for, for example,
+    'Python' or 'Python interpreter',
+    you will find information on how to start the Python interpreter.
 
-    ```bash
-    python
-    ```
+    HPC Cluster|Link to documentation                                 |Solution
+    -----------|------------------------------------------------------|------------------------------------------------------
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)     |`python`
 
 ???- question "Cannot get this to work?"
 
@@ -193,6 +199,8 @@ Press enter.
 How does that look like?
 
 ???- question "Answer"
+
+    You output will look similar to this:
 
     ```python
     $ python
