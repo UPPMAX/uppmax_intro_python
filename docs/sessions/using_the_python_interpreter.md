@@ -79,12 +79,12 @@ These exercises will ensure you are able to run a minimal Python program.
 
 
         subgraph sub_naiss[NAISS]
-        your_hpc_center[Your HPC center]
-        your_hpc_cluster[Your HPC cluster]
-        modules[software modules]
-        %% text_editors[Text editors]
-        %%x_forwarding[X-forwarding]
-        %%remote_desktop[Remote desktop]
+          your_hpc_center[Your HPC center]
+          your_hpc_cluster[Your HPC cluster]
+          modules[software modules]
+          %% text_editors[Text editors]
+          %%x_forwarding[X-forwarding]
+          %%remote_desktop[Remote desktop]
         end
         style sub_naiss fill:#fcc,color:#000,stroke:#fcc
 
