@@ -49,10 +49,10 @@ flowchart TD
     end 
     style sub_programming_terms fill:#cfc,color:#000,stroke:#fcc
 
-    subgraph sub_uppmax[UPPMAX]
-      uppmax[UPPMAX]
-      uppmax_modules[UPPMAX modules]
-      uppmax_clusters[UPPMAX clusters]
+    subgraph sub_naiss[NAISS]
+      your_hpc_center[Your HPC center]
+      modules[software modules]
+      your_hpc_cluster[Your HPC cluster]
       text_editors[Text editors]
       %% x_forwarding[X-forwarding]
       %% remote_desktop[Remote desktop]
@@ -81,13 +81,13 @@ flowchart TD
     %% python_packages --> |allow to do| file_io
     %% python_packages --> |allow to use| command_line_arguments
 
-    uppmax --> |has| uppmax_clusters
-    uppmax_clusters --> |have| uppmax_modules
-    uppmax_clusters --> |have| text_editors
-    %% uppmax_clusters --> |allow| x_forwarding
-    %% uppmax_clusters --> |has| remote_desktop
-    uppmax_modules --> |allow the use of| python_packages
-    uppmax_modules --> |allow the use of| interpreter
+    your_hpc_center --> |has| your_hpc_cluster
+    your_hpc_cluster --> |have| modules
+    your_hpc_cluster --> |have| text_editors
+    %% your_hpc_cluster --> |allow| x_forwarding
+    %% your_hpc_cluster --> |has| remote_desktop
+    modules --> |allow the use of| python_packages
+    modules --> |allow the use of| interpreter
 
     text_editors --> |work on|text_files
     %%x_forwarding --> |allows|graphics

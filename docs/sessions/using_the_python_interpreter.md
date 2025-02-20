@@ -101,10 +101,10 @@ These exercises will ensure you are able to run a minimal Python program.
 
         your_hpc_center --> |has| your_hpc_cluster
         your_hpc_cluster --> |uses| modules
-        %%uppmax_clusters --> |have| text_editors
-        %%uppmax_clusters --> |allow| x_forwarding
-        %%uppmax_clusters --> |has| remote_desktop
-        %% uppmax_modules --> |allow the use of| python_packages
+        %%your_hpc_cluster --> |have| text_editors
+        %%your_hpc_cluster --> |allow| x_forwarding
+        %%your_hpc_cluster --> |has| remote_desktop
+        %% modules --> |allow the use of| python_packages
         modules --> |allow the use of| interpreter
 
         %% text_editors --> |work on|text_files
