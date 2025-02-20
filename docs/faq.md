@@ -179,10 +179,13 @@ See the documentation of your HPC cluster.
 
 Also, these videos may be useful:
 
-HPC cluster|Video
------------|----------------------------------------------------------------------------
-Dardel     |[Log in to Dardel](https://youtu.be/I8cNqiYuA-4?si=4AWNhLhw7e_Dhx0P)
-Tetralith  |[Log in to Tetralith using SSH](https://youtu.be/wtGIzSBiulY?si=D4OVFYDDVdhW64_V)
+HPC cluster|Login method         |Video
+-----------|---------------------|---------------------------------------------------------------
+Dardel     |SSH                  |[here](https://youtu.be/I8cNqiYuA-4?si=4AWNhLhw7e_Dhx0P)
+Rackham    |Local ThinLinc client|[here](https://youtu.be/PqEpsn74l0g)
+Rackham    |SSH                  |[here](https://youtu.be/TSVGSKyt2bQ)
+Rackham    |Website              |[here](https://youtu.be/HQ2iuKRPabc)
+Tetralith  |SSH                  |[here](https://youtu.be/wtGIzSBiulY?si=D4OVFYDDVdhW64_V)
 
 ### Is it OK if I can login to an HPC cluster using other methods?"
 

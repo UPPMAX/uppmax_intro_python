@@ -121,9 +121,9 @@ These exercises will ensure you are able to run a minimal Python program.
 
     You can find a video with solutions to these exercises:
 
-    HPC Cluster|Link to video
-    -----------|------------------------------------
-    Rackham    |[here](https://youtu.be/S6pYTqRmI7U)
+    HPC Cluster|Login method|Link to video
+    -----------|------------|------------------------------------
+    Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
@@ -154,7 +154,7 @@ Then answer these questions:
 ### Exercise 2: load the Python module
 
 Go to the documentation of your HPC cluster
-and load the software module for Python.
+and load a Python software module.
 
 ???- question "Answer"
 
@@ -162,9 +162,19 @@ and load the software module for Python.
     'Python module',
     you will find information on how to load the Python module.
 
-    HPC Cluster|Link to documentation                                 |Solution
-    -----------|------------------------------------------------------|------------------------------------------------------
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)     |`module load python`
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Link to documentation                                     |Solution
+    -----------|----------------------------------------------------------|------------------------------------------------------
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :caution: |`module load bioinfo-tools python/3.11.4`
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`module load python`
+
+    <!-- markdownlint-enable MD013 -->
+
+    - :caution: means that there is either no direct to the documentation
+      and/or the documentation present is incomplete.
+      You are encouraged
+      to contact your HPC center to help them help you better
 
 ### Exercise 3: start the Python interpreter
 
@@ -177,9 +187,15 @@ and start the Python interpreter.
     'Python' or 'Python interpreter',
     you will find information on how to start the Python interpreter.
 
-    HPC Cluster|Link to documentation                                 |Solution
-    -----------|------------------------------------------------------|------------------------------------------------------
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)     |`python`
+    HPC Cluster|Link to documentation                                     |Solution
+    -----------|----------------------------------------------------------|------------------------------------------------------
+    Dardel     |[here](https://support.pdc.kth.se/doc/support/) :caution: |`python`
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`python`
+
+    - :caution: means that there is either no direct to the documentation
+      and/or the documentation present is incomplete.
+      You are encouraged
+      to contact your HPC center to help them help you better
 
 ???- question "Cannot get this to work?"
 
