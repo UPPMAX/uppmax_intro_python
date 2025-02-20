@@ -144,6 +144,7 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/)
     Dardel     |[here](https://support.pdc.kth.se/doc/support)
     Rackham    |[here](https://docs.uppmax.uu.se)
     Tetralith  |[here](https://www.nsc.liu.se/support/systems/tetralith-getting-started/)
@@ -153,6 +154,7 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
     Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
     Tetralith  |[here](https://www.nsc.liu.se/support/getting-started/)
@@ -175,11 +177,12 @@ and load a Python software module.
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    HPC Cluster|Link to documentation                                     |Solution
-    -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/) |`module load bioinfo-tools python/3.11.4`
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`module load python`
-    Tetralith  |[here](https://www.nsc.liu.se/software/python/)           |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
+    HPC Cluster|Link to documentation                                                                    |Solution
+    -----------|-----------------------------------------------------------------------------------------|------------------------------------------------------
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                |`module load bioinfo-tools python/3.11.4`
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`module load GCCcore/13.2.0 Python/3.11.5`
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                        |`module load python`
+    Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                          |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
 
     <!-- markdownlint-enable MD013 -->
 
@@ -199,11 +202,16 @@ and start the Python interpreter.
     'Python' or 'Python interpreter',
     you will find information on how to start the Python interpreter.
 
-    HPC Cluster|Link to documentation                                     |Solution
-    -----------|----------------------------------------------------------|------------------------------------------------------
-    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/) |`python`
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)         |`python`
-    Tetralith  |[here](https://www.nsc.liu.se/software/python/)           |`python`
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    HPC Cluster|Link to documentation                                                                              |Solution
+    -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
+    COSMOS     |:warning: [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`python`
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`python`
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`python`
+    Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`python`
+
+    <!-- markdownlint-enable MD013 -->
 
     - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
