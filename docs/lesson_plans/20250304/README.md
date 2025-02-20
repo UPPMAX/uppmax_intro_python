@@ -51,5 +51,3 @@ I think 5 breakout rooms per teacher is reasonable.
 I have the exercise procedure well documented for any helper,
 so that anyone can understand what is expected of him/her.
 
-
-
