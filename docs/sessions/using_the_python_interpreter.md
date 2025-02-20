@@ -125,7 +125,7 @@ These exercises will ensure you are able to run a minimal Python program.
     -----------|------------|------------------------------------
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
-    Tetralith  |SSH         |.
+    Tetralith  |SSH         |[here](https://youtu.be/OBT9XuVktwg)
 
 See the exercise procedure [here](../misc/exercise_procedure.md).
 
