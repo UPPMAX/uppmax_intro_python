@@ -102,7 +102,7 @@ flowchart TD
     %%x_forwarding --> |allows|graphics
     %%remote_desktop --> |allows|graphics
 
-    %% variables ~~~ uppmax
+    %% variables ~~~ your_hpc_center
 ```
 
 

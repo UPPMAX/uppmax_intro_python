@@ -57,7 +57,7 @@ flowchart TD
       %% x_forwarding[X-forwarding]
       %% remote_desktop[Remote desktop]
     end
-    style sub_uppmax fill:#fcc,color:#000,stroke:#fcc
+    style sub_naiss fill:#fcc,color:#000,stroke:#fcc
 
     python --> |is a| programming_language
     python --> |is a| interpreted_language
@@ -94,7 +94,7 @@ flowchart TD
     %%remote_desktop --> |allows|graphics
     
 
-    variables ~~~ uppmax
+    variables ~~~ your_hpc_center
 ```
 
 - [Using the Python interpreter](using_the_python_interpreter.md)

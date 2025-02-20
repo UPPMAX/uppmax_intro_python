@@ -124,7 +124,7 @@ flowchart TD
     %%remote_desktop --> |allows|graphics
     
 
-    variables ~~~ uppmax
+    variables ~~~ your_hpc_center
 ```
 
 

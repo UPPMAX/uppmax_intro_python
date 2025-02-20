@@ -112,7 +112,7 @@ These exercises will ensure you are able to run a minimal Python program.
         %%remote_desktop --> |allows|graphics
 
 
-        %% variables ~~~ uppmax
+        %% variables ~~~ your_hpc_center
 ```
 
 ## Exercises
