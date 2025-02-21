@@ -9,6 +9,8 @@
      This email has been sent to all learners to and including at timestamp
      `18/02/2025 10:39:29`
 
+     - Last check: 2025-02-21 8:36
+
 <!-- markdownlint-disable MD013 --><!-- Allow clean copy-paste of 80+ characters -->
 
 ## Welcome to the Intro to Python course of 2025-03-04
