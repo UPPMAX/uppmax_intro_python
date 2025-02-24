@@ -2,7 +2,7 @@
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - Practice using the Python book
       [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
     - Get a first impression of what the Python programming language is
@@ -10,7 +10,7 @@
     - Get a first idea of what a program is
     - Hear about the three types of errors
     - Build up experience with the Python interpreter
-    - Use a text editor on an UPPMAX HPC cluster
+    - Use a text editor on a your HPC cluster
     - Create a Python script
     - Run a Python script
 

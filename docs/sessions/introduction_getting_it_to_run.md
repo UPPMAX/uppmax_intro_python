@@ -6,11 +6,11 @@ This module introduces the fundamentals of Python programming language.
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - Practice using the Python book
       [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
-    - Get Python code to run on the UPPMAX clusters
-    - Develop Python code on the UPPMAX clusters
+    - Get Python code to run on your HPC cluster
+    - Develop Python code on your HPC cluster
     - Understand the minimum of Python
 
 ??? info "For teachers"

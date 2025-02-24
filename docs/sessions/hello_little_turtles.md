@@ -2,13 +2,13 @@
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - Practice using the Python book
       [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
     - Have a first 'Get stuff to work' experience
     - Rehearse creating a script
     - Experience when importing a Python package gives an error
-    - Search for an UPPMAX module that needs to be loaded
+    - Search for a module that needs to be loaded
     - Import a Python package successfully
 
 ???- question "For teachers"
@@ -16,8 +16,8 @@
     Teaching goals are:
 
     - Learners have observed the error when importing a Python package
-      without the needed UPPMAX module loaded
-    - Learners have search through the UPPMAX modules
+      without the needed module loaded
+    - Learners have searched through the modules of their HPC cluster
     - Learners may find out that X-forwarding is important
     - Learners have gotten 'stuff to work'
 
@@ -38,8 +38,8 @@
     - What are features of the Python programming language?
     - What are problems you may face when running someone else's Python code?
     - Trick question: what is module?
-    - What is an UPPMAX module?
-    - Which problem do UPPMAX modules solve?
+    - What is a module?
+    - Which problem do modules solve?
     - What is a Python module/package?
     - Which problem do Python modules/packages solve?
     - What is X forwarding?
@@ -55,7 +55,7 @@ when you want to 'just want to run the stupid code'.
 ```mermaid
 flowchart TD
   running_a_script[[Goal: Running a script]]
-  load_modules[Loaded UPPMAX modules?]
+  load_modules[Loaded modules?]
   use_x_forwarding[Use X forwarding?]
   success[Success: exercise 3]
   failure_1[Failure: exercise 1]
@@ -251,8 +251,8 @@ wn.mainloop()             # Wait for user to close window
 !!!- info "Learning outcomes"
 
     - Import a Python package
-    - Practice to search for an UPPMAX module that needs to be loaded
-    - Get a script that requires an UPPMAX module to be loaded to work
+    - Practice to search for a module that needs to be loaded
+    - Get a script that requires a  module to be loaded to work
 
 Now we try to make this script work!
 

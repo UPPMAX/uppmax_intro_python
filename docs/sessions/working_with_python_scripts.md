@@ -2,7 +2,7 @@
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - To be able to create a Python script
     - To be able to run a Python script
 
@@ -10,7 +10,7 @@
 
     Teaching goals are:
 
-    - Learners have practiced using the UPPMAX documentation
+    - Learners have practiced using the documentation of their HPC cluster
     - Learners have created a Python script
     - Learners have run a Python script
 

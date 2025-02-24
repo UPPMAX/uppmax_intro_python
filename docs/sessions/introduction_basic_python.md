@@ -4,7 +4,7 @@ This module introduces the fundamentals of Python programming language.
 
 !!! info "Content"
 
-    - The course emphasises hands-on experience with Python in the UPPMAX
+    - The course emphasises hands-on experience with Python in an HPC
       environment. It focuses on the basics and can be taken by someone
       without any prior Python experience.
     - You will learn:
@@ -12,7 +12,7 @@ This module introduces the fundamentals of Python programming language.
           of Python on our clusters
         - :heavy_check_mark: How to create and run a Python script
         - How to work with basic builtin data types
-        - How to use UPPMAX modules to load a Python package
+        - How to use modules to load a Python package
         - How to reading files
         - How to writing to files
         - How to creating a command line program that can take input arguments
@@ -57,7 +57,7 @@ flowchart TD
 - [Variables, expressions and statements, variables](variables_expressions_and_statements_1.md)
 - [Variables, expressions and statements, operators](variables_expressions_and_statements_2.md)
 - [Variables, expressions and statements, user input](variables_expressions_and_statements_3.md)
-- [UPPMAX modules and Python packages](hello_little_turtles.md)
+- [Modules and Python packages](hello_little_turtles.md)
 - [File IO](files.md)
 - [command line arguments](command_line_arguments.md)
 - [Graphics](graphics.md)

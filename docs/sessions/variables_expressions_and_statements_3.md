@@ -2,7 +2,7 @@
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
+    - Practice using the documentation of your HPC cluster
     - Practice using the Python book
       [How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
     - Get the type of an object
