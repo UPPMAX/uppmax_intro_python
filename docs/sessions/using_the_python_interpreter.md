@@ -123,7 +123,7 @@ These exercises will ensure you are able to run a minimal Python program.
 
     HPC Cluster|Login method|Link to video
     -----------|------------|------------------------------------
-    Alvis      |SSH         |To do
+    Alvis      |SSH         |[here](https://youtu.be/R_RxKo-Vma4)
     Bianca     |SSH         |To do
     COSMOS     |SSH         |[here](https://youtu.be/aqqHUvvolds)
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
