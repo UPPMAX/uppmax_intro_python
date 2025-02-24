@@ -158,7 +158,7 @@ Then answer these questions:
     Bianca     |[here](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/)
     Dardel     |[here](https://support.pdc.kth.se/doc/support)
-    Kebnekaise |To do
+    Kebnekaise |[here](https://docs.hpc2n.umu.se)
     LUMI       |To do
     Rackham    |[here](https://docs.uppmax.uu.se)
     Tetralith  |[here](https://www.nsc.liu.se/support/systems/tetralith-getting-started/)
@@ -172,7 +172,7 @@ Then answer these questions:
     Bianca     |[here](https://youtu.be/7mKDxnXqi_M)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
-    Kebnekaise |To do
+    Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/access/#login__and__file__transfer)
     LUMI       |To do
     Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
     Tetralith  |[here](https://www.nsc.liu.se/support/getting-started/)
@@ -201,7 +201,7 @@ and load a Python software module.
     Bianca     |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`module load python/3.11.4`
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)          |`module load GCCcore/13.2.0 Python/3.11.5`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`module load bioinfo-tools python/3.11.4`
-    Kebnekaise |To do                                                                                              |To do
+    Kebnekaise |[here](https://docs.hpc2n.umu.se/tutorials/userinstalls/#python__packages)                         |`module load GCC/12.3.0 Python/3.11.3`
     LUMI       |To do                                                                                              |To do
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`module load python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
@@ -229,11 +229,11 @@ and start the Python interpreter.
     HPC Cluster|Link to documentation                                                                              |Solution
     -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
     Alvis      |:warning: [here](https://www.c3se.chalmers.se/documentation/applications/python/)                  |`python`
-    Bianca     |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`pythhon`
+    Bianca     |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`python`
     COSMOS     |:warning: [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`python`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`python`
-    Kebnekaise |To do                                                                                              |
-    LUMI       |To do                                                                                              |
+    Kebnekaise |:warning: [here](https://docs.hpc2n.umu.se/tutorials/userinstalls/#python__packages)               |`python`
+    LUMI       |To do                                                                                              |To do
     Rackham    |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`python`
 
