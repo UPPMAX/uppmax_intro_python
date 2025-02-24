@@ -44,6 +44,11 @@
     - 15 mins: challenge
     - 5 mins: feedback
 
+    Notes:
+
+    - For those that use Bianca, it may take some time to get a login node.
+      Encourage those to try Rackham while waiting
+
 ## Why?
 
 You want to make a computer run Python code,
@@ -124,7 +129,7 @@ These exercises will ensure you are able to run a minimal Python program.
     HPC Cluster|Login method|Link to video
     -----------|------------|------------------------------------
     Alvis      |SSH         |[here](https://youtu.be/R_RxKo-Vma4)
-    Bianca     |SSH         |To do
+    Bianca     |SSH         |[here](https://youtu.be/80AG-4niBgk)
     COSMOS     |SSH         |[here](https://youtu.be/aqqHUvvolds)
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
     Kebnekaise |SSH         |To do
