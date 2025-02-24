@@ -123,8 +123,12 @@ These exercises will ensure you are able to run a minimal Python program.
 
     HPC Cluster|Login method|Link to video
     -----------|------------|------------------------------------
+    Alvis      |SSH         |To do
+    Bianca     |SSH         |To do
     COSMOS     |SSH         |[here](https://youtu.be/aqqHUvvolds)
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
+    Kebnekaise |SSH         |To do
+    LUMI       |SSH         |To do
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
     Tetralith  |SSH         |[here](https://youtu.be/OBT9XuVktwg)
 
@@ -145,8 +149,12 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
+    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_to_alvis/)
+    Bianca     |To do
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/)
     Dardel     |[here](https://support.pdc.kth.se/doc/support)
+    Kebnekaise |To do
+    LUMI       |To do
     Rackham    |[here](https://docs.uppmax.uu.se)
     Tetralith  |[here](https://www.nsc.liu.se/support/systems/tetralith-getting-started/)
 
@@ -155,8 +163,12 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
+    Alvis      |[here](https://youtu.be/PJZ3W907qCU?si=h8R8GEROvGwLPzW5)
+    Bianca     |To do
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
+    Kebnekaise |To do
+    LUMI       |To do
     Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
     Tetralith  |[here](https://www.nsc.liu.se/support/getting-started/)
 
@@ -178,12 +190,16 @@ and load a Python software module.
 
     <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-    HPC Cluster|Link to documentation                                                                    |Solution
-    -----------|-----------------------------------------------------------------------------------------|------------------------------------------------------
-    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                |`module load bioinfo-tools python/3.11.4`
-    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`module load GCCcore/13.2.0 Python/3.11.5`
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                        |`module load python`
-    Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                          |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
+    HPC Cluster|Link to documentation                                                                              |Solution
+    -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
+    Alvis      |:warning: None, closest is [here](https://www.c3se.chalmers.se/documentation/applications/modules/)|`module load Python/3.12.3-GCCcore-13.3.0`
+    Bianca     |To do                                                                                              |To do
+    COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)          |`module load GCCcore/13.2.0 Python/3.11.5`
+    Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`module load bioinfo-tools python/3.11.4`
+    Kebnekaise |To do                                                                                              |To do
+    LUMI       |To do                                                                                              |To do
+    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`module load python`
+    Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
 
     <!-- markdownlint-enable MD013 -->
 
@@ -207,8 +223,12 @@ and start the Python interpreter.
 
     HPC Cluster|Link to documentation                                                                              |Solution
     -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
+    Alvis      |:warning: [here](https://www.c3se.chalmers.se/documentation/applications/python/)                  |`python`
+    Bianca     |To do                                                                                              |
     COSMOS     |:warning: [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`python`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`python`
+    Kebnekaise |To do                                                                                              |
+    LUMI       |To do                                                                                              |
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`python`
 
