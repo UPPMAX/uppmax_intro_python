@@ -113,8 +113,6 @@ flowchart TD
     You can find a video with solutions to these exercises
     [here](https://youtu.be/r-4-vAO-uac)
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
-
 ### Exercise 1: Python and the Python interpreter
 
 !!!- info "Learning outcomes"
@@ -418,7 +416,7 @@ What happens when you run this script?
 
 
     ```text
-    python3 my_script.py
+    python my_script.py
     ```
 
     Gives:

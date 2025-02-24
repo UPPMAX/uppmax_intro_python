@@ -137,8 +137,6 @@ These exercises will ensure you are able to run a minimal Python program.
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
     Tetralith  |SSH         |[here](https://youtu.be/OBT9XuVktwg)
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
-
 ### Exercise 1: login to your HPC cluster
 
 Go to the documentation of your HPC cluster

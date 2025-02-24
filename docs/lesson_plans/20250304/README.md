@@ -51,3 +51,10 @@ I think 5 breakout rooms per teacher is reasonable.
 I have the exercise procedure well documented for any helper,
 so that anyone can understand what is expected of him/her.
 
+## 2025-02-24
+
+The 'Working with Python scripts' seems redundant to me.
+I will need to double-check before I delete it.
+On the other hand, it seems like a good practice ...
+
+
