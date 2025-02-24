@@ -154,8 +154,8 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
-    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_to_alvis/)
-    Bianca     |[here](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)
+    Alvis      |[here](https://www.c3se.chalmers.se/)
+    Bianca     |[here](https://docs.uppmax.uu.se)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/)
     Dardel     |[here](https://support.pdc.kth.se/doc/support)
     Kebnekaise |[here](https://docs.hpc2n.umu.se)
@@ -168,8 +168,8 @@ Then answer these questions:
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
-    Alvis      |[here](https://youtu.be/PJZ3W907qCU?si=h8R8GEROvGwLPzW5)
-    Bianca     |[here](https://youtu.be/7mKDxnXqi_M)
+    Alvis      |[here](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_to_alvis/)
+    Bianca     |[here](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
     Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/access/#login__and__file__transfer)

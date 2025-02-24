@@ -325,12 +325,9 @@ the questions are copy-pasted below:
 
     - create a Python script
     - run a Python script
-    - use a text editor on an UPPMAX HPC cluster
+    - use a text editor on your HPC cluster
 
-
-!!! question "1.12.6.1"
-
-    Type `6 + 4 * 9` at the Python prompt and hit enter. Record what happens.
+- Type `6 + 4 * 9` at the Python prompt and hit enter. Record what happens.
 
 ???- question "Answer"
 
@@ -339,26 +336,39 @@ the questions are copy-pasted below:
     42
     ```
 
-!!! question "1.12.6.2"
-
-    Now create a Python script with the following contents:
-
-    ```python
-    6 + 4 * 9
-    ```
-
-    What happens when you run this script?
-
-Tip: search [the UPPMAX documentation](https://docs.uppmax.uu.se)
-for a text editor. Use the simplest one.
+- Search your HPC cluster's documentation
+  for a text editor and pick the simplest one.
 
 ???- question "Answer"
 
-    Text editors are documented at
-    <https://docs.uppmax.uu.se/software/text_editors/>.
+    HPC Cluster|Link to documentation
+    -----------|------------------------------------------------------
+    Alvis      |None
+    Bianca     |[here](https://docs.uppmax.uu.se/software/text_editors/)
+    COSMOS     |None
+    Dardel     |None
+    Kebnekaise |[here](https://docs.hpc2n.umu.se/tutorials/quickstart/#editors)
+    LUMI       |.
+    Rackham    |[here](https://docs.uppmax.uu.se/software/text_editors/)
+    Tetralith  |[here](https://www.nsc.liu.se/support/Events/VASP_workshop_2023/quick_guide/)
 
-    The simplest text editor is called `nano` and is documented at
-    <https://docs.uppmax.uu.se/software/nano/>.
+    - :warning: means that there is either no direct to the documentation
+      and/or the documentation present is incomplete.
+      You are encouraged
+      to contact your HPC center to help them help you better
+
+    The simplest text editor is called `nano`.
+
+Use `nano` (or your favorite text editor) to
+create a Python script with the following contents:
+
+```python
+6 + 4 * 9
+```
+
+What happens when you run this script?
+
+???- question "Answer"
 
     Creating a Python script `my_script.py` using `nano`:
 
@@ -417,19 +427,17 @@ for a text editor. Use the simplest one.
     42
     ```
 
-!!! question "1.12.6.4"
+Whenever an expression is typed at the Python prompt,
+it is evaluated and the result is automatically shown on the line below
+(Like on your calculator,
+if you type this expression you'll get the result 42).
 
-    Whenever an expression is typed at the Python prompt,
-    it is evaluated and the result is automatically shown on the line below
-    (Like on your calculator,
-    if you type this expression you'll get the result 42).
+A script is different, however.
+Evaluations of expressions are not automatically displayed,
+so it is necessary to use the `print` function to make the answer show up.
 
-    A script is different, however.
-    Evaluations of expressions are not automatically displayed,
-    so it is necessary to use the `print` function to make the answer show up.
-
-    It is hardly ever necessary to use the `print` function
-    in immediate mode at the command prompt.
+It is hardly ever necessary to use the `print` function
+in immediate mode at the command prompt.
 
 ???- question "Answer"
 
