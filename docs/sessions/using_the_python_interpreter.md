@@ -193,7 +193,7 @@ and load a Python software module.
     HPC Cluster|Link to documentation                                                                              |Solution
     -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
     Alvis      |:warning: None, closest is [here](https://www.c3se.chalmers.se/documentation/applications/modules/)|`module load Python/3.12.3-GCCcore-13.3.0`
-    Bianca     |To do                                                                                              |To do
+    Bianca     |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`module load python/3.11.4`
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)          |`module load GCCcore/13.2.0 Python/3.11.5`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`module load bioinfo-tools python/3.11.4`
     Kebnekaise |To do                                                                                              |To do
@@ -224,12 +224,12 @@ and start the Python interpreter.
     HPC Cluster|Link to documentation                                                                              |Solution
     -----------|---------------------------------------------------------------------------------------------------|------------------------------------------------------
     Alvis      |:warning: [here](https://www.c3se.chalmers.se/documentation/applications/python/)                  |`python`
-    Bianca     |To do                                                                                              |
+    Bianca     |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`pythhon`
     COSMOS     |:warning: [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`python`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`python`
     Kebnekaise |To do                                                                                              |
     LUMI       |To do                                                                                              |
-    Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`python`
+    Rackham    |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`python`
 
     <!-- markdownlint-enable MD013 -->
