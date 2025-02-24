@@ -132,7 +132,7 @@ These exercises will ensure you are able to run a minimal Python program.
     Bianca     |SSH         |[here](https://youtu.be/80AG-4niBgk)
     COSMOS     |SSH         |[here](https://youtu.be/aqqHUvvolds)
     Dardel     |SSH         |[here](https://youtu.be/BAD6y_a5xBQ)
-    Kebnekaise |SSH         |To do
+    Kebnekaise |SSH         |[here](https://youtu.be/DpnKUEOcIdE)
     LUMI       |SSH         |To do
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
     Tetralith  |SSH         |[here](https://youtu.be/OBT9XuVktwg)
