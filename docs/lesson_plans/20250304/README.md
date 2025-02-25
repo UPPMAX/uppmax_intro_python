@@ -57,4 +57,3 @@ The 'Working with Python scripts' seems redundant to me.
 I will need to double-check before I delete it.
 On the other hand, it seems like a good practice ...
 
-
