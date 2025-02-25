@@ -98,5 +98,8 @@ Krusper
 WinSCP
 Björn
 Claremar
+Alvis
+Kebnekaise
+LUMI
 
 
