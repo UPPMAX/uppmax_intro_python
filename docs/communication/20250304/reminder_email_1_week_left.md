@@ -7,9 +7,9 @@
 ???- warning "For coordinators: progress"
 
      This email has been sent to all learners to and including at timestamp
-     `18/02/2025 10:39:29`
+     `...`
 
-     - Last check: 2025-02-21 8:36
+     - Last check: ...
 
 <!-- markdownlint-disable MD013 --><!-- Allow clean copy-paste of 80+ characters -->
 
@@ -39,3 +39,5 @@ Please make sure you've done all your prerequisites and if yes, see you on March
 Thanks and cheers, Richèl Bilderbeek, NAISS 'Intro to Python' main teacher
 
 `[Zoom invite text]`
+
+<!-- markdownlint-enable MD013 -->
