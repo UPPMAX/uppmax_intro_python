@@ -59,6 +59,6 @@ flowchart TD
 - [Variables, expressions and statements, user input](variables_expressions_and_statements_3.md)
 - [Modules and Python packages](hello_little_turtles.md)
 - [File IO](files.md)
-- [command line arguments](command_line_arguments.md)
+- [Command line arguments](command_line_arguments.md)
 - [Graphics](graphics.md)
-- [functions](functions.md)
+- [Functions](functions.md)
