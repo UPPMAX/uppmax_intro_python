@@ -132,8 +132,6 @@ flowchart TD
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
-
 ### Exercise 1: input
 
 !!!- info "Learning outcomes"
