@@ -7,7 +7,7 @@
 ???- warning "For coordinators: progress"
 
     This email has been sent to all learners to and including at timestamp
-    `21/02/2025 09:42:08`
+    `25/02/2025 16:18:59`
 
     - Last check: 2025-02-25 15:52
 
