@@ -4,6 +4,7 @@ edit_uri: blob/main/docs/
 
 nav:
   - Start: index.md
+  - Learning outcomes: learning_outcomes.md
   - Prerequisites: prereqs/README.md
   - Course dates: course_dates.md
   - Schedule: schedule.md
