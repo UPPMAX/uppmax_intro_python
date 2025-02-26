@@ -97,22 +97,23 @@ flowchart TD
 
 ## Exercises
 
+This is a partial repeat of the previous session,
+however with a different focus.
+
+The goal is to practice the fundamental skills of creating
+and running a script. 
+
 ### Exercise 1: create a Python script
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
+Go to the documentation of the documentation of your HPC cluster,
+then answer the questions below. If you cannot find any helpful
+information, use
+[the UPPMAX documentation about `nano`](https://docs.uppmax.uu.se/software/nano/)
 
-- On Rackham, create a file called `hello_world.py`,
+- On your HPC cluster, create a file called `hello_world.py`,
   using a text editor or Linux commands
 
 ???- question "Answer"
-
-    Text editors are documented at
-    <https://docs.uppmax.uu.se/software/text_editors/>.
-
-    The simplest text editor is called `nano` and is documented at
-    <https://docs.uppmax.uu.se/software/nano/>.
 
     Creating a Python script `hello_world.py` using `nano`:
 
@@ -156,17 +157,10 @@ print('Hello, world!')
 
 ### Exercise 2: run a Python script
 
-Read the UPPMAX page on running a Python script, [here](http://docs.uppmax.uu.se/software/python/#running-python)
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Find the UPPMAX page on Python programming
-
-???- question "Answer"
-
-    It can be found at <https://docs.uppmax.uu.se/software/python_programming/>
+Go to the documentation of the documentation of your HPC cluster,
+then answer the questions below. If you cannot find any helpful
+information, use
+[the UPPMAX documentation about how to run a Python script](http://docs.uppmax.uu.se/software/python/#running-python).
 
 - Run the Python script you just created
 
@@ -174,4 +168,7 @@ then answer these questions:
 
     You can run this Python script in the shell by:
 
+    ```bash
     python hello_world.py
+    ```
+
