@@ -133,15 +133,16 @@ Read the following sections of
 - 1.6. Semantic errors
 - 1.9. The first program
 
-Then in section 1.12, do exercises 1 to and including 5. For your convenience,
+Then in section 1.12, do exercises 1 to and including 5. 
+For your convenience,
 the questions are copy-pasted below:
 
-!!! question "1.12.1"
+#### Exercise 1.1: Question 1.12.1
 
-    Write an English sentence with understandable semantics
-    but incorrect syntax.
-    Write another English sentence which has correct syntax
-    but has semantic errors.
+Write an English sentence with understandable semantics
+but incorrect syntax.
+Write another English sentence which has correct syntax
+but has semantic errors.
 
 ???- question "Answer"
 
@@ -171,16 +172,15 @@ the questions are copy-pasted below:
     My mother's white cat is black.
     ```
 
+#### Exercise 1.2: Question 1.12.2
 
-!!! question "1.12.2"
-
-    Using the Python interpreter, type `1 + 2` and then hit return.
-    Python evaluates this expression, displays the result,
-    and then shows another prompt.
-    `*` is the multiplication operator,
-    and `**` is the exponentiation operator.
-    Experiment by entering different expressions
-    and recording what is displayed by the Python interpreter.
+Using the Python interpreter, type `1 + 2` and then hit return.
+Python evaluates this expression, displays the result,
+and then shows another prompt.
+`*` is the multiplication operator,
+and `**` is the exponentiation operator.
+Experiment by entering different expressions
+and recording what is displayed by the Python interpreter.
 
 ???- question "Answer"
 
@@ -195,32 +195,32 @@ the questions are copy-pasted below:
     2**3
     ```
 
-!!! question "1.12.3"
+#### Exercise 1.3: Question 1.12.3
 
-    Type `1 2` and then hit return. Python tries to evaluate the expression,
-    but it can't because the expression is not syntactically legal.
-    Instead, it shows the error message:
+Type `1 2` and then hit return. Python tries to evaluate the expression,
+but it can't because the expression is not syntactically legal.
+Instead, it shows the error message:
 
-    ```text
-    File "<interactive input>", line 1
-    1 2
-      ^
-    SyntaxError: invalid syntax
-    ```
+```text
+File "<interactive input>", line 1
+1 2
+  ^
+SyntaxError: invalid syntax
+```
 
-    In many cases, Python indicates where the syntax error occurred,
-    but it is not always right,
-    and it doesn't give you much information about what is wrong.
+In many cases, Python indicates where the syntax error occurred,
+but it is not always right,
+and it doesn't give you much information about what is wrong.
 
-    So, for the most part, the burden is on you to learn the syntax rules.
+So, for the most part, the burden is on you to learn the syntax rules.
 
-    In this case, Python is complaining
-    because there is no operator between the numbers.
+In this case, Python is complaining
+because there is no operator between the numbers.
 
-    See if you can find a few more examples of things that will produce error
-    messages when you enter them at the Python prompt.
-    Write down what you enter at the prompt
-    and the last line of the error message that Python reports back to you.
+See if you can find a few more examples of things that will produce error
+messages when you enter them at the Python prompt.
+Write down what you enter at the prompt
+and the last line of the error message that Python reports back to you.
 
 ???- question "Answer"
 
@@ -261,14 +261,14 @@ the questions are copy-pasted below:
     SyntaxError: invalid syntax
     ```
 
-!!! question "1.12.4"
+#### Exercise 1.4: Question 1.12.4
 
-    Type `print("hello")`.
-    Python executes this, which has the effect of printing the letters
-    h-e-l-l-o. Notice that the quotation marks that you used to enclose the
-    string are not part of the output.
-    Now type "hello" and describe your result.
-    Make notes of when you see the quotation marks and when you don’t.
+Type `print("hello")`.
+Python executes this, which has the effect of printing the letters
+h-e-l-l-o. Notice that the quotation marks that you used to enclose the
+string are not part of the output.
+Now type "hello" and describe your result.
+Make notes of when you see the quotation marks and when you don’t.
 
 ???- question "Answer"
 
@@ -291,20 +291,20 @@ the questions are copy-pasted below:
     - When using `print`, any type of quotes is removed
     - When not using `print`, the word is printed in single quotes
 
-!!! question "1.12.5"
+#### Exercise 1.5: Question 1.12.5
 
-    Type `cheese` without the quotation marks.
-    The output will look something like this:
+Type `cheese` without the quotation marks.
+The output will look something like this:
 
-    ```text
-    Traceback (most recent call last):
-      File "<interactive input>", line 1, in ?
-    NameError: name 'cheese' is not defined
-    ```
+```text
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in ?
+NameError: name 'cheese' is not defined
+```
 
-    This is a run-time error; specifically, it is a `NameError`,
-    and even more specifically, it is an error because the name `cheese`
-    is not defined. If you don't know what that means yet, you will soon.
+This is a run-time error; specifically, it is a `NameError`,
+and even more specifically, it is an error because the name `cheese`
+is not defined. If you don't know what that means yet, you will soon.
 
 ???- question "Answer"
 
@@ -325,7 +325,15 @@ the questions are copy-pasted below:
     - run a Python script
     - use a text editor on your HPC cluster
 
-- Type `6 + 4 * 9` at the Python prompt and hit enter. Record what happens.
+Here we continue with
+[How to Think Like a Computer Scientist: Learning with Python 3](https://openbookproject.net/thinkcs/python/english3e/index.html)
+chapter 1. In section 1.12, we'll do exercises 6.
+For your convenience, the question is split into pieces
+and is copy-pasted below.
+
+#### Exercise 2.1: Question 1.12.6a
+
+Type `6 + 4 * 9` at the Python prompt and hit enter. Record what happens.
 
 ???- question "Answer"
 
@@ -334,21 +342,24 @@ the questions are copy-pasted below:
     42
     ```
 
-- Search your HPC cluster's documentation
-  for a text editor and pick the simplest one.
+#### Exercise 2.2: Text editors
+
+Search your HPC cluster's documentation
+for a text editor and decide on which one to use.
+Pick the simplest one if you do not already knw a text editor.
 
 ???- question "Answer"
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
-    Alvis      |None
-    Bianca     |[here](https://docs.uppmax.uu.se/software/text_editors/)
-    COSMOS     |None
-    Dardel     |None
-    Kebnekaise |[here](https://docs.hpc2n.umu.se/tutorials/quickstart/#editors)
-    LUMI       |.
-    Rackham    |[here](https://docs.uppmax.uu.se/software/text_editors/)
-    Tetralith  |[here](https://www.nsc.liu.se/support/Events/VASP_workshop_2023/quick_guide/)
+    Alvis      |:warning: None
+    Bianca     |[Here](https://docs.uppmax.uu.se/software/text_editors/)
+    COSMOS     |:warning: None
+    Dardel     |:warning: None
+    Kebnekaise |[Here](https://docs.hpc2n.umu.se/tutorials/quickstart/#editors)
+    LUMI       |:warning: None
+    Rackham    |[Here](https://docs.uppmax.uu.se/software/text_editors/)
+    Tetralith  |[Here](https://www.nsc.liu.se/support/Events/VASP_workshop_2023/quick_guide/)
 
     - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
@@ -356,6 +367,8 @@ the questions are copy-pasted below:
       to contact your HPC center to help them help you better
 
     The simplest text editor is called `nano`.
+
+#### Exercise 2.3: Question 1.12.6b
 
 Use `nano` (or your favorite text editor) to
 create a Python script with the following contents:
@@ -386,17 +399,17 @@ What happens when you run this script?
     python my_script.py
     ```
 
-!!! question "1.12.6.3"
+#### Exercise 2.4: Question 1.12.6c
 
-    Now change the script contents to:
+Now change the script contents to:
 
-    ```python
-    print(6 + 4 * 9)
-    ```
+```python
+print(6 + 4 * 9)
+```
 
-    and run it again.
+and run it again.
 
-    What happened this time?
+What happened this time?
 
 ???- question "Answer"
 
@@ -425,6 +438,10 @@ What happens when you run this script?
     42
     ```
 
+#### Exercise 2.5: Recap
+
+Here is the remaining text in the book, pasted here for you convenience:
+
 Whenever an expression is typed at the Python prompt,
 it is evaluated and the result is automatically shown on the line below
 (Like on your calculator,
@@ -436,7 +453,3 @@ so it is necessary to use the `print` function to make the answer show up.
 
 It is hardly ever necessary to use the `print` function
 in immediate mode at the command prompt.
-
-???- question "Answer"
-
-    There is no question there :-)
