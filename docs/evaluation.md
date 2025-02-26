@@ -13,7 +13,7 @@ This is the page for evaluating the current iteration of the course.
 
 ## Evaluation forms
 
-- Any feedback during the day: `TODO`
+- Any feedback during the day: [here](https://docs.google.com/forms/d/e/1FAIpQLSfQDog2-eevjpkvS_PqKi2-H8hYlpNFP32LBlCKUCSIImL5Jw/viewform?usp=header)
 
 ???- question "For teachers: what is in that form?"
 
@@ -23,7 +23,7 @@ This is the page for evaluating the current iteration of the course.
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Evaluation questions: `TODO`
+- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLScuQDpmnXfxXtzz9ssu1IY6g2SQGJecSddYYUaUDoXL8J9eiQ/viewform?usp=header)
 
 ???- question "For teachers: what is in that form?"
 
@@ -73,13 +73,6 @@ This is the page for evaluating the current iteration of the course.
     - In Python, I can write a function that calls a function
     - In Python, I can write a function that requires an argument
     - In Python, I can write a function with a return value
-
-    If you think the documentation of your HPC cluster should be improved,
-    write down its name here:
-
-    ```text
-    [Empty paragraph]
-    ```
 
     Any other feedback?
 
