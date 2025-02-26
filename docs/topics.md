@@ -35,10 +35,10 @@ flowchart TD
     end 
     style sub_programming_terms fill:#cfc,color:#000,stroke:#fcc
 
-    subgraph sub_uppmax[UPPMAX]
-      uppmax[UPPMAX]
-      uppmax_modules[UPPMAX modules]
-      uppmax_clusters[UPPMAX clusters]
+    subgraph sub_uppmax[NAISS]
+      uppmax[Your HPC center]
+      uppmax_modules[modules]
+      uppmax_clusters[Your HPC cluster]
       text_editors[Text editors]
       x_forwarding[X-forwarding]
       remote_desktop[Remote desktop]

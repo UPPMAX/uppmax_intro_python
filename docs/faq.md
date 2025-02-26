@@ -167,9 +167,9 @@ Tetralith  |[Apply for a Tetralith 'Small Compute' project](https://youtu.be/vjA
 
 This depends on the HPC cluster you are using.
 
-???- question "How does that look like on UPPMAX's Rackham?"
+???- question "How does that look like?"
 
-    For UPPMAX's Rackham, it look similar to this:
+    This depends on your HPC cluster, but here is an example:
 
     ![Logged into Rackham](rackham_logged_in.png)
 
@@ -320,9 +320,3 @@ Else:
   Knight, Jennifer K., and William B. Wood.
   "Teaching more by lecturing less." Cell biology education 4.4 (2005): 298-310.
   [paper](https://www.lifescied.org/doi/full/10.1187/05-06-0082)
-
-
-<!--     
-- old with cases: https://github.com/UPPMAX/uppmax_intro_cases
-- oldest: https://github.com/UPPMAX/uppmax_intro
- -->
