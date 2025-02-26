@@ -157,12 +157,14 @@ Then answer these questions:
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/)
     Dardel     |[here](https://support.pdc.kth.se/doc/support)
     Kebnekaise |[here](https://docs.hpc2n.umu.se)
-    LUMI       |To do
+    LUMI       |[here](https://docs.lumi-supercomputer.eu/)
     Rackham    |[here](https://docs.uppmax.uu.se)
     Tetralith  |[here](https://www.nsc.liu.se/support/systems/tetralith-getting-started/)
 
     From there, searching for, for example, 'login', you will find information
     on how to do so.
+
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
     HPC Cluster|Link to documentation
     -----------|------------------------------------------------------
@@ -171,9 +173,11 @@ Then answer these questions:
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)
     Kebnekaise |[here](https://docs.hpc2n.umu.se/documentation/access/#login__and__file__transfer)
-    LUMI       |To do
+    LUMI       |[here](https://docs.lumi-supercomputer.eu/firststeps/loggingin/) and [here](https://docs.lumi-supercomputer.eu/firststeps/loggingin-webui/)
     Rackham    |[here](http://docs.uppmax.uu.se/getting_started/login_rackham/)
     Tetralith  |[here](https://www.nsc.liu.se/support/getting-started/)
+
+    <!-- markdownlint-enable MD013 -->
 
     - :warning: means that there is either no direct to the documentation
       and/or the documentation present is incomplete.
@@ -200,7 +204,7 @@ and load a Python software module.
     COSMOS     |[here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)          |`module load GCCcore/13.2.0 Python/3.11.5`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`module load bioinfo-tools python/3.11.4`
     Kebnekaise |[here](https://docs.hpc2n.umu.se/tutorials/userinstalls/#python__packages)                         |`module load GCC/12.3.0 Python/3.11.3`
-    LUMI       |To do                                                                                              |To do
+    LUMI       |:warning: [here](https://docs.lumi-supercomputer.eu/software/installing/python/)                   |Unknown
     Rackham    |[here](http://docs.uppmax.uu.se/software/python/)                                                  |`module load python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`module load Python/3.10.4-env-hpc2-gcc-2022a-eb`
 
@@ -231,7 +235,7 @@ and start the Python interpreter.
     COSMOS     |:warning: [here](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Python/)|`python`
     Dardel     |:warning: [here](https://support.pdc.kth.se/doc/support/)                                          |`python`
     Kebnekaise |:warning: [here](https://docs.hpc2n.umu.se/tutorials/userinstalls/#python__packages)               |`python`
-    LUMI       |To do                                                                                              |To do
+    LUMI       |:warning: [here](https://docs.lumi-supercomputer.eu/software/installing/python/)                   |Probably: `python`
     Rackham    |[here](https://docs.uppmax.uu.se/software/python/#loading-python)                                  |`python`
     Tetralith  |[here](https://www.nsc.liu.se/software/python/)                                                    |`python`
 
