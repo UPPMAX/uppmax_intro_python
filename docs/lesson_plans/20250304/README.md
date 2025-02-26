@@ -57,3 +57,25 @@ The 'Working with Python scripts' seems redundant to me.
 I will need to double-check before I delete it.
 On the other hand, it seems like a good practice ...
 
+## 2025-02-26
+
+I decided to keep the 'Working with Python scripts' and I explain
+the reason at its page.
+
+I sent all learners [the '1 week left' reminder](../../communication/20250304/reminder_email_1_week_left.md)
+and asked if there were more HPC clusters that I should discuss.
+Out of around 63 learners, 2 responded and hoped me to add the Vera HPC
+cluster. As I cannot request access myself, I asked to get access to one
+of their Vera prjects, or else to give them access to my Alvis
+project. Both learners accepted to use my Alvis project.
+
+Remember for next time:
+
+- [ ] List the clusters supported by this course. These are:
+  Alvis, Bianca, COSMOS, Dardel, Kebnekaise, Rackham, Tetralith
+
+
+
+
+
+
