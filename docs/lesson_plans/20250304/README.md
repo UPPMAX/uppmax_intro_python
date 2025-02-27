@@ -74,8 +74,6 @@ Remember for next time:
 - [ ] List the clusters supported by this course. These are:
   Alvis, Bianca, COSMOS, Dardel, Kebnekaise, Rackham, Tetralith
 
+Remember for next time:
 
-
-
-
-
+- [ ] Also publish the date when registration closes
