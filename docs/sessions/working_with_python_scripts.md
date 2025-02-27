@@ -101,7 +101,7 @@ This is a partial repeat of the previous session,
 however with a different focus.
 
 The goal is to practice the fundamental skills of creating
-and running a script. 
+and running a script.
 
 ### Exercise 1: create a Python script
 

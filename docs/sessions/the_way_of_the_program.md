@@ -133,7 +133,7 @@ Read the following sections of
 - 1.6. Semantic errors
 - 1.9. The first program
 
-Then in section 1.12, do exercises 1 to and including 5. 
+Then in section 1.12, do exercises 1 to and including 5.
 For your convenience,
 the questions are copy-pasted below:
 
