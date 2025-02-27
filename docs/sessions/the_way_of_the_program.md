@@ -346,7 +346,7 @@ Type `6 + 4 * 9` at the Python prompt and hit enter. Record what happens.
 
 Search your HPC cluster's documentation
 for a text editor and decide on which one to use.
-Pick the simplest one if you do not already knw a text editor.
+Pick the simplest one if you do not already know a text editor.
 
 ???- question "Answer"
 
