@@ -65,6 +65,18 @@ should allow you to do this by yourself!
 
 These exercises will ensure you are able to run a minimal Python program.
 
+The difficulty of these exercises depends on your HPC cluster:
+
+HPC cluster name|Need VPN?|Need SSH keys?|Need 2FA?|Documentation|Difficulty
+----------------|---------|--------------|---------|-------------|----------
+Alvis           |Yes      |No            |No       |Minimal      |Medium
+Bianca          |Yes      |No            |Yes      |Excellent    |Medium
+COSMOS          |No       |No            |Yes      |Good         |Easy
+Dardel          |No       |Yes           |No       |Minimal      |Medium
+Kebnekaise      |No       |No            |No       |Good         |Easy
+Rackham         |No       |No            |No       |Excellent    |Easy
+Tetralith       |No       |No            |Yes      |Good         |Easy
+
 ```mermaid
     flowchart TD
         python[[Python]]
