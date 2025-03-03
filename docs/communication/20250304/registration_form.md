@@ -17,15 +17,15 @@ Which HPC cluster do you want to use? Pick 1.
 
 HPC cluster name|Description
 ----------------|---------------
-Alvis           |AI focussed
-Bianca          |Sensitive data
-COSMOS          |General-purpose
-Dardel          |General-purpose
+Alvis           |AI focussed, uses SSH keys for authentication
+Bianca          |Sensitive data, uses passwords and two-factor authentication
+COSMOS          |General-purpose, Lund university staff only
+Dardel          |General-purpose, uses SSH keys for authentication
 Kebnekaise      |General-purpose, Umeå university staff only
 Rackham         |General-purpose, Uppsala university staff only
-Tetralith       |General-purpose
+Tetralith       |General-purpose, uses passwords for authentication
 
-Recommended is [...]
+Without any additional information, Tetralith is recommended.
 
 - Alvis
 - Bianca
