@@ -136,6 +136,31 @@ These exercises will ensure you are able to run a minimal Python program.
     Rackham    |SSH         |[here](https://youtu.be/S6pYTqRmI7U)
     Tetralith  |SSH         |[here](https://youtu.be/OBT9XuVktwg)
 
+### Exercise 0: pick a Zoom room
+
+We will use breakout rooms, as this is best for learning.
+Ideally, each breakout room has 2 learners for the same HPC cluster.
+As it cannot be predicted how many learners show up per cluster,
+we do this dynamically:
+
+- Go to the main breakout room of your HPC cluster
+
+HPC cluster name|Main breakout room
+----------------|------------------
+Alvis           |Room 1
+Bianca          |Room 2
+COSMOS          |Room 3
+Dardel          |Room 4
+Kebnekaise      |Room 5
+Rackham         |Room 6
+Tetralith       |Room 7
+
+- When the main breakout room reaches 4 learners, decide upon 2 to
+  move to a free breakout room. Repeat until the group size is below 4.
+- When you are the only one in your main breakout room, 
+  the teachers will let you decide to either work in silence or
+  to join another group. You will be takes care of well :-) 
+
 ### Exercise 1: login to your HPC cluster
 
 Go to the documentation of your HPC cluster

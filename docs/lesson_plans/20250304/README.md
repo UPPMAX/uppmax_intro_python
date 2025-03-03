@@ -71,7 +71,7 @@ project. Both learners accepted to use my Alvis project.
 
 Remember for next time:
 
-- [ ] List the clusters supported by this course. These are:
+- [/] List the clusters supported by this course. These are:
   Alvis, Bianca, COSMOS, Dardel, Kebnekaise, Rackham, Tetralith
 
 Remember for next time:
@@ -123,4 +123,33 @@ I have added these lines:
 > you are still welcome, as you can still fulfill the prerequisites
 > at <https://uppmax.github.io/uppmax_intro_python/prereqs/> in time.
 > Contact [my email] and he will happily give you the course details :-)
+
+So, for tomorrow, do:
+
+- [ ] Decide upon teaching form
+- [ ] Create an overview of how hard exercises
+  are for the different HPC clusters
+
+Teaching form:
+
+- Use rooms called after the HPC clusters first. Keep these
+  rooms until all have logged in
+    - [ ] Check how easy this is to do in Zoom
+        - This needs to be done by hand. Hence, use a table instead
+- Randomly shuffle people when we start doing 'regular Python'
+
+
+HPC cluster name|Zoom room
+----------------|---------
+Alvis           |Room 1
+Bianca          |Room 2
+COSMOS          |Room 3
+Dardel          |Room 4
+Kebnekaise      |Room 5
+Rackham         |Room 6
+Tetralith       |Room 7
+
+
+
+
 
