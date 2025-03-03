@@ -76,7 +76,7 @@ Remember for next time:
 
 Remember for next time:
 
-- [ ] Also publish the date when registration closes
+- [x] Also publish the date when registration closes
 
 ## 2025-03-03
 
@@ -105,7 +105,7 @@ did so :-)
 
 This does mean I need to change the registration form.
 
-- [ ] Update registration form and let learners pick an HPC cluster,
+- [x] Update registration form and let learners pick an HPC cluster,
   so I can add them to my projects
 
 I've closed the registration form.
