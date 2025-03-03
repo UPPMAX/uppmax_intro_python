@@ -83,7 +83,7 @@ Remember for next time:
 I had emails from two learners that had trouble preparing
 for the course.
 
-One learner got this text from PDC:
+One learner got this text from NSC:
 
 > Perhaps there has been some misunderstanding - are you participating in
 > a "Introduction to python" course

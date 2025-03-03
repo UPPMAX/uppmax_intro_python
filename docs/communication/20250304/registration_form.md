@@ -12,3 +12,25 @@ What is your email address?
 ```text
 [field for one line of text]
 ```
+
+Which HPC cluster do you want to use? Pick 1.
+
+HPC cluster name|Description
+----------------|---------------
+Alvis           |AI focussed
+Bianca          |Sensitive data
+COSMOS          |General-purpose
+Dardel          |General-purpose
+Kebnekaise      |General-purpose, Umeå university staff only
+Rackham         |General-purpose, Uppsala university staff only
+Tetralith       |General-purpose
+
+Recommended is [...]
+
+- Alvis
+- Bianca
+- COSMOS
+- Dardel
+- Kebnekaise
+- Rackham
+- Tetralith
