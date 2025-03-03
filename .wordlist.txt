@@ -103,4 +103,8 @@ Kebnekaise
 LUMI
 onwards
 PDC
-
+VPN
+Lund
+Umeå
+Uppsala
+focussed
