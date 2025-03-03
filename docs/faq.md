@@ -135,33 +135,21 @@ Yes, absolutely!
 
 Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
 
-### How can I apply for an HPC cluster?
+### Which HPC cluster should I use?
 
-In [https://supr.naiss.se/](https://supr.naiss.se/), request a 'Small Compute' project
-for either Dardel or Tetralith.
+There are the HPC clusters that have worked-out answers to the exercises:
 
-???- question "Should I pick Dardel or Tetralith?"
+HPC cluster name|Description
+----------------|------------------------------------------------------------
+Alvis           |AI focussed, uses SSH keys for authentication
+Bianca          |Sensitive data, uses passwords and two-factor authentication
+COSMOS          |General-purpose, Lund university staff only
+Dardel          |General-purpose, uses SSH keys for authentication
+Kebnekaise      |General-purpose, Umeå university staff only
+Rackham         |General-purpose, Uppsala university staff only
+Tetralith       |General-purpose, uses passwords for authentication
 
-    Both are fine clusters and there are many ways to compare.
-
-    One way to compare is which cluster is easier to access,
-    based on the length of the videos on how to do so:
-
-    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
-
-    Cluster  |Video                                                                  | Length
-    ---------|-----------------------------------------------------------------------|-------
-    Dardel   |[Log in to Dardel](https://youtu.be/I8cNqiYuA-4?si=4AWNhLhw7e_Dhx0P)   | 7:20
-    Tetralith|[Log in to Tetralith](https://youtu.be/wtGIzSBiulY?si=D4OVFYDDVdhW64_V)| 2:18
-
-    <!-- markdownlint-enable MD013 -->
-
-Here are some videos on how to apply:
-
-HPC cluster|Video
------------|----------------------------------------------------------------------------
-Dardel     |[Apply for a Dardel 'Small Compute' project](https://youtu.be/q_GHH1RF-Kg)
-Tetralith  |[Apply for a Tetralith 'Small Compute' project](https://youtu.be/vjAzURI2ymM)
+Without any additional information, Tetralith is recommended.
 
 ### How can I check if I can login to an HPC cluster using SSH?
 
