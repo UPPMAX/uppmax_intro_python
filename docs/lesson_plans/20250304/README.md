@@ -77,3 +77,50 @@ Remember for next time:
 Remember for next time:
 
 - [ ] Also publish the date when registration closes
+
+## 2025-03-03
+
+I had emails from two learners that had trouble preparing
+for the course.
+
+One learner got this text from PDC:
+
+> Perhaps there has been some misunderstanding - are you participating in
+> a "Introduction to python" course 
+> (e.g. https://www.naiss.se/event/introduction-to-python/). 
+> If so, the course organizers have the responsibility
+> of requesting NAISS resources. You can strike the proposal in this case.
+> If you are planning to run a python course yourself,
+> we need more information to grant your application.
+> Note, for NAISS to accept applications for courses they must be at the
+> PhD level. 
+> We also need to know (or have an estimate) of the number of participants,
+> the dates and duration of the course and some information on the
+> content/softwares to be used and a justification
+> for the amount of resources requested.
+
+I added the learner to my project. From this, I now understand that
+I need to prepare the resources for my courses. Luckily, I already
+did so :-)
+
+This does mean I need to change the registration form.
+
+- [ ] Update registration form and let learners pick an HPC cluster,
+  so I can add them to my projects
+
+I've closed the registration form.
+
+The text was:
+
+> This is the registration form for the NAISS course 'Intro to Python', 
+> https://docs.uppmax.uu.se/courses_workshops/intro_to_python/ .
+
+I have added these lines:
+
+> Registration is closed. 
+>
+> However, if you are already comfortable using a NAISS HPC cluster,
+> you are still welcome, as you can still fulfill the prerequisites
+> at https://uppmax.github.io/uppmax_intro_python/prereqs/ in time. 
+> Contact [my email] and he will happily give you the course details :-)
+
