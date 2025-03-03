@@ -182,7 +182,7 @@ Rackham    |SSH                  |[here](https://youtu.be/TSVGSKyt2bQ)
 Rackham    |Website              |[here](https://youtu.be/HQ2iuKRPabc)
 Tetralith  |SSH                  |[here](https://youtu.be/wtGIzSBiulY)
 
-### Is it OK if I can login to an HPC cluster using other methods?"
+### Is it OK if I can login to an HPC cluster using other methods?
 
 Probably: yes
 
