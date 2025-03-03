@@ -169,9 +169,9 @@ Tetralith       |Room 7
 
 - When the main breakout room reaches 4 learners, decide upon 2 to
   move to a free breakout room. Repeat until the group size is below 4.
-- When you are the only one in your main breakout room, 
+- When you are the only one in your main breakout room,
   the teachers will let you decide to either work in silence or
-  to join another group. You will be takes care of well :-) 
+  to join another group. You will be takes care of well :-)
 
 ### Exercise 1: login to your HPC cluster
 
