@@ -62,7 +62,7 @@ This is the page for evaluating the current iteration of the course.
     - I can convert a simple text question to Python code
     - In Python, I can ask a user for input
     - In Python, I can use user input in a calculation
-    - I can find and use a Python module on Rackham
+    - I can find and use a Python module on my HPC cluster
     - In Python, I can read a file
     - In Python, I can create a file
     - In Python, I can use command-line arguments
