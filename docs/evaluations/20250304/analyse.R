@@ -8,7 +8,7 @@ t$`Any other feedback?` <- NULL
 questions <- stringr::str_remove(
   stringr::str_remove(
     names(t), 
-    "Untitled Question \\["),
+    "Give you confidence levels of the following statements below: \\["),
   "\\]"
 )
 #new_names <- c(
@@ -59,4 +59,11 @@ ggplot2::ggsave(filename = "confidences_per_question.png", width = 6, height = 7
 
 names(t_tidy)
 
-readr::write_csv(x = dplyr::tally(dplyr::group_by(t_tidy, question, answer)), file = "tally.csv")
+average_confidences <- dplyr::group_by(t_tidy, question) |> dplyr::summarise(mean = mean(answer))
+  
+readr::write_csv(average_confidences, file = "average_confidences.csv")
+
+ggplot2::ggplot(average_confidences, ggplot2::aes(y = question, x = mean)) +
+  ggplot2::geom_bar(stat = "identity") 
+
+ggplot2::ggsave(filename = "average_confidences_per_question.png", width = 6, height = 7)
