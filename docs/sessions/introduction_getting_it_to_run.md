@@ -98,5 +98,5 @@ flowchart TD
 ```
 
 - [Using the Python interpreter](using_the_python_interpreter.md)
-- [the way of the program](the_way_of_the_program.md)
+- [The way of the program](the_way_of_the_program.md)
 - [Working with Python scripts](working_with_python_scripts.md)
