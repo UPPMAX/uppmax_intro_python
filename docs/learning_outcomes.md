@@ -15,7 +15,6 @@ You can be reasonably sure you'll do this:
 - I can load a Python version on my HPC cluster
 - I can describe what the Python programming language is
 - I can describe what the Python interpreter is
-- I can describe what a program is
 - I can use a text editor on my HPC cluster
 - I can create a Python script
 - I can run a Python script
@@ -31,7 +30,7 @@ likely to be discussed:
 
 - In Python, I can ask a user for input
 - In Python, I can use user input in a calculation
-- I can find and use a Python module on Rackham
+- I can find and use a Python module on my HPC cluster
 - In Python, I can read a file
 - In Python, I can create a file
 - In Python, I can use command-line arguments

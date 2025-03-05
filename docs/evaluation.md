@@ -50,7 +50,6 @@ This is the page for evaluating the current iteration of the course.
     - I can load a Python version on my HPC cluster
     - I can describe what the Python programming language is
     - I can describe what the Python interpreter is
-    - I can describe what a program is
     - I can use a text editor on my HPC cluster
     - I can create a Python script
     - I can run a Python script
