@@ -29,3 +29,9 @@ with an MD5 of the email address.
 - Code: [analyse_counts.R](analyse_counts.R)
 
 ![Number of learners in time](n_learners_in_time.png)
+
+## Showing up
+
+![Fraction of the learners showing up in time](f_show_up_in_time.png)
+
+![Number of learners showing up in time](n_show_up_in_time.png)
