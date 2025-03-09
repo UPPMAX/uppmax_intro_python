@@ -24,11 +24,11 @@ Time        | Topic
 
 <!-- markdownlint-enable MD013 -->
 
-- [NO] [Modules and Python packages](sessions/hello_little_turtles.md)
-- [File IO](sessions/files.md)
-- [NO] [Command line arguments](sessions/command_line_arguments.md)
-- [NO] [Graphics](sessions/graphics.md)
-- [NO] [Functions](sessions/functions.md)
+- [NO] Modules and Python packages
+- File IO
+- [NO] Command line arguments
+- [NO] Graphics
+- [NO] Functions
 
 ## Reflection before looking at evaluation results
 
