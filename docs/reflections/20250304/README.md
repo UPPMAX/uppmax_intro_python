@@ -91,6 +91,8 @@ yet the course materials were not ready.
 
 Let's look for the weakest session:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 question|mean|reflection
 ---|---|---
 I am comfortable using the Python book|4.2667|.
@@ -114,7 +116,7 @@ I can describe what the Python programming language is|3.8|.
 I am comfortable learning Python|3.8|This is my teaching score
 I can describe what the Python interpreter is|3.734|Maybe add a picture here
 I can describe what a program is|3.6|Weakest learning objective. It can be removed
-.        |.                                |.  |.
+.        |.                                |.
 In Python, I can use command-line arguments|1.4|Agree: was not taught
 In Python, I can write a function that requires an argument|1.06667|Agree: was not taught
 In Python, I can write a function with a return value|1.333|Agree: was not taught
@@ -123,6 +125,8 @@ I can find and use a Python module on Rackham|1.66667|Agree: was not taught
 In Python, I can write a function that calls a function|1|Agree: was not taught
 In Python, I can import the matplotlib library|1.2|Agree: was not taught
 In Python, I can use a for loop|1.8|Agree: was not taught
+
+<!-- markdownlint-enable MD013 -->
 
 - My teaching score is the confidence for 'I am comfortable learning Python',
   which is 3.8 out of 5, is 7.2 out of 10. A 7.2 for me it is!
@@ -156,7 +160,8 @@ the course will change, with a SNIC project being used by all learners.
 Let's hope next time such feedback can be avoided :-)
 
 - I would have been happy to continue during the last hour as well!
-- It would have been fun to do the remaining pages as well, or at least one more as we had another hour.
+- It would have been fun to do the remaining pages as well,
+  or at least one more as we had another hour.
 
 I am happy to see the learners wanted more. But the material was not
 up to par with my quality standards. It would have been a gamble to
@@ -225,4 +230,6 @@ Treat with caution `[Fenwick, 2001]`!
 
 ## References
 
-- `[Fenwick, 2001]` Fenwick, Tara J. "Using Student Outcomes to Evaluate Teaching: A Cautious Exploration." New Directions for Teaching & Learning 2001.88 (2001).
+- `[Fenwick, 2001]` Fenwick, Tara J. 
+  "Using Student Outcomes to Evaluate Teaching: A Cautious Exploration."
+  New Directions for Teaching & Learning 2001.88 (2001).
