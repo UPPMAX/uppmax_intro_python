@@ -99,4 +99,4 @@ testthat::expect_true(all(t_sessions_taught %in% t_tidy$question))
 
 confidences_on_taught_sessions <- t_tidy |> dplyr::filter(question %in% t_sessions_taught)
 success_score <- mean(confidences_on_taught_sessions$answer) / 5.0
-readr::write_lines(x = success_score, "success_score.txt)
+readr::write_lines(x = success_score, "success_score.txt")
