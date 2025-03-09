@@ -38,18 +38,18 @@ The day went reasonably well, with some sloppinesses:
 
 Even though I thought I prepared well, this is work needed:
 
-- Make [Modules and Python packages](sessions/hello_little_turtles.md)
+- Make 'Modules and Python packages'
   NAISS wide
-- Improve [Command line arguments](sessions/command_line_arguments.md)
-- Improve [Graphics](sessions/graphics.md)
-- Improve [Functions](sessions/functions.md)
+- Improve 'Command line arguments'
+- Improve 'Graphics'
+- Improve 'Functions'
 
 These sessions should be merged:
 
-- Merge [The way of the program](sessions/the_way_of_the_program.md)
-  and [Working with Python scripts](sessions/working_with_python_scripts.md)  
-- Merge [Variables, expressions and statements: operators](sessions/variables_expressions_and_statements_2.md)  
-  and [Variables, expressions and statements: user input](sessions/variables_expressions_and_statements_3.md)
+- Merge 'The way of the program'
+  and 'Working with Python scripts'
+- Merge 'Variables, expressions and statements: operators'
+  and 'Variables, expressions and statements: user input'
 
 This day, I was helped by a colleague. This seemed useful in the first hour,
 as there were many unknowns. At the first break, however, the dust
@@ -230,6 +230,6 @@ Treat with caution `[Fenwick, 2001]`!
 
 ## References
 
-- `[Fenwick, 2001]` Fenwick, Tara J. 
+- `[Fenwick, 2001]` Fenwick, Tara J.
   "Using Student Outcomes to Evaluate Teaching: A Cautious Exploration."
   New Directions for Teaching & Learning 2001.88 (2001).
