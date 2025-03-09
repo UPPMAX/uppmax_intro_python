@@ -213,4 +213,12 @@ Yay!
 
 Lovely to hear this!
 
+## Success score
 
+Per request of NAISS, I've added a number: the success score,
+which is the average confidence in the learning outcomes.
+Treat with caution `[Fenwick, 2001]`!
+
+## References
+
+- `[Fenwick, 2001]` Fenwick, Tara J. "Using Student Outcomes to Evaluate Teaching: A Cautious Exploration." New Directions for Teaching & Learning 2001.88 (2001).
