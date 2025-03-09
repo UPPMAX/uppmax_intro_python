@@ -59,8 +59,8 @@ hence around 50% of the registrations showed up.
 
 !!! info "Half of the learners showing up had access to a NAISS cluster"
 
-In the first hour, a third of the learners droppen out:
-they had no acccess to a NAISS cluster after all.
+In the first hour, a third of the learners dropped out:
+they had no access to a NAISS cluster after all.
 From the remaining learners, around 8 out of around 24
 had no access either, yet used a local Python instead.
 This means that 1/3 + (1/4 * 2/3) = 50% did not have access
@@ -77,7 +77,7 @@ to being helpful. Remove these
 
 - [ ] Remove the mermaid plots
 
-I enjoyed working with the group. I was suprised again,
+I enjoyed working with the group. I was surprised again,
 how eager most learners are when helping each other.
 
 I'd rate this day a narrow pass: the teaching itself was reasonable,
@@ -141,8 +141,8 @@ Texts:
 This is great to hear! I am happy to hear that using a book is appreciated
 by the learners.
 
-- I thought i fulfilled the prerequisites but i apparently didnt.
-  I thought the NAISS SUPR account was the account needed but it wasnt.
+- I thought i fulfilled the prerequisites but i apparently [didn't].
+  I thought the NAISS SUPR account was the account needed but it [wasn't].
   I could therefore not participate in the course.
   It would be nice if the prerequisites was formulated more clearly. 
 
@@ -161,9 +161,9 @@ up to par, so to avoid this feedback in the future :-)
 
 - The instructor is great, motivated, and interactive,
   which makes sure each participant understand each step.
-  For me, the best part of this course was to let me practice HRC
-  and run simply code. This practice removed the fear to start using HRC.
-  I was afraid if I do something wrong while I am logging into HRC
+  For me, the best part of this course was to let me practice [HPC]
+  and run simply code. This practice removed the fear to start using [HPC].
+  I was afraid if I do something wrong while I am logging into [HPC]
   and mess up there.
   I absolutely recommend others to take this course if they have not.
 
