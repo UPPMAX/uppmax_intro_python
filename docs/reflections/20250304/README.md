@@ -5,20 +5,24 @@
 
 ## Schedule
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Time        | Topic
 ------------|-----------------------------------------------------------------
-09:00-10:00 | [Using the Python interpreter](sessions/using_the_python_interpreter.md)
+09:00-10:00 | Using the Python interpreter
 10:00-10:15 | Break
-10:15-11:00 | [The way of the program](sessions/the_way_of_the_program.md)
+10:15-11:00 | The way of the program
 11:00-11:15 | Break
-11:15-12:00 | [Working with Python scripts](sessions/working_with_python_scripts.md)  
+11:15-12:00 | Working with Python scripts
 12:00-13:00 | Break
-13:00-14:00 | [Variables, expressions and statements: variables](sessions/variables_expressions_and_statements_1.md)  
+13:00-14:00 | Variables, expressions and statements: variables
 14:00-14:15 | Break
-14:15-15:00 | [Variables, expressions and statements: operators](sessions/variables_expressions_and_statements_2.md)  
+14:15-15:00 | Variables, expressions and statements: operators
 15:00-15:15 | Break
-15:15-15:45 | [Variables, expressions and statements: user input](sessions/variables_expressions_and_statements_3.md)
-15:45-16:00 | [Evaluation](evaluation.md)
+15:15-15:45 | Variables, expressions and statements: user input
+15:45-16:00 | Evaluation
+
+<!-- markdownlint-enable MD013 -->
 
 - [NO] [Modules and Python packages](sessions/hello_little_turtles.md)
 - [File IO](sessions/files.md)
@@ -144,7 +148,7 @@ by the learners.
 - I thought i fulfilled the prerequisites but i apparently [didn't].
   I thought the NAISS SUPR account was the account needed but it [wasn't].
   I could therefore not participate in the course.
-  It would be nice if the prerequisites was formulated more clearly. 
+  It would be nice if the prerequisites was formulated more clearly.
 
 This is unfortunate. I think it was clearly described and I would describe
 this more prominently if I would continue the course like this. However,
@@ -152,9 +156,9 @@ the course will change, with a SNIC project being used by all learners.
 Let's hope next time such feedback can be avoided :-)
 
 - I would have been happy to continue during the last hour as well!
-- It would have been fun to do the remaining pages as well, or at least one more as we had another hour. 
+- It would have been fun to do the remaining pages as well, or at least one more as we had another hour.
 
-I am happy to see the learners wanted more. But the material was not 
+I am happy to see the learners wanted more. But the material was not
 up to par with my quality standards. It would have been a gamble to
 continue. In any case, next course iteration, I make sure all is
 up to par, so to avoid this feedback in the future :-)
