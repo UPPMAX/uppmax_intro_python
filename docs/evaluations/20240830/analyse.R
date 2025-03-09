@@ -60,3 +60,48 @@ ggplot2::ggsave(filename = "confidences_per_question.png", width = 6, height = 7
 names(t_tidy)
 
 readr::write_csv(x = dplyr::tally(dplyr::group_by(t_tidy, question, answer)), file = "tally.csv")
+
+# Averag
+
+average_confidences <- dplyr::group_by(t_tidy, question) |> dplyr::summarise(mean = mean(answer))
+  
+readr::write_csv(average_confidences, file = "average_confidences.csv")
+
+ggplot2::ggplot(average_confidences, ggplot2::aes(y = question, x = mean)) +
+  ggplot2::geom_bar(stat = "identity") 
+
+ggplot2::ggsave(filename = "average_confidences_per_question.png", width = 6, height = 7)
+
+# Success score
+
+t_sessions_taught <- c(
+  "I am comfortable learning Python",
+  "I am comfortable using the Python book",
+  "I am comfortable using the UPPMAX documentation",
+  "I can convert a simple equation to Python code",
+  "I can convert a simple text question to Python code",
+  "I can create a Python script",
+  "I can describe what a program is",
+  "I can describe what the Python interpreter is",
+  "I can describe what the Python programming language is",
+  "I can find and use a Python module on Rackham",
+  "I can load a Python version on Rackham",
+  "I can login to Rackham",
+  "I can run a Python script",
+  "I can start an interactive session on Rackham",
+  "I can use a text editor on Rackham",
+  "In Python, I can ask a user for input",
+  "In Python, I can create a file",
+  "In Python, I can create a variable",
+  "In Python, I can read a file",
+  "In Python, I can use a variable",
+  "In Python, I can use user input in a calculation",
+  "In Python, I know what the modulo operator is and when to use it"
+)
+
+testthat::expect_true(all(t_sessions_taught %in% t_tidy$question))
+
+confidences_on_taught_sessions <- t_tidy |> dplyr::filter(question %in% t_sessions_taught)
+success_score <- mean(confidences_on_taught_sessions$answer) / 5.0
+readr::write_lines(x = success_score, "success_score.txt")
+
