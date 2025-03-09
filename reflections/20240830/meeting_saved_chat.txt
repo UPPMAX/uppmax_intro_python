@@ -1,0 +1,57 @@
+09:00:51 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/
+09:04:00 From [No camera] Thomas Abebe Tegegn To Everyone:
+	Sorry, camera not working :-))
+09:04:07 From Vinicius Kavagutti To Everyone:
+	hey I am here
+09:04:20 From Vinicius Kavagutti To Everyone:
+	but i cant turn on the camera now
+09:05:15 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/misc/evaluation/
+09:12:26 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/
+09:15:04 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/overviews/topics/
+09:15:50 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/introduction_getting_it_to_run/
+09:24:55 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/
+09:45:31 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/the_way_of_the_program/
+10:40:39 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/variables_expressions_and_statements_1/
+10:47:08 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/variables_expressions_and_statements_1/
+11:14:36 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	Glaap
+11:29:55 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/variables_expressions_and_statements_2/
+12:04:29 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://docs.uppmax.uu.se/
+13:00:13 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	BACK TO WORK!
+	
+	Zoom rooms will remain as is, where you continue on https://uppmax.github.io/naiss_intro_python/sessions/variables_expressions_and_statements_2/ .
+	When done, see you in the main room :-)
+13:03:26 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	0 % 7
+13:05:49 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	12 % 15
+13:08:03 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	x % 2
+13:09:14 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/introduction_basic_python/
+13:10:01 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/variables_expressions_and_statements_3/
+13:40:02 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/hello_little_turtles/
+13:47:24 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/hello_little_turtles/
+14:17:17 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/files/
+14:26:18 From Malavi Sengupta To Everyone:
+	ssh -X yourname@….
+14:33:36 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/sessions/files/
+15:15:53 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/naiss_intro_python/misc/evaluation/

@@ -1,0 +1,2167 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
+    
+    
+      
+        <title>Introduction to Python - Intro to Python</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction-to-python" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Intro to Python" class="md-header__button md-logo" aria-label="Intro to Python" data-md-component="logo">
+      
+  <img src="../../logo/naiss_logo_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Intro to Python
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction to Python
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UPPMAX/naiss_intro_python" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Start
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../learning_outcomes/" class="md-tabs__link">
+        
+  
+    
+  
+  Learning outcomes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../prereqs/" class="md-tabs__link">
+        
+  
+    
+  
+  Prerequisites
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course_dates/" class="md-tabs__link">
+        
+  
+    
+  
+  Course dates
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../schedule/" class="md-tabs__link">
+        
+  
+    
+  
+  Schedule
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sessions/introduction_getting_it_to_run/" class="md-tabs__link">
+          
+  
+  Getting it to run
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sessions/introduction_basic_python/" class="md-tabs__link">
+          
+  
+  Basic Python
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../misc/richel/" class="md-tabs__link">
+          
+  
+  Misc
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contact_us/" class="md-tabs__link">
+        
+  
+    
+  
+  Contact us
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Intro to Python" class="md-nav__button md-logo" aria-label="Intro to Python" data-md-component="logo">
+      
+  <img src="../../logo/naiss_logo_white.png" alt="logo">
+
+    </a>
+    Intro to Python
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UPPMAX/naiss_intro_python" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Start
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning_outcomes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Learning outcomes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prereqs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_dates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course dates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schedule
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Getting it to run
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Getting it to run
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/introduction_getting_it_to_run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/using_the_python_interpreter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using The Python interpreter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/the_way_of_the_program/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Way Of The Program
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/working_with_python_scripts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with Python scripts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Basic Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Basic Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/introduction_basic_python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/variables_expressions_and_statements_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variables, expressions and statements, variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/variables_expressions_and_statements_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variables, expressions and statements, operators
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/variables_expressions_and_statements_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variables, expressions and statements, user input
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/hello_little_turtles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modules and Python packages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/files/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File IO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/command_line_arguments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Command-line arguments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/graphics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graphics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/functions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Functions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Misc
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Misc
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/richel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About Richel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acknowledgements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acknowledgements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    All topics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code of conduct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../communication/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Communication
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy_locally/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deploy locally
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evaluation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evaluations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/exercise_procedure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exercise procedure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frequently asked questions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lesson_plans/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lesson plans
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reflections/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflections
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact_us/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact us
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UPPMAX/naiss_intro_python/blob/main/docs/classic_sessions/morning_lecture.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/UPPMAX/naiss_intro_python/raw/main/docs/classic_sessions/morning_lecture.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="introduction-to-python">Introduction to Python<a class="headerlink" href="#introduction-to-python" title="Anchor link to this section for reference">&para;</a></h1>
+<p>This module introduces the fundamentals of Python programming language.</p>
+<div class="admonition info">
+<p class="admonition-title">Content</p>
+<ul>
+<li>The course emphasises hands-on experience with Python in the UPPMAX
+  environment. It focuses on the basics and can be taken by someone <em>without</em>
+  any prior Python experience.</li>
+<li><strong>You will learn:</strong><ul>
+<li>How to load and use different version of Python on our clusters</li>
+<li>Basic and more advanced builtin data types</li>
+<li>Using control flow statements to define the logic of your Python program</li>
+<li>Grouping code into reusable functions and structuring your program into
+  modules</li>
+<li>Creating small command line programs that can take input arguments</li>
+<li>Reading and writing to files in Python</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="schedule">Schedule<a class="headerlink" href="#schedule" title="Anchor link to this section for reference">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09:00-10:00</td>
+<td>Basic and Sequence data types</td>
+</tr>
+<tr>
+<td>10:00-10:15</td>
+<td>Break</td>
+</tr>
+<tr>
+<td>10:15-11:00</td>
+<td>Control flow statements</td>
+</tr>
+<tr>
+<td>11:00-12:00</td>
+<td>Exercises</td>
+</tr>
+<tr>
+<td>13:00-14:00</td>
+<td>Functions and Modules</td>
+</tr>
+<tr>
+<td>14:00-14:15</td>
+<td>Break</td>
+</tr>
+<tr>
+<td>14:15-15:00</td>
+<td>Command line arguments and IO</td>
+</tr>
+<tr>
+<td>15:00-15:15</td>
+<td>Break</td>
+</tr>
+<tr>
+<td>15:15-16:00</td>
+<td>Exercises</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-is-python">What is Python?<a class="headerlink" href="#what-is-python" title="Anchor link to this section for reference">&para;</a></h2>
+<ul>
+<li>Developed by Guido van Rossum in the early 1990s</li>
+<li>Named after the British comedy group "Monty Python",  not after the reptile</li>
+<li>Python is available for all operating systems for free</li>
+<li>Python is easy to learn (not master)</li>
+<li>Has a big ecosystem of packages for scientific computing</li>
+<li>Has a big community</li>
+<li>Commonly used in many scientific fields</li>
+</ul>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Link to HackMd: <a href="https://hackmd.io/@dianai/uppmax-intro/">https://hackmd.io/@dianai/uppmax-intro/</a></p>
+<p>To work with Python on UPPMAX:</p>
+<ul>
+<li><a href="#login-to-rackham">Login to Rackham</a></li>
+<li><a href="#load-the-python-module">Load the Python module</a></li>
+<li><a href="#pick-how-to-work">Pick how to work</a></li>
+</ul>
+<h3 id="login-to-rackham">Login to Rackham<a class="headerlink" href="#login-to-rackham" title="Anchor link to this section for reference">&para;</a></h3>
+<p>First, login to Rackham from your terminal.
+This is described at the UPPMAX page 'Login to Rackham'
+<a href="http://docs.uppmax.uu.se/getting_started/login_rackham/">here</a>.</p>
+<details class="- question">
+<summary>How to login to Rackham from your terminal?</summary>
+<p>This is described at the UPPMAX page 'Login to Rackham'
+<a href="http://docs.uppmax.uu.se/getting_started/login_rackham/">here</a>.</p>
+<p>Spoiler:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ssh<span class="w"> </span><span class="o">[</span>username<span class="o">]</span>@rackham.uppmax.uu.se
+</code></pre></div>
+<p>where <code>[username]</code> is your UPPMAX username, for example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh<span class="w"> </span>sven@rackham.uppmax.uu.se
+</code></pre></div>
+</details>
+<h3 id="load-the-python-module">Load the Python module<a class="headerlink" href="#load-the-python-module" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Load Python version 3.10.8.
+This is described at the UPPMAX pages on Python
+<a href="http://docs.uppmax.uu.se/software/python/">here</a>.</p>
+<details class="- question">
+<summary>How to load Python version 3.10.8?</summary>
+<p>This is described at the UPPMAX pages on Python
+<a href="http://docs.uppmax.uu.se/software/python/">here</a>.</p>
+<p>Spoiler:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>module<span class="w"> </span>load<span class="w"> </span>python/3.10.8
+</code></pre></div>
+</details>
+<h3 id="pick-how-to-work">Pick how to work<a class="headerlink" href="#pick-how-to-work" title="Anchor link to this section for reference">&para;</a></h3>
+<p>There are multiple ways to develop Python code:</p>
+<ul>
+<li>Using Python scripts with a text editor</li>
+<li>Using the Python interpreter</li>
+<li>Using IPython</li>
+<li>Using Jupyter</li>
+</ul>
+<p>We can work with Python either interactively or by writing our code into files
+(so-called Python scripts) with the <code>.py</code> suffix.</p>
+<div class="admonition example">
+<p class="admonition-title">Interactive "Hello, world!"</p>
+<p>The canonical way of working interactively is using the Python interpreter
+which comes with the language. This is a so called REPL (read-eval-print
+loop) programming environment.</p>
+<blockquote>
+<p>A read–eval–print loop (REPL), also termed an interactive toplevel or
+language shell, is a simple interactive computer programming environment
+that takes single user inputs, executes them, and returns the result to
+the user; a program written in a REPL environment is executed piecewise
+(<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">wiki
+link</a>).</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># start the interpreter</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>python
+</code></pre></div>
+<p>This will take you to the interpreter where you can start writing Python
+code (Think of it as a calculator for code).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Python<span class="w"> </span><span class="m">3</span>.10.8<span class="w"> </span><span class="o">(</span>main,<span class="w"> </span>Nov<span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="m">2022</span>,<span class="w"> </span><span class="m">21</span>:16:40<span class="o">)</span><span class="w"> </span><span class="o">[</span>GCC<span class="w"> </span><span class="m">12</span>.2.0<span class="o">]</span><span class="w"> </span>on<span class="w"> </span>linux
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Type<span class="w"> </span><span class="s2">&quot;help&quot;</span>,<span class="w"> </span><span class="s2">&quot;copyright&quot;</span>,<span class="w"> </span><span class="s2">&quot;credits&quot;</span><span class="w"> </span>or<span class="w"> </span><span class="s2">&quot;license&quot;</span><span class="w"> </span><span class="k">for</span><span class="w"> </span>more<span class="w"> </span>information.
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>&gt;&gt;&gt;<span class="w"> </span>print<span class="o">(</span><span class="s2">&quot;Hello, world!&quot;</span><span class="o">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>Hello,<span class="w"> </span>world!
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>&gt;&gt;&gt;
+</code></pre></div>
+<p>We can use Python as a calculator. Try the following</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="mi">4</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="o">&gt;&gt;&gt;</span> <span class="mi">50</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="mi">6</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="mi">20</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="mi">50</span> <span class="o">-</span> <span class="mi">5</span><span class="o">*</span><span class="mi">6</span><span class="p">)</span> <span class="o">/</span> <span class="mi">4</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="mf">5.0</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="o">&gt;&gt;&gt;</span> <span class="mf">12.45</span> <span class="o">/</span> <span class="mi">100</span> <span class="o">+</span> <span class="mf">7.5e-3</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="mf">0.132</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="o">&gt;&gt;&gt;</span>
+</code></pre></div>
+<p>A modern alternative is with more bells and whistles is
+<a href="https://ipython.org/"><code>IPython</code></a>. This is also the backbone of the very
+popular <a href="https://jupyter.org/">Jupyter Notebook</a> that you might be familiar
+with. The "Hello, world!" example is completely analogous</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># start ipython</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>ipython
+</code></pre></div>
+<p>And,</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Python 3.10.8 (main, Nov 15 2022, 21:16:40) [GCC 12.2.0]
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>Type &#39;copyright&#39;, &#39;credits&#39; or &#39;license&#39; for more information
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>IPython 8.6.0 -- An enhanced Interactive Python. Type &#39;?&#39; for help.
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>In [1]: print(&quot;Hello, world!&quot;)
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>Hello, world!
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>In [2]:
+</code></pre></div>
+<p>We recommend using <code>IPython</code> for this course but you are welcome to choose
+whatever you prefer!</p>
+<ul>
+<li>Anything that you can do in the Python interpreter you can also do in
+  <code>IPython</code></li>
+<li>I will likely use "Python interpreter" also to refer to IPython</li>
+<li>You can exit the interpreter with <code>exit()</code>, <code>quit()</code> or pressing
+  <code>Ctrl-D</code>.</li>
+<li><a href="https://ipython.readthedocs.io/en/6.5.0/config/shortcuts/index.html">Tips and tricks of how to navigate IPython</a></li>
+</ul>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Scripting "Hello, world!"</p>
+<p>The interpreter is very handy if we want to test things out or need to work
+interactively, but, often what we want is to write an executable script or
+library that can be shared, documented and reused. Let's write a hello
+world script!</p>
+<p>First create a file (module) called <code>hello_world.py</code>
+with your preferred editor</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>vim<span class="w"> </span>hello_world.py
+</code></pre></div>
+<p>Next, write the same code as before</p>
+<div class="highlight"><span class="filename">hello_world.py</span><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, world!&quot;</span><span class="p">)</span>
+</code></pre></div>
+<p>Save and close the file and then run the script from the command line</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="err">$</span> <span class="n">python</span> <span class="n">hello_world</span><span class="o">.</span><span class="n">py</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="n">Hello</span><span class="p">,</span> <span class="n">world</span><span class="err">!</span>
+</code></pre></div>
+</div>
+<h3 id="variable-assignment">Variable assignment<a class="headerlink" href="#variable-assignment" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Any and all values (objects) in Python can be assigned to a variable. As such
+Let's look at an example</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>In [1]: greeting = &quot;Welcome to our Introductory Python Course!&quot;
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>In [2]: print(greeting)
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>Welcome to our Introductory Python Course!
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>In [3]: number = 2
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>In [4]: print(number)
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>2
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>In [5]: number = 5
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>In [6]: print(number)
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>5
+</code></pre></div>
+<blockquote>
+<p>The name on the left-hand side now refers to the result of evaluating the
+right-hand side, regardless of what it referred to before (if anything). From
+<a href="https://stackoverflow.com/questions/11007627/python-variable-declaration">discussion</a></p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>In [1]: x = &quot;hej&quot;
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>In [2]: type(x)
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>Out[2]: str
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>In [3]: x = 1
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>In [4]: type(x)
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>Out[4]: int
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Variable names</p>
+<ul>
+<li>
+<p>Names of variables may be chosen freely, but</p>
+<ul>
+<li>must consist of a single word (no blanks)</li>
+<li>must not contain special characters except "_", and</li>
+<li>must not begin with a number</li>
+</ul>
+</li>
+<li>
+<p>Valid names are: <code>my_variable</code>, <code>Value15</code></p>
+</li>
+<li>Invalid names are: <code>my-variable</code>, <code>15th_value</code></li>
+</ul>
+<div class="highlight"><span class="filename">Conventions</span><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">module_name</span><span class="p">,</span> <span class="n">package_name</span><span class="p">,</span> <span class="n">ClassName</span><span class="p">,</span> <span class="n">method_name</span><span class="p">,</span> <span class="n">ExceptionName</span><span class="p">,</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="n">function_name</span><span class="p">,</span> <span class="n">GLOBAL_CONSTANT_NAME</span><span class="p">,</span> <span class="n">global_var_name</span><span class="p">,</span> <span class="n">instance_var_name</span><span class="p">,</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="n">function_parameter_name</span><span class="p">,</span> <span class="n">local_var_name</span>
+</code></pre></div>
+</div>
+<h2 id="python-data-types">Python Data Types<a class="headerlink" href="#python-data-types" title="Anchor link to this section for reference">&para;</a></h2>
+<p>We will now try to understand some of the builtin data types - you will be
+using these all the time. We will cover <code>Int</code>, <code>Float</code>, <code>List</code>, <code>Bool</code> and
+<code>String</code>. If we have some spare time we might also have a look at <code>Dict</code> and
+<code>Set</code>.</p>
+<pre class="mermaid"><code>flowchart TD
+    A --- Numeric
+    A --- Boolean
+    A --- Dictionary
+    A --- Set
+    A[Fundamental builtin data types] --- Sequence
+
+
+    Numeric --- Integer
+    Numeric --- Float
+    Numeric --- Complex
+
+    Sequence --- String
+    Sequence --- List
+    Sequence --- Tuple</code></pre>
+<h3 id="numeric-datatypes">Numeric Datatypes<a class="headerlink" href="#numeric-datatypes" title="Anchor link to this section for reference">&para;</a></h3>
+<p>The table below shows some of the most common operations that work on numeric
+data types (except complex). For more math functions see the
+<a href="https://docs.python.org/3/library/math.html"><code>math</code></a> module included in the
+standard library as well as <a href="https://numpy.org/"><code>numpy</code></a> and
+<a href="https://scipy.org/"><code>scipy</code></a> which are the cornerstones of scientific
+computation in Python.</p>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>x + y</code></td>
+<td>sum of x and y</td>
+</tr>
+<tr>
+<td><code>x - y</code></td>
+<td>difference of x and y</td>
+</tr>
+<tr>
+<td><code>x * y</code></td>
+<td>product of x and y</td>
+</tr>
+<tr>
+<td><code>x / y</code></td>
+<td>quotient of x and y</td>
+</tr>
+<tr>
+<td><code>x // y</code></td>
+<td>floored quotient of x and y</td>
+</tr>
+<tr>
+<td><code>x % y</code></td>
+<td>remainder of <code>x / y</code></td>
+</tr>
+<tr>
+<td><code>x ** y</code></td>
+<td>x to the power of y</td>
+</tr>
+<tr>
+<td><code>abs(x)</code></td>
+<td>absolute value of x</td>
+</tr>
+<tr>
+<td><code>int(x)</code></td>
+<td>x converted to integer</td>
+</tr>
+<tr>
+<td><code>float(x)</code></td>
+<td>x converted to floating point</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Table from <a href="https://docs.python.org/3/library/stdtypes.html">the official Python docs</a></p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">Some examples</p>
+<p>Let's try some example in <code>ipython</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>In [1]: 4 + 2
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>Out[1]: 6
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>In [2]: 4 + 2.0
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>Out[2]: 6.0
+<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>
+<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>In [3]: type(4 + 2.0)
+<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>Out[3]: float
+<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>
+<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>In [4]: 8 / 5
+<a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a>Out[4]: 1.6
+<a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>
+<a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a>In [5]: 8 // 5
+<a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a>Out[5]: 1
+<a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a>
+<a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a>In [6]: int(2.1)
+<a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a>Out[6]: 2
+<a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a>
+<a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a>In [7]: int(2.9)
+<a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a>Out[7]: 2
+<a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a>
+<a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a>In [8]: x = 1
+<a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a>
+<a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a>In [9]: x = x + 2
+<a id="__codelineno-14-25" name="__codelineno-14-25" href="#__codelineno-14-25"></a>
+<a id="__codelineno-14-26" name="__codelineno-14-26" href="#__codelineno-14-26"></a>In [10]: x
+<a id="__codelineno-14-27" name="__codelineno-14-27" href="#__codelineno-14-27"></a>Out[10]: 3
+<a id="__codelineno-14-28" name="__codelineno-14-28" href="#__codelineno-14-28"></a>
+<a id="__codelineno-14-29" name="__codelineno-14-29" href="#__codelineno-14-29"></a>In [11]: x = 1
+<a id="__codelineno-14-30" name="__codelineno-14-30" href="#__codelineno-14-30"></a>
+<a id="__codelineno-14-31" name="__codelineno-14-31" href="#__codelineno-14-31"></a>In [12]: x += 2
+<a id="__codelineno-14-32" name="__codelineno-14-32" href="#__codelineno-14-32"></a>
+<a id="__codelineno-14-33" name="__codelineno-14-33" href="#__codelineno-14-33"></a>In [13]: x
+<a id="__codelineno-14-34" name="__codelineno-14-34" href="#__codelineno-14-34"></a>Out[13]: 3
+</code></pre></div>
+</div>
+<h3 id="strings">Strings<a class="headerlink" href="#strings" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Strings are a sequence data type representing unicode characters and is defined
+with single or double quotes.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>    In [1]: greeting1 = &quot;Good Morning!&quot;
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>    In [2]: greeting2 = &#39;Hello, How are you!&#39;
+</code></pre></div>
+<p>We can actually several of the same operations we used for the numeric data
+type on strings.</p>
+<!-- markdownlint-disable MD013 -->
+
+<div class="admonition example">
+<p class="admonition-title">String operations</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>In [1]: greeting1 = &quot;Good Morning!&quot;
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>In [2]: greeting2 = &quot;Hello, How are you!&quot;
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>In [3]: greeting1 + greeting2
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>Out[3]: &#39;Good Morning!Hello, How are you!&#39;
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>In [4]: greeting = &quot;Welcome to our Introductory Python Course!&quot;
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>In [5]: number = 2
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>
+<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>In [6]: greeting + number
+<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a>---------------------------------------------------------------------------
+<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>TypeError                                 Traceback (most recent call last)
+<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a>Cell In [6], line 1
+<a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a>----&gt; 1 greeting + number
+<a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a>
+<a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a>TypeError: can only concatenate str (not &quot;int&quot;) to str
+<a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a>
+<a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a>In [7]: greeting + str(number)
+<a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a>Out[7]: &#39;Welcome to our Introductory Python Course!2&#39;
+<a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a>
+<a id="__codelineno-16-23" name="__codelineno-16-23" href="#__codelineno-16-23"></a>In [8]: greeting = &quot;Welcome to our Introductory Python Course!&quot;
+<a id="__codelineno-16-24" name="__codelineno-16-24" href="#__codelineno-16-24"></a>
+<a id="__codelineno-16-25" name="__codelineno-16-25" href="#__codelineno-16-25"></a>In [9]: number = 2
+<a id="__codelineno-16-26" name="__codelineno-16-26" href="#__codelineno-16-26"></a>
+<a id="__codelineno-16-27" name="__codelineno-16-27" href="#__codelineno-16-27"></a>In [10]: greeting * number
+<a id="__codelineno-16-28" name="__codelineno-16-28" href="#__codelineno-16-28"></a>Out[10]: &#39;Welcome to our Introductory Python Course!Welcome to our Introductory Python Course!&#39;
+<a id="__codelineno-16-29" name="__codelineno-16-29" href="#__codelineno-16-29"></a>
+<a id="__codelineno-16-30" name="__codelineno-16-30" href="#__codelineno-16-30"></a>In [11]: greeting = &quot;Hello!\n&quot;
+<a id="__codelineno-16-31" name="__codelineno-16-31" href="#__codelineno-16-31"></a>
+<a id="__codelineno-16-32" name="__codelineno-16-32" href="#__codelineno-16-32"></a>In [12]: greeting * 8
+<a id="__codelineno-16-33" name="__codelineno-16-33" href="#__codelineno-16-33"></a>Out[12]: &#39;Hello!\nHello!\nHello!\nHello!\nHello!\nHello!\nHello!\nHello!\n&#39;
+<a id="__codelineno-16-34" name="__codelineno-16-34" href="#__codelineno-16-34"></a>
+<a id="__codelineno-16-35" name="__codelineno-16-35" href="#__codelineno-16-35"></a>In [14]: print(greeting * 8)
+<a id="__codelineno-16-36" name="__codelineno-16-36" href="#__codelineno-16-36"></a>Hello!
+<a id="__codelineno-16-37" name="__codelineno-16-37" href="#__codelineno-16-37"></a>Hello!
+<a id="__codelineno-16-38" name="__codelineno-16-38" href="#__codelineno-16-38"></a>Hello!
+<a id="__codelineno-16-39" name="__codelineno-16-39" href="#__codelineno-16-39"></a>Hello!
+<a id="__codelineno-16-40" name="__codelineno-16-40" href="#__codelineno-16-40"></a>Hello!
+<a id="__codelineno-16-41" name="__codelineno-16-41" href="#__codelineno-16-41"></a>Hello!
+<a id="__codelineno-16-42" name="__codelineno-16-42" href="#__codelineno-16-42"></a>Hello!
+<a id="__codelineno-16-43" name="__codelineno-16-43" href="#__codelineno-16-43"></a>Hello!
+</code></pre></div>
+</div>
+<p>Notice also that a string object has many associated methods. Try using the
+<code>.</code>-notation to access methods (and attributes) by pressing <code>tab</code>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">In</span> <span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="n">greeting1</span><span class="o">.</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>            <span class="n">capitalize</span><span class="p">()</span>   <span class="n">endswith</span><span class="p">()</span>     <span class="n">index</span><span class="p">()</span>        <span class="n">isdigit</span><span class="p">()</span>      <span class="n">isspace</span><span class="p">()</span>      <span class="n">lower</span><span class="p">()</span>        <span class="n">removesuffix</span><span class="p">()</span> <span class="n">rpartition</span><span class="p">()</span>   <span class="n">startswith</span><span class="p">()</span>   <span class="n">upper</span><span class="p">()</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>            <span class="n">casefold</span><span class="p">()</span>     <span class="n">expandtabs</span><span class="p">()</span>   <span class="n">isalnum</span><span class="p">()</span>      <span class="n">isidentifier</span><span class="p">()</span> <span class="n">istitle</span><span class="p">()</span>      <span class="n">lstrip</span><span class="p">()</span>       <span class="n">replace</span><span class="p">()</span>      <span class="n">rsplit</span><span class="p">()</span>       <span class="n">strip</span><span class="p">()</span>        <span class="n">zfill</span><span class="p">()</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>            <span class="n">center</span><span class="p">()</span>       <span class="n">find</span><span class="p">()</span>         <span class="n">isalpha</span><span class="p">()</span>      <span class="n">islower</span><span class="p">()</span>      <span class="n">isupper</span><span class="p">()</span>      <span class="n">maketrans</span><span class="p">()</span>    <span class="n">rfind</span><span class="p">()</span>        <span class="n">rstrip</span><span class="p">()</span>       <span class="n">swapcase</span><span class="p">()</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>            <span class="n">count</span><span class="p">()</span>        <span class="nb">format</span><span class="p">()</span>       <span class="n">isascii</span><span class="p">()</span>      <span class="n">isnumeric</span><span class="p">()</span>    <span class="n">join</span><span class="p">()</span>         <span class="n">partition</span><span class="p">()</span>    <span class="n">rindex</span><span class="p">()</span>       <span class="n">split</span><span class="p">()</span>        <span class="n">title</span><span class="p">()</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>            <span class="n">encode</span><span class="p">()</span>       <span class="n">format_map</span><span class="p">()</span>   <span class="n">isdecimal</span><span class="p">()</span>    <span class="n">isprintable</span><span class="p">()</span>  <span class="n">ljust</span><span class="p">()</span>        <span class="n">removeprefix</span><span class="p">()</span> <span class="n">rjust</span><span class="p">()</span>        <span class="n">splitlines</span><span class="p">()</span>   <span class="n">translate</span><span class="p">()</span>
+</code></pre></div>
+<div class="admonition example">
+<p class="admonition-title">String methods</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>In [1]: my_string = &quot;This is a string&quot;
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>In [2]: my_string.upper()
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>Out[2]: &#39;THIS IS A STRING&#39;
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>In [3]: my_string.isnumeric()
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>Out[3]: False
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>
+<a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>In [4]: my_string.split(&quot; &quot;)
+<a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a>Out[4]: [&#39;This&#39;, &#39;is&#39;, &#39;a&#39;, &#39;string&#39;]
+</code></pre></div>
+</div>
+<p>Remember that strings are sequences? This means that each character in a string
+has an <em>index</em>. We can use this to do all sorts of string slicing.</p>
+<p><img alt="alt text" src="../../assets/string_index.png" title="Title" /></p>
+<div class="admonition example">
+<p class="admonition-title">String indexing and slicing</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>In [1]: my_string = &quot;This is a string&quot;
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>In [2]: my_string[0]
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>Out[2]: &#39;T&#39;
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>In [3]: len(my_string)
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>Out[3]: 16
+<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>
+<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>In [4]: my_string[len(my_string) - 1]
+<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>Out[4]: &#39;g&#39;
+<a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>
+<a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>In [5]: my_string[len(my_string)]
+<a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>---------------------------------------------------------------------------
+<a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a>IndexError                                Traceback (most recent call last)
+<a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a>Cell In [5], line 1
+<a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a>----&gt; 1 my_string[len(my_string)]
+<a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a>
+<a id="__codelineno-19-18" name="__codelineno-19-18" href="#__codelineno-19-18"></a>IndexError: string index out of range
+<a id="__codelineno-19-19" name="__codelineno-19-19" href="#__codelineno-19-19"></a>
+<a id="__codelineno-19-20" name="__codelineno-19-20" href="#__codelineno-19-20"></a>In [6]: my_string.index(&quot;i&quot;)
+<a id="__codelineno-19-21" name="__codelineno-19-21" href="#__codelineno-19-21"></a>Out[6]: 2
+<a id="__codelineno-19-22" name="__codelineno-19-22" href="#__codelineno-19-22"></a>
+<a id="__codelineno-19-23" name="__codelineno-19-23" href="#__codelineno-19-23"></a>In [7]: my_string[2:]
+<a id="__codelineno-19-24" name="__codelineno-19-24" href="#__codelineno-19-24"></a>Out[7]: &#39;is is a string&#39;
+<a id="__codelineno-19-25" name="__codelineno-19-25" href="#__codelineno-19-25"></a>
+<a id="__codelineno-19-26" name="__codelineno-19-26" href="#__codelineno-19-26"></a>In [8]: my_string[-1]
+<a id="__codelineno-19-27" name="__codelineno-19-27" href="#__codelineno-19-27"></a>Out[8]: &#39;g&#39;
+<a id="__codelineno-19-28" name="__codelineno-19-28" href="#__codelineno-19-28"></a>
+<a id="__codelineno-19-29" name="__codelineno-19-29" href="#__codelineno-19-29"></a>In [9]: my_string[-5:]
+<a id="__codelineno-19-30" name="__codelineno-19-30" href="#__codelineno-19-30"></a>Out[9]: &#39;tring&#39;
+</code></pre></div>
+</div>
+<h3 id="lists">Lists<a class="headerlink" href="#lists" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Just like <code>String</code> a <code>List</code> is a sequence data type. However, it is very
+different. A list if is a sequence of elements (objects) of arbitrary type i.e.
+we can have a list of <em>strings</em> a list of <em>integers</em> and a list of <em>lists</em> of
+<em>strings</em> and <em>integers</em>. Let's start by looking at how can define a list</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="n">list_of_ints</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="n">In</span> <span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="n">list_of_str</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;hej&quot;</span><span class="p">,</span> <span class="s2">&quot;du&quot;</span><span class="p">]</span>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="n">In</span> <span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="n">list_of_str</span> <span class="o">==</span> <span class="s2">&quot;hej du&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="n">Out</span><span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="kc">True</span>
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="n">In</span> <span class="p">[</span><span class="mi">4</span><span class="p">]:</span> <span class="n">mixed_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;string&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="p">[]]</span>
+</code></pre></div>
+<p>Notice how all the elements of the list are inside the square brackets <code>[]</code> and
+how each element is separated by a comma <code>,</code>. Lists are extremely useful, here
+are some of the things you can do with them:</p>
+<ul>
+<li><em>Append</em> new elements to the list</li>
+<li><em>Concatenate</em> two (or more) lists</li>
+<li>Access individual elements by their <em>index</em></li>
+<li>Perform some <em>operation</em>, <em>reduction</em> or <em>transformation</em> on all or some of
+  elements in the list</li>
+</ul>
+<p>Let's look at some examples</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>In [1]: l = []
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>In [2]: l.append(1)
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>In [3]: l
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>Out[3]: [1]
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>In [4]: l.append(2)
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a>In [5]: l
+<a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a>Out[5]: [1, 2]
+<a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>
+<a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a>In [6]: m = [3, 4, 5]
+<a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a>
+<a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>In [7]: n = l + m
+<a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a>
+<a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a>In [8]: n
+<a id="__codelineno-21-18" name="__codelineno-21-18" href="#__codelineno-21-18"></a>Out[8]: [1, 2, 3, 4, 5]
+<a id="__codelineno-21-19" name="__codelineno-21-19" href="#__codelineno-21-19"></a>
+<a id="__codelineno-21-20" name="__codelineno-21-20" href="#__codelineno-21-20"></a>In [9]: n[3]
+<a id="__codelineno-21-21" name="__codelineno-21-21" href="#__codelineno-21-21"></a>Out[9]: 4
+<a id="__codelineno-21-22" name="__codelineno-21-22" href="#__codelineno-21-22"></a>
+<a id="__codelineno-21-23" name="__codelineno-21-23" href="#__codelineno-21-23"></a>In [10]: len(n)
+<a id="__codelineno-21-24" name="__codelineno-21-24" href="#__codelineno-21-24"></a>Out[10]: 5
+<a id="__codelineno-21-25" name="__codelineno-21-25" href="#__codelineno-21-25"></a>
+<a id="__codelineno-21-26" name="__codelineno-21-26" href="#__codelineno-21-26"></a>In [11]: sum(n)
+<a id="__codelineno-21-27" name="__codelineno-21-27" href="#__codelineno-21-27"></a>Out[11]: 15
+<a id="__codelineno-21-28" name="__codelineno-21-28" href="#__codelineno-21-28"></a>
+<a id="__codelineno-21-29" name="__codelineno-21-29" href="#__codelineno-21-29"></a>In [13]: min(l)
+<a id="__codelineno-21-30" name="__codelineno-21-30" href="#__codelineno-21-30"></a>Out[13]: 3
+<a id="__codelineno-21-31" name="__codelineno-21-31" href="#__codelineno-21-31"></a>
+<a id="__codelineno-21-32" name="__codelineno-21-32" href="#__codelineno-21-32"></a>In [14]: max(l)
+<a id="__codelineno-21-33" name="__codelineno-21-33" href="#__codelineno-21-33"></a>Out[14]: 244
+<a id="__codelineno-21-34" name="__codelineno-21-34" href="#__codelineno-21-34"></a>
+<a id="__codelineno-21-35" name="__codelineno-21-35" href="#__codelineno-21-35"></a>In [15]: sorted(l)
+<a id="__codelineno-21-36" name="__codelineno-21-36" href="#__codelineno-21-36"></a>Out[15]: [3, 50, 170, 244]
+<a id="__codelineno-21-37" name="__codelineno-21-37" href="#__codelineno-21-37"></a>
+<a id="__codelineno-21-38" name="__codelineno-21-38" href="#__codelineno-21-38"></a>In [16]: l.sort()
+<a id="__codelineno-21-39" name="__codelineno-21-39" href="#__codelineno-21-39"></a>
+<a id="__codelineno-21-40" name="__codelineno-21-40" href="#__codelineno-21-40"></a>In [17]: l
+<a id="__codelineno-21-41" name="__codelineno-21-41" href="#__codelineno-21-41"></a>Out[17]: [3, 50, 170, 244]
+</code></pre></div>
+<h2 id="control-flow-statements">Control Flow Statements<a class="headerlink" href="#control-flow-statements" title="Anchor link to this section for reference">&para;</a></h2>
+<ul>
+<li>Control structures determine the logical flow of a program</li>
+<li>There are two types of key control structures in Python:<ul>
+<li>Loops: <code>for</code>, <code>while</code></li>
+<li>Conditions: <code>if-else</code></li>
+</ul>
+</li>
+<li>These two types of control structures permit the modeling of all possible
+  program flows</li>
+</ul>
+<h3 id="if-else-conditions"><code>if-else</code> conditions<a class="headerlink" href="#if-else-conditions" title="Anchor link to this section for reference">&para;</a></h3>
+<p>An <code>if</code> statement is used to define a <em>code block</em> that is executed if a
+condition evaluates to the boolean value <code>True</code>. The <code>else</code> statement is only
+evaluated if the <code>if</code> statements is evaluated to <code>False</code>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>In [1]: my_boolean = True
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>In [2]: if my_boolean is True:
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>   ...:     print(&quot;Michael, is it True?&quot;)
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>   ...: else:
+<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>   ...:     print(&quot;No&quot;)
+<a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>Michael, is it True?
+<a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a>
+<a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>In [3]: my_boolean = False
+<a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a>
+<a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a>In [4]: if my_boolean is True:
+<a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a>   ...:     print(&quot;Michael, is it True?&quot;)
+<a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a>   ...: else:
+<a id="__codelineno-22-14" name="__codelineno-22-14" href="#__codelineno-22-14"></a>   ...:     print(&quot;No&quot;)
+<a id="__codelineno-22-15" name="__codelineno-22-15" href="#__codelineno-22-15"></a>No
+</code></pre></div>
+<p>Notice, we don't actually have to write <code>... is True</code>. As we saw before
+<em>boolean operators</em> are used to evaluate the identity of some condition. This
+is very commonly used together with <code>if</code> statements.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>In [1]: A = &quot;ABCD&quot;
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>In [2]: if len(A) &lt;= 3:
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>   ...:     print(&quot;Sequence A is smaller or equal than 3.&quot;)
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>   ...: elif len(A) &gt; 3 and len(A) &lt; 5:
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>   ...:     print(&quot;Sequence A is greater than 3 and smaller than 5.&quot;)
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>   ...: elif len(A) == 5:
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>   ...:     print(&quot;Sequence A is equal to 5.&quot;)
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>   ...: else:
+<a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a>   ...:     print(&quot;Sequence A is greater than 5.&quot;)
+<a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a>Sequence A is greater than 3 and smaller than 5.
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Indentation in Python</p>
+<p>Control flow statements are always ended by a colon <code>:</code> and following lines
+to be executed within the context statement must be <em>indented</em> by 4 spaces
+(tab). Consider this program</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>    <span class="c1"># This print statement will only be executed if x &gt; 2</span>
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x larger than two&quot;</span><span class="p">)</span>
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a><span class="c1"># This will always be executed</span>
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;I don&#39;t care about x. I&#39;m independent and will always be executed&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<h3 id="loops-and-iteration">Loops and iteration<a class="headerlink" href="#loops-and-iteration" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Just like <code>if-else</code> statements, the idea of loops and iteration is
+fundamental to Python (and any programming language).</p>
+<h4 id="the-while-loop">The <code>while</code> loop<a class="headerlink" href="#the-while-loop" title="Anchor link to this section for reference">&para;</a></h4>
+<p>The <code>while</code> loop is conceptually similar to an <code>if</code> statement, but, instead of
+executing the indented code block once - it's <em>repeated</em> as long as the
+statement evaluates to <code>True</code>. Can you guess when the following examples are
+going to stop?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;I will not waste chalk.&quot;</span><span class="p">)</span>
+</code></pre></div>
+<details class="tip">
+<summary>Answer</summary>
+<p>It will continue continue for eternity.</p>
+</details>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, world!&quot;</span><span class="p">)</span>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># Note same as i = i + 1</span>
+</code></pre></div>
+<details class="tip">
+<summary>Answer</summary>
+<p>It will print "Hello, world!" 10 times before stopping</p>
+</details>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>    <span class="k">if</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>        <span class="k">break</span>
+</code></pre></div>
+<details class="tip">
+<summary>Answer</summary>
+<p>It will stop in the first iteration. The keyword <code>break</code> will break out
+from any loop.</p>
+</details>
+<p>And last one...</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">v1</label><label for="__tabbed_1_2">v2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">:</span>
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">:</span>
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a>        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Number </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<details class="tip">
+<summary>Answer</summary>
+<p>v1 goes to infinity and v2 stops after 10 iterations.</p>
+</details>
+<h4 id="the-for-loop">The <code>for</code> loop<a class="headerlink" href="#the-for-loop" title="Anchor link to this section for reference">&para;</a></h4>
+<p>The <code>for</code> loop is typically used when looping "over" something. Formally, a
+<code>for</code> loop can be used over any object that is <em>iterable</em> and implements a
+<code>iter</code> and <code>next</code> method - like a list, string, set or range. Let's look at an
+example by looping over the string <code>"ABCD"</code></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1"><code>for</code> loop</label><label for="__tabbed_2_2"><code>while</code> loop</label><label for="__tabbed_2_3">Less Pythonic <code>for</code> loop</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="n">A</span> <span class="o">=</span> <span class="s2">&quot;ABCD&quot;</span>
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">A</span><span class="p">:</span>
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="n">A</span> <span class="o">=</span> <span class="s2">&quot;ABCD&quot;</span>
+<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>
+<a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+<a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+<a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a>    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="n">A</span> <span class="o">=</span> <span class="s2">&quot;ABCD&quot;</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>We can also use <code>for</code> loops over lists</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">:</span>
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</code></pre></div>
+<p>and ranges defined by the builtin <code>range</code> function</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">Iterables and why <code>for</code> loops sort of are <code>while</code> loops?!</p>
+<p>If an object is iterable - we can always create an <em>iterator</em> object with
+the <code>iter</code> function. This is what the <code>for</code> keywords does under the hood.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="n">my_string</span> <span class="o">=</span> <span class="s2">&quot;ABCD&quot;</span>
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="nb">type</span><span class="p">(</span><span class="n">my_string</span><span class="p">)</span>
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="nb">str</span>
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="n">my_string_iterator</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="s2">&quot;ABCD&quot;</span><span class="p">)</span>
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a>
+<a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">4</span><span class="p">]:</span> <span class="nb">type</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-9" name="__codelineno-35-9" href="#__codelineno-35-9"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">4</span><span class="p">]:</span> <span class="n">str_iterator</span>
+<a id="__codelineno-35-10" name="__codelineno-35-10" href="#__codelineno-35-10"></a>
+<a id="__codelineno-35-11" name="__codelineno-35-11" href="#__codelineno-35-11"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">5</span><span class="p">]:</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-12" name="__codelineno-35-12" href="#__codelineno-35-12"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">5</span><span class="p">]:</span> <span class="s1">&#39;A&#39;</span>
+<a id="__codelineno-35-13" name="__codelineno-35-13" href="#__codelineno-35-13"></a>
+<a id="__codelineno-35-14" name="__codelineno-35-14" href="#__codelineno-35-14"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">6</span><span class="p">]:</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-15" name="__codelineno-35-15" href="#__codelineno-35-15"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">6</span><span class="p">]:</span> <span class="s1">&#39;B&#39;</span>
+<a id="__codelineno-35-16" name="__codelineno-35-16" href="#__codelineno-35-16"></a>
+<a id="__codelineno-35-17" name="__codelineno-35-17" href="#__codelineno-35-17"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">7</span><span class="p">]:</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-18" name="__codelineno-35-18" href="#__codelineno-35-18"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">7</span><span class="p">]:</span> <span class="s1">&#39;C&#39;</span>
+<a id="__codelineno-35-19" name="__codelineno-35-19" href="#__codelineno-35-19"></a>
+<a id="__codelineno-35-20" name="__codelineno-35-20" href="#__codelineno-35-20"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">8</span><span class="p">]:</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-21" name="__codelineno-35-21" href="#__codelineno-35-21"></a>    <span class="n">Out</span><span class="p">[</span><span class="mi">8</span><span class="p">]:</span> <span class="s1">&#39;D&#39;</span>
+<a id="__codelineno-35-22" name="__codelineno-35-22" href="#__codelineno-35-22"></a>
+<a id="__codelineno-35-23" name="__codelineno-35-23" href="#__codelineno-35-23"></a>    <span class="n">In</span> <span class="p">[</span><span class="mi">9</span><span class="p">]:</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-24" name="__codelineno-35-24" href="#__codelineno-35-24"></a>    <span class="o">---------------------------------------------------------------------------</span>
+<a id="__codelineno-35-25" name="__codelineno-35-25" href="#__codelineno-35-25"></a>    <span class="ne">StopIteration</span>                             <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">)</span>
+<a id="__codelineno-35-26" name="__codelineno-35-26" href="#__codelineno-35-26"></a>    <span class="n">Cell</span> <span class="n">In</span> <span class="p">[</span><span class="mi">9</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<a id="__codelineno-35-27" name="__codelineno-35-27" href="#__codelineno-35-27"></a>    <span class="o">----&gt;</span> <span class="mi">1</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-35-28" name="__codelineno-35-28" href="#__codelineno-35-28"></a>
+<a id="__codelineno-35-29" name="__codelineno-35-29" href="#__codelineno-35-29"></a>    <span class="ne">StopIteration</span><span class="p">:</span>
+</code></pre></div>
+<p>As seen from above - we can coninue calling the <code>next</code> function to get the
+next element of the string iterator object until the iterator is
+<em>consumed</em>. The way a <code>for</code> loop is implemented is loosely something like
+this</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="n">my_string_iterator</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="s2">&quot;ABCD&quot;</span><span class="p">)</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>    <span class="k">try</span><span class="p">:</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a>        <span class="n">tmp</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">my_string_iterator</span><span class="p">)</span>
+<a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a>    <span class="k">except</span> <span class="ne">StopIteration</span><span class="p">:</span>
+<a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a>        <span class="k">break</span>
+</code></pre></div>
+</div>
+<p>If you still need the index of the current iteration refrain from using the
+<code>range(len(seq))</code> idiom and use the <code>enumerate</code> function instead.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="n">A</span> <span class="o">=</span> <span class="s2">&quot;ABCD&quot;</span>
+<a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+<a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+</code></pre></div>
+<p>Just like we nested an <code>if</code> statement into a loop before we can also nest a
+loop within a loop.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="n">A</span> <span class="o">=</span> <span class="s2">&quot;ACGT&quot;</span>
+<a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">A</span><span class="p">:</span>
+<a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a>    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">A</span><span class="p">:</span>
+<a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a>        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">A</span><span class="p">:</span>
+<a id="__codelineno-38-5" name="__codelineno-38-5" href="#__codelineno-38-5"></a>            <span class="nb">print</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">j</span> <span class="o">+</span> <span class="n">k</span><span class="p">)</span>
+</code></pre></div>
+<div class="admonition info">
+<p class="admonition-title">When should I use <code>for</code> and when should i use <code>while</code>?</p>
+<p>As a rule of thumb - use <code>for</code> loops when dealing with <em>iterable</em> objects
+(ranges, sequences, generators). Another way of thinking about it is, use a
+<code>for</code> loop when the number of iterations e.g. length of sequence is known.
+In other case - use a while loop (you have to).</p>
+</div>
+<h2 id="links">Links<a class="headerlink" href="#links" title="Anchor link to this section for reference">&para;</a></h2>
+<ul>
+<li><a href="https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH">YouTube video on <code>python</code> versus <code>IPython</code></a></li>
+<li><a href="https://www.youtube.com/watch?v=S9rgGJYAQ8o">YouTube video on <code>IPython</code></a></li>
+<li>Previous content is adapted (and extended) from previous iterations of the course and
+  slides developed by Nina Fischer
+  (see <a href="https://docs.google.com/presentation/d/1ocVm9dAFB4hJs_KVhxHapuPIOVkymltxWtVGT9nXRag/edit#slide=id.p1">slide deck one</a>
+  and <a href="https://docs.google.com/presentation/d/1hoFC7Ax_WsGmdl2m8aVhfVSvaHykt96lOrFqsSDEIrQ/edit#slide=id.p4">slide deck two</a>).</li>
+</ul>
+<!-- markdownlint-enable MD013 -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.path", "navigation.footer", "navigation.expand", "search.suggest", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
