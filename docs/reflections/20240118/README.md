@@ -199,7 +199,7 @@ to build up confidence in the positive effect of the setup.
 ```text
 # Who is Richèl?
 
-<https://github.com/UPPMAX/uppmax_intro_python/tree/main/lesson_plans/20240118>
+<https://github.com/UPPMAX/naiss_intro_python/tree/main/lesson_plans/20240118>
 ![](CC-BY-NC-SA.png)
 
 ## How to pronounce my name

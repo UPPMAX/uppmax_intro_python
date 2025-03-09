@@ -185,7 +185,7 @@ wn.mainloop()             # Wait for user to close window
     Log in without X forwarding:
 
     ```bash
-    richel@richel-N141CU:~/GitHubs/uppmax_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
+    richel@richel-N141CU:~/GitHubs/naiss_intro_python/docs/sessions$ ssh richel@rackham.uppmax.uu.se
     richel@rackham.uppmax.uu.se's password:
     ```
 

@@ -7,7 +7,7 @@
 
 > Great course. Now, Python is not scary anymore.
 >
-> A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
+> A learner from this course ([source](https://uppmax.github.io/naiss_intro_python/evaluations/20240830/))
 
 This course introduces the foundations of the Python programming language.
 

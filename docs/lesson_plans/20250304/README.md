@@ -9,7 +9,7 @@ material in shape later.
 
 First I will get the website into good shape, before transitioning
 the content to be NAISS-wide.
-Done! [Version 2.3.1](https://github.com/UPPMAX/uppmax_intro_python/releases/tag/v2.3.1)
+Done! [Version 2.3.1](https://github.com/UPPMAX/naiss_intro_python/releases/tag/v2.3.1)
 builds cleanly!
 
 One drawback of being NAISS-wide is that UPPMAX (as far as I can see)
@@ -121,7 +121,7 @@ I have added these lines:
 >
 > However, if you are already comfortable using a NAISS HPC cluster,
 > you are still welcome, as you can still fulfill the prerequisites
-> at <https://uppmax.github.io/uppmax_intro_python/prereqs/> in time.
+> at <https://uppmax.github.io/naiss_intro_python/prereqs/> in time.
 > Contact [my email] and he will happily give you the course details :-)
 
 So, for tomorrow, do:

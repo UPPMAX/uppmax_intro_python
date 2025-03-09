@@ -13,7 +13,7 @@ number-sections: true
 
 # Who is Richèl?
 
-<https://github.com/UPPMAX/uppmax_intro_python/tree/main/lesson_plans/20240118> ![](CC-BY-NC-SA.png)
+<https://github.com/UPPMAX/naiss_intro_python/tree/main/lesson_plans/20240118> ![](CC-BY-NC-SA.png)
 
 ## How to pronounce my name
 

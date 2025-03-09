@@ -20,7 +20,7 @@ You can contact us:
 
 Contact method                                                                |Features
 ------------------------------------------------------------------------------|------------------------------------------------------------------------------
-[Create an issue](https://github.com/UPPMAX/uppmax_intro_python/issues)       |Best for asking a question publicly, requires a GitHub account
+[Create an issue](https://github.com/UPPMAX/naiss_intro_python/issues)       |Best for asking a question publicly, requires a GitHub account
 Create a pull request                                                         |Best for improving the course content, requires a GitHub account
 Send an email                                                                 |Best for asking a question privately, invisible to others
 
