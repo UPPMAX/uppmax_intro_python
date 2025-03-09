@@ -102,27 +102,27 @@ I can load a Python version on my HPC cluster|4.33|.
 I can login to my HPC cluster|4.4667|.
 I can run a Python script|4.4|.
 I can use a text editor on my HPC cluster|4.2667|.
-In Python| I can ask a user for input|3.93|.
-In Python| I can create a file|3.93|.
-In Python| I can create a variable|4.53|.
-In Python| I can find and use the operator for exponentiation|4.53|.
-In Python| I can use a variable|4.53|.
-In Python| I know what the modulo operator is and when to use it|4.2|.
-In Python| I can read a file|3.8|.
-In Python| I can use user input in a calculation|3.8|.
+In Python, I can ask a user for input|3.93|.
+In Python, I can create a file|3.93|.
+In Python, I can create a variable|4.53|.
+In Python, I can find and use the operator for exponentiation|4.53|.
+In Python, I can use a variable|4.53|.
+In Python, I know what the modulo operator is and when to use it|4.2|.
+In Python, I can read a file|3.8|.
+In Python, I can use user input in a calculation|3.8|.
 I can describe what the Python programming language is|3.8|.
 I am comfortable learning Python|3.8|This is my teaching score
 I can describe what the Python interpreter is|3.734|Maybe add a picture here
 I can describe what a program is|3.6|Weakest learning objective. It can be removed
 .        |.                                |.  |.
-In Python| I can use command-line arguments|1.4|Agree: was not taught
-In Python| I can write a function that requires an argument|1.06667|Agree: was not taught
-In Python| I can write a function with a return value|1.333|Agree: was not taught
-In Python| I can write a function without an argument and without a return type|0.86667|Agree: was not taught
+In Python, I can use command-line arguments|1.4|Agree: was not taught
+In Python, I can write a function that requires an argument|1.06667|Agree: was not taught
+In Python, I can write a function with a return value|1.333|Agree: was not taught
+In Python, I can write a function without an argument and without a return type|0.86667|Agree: was not taught
 I can find and use a Python module on Rackham|1.66667|Agree: was not taught
-In Python| I can write a function that calls a function|1|Agree: was not taught
-In Python| I can import the matplotlib library|1.2|Agree: was not taught
-In Python| I can use a for loop|1.8|Agree: was not taught
+In Python, I can write a function that calls a function|1|Agree: was not taught
+In Python, I can import the matplotlib library|1.2|Agree: was not taught
+In Python, I can use a for loop|1.8|Agree: was not taught
 
 - My teaching score is the confidence for 'I am comfortable learning Python',
   which is 3.8 out of 5, is 7.2 out of 10. A 7.2 for me it is!
